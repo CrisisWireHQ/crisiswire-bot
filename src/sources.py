@@ -14,4 +14,18 @@ SOURCES = [
 
     # Tier 3 — Specialized
     {"name": "ProMED Outbreaks", "url": "https://promedmail.org/rss/promed_news.rss", "tier": 3, "category": "outbreak"},
+
+    # Tier 2 — OSINT mirrors via RSSHub (public Telegram channels of reference X accounts)
+    # If rsshub.app rate-limits, we'll add mirror instances or move to telethon.
+    {"name": "TG: BNO News", "url": "https://rsshub.app/telegram/channel/BNONews", "tier": 2, "category": "news"},
+    {"name": "TG: Disclose.tv", "url": "https://rsshub.app/telegram/channel/disclosetv", "tier": 2, "category": "news"},
+    {"name": "TG: Breaking911", "url": "https://rsshub.app/telegram/channel/breaking911", "tier": 2, "category": "news"},
+    {"name": "TG: OSINTdefender", "url": "https://rsshub.app/telegram/channel/OSINTdefender", "tier": 2, "category": "conflict"},
+    {"name": "TG: Faytuks Network", "url": "https://rsshub.app/telegram/channel/Faytuks_Network", "tier": 2, "category": "conflict"},
+    {"name": "TG: WarMonitors", "url": "https://rsshub.app/telegram/channel/warmonitors", "tier": 2, "category": "conflict"},
+    {"name": "TG: AuroraIntel", "url": "https://rsshub.app/telegram/channel/AuroraIntel", "tier": 2, "category": "conflict"},
+    {"name": "TG: Global Mil Info", "url": "https://rsshub.app/telegram/channel/Global_Mil_Info", "tier": 2, "category": "conflict"},
+    {"name": "TG: OSINTtechnical", "url": "https://rsshub.app/telegram/channel/Osinttechnical", "tier": 2, "category": "conflict"},
+    {"name": "TG: Raws Alert", "url": "https://rsshub.app/telegram/channel/Rawsalert", "tier": 2, "category": "news"},
+    {"name": "TG: Spectator Index", "url": "https://rsshub.app/telegram/channel/spectatorindex", "tier": 2, "category": "news"},
 ]
