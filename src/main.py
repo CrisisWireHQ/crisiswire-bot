@@ -10,12 +10,23 @@ DRAFTS_PER_RUN = int(os.environ.get("DRAFTS_PER_RUN", "3"))
 
 def process_approvals() -> tuple[int, int]:
     """Process pending Telegram button presses. Returns (posted, rejected)."""
+    try:
+        wh = telegram_io.get_webhook_info()
+        print(f"[approvals] webhook_info: url={wh.get('url','')!r} pending={wh.get('pending_update_count', 0)}")
+        if wh.get("url"):
+            print("[approvals] webhook is set — deleting so getUpdates works")
+            telegram_io.delete_webhook()
+    except Exception as e:
+        print(f"[approvals] webhook check failed: {e}")
+
     offset = state.load_tg_offset()
+    print(f"[approvals] starting offset={offset}")
     try:
         updates = telegram_io.get_updates(offset)
     except Exception as e:
         print(f"[approvals] getUpdates failed: {e}")
         return (0, 0)
+    print(f"[approvals] received {len(updates)} update(s)")
 
     posted = 0
     rejected = 0

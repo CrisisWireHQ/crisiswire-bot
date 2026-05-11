@@ -53,6 +53,17 @@ def get_updates(offset: int) -> list[dict]:
     return r.json().get("result", [])
 
 
+def get_webhook_info() -> dict:
+    r = requests.get(f"{API}/getWebhookInfo", timeout=15)
+    r.raise_for_status()
+    return r.json().get("result", {})
+
+
+def delete_webhook():
+    r = requests.post(f"{API}/deleteWebhook", json={"drop_pending_updates": False}, timeout=15)
+    r.raise_for_status()
+
+
 def answer_callback(callback_id: str, text: str = ""):
     try:
         requests.post(
