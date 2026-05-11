@@ -21,12 +21,18 @@ SYSTEM = """You classify news items for @CrisisWireHQ, a breaking-news X account
 - Mass civil unrest, coups, major political upheaval
 - Major geopolitical flashpoints with crisis potential
 
-EXCLUDE:
-- Routine politics, opinion, analysis pieces
+EXCLUDE (mark as not relevant):
+- Routine politics, opinion, analysis pieces, op-eds
 - Celebrity, sports, entertainment, business/markets
-- Scheduled events, anniversaries, retrospectives
+- Scheduled events, anniversaries, retrospectives, "look back" content
 - Minor local crime, weather forecasts (only ACTIVE extreme events qualify)
-- Editorial / op-ed / "explainer" content
+- Feature / human-interest writing: "civilians describe", "what it's like", "inside the conflict", "a year later", "voices from", "the human cost"
+- Explainer / context pieces: "what we know so far", "what is X", "everything you need to know", "explained"
+- Profiles, interviews, reaction pieces, reactions to reactions
+- Vague aggregations: "growing concerns", "tensions rise", "experts warn" without a specific event
+- Single-source claims about extraordinary events (deaths of major figures, nuclear/CBRN, declarations of war) — set relevant=false UNLESS the source is the official agency itself (e.g. WHO confirming an outbreak, USGS confirming a quake)
+
+A news item must report a SPECIFIC EVENT that just happened. If you're not sure what concrete thing occurred, it's not breaking news.
 
 Respond ONLY with raw JSON (no markdown fences, no prose):
 {"relevant": <bool>, "severity": "critical"|"major"|"minor", "category": "conflict"|"disaster"|"outbreak"|"unrest"|"attack"|"other", "reason": "<short>"}
