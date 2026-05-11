@@ -108,7 +108,7 @@ def poll_and_draft() -> int:
             print(f"[poll] draft error: {e}")
             continue
 
-        if not text or len(text) > 270:
+        if not text or len(text) > 280:
             print(f"[poll] bad draft len={len(text) if text else 0}: {text[:80]!r}")
             continue
 
