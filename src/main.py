@@ -6,6 +6,8 @@ load_dotenv()
 from . import state, poller, classifier, drafter, telegram_io, x_poster
 
 DRAFTS_PER_RUN = int(os.environ.get("DRAFTS_PER_RUN", "3"))
+# MODE: "approvals-only" (fast loop) skips polling. Anything else does full run.
+MODE = os.environ.get("MODE", "")
 
 
 def process_approvals() -> tuple[int, int]:
@@ -122,11 +124,14 @@ def poll_and_draft() -> int:
 
 
 def main():
-    print("[main] === Crisis Wire run start ===")
+    print(f"[main] === Crisis Wire run start (mode={MODE or 'full'}) ===")
     posted, rejected = process_approvals()
     print(f"[main] approvals: posted={posted} rejected={rejected}")
-    drafted = poll_and_draft()
-    print(f"[main] new drafts sent: {drafted}")
+    if MODE == "approvals-only":
+        print("[main] skipping poll (approvals-only mode)")
+    else:
+        drafted = poll_and_draft()
+        print(f"[main] new drafts sent: {drafted}")
     print("[main] === run end ===")
 
 

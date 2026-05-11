@@ -3,11 +3,10 @@ name: Crisis Wire Bot
 on:
   schedule:
     # GitHub Actions cron is best-effort; */5 gets skipped during peak load.
-    # */10 is the practical sweet spot for reliability on free tier.
     - cron: '*/10 * * * *'
   workflow_dispatch:
   repository_dispatch:
-    types: [run-bot]
+    types: [run-bot, approvals-only]
 
 permissions:
   contents: write
@@ -41,6 +40,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MODE: ${{ github.event.action }}
         run: python -m src.main
 
       - name: Commit state

@@ -10,12 +10,15 @@ DRAFT_SEP = "━━━━━━━━━━━━━━"
 
 
 def send_draft(draft_text: str, item: dict, classification: dict) -> dict:
+    char_count = len(draft_text)
+    char_bar = "🟢" if char_count <= 240 else ("🟡" if char_count <= 270 else "🔴")
+    severity_icon = {"critical": "🔴", "major": "🟠", "minor": "🟡"}.get(classification.get("severity", ""), "⚪")
     body = (
         f"📝 CRISIS WIRE DRAFT\n"
         f"{DRAFT_SEP}\n"
         f"{draft_text}\n"
         f"{DRAFT_SEP}\n"
-        f"🏷  {classification.get('category','?')} · {classification.get('severity','?')}\n"
+        f"{char_bar} {char_count}/280  •  {severity_icon} {classification.get('severity','?')}  •  🏷  {classification.get('category','?')}\n"
         f"📡 {item['source_name']}\n"
         f"🔗 {item['link']}"
     )
