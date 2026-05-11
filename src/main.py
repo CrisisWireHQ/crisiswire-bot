@@ -81,8 +81,6 @@ def poll_and_draft() -> int:
     seen = state.load_seen()
     drafted = 0
 
-    items.sort(key=lambda x: x.get("tier", 9))
-
     for item in items:
         if drafted >= DRAFTS_PER_RUN:
             break
