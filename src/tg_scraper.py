@@ -31,7 +31,16 @@ def fetch_channel(channel: str, max_messages: int = 15) -> list[dict]:
     out = []
     blocks = soup.select("div.tgme_widget_message_wrap")
     for block in reversed(blocks[-max_messages:]):
-        text_el = block.select_one("div.tgme_widget_message_text")
+        # Pick the message's OWN text, not the embedded preview of a replied-to
+        # message. The reply preview lives inside a `.tgme_widget_message_reply`
+        # parent, and Telegram sometimes uses `.tgme_widget_message_text` for
+        # that too — so we walk all candidates and skip those nested in a reply.
+        text_el = None
+        for el in block.select("div.tgme_widget_message_text"):
+            if el.find_parent(class_="tgme_widget_message_reply"):
+                continue
+            text_el = el
+            break
         if not text_el:
             continue
         text = text_el.get_text(separator=" ", strip=True)
