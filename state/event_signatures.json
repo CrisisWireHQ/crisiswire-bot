@@ -1,20 +1,5 @@
 [
   {
-    "key": "lebanon--israeli-demolition--bint-jbeil",
-    "source": "GN: Strike Attack",
-    "ts": 1778566842
-  },
-  {
-    "key": "ukraine--russian-troops-advance--three-towns",
-    "source": "GN: Strike Attack",
-    "ts": 1778566847
-  },
-  {
-    "key": "maine--plane-crash--victims-identified",
-    "source": "GN: Plane Crash",
-    "ts": 1778566852
-  },
-  {
     "key": "california--hantavirus-cruise-ship--4-cases",
     "source": "GN: Outbreak",
     "ts": 1778567451
@@ -48,5 +33,15 @@
     "key": "malaysia--boat-capsized--pangkor-island",
     "source": "Al Jazeera",
     "ts": 1778569854
+  },
+  {
+    "key": "taiwan--quake--hualien",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778570443
+  },
+  {
+    "key": "palestine--raid--ramallah",
+    "source": "GN: Strike Attack",
+    "ts": 1778570447
   }
 ]
