@@ -198,5 +198,10 @@
     "key": "uk--hantavirus--british-territories",
     "source": "Straits Times World",
     "ts": 1778613099
+  },
+  {
+    "key": "trusted-wow",
+    "source": "X: @outbreakupdates",
+    "ts": 1778613221
   }
 ]
