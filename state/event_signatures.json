@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--tornado--hudson-florida",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778608853
-  },
-  {
-    "key": "canada--fire--whitecourt",
-    "source": "GN: Wildfire",
-    "ts": 1778608869
-  },
-  {
-    "key": "lebanon--airstrike--nabatieh",
-    "source": "BBC World",
-    "ts": 1778608872
-  },
-  {
     "key": "usa--hantavirus--repatriation-flight",
     "source": "CBS News World",
     "ts": 1778609452
@@ -198,5 +183,20 @@
     "key": "trusted-kuwait-says-that-irans-irgc",
     "source": "TG: Faytuks Network",
     "ts": 1778612015
+  },
+  {
+    "key": "usa--hostage--east-haven-connecticut",
+    "source": "GN: Hostage",
+    "ts": 1778612478
+  },
+  {
+    "key": "usa--crash--alabama-west",
+    "source": "GN: Plane Crash",
+    "ts": 1778612484
+  },
+  {
+    "key": "usa--crash--maine-avon",
+    "source": "GN: Plane Crash",
+    "ts": 1778612487
   }
 ]
