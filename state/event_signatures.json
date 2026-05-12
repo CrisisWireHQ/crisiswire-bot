@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--plane-crash--florida-melbourne",
-    "source": "GN: Plane Crash",
-    "ts": 1778620985
-  },
-  {
-    "key": "iran--quake--location-tbd",
-    "source": "GN: Earthquake",
-    "ts": 1778620995
-  },
-  {
-    "key": "canada--mass-shooting--british-columbia",
-    "source": "GN: Mass Shooting",
-    "ts": 1778621004
-  },
-  {
-    "key": "usa--fire--wickenburg-arizona",
-    "source": "GN: Wildfire",
-    "ts": 1778621007
-  },
-  {
     "key": "canada--fire--woodlands-county",
     "source": "GN: Wildfire",
     "ts": 1778621457
