@@ -5,7 +5,6 @@
   "china--explosion--firework-factory": 1778595071,
   "colombia--flood--antioquia-uraba": 1778586073,
   "france--attack--paris-louvre": 1778586056,
-  "france--hantavirus--national": 1778584862,
   "france--outbreak--mv-hondius-cruise": 1778598671,
   "greece--drone-strike--island": 1778592055,
   "intl--hantavirus--cruise-ship": 1778585469,
@@ -37,5 +36,6 @@
   "usa--fire--loveland-sedona": 1778592648,
   "usa--fire--wickenburg-arizona": 1778605857,
   "usa--hantavirus--cruise-ship": 1778594486,
-  "usa--hantavirus--maryland-virginia": 1778590275
+  "usa--hantavirus--maryland-virginia": 1778590275,
+  "usa--plane-crash--avon-maine": 1778606459
 }

@@ -1,15 +1,5 @@
 [
   {
-    "key": "solomon-islands--quake--lata",
-    "source": "GN: Earthquake",
-    "ts": 1778602838
-  },
-  {
-    "key": "lebanon--airstrike--tyre",
-    "source": "GN: Strike Attack",
-    "ts": 1778602858
-  },
-  {
     "key": "trusted-kuwait-says-that-irans-irgc",
     "source": "TG: Faytuks Network",
     "ts": 1778603080
@@ -73,5 +63,15 @@
     "key": "trusted-the-pledged-tuesday-provide-autonomous",
     "source": "TG: Faytuks Network",
     "ts": 1778606330
+  },
+  {
+    "key": "usa--plane-crash--avon-maine",
+    "source": "GN: Plane Crash",
+    "ts": 1778606456
+  },
+  {
+    "key": "usa--crash--maine-avon",
+    "source": "GN: Plane Crash",
+    "ts": 1778606462
   }
 ]
