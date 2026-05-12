@@ -1,10 +1,5 @@
 [
   {
-    "key": "france--outbreak--mv-hondius-cruise",
-    "source": "France 24 Intl",
-    "ts": 1778598667
-  },
-  {
     "key": "usa--quake--new-jersey",
     "source": "GN: Earthquake",
     "ts": 1778599276
