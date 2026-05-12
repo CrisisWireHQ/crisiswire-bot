@@ -157,6 +157,14 @@ def poll_and_draft() -> int:
     if MODE == "trusted-only":
         items = [i for i in items if i["source_name"] in TRUSTED_SOURCE_NAMES]
         print(f"[poll] trusted-only filter → {len(items)} items")
+    else:
+        # Regular runs (10-min cron, manual) skip trusted sources — those are
+        # exclusively handled by the dedicated 1-min trusted-only path, otherwise
+        # they'd get marked seen here and never reach the fast path.
+        before = len(items)
+        items = [i for i in items if i["source_name"] not in TRUSTED_SOURCE_NAMES]
+        if before != len(items):
+            print(f"[poll] excluded {before - len(items)} trusted items (handled by trusted-only path)")
     seen = state.load_seen()
     sigs = state.load_event_signatures()
     drafted_keys = state.load_drafted_keys()
