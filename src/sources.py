@@ -18,13 +18,11 @@ SOURCES = [
     {"name": "France 24 Intl", "type": "rss", "url": "https://www.france24.com/en/rss", "tier": 2, "category": "news"},
     {"name": "DW World", "type": "rss", "url": "https://rss.dw.com/rdf/rss-en-world", "tier": 2, "category": "news"},
     {"name": "Sky News", "type": "rss", "url": "https://feeds.skynews.com/feeds/rss/world.xml", "tier": 2, "category": "news"},
-    {"name": "CNN World", "type": "rss", "url": "http://rss.cnn.com/rss/edition_world.rss", "tier": 2, "category": "news"},
     {"name": "NPR World", "type": "rss", "url": "https://feeds.npr.org/1004/rss.xml", "tier": 2, "category": "news"},
     {"name": "Guardian World", "type": "rss", "url": "https://www.theguardian.com/world/rss", "tier": 2, "category": "news"},
     {"name": "CBS News World", "type": "rss", "url": "https://www.cbsnews.com/latest/rss/world", "tier": 2, "category": "news"},
-    {"name": "NHK World", "type": "rss", "url": "https://www3.nhk.or.jp/nhkworld/upld/en/news/news.rss", "tier": 2, "category": "news"},
-    {"name": "Kyodo News", "type": "rss", "url": "https://english.kyodonews.net/rss/news.xml", "tier": 2, "category": "news"},
     {"name": "Times of India World", "type": "rss", "url": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms", "tier": 2, "category": "news"},
+    # Removed: CNN World (last item Apr 2023), NHK World (blocks scrapers), Kyodo News (URL dead), ProMED (URL dead)
 
     # =====================================================================
     # Tier 2 — Google News topic-tracking queries (broad capture, recent only)
@@ -42,9 +40,8 @@ SOURCES = [
     {"name": "GN: Strike Attack", "type": "rss", "url": "https://news.google.com/rss/search?q=%22airstrike%22+OR+%22missile+strike%22+when:6h&hl=en-US&gl=US&ceid=US:en", "tier": 2, "category": "conflict"},
 
     # =====================================================================
-    # Tier 3 — Specialized
+    # Tier 3 — Specialized (ProMED RSS deprecated; no working URL found)
     # =====================================================================
-    {"name": "ProMED Outbreaks", "type": "rss", "url": "https://promedmail.org/promed-posts/rss/", "tier": 3, "category": "outbreak"},
 
     # =====================================================================
     # Tier 2 — OSINT mirrors (public Telegram channels via t.me/s/)
