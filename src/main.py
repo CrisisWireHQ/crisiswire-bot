@@ -61,7 +61,9 @@ def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_p
     """Extract draft, post to X (image / quote-tweet if present), auto-reply with source, edit Telegram."""
     draft_text = telegram_io.extract_draft_from_message(msg_text)
     image_url = telegram_io.extract_image_url_from_message(msg_text)
-    quote_tweet_id = telegram_io.extract_quote_tweet_id_from_message(msg_text)
+    # Quote-tweeting disabled (X API forbids it for accounts not in the conversation).
+    # Any legacy 💬 lines in older Telegram drafts are ignored.
+    quote_tweet_id = ""
     source_url = telegram_io.extract_source_url_from_message(msg_text)
     if not draft_text:
         if callback_id:
@@ -167,17 +169,9 @@ def poll_and_draft() -> int:
 
         if is_hantavirus:
             print(f"[hantavirus] match in {item['source_name']}: {item['title'][:80]!r}")
-            # Try to find a recent CDC/WHO tweet to quote-tweet
-            try:
-                hit = quote_finder.find_hantavirus_tweet(max_age_hours=72)
-            except Exception as e:
-                print(f"[hantavirus] quote_finder error: {e}")
-                hit = None
-            if hit:
-                tweet_id, tweet_url, source_user = hit
-                item["quote_tweet_id"] = tweet_id
-                item["quote_tweet_url"] = tweet_url
-                print(f"[hantavirus] will quote-tweet @{source_user}'s post")
+            # Quote-tweeting CDC/WHO disabled: X requires the quoting account
+            # to be mentioned or part of the conversation thread, which we are not.
+            # The HANTAVIRUS ALERT badge in Telegram still signals priority.
 
         # Cross-source breaking detection
         event_key = cls.get("event_key", "")
