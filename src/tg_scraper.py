@@ -52,4 +52,7 @@ def fetch_channel(channel: str, max_messages: int = 15) -> list[dict]:
             "published": published,
             "image_url": image_url,
         })
+    if channel.lower() in ("faytuks_network", "outbreakupdates"):
+        for o in out[:6]:
+            print(f"[tg_scraper:{channel}] {o['link']} | {o['published']} | {o['title'][:70]!r}")
     return out

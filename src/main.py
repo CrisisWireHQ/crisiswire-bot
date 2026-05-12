@@ -270,6 +270,7 @@ def poll_and_draft() -> int:
                 item,
                 is_breaking=is_breaking or is_trusted,
                 is_hantavirus=is_hantavirus,
+                is_trusted=is_trusted,
             )
         except Exception as e:
             print(f"[poll] draft error: {e}")

@@ -61,7 +61,7 @@ USE "reportedly" / "unconfirmed reports" ONLY when the source itself hedges (e.g
 OUTPUT: only the post text, or the single token SKIP. No quotes, no preamble, no commentary."""
 
 
-def draft(item: dict, is_breaking: bool = False, is_hantavirus: bool = False) -> str:
+def draft(item: dict, is_breaking: bool = False, is_hantavirus: bool = False, is_trusted: bool = False) -> str:
     notes = []
     if is_breaking:
         notes.append(
@@ -75,6 +75,14 @@ def draft(item: dict, is_breaking: bool = False, is_hantavirus: bool = False) ->
             "extract the most concrete factual angle available (e.g. passenger count, "
             "vessel name, location, response action) and write a declarative post about "
             "THAT angle. Use 🦠 as the lead emoji."
+        )
+    if is_trusted:
+        notes.append(
+            "NOTE: This is from a TRUSTED FIREHOSE source (Faytuks-tier OSINT, "
+            "essentially pre-verified). DO NOT output SKIP. Even if the post is a "
+            "follow-up, supplementary detail, diplomatic context, or terse update — "
+            "extract the most concrete factual angle and write a declarative post. "
+            "If the post genuinely lacks ANY new fact (pure emoji / 1-word) you may SKIP."
         )
     note_block = ("\n\n" + "\n\n".join(notes)) if notes else ""
     user = (
