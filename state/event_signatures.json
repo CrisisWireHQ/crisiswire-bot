@@ -1,20 +1,5 @@
 [
   {
-    "key": "ukraine--russian-double-tap-strike--first-responders",
-    "source": "GN: Strike Attack",
-    "ts": 1778562075
-  },
-  {
-    "key": "lebanon--israeli-airstrikes--beirut-drone",
-    "source": "GN: Strike Attack",
-    "ts": 1778562648
-  },
-  {
-    "key": "lebanon--israeli-airstrikes--southern-casualties",
-    "source": "GN: Strike Attack",
-    "ts": 1778562652
-  },
-  {
     "key": "california--plane-crash-canyon-fire",
     "source": "GN: Plane Crash",
     "ts": 1778563244
@@ -43,5 +28,20 @@
     "key": "ukraine--russian-drone-attack--zhytomyr",
     "source": "GN: Strike Attack",
     "ts": 1778565653
+  },
+  {
+    "key": "alberta--wildfire-evacuation-orders--north-central",
+    "source": "GN: Wildfire",
+    "ts": 1778566235
+  },
+  {
+    "key": "niger--military-airstrike--three-children-killed",
+    "source": "GN: Strike Attack",
+    "ts": 1778566241
+  },
+  {
+    "key": "canada--whitecourt-wildfire-evacuation--alberta",
+    "source": "GN: Wildfire",
+    "ts": 1778566253
   }
 ]
