@@ -1,25 +1,5 @@
 [
   {
-    "key": "spain--hantavirus--tenerife",
-    "source": "France 24 Intl",
-    "ts": 1778580644
-  },
-  {
-    "key": "new-zealand--quake--wellington",
-    "source": "GN: Earthquake",
-    "ts": 1778580658
-  },
-  {
-    "key": "canada--evacuation--alberta-north-central",
-    "source": "GN: Wildfire",
-    "ts": 1778580660
-  },
-  {
-    "key": "kazakhstan--explosion--kazzinc-plant",
-    "source": "GN: Explosion",
-    "ts": 1778580665
-  },
-  {
     "key": "spain--hantavirus--cruise-ship",
     "source": "GN: Outbreak",
     "ts": 1778581849
@@ -78,5 +58,30 @@
     "key": "pakistan--explosion--market",
     "source": "GN: Explosion",
     "ts": 1778583684
+  },
+  {
+    "key": "usa--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778584263
+  },
+  {
+    "key": "spain--hantavirus--cruise-ship-hondius",
+    "source": "Guardian World",
+    "ts": 1778584265
+  },
+  {
+    "key": "spain--outbreak--hantavirus",
+    "source": "GN: Outbreak",
+    "ts": 1778584272
+  },
+  {
+    "key": "pakistan--explosion--sarai-naurang",
+    "source": "Al Jazeera",
+    "ts": 1778584278
+  },
+  {
+    "key": "somalia--flood--middle-shabelle-togdheer-galgaduud",
+    "source": "ReliefWeb Updates",
+    "ts": 1778584285
   }
 ]
