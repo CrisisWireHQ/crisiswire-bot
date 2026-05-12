@@ -1,15 +1,5 @@
 [
   {
-    "key": "solomon-islands--quake--lata",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778601656
-  },
-  {
-    "key": "null",
-    "source": "GN: Outbreak",
-    "ts": 1778601664
-  },
-  {
     "key": "nigeria--airstrike--market",
     "source": "GN: Strike Attack",
     "ts": 1778602244
@@ -68,5 +58,15 @@
     "key": "spain--outbreak--hantavirus",
     "source": "GN: Wildfire",
     "ts": 1778604371
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778605283
+  },
+  {
+    "key": "canada--fire--whitecourt-alberta",
+    "source": "GN: Wildfire",
+    "ts": 1778605293
   }
 ]
