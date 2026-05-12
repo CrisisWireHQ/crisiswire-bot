@@ -118,5 +118,10 @@
     "key": "trusted-france-has-now-transferred-first",
     "source": "X: @outbreakupdates",
     "ts": 1778608191
+  },
+  {
+    "key": "ukraine--airstrike--dnipropetrovsk",
+    "source": "GN: Strike Attack",
+    "ts": 1778608246
   }
 ]
