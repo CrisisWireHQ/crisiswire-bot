@@ -1,20 +1,5 @@
 [
   {
-    "key": "ukraine--russian-missile-strike--merefa-kharkiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778560250
-  },
-  {
-    "key": "japan--earthquake--tokyo",
-    "source": "GN: Earthquake",
-    "ts": 1778560268
-  },
-  {
-    "key": "russia--m4.5-quake--kamchatka-petropavlovsk",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778560843
-  },
-  {
     "key": "uganda--floods--bukedea-kamutur",
     "source": "ReliefWeb Updates",
     "ts": 1778560881
@@ -73,5 +58,10 @@
     "key": "philadelphia--bagel-bakery-explosion--second-incident",
     "source": "GN: Explosion",
     "ts": 1778563842
+  },
+  {
+    "key": "canada-alberta--wildfire-evacuation--northwest-edmonton",
+    "source": "GN: Wildfire",
+    "ts": 1778564445
   }
 ]
