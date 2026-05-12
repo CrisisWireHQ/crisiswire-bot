@@ -1,10 +1,5 @@
 [
   {
-    "key": "california--hantavirus-cruise-ship--4-cases",
-    "source": "GN: Outbreak",
-    "ts": 1778567451
-  },
-  {
     "key": "lebanon--israeli-airstrike--southern-6-dead",
     "source": "GN: Strike Attack",
     "ts": 1778568042
@@ -43,5 +38,15 @@
     "key": "palestine--raid--ramallah",
     "source": "GN: Strike Attack",
     "ts": 1778570447
+  },
+  {
+    "key": "usa--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778571054
+  },
+  {
+    "key": "usa--crash--plane-7-dead",
+    "source": "GN: Plane Crash",
+    "ts": 1778571059
   }
 ]
