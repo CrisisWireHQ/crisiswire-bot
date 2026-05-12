@@ -1,25 +1,5 @@
 [
   {
-    "key": "france--outbreak--hantavirus",
-    "source": "France 24 Intl",
-    "ts": 1778580062
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778580068
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "Al Jazeera",
-    "ts": 1778580076
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778580084
-  },
-  {
     "key": "spain--hantavirus--tenerife",
     "source": "France 24 Intl",
     "ts": 1778580644
@@ -73,5 +53,30 @@
     "key": "uk--explosion--bristol",
     "source": "GN: Explosion",
     "ts": 1778583072
+  },
+  {
+    "key": "brazil--explosion--sao-paulo",
+    "source": "GN: Explosion",
+    "ts": 1778583652
+  },
+  {
+    "key": "usa--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778583658
+  },
+  {
+    "key": "lebanon--airstrike--khirbet-selm",
+    "source": "GN: Strike Attack",
+    "ts": 1778583665
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778583671
+  },
+  {
+    "key": "pakistan--explosion--market",
+    "source": "GN: Explosion",
+    "ts": 1778583684
   }
 ]
