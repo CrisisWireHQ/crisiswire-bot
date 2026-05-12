@@ -1,10 +1,5 @@
 [
   {
-    "key": "dominican-republic--flooding--northwest",
-    "source": "ReliefWeb Updates",
-    "ts": 1778601044
-  },
-  {
     "key": "solomon-islands--quake--lata",
     "source": "USGS Quakes M4.5+",
     "ts": 1778601656
