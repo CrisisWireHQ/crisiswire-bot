@@ -1,15 +1,5 @@
 [
   {
-    "key": "nigeria--airstrike--market",
-    "source": "GN: Strike Attack",
-    "ts": 1778602244
-  },
-  {
-    "key": "solomon-islands--quake--general",
-    "source": "GDACS Disaster Alerts",
-    "ts": 1778602251
-  },
-  {
     "key": "solomon-islands--quake--lata",
     "source": "GN: Earthquake",
     "ts": 1778602838
@@ -68,5 +58,15 @@
     "key": "canada--fire--whitecourt-alberta",
     "source": "GN: Wildfire",
     "ts": 1778605293
+  },
+  {
+    "key": "n/a",
+    "source": "GN: Outbreak",
+    "ts": 1778605845
+  },
+  {
+    "key": "usa--fire--wickenburg-arizona",
+    "source": "GN: Wildfire",
+    "ts": 1778605854
   }
 ]
