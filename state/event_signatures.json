@@ -1,10 +1,5 @@
 [
   {
-    "key": "unknown--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778575860
-  },
-  {
     "key": "nepal--avalanche--makalu",
     "source": "CBS News World",
     "ts": 1778576447
@@ -83,5 +78,10 @@
     "key": "usa--quake--southern-california",
     "source": "GN: Earthquake",
     "ts": 1778578876
+  },
+  {
+    "key": "n/a",
+    "source": "GN: Outbreak",
+    "ts": 1778579472
   }
 ]
