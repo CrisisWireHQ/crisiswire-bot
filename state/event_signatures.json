@@ -1,20 +1,5 @@
 [
   {
-    "key": "pakistan--explosion--market-border",
-    "source": "GN: Explosion",
-    "ts": 1778574666
-  },
-  {
-    "key": "usa--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778575258
-  },
-  {
-    "key": "usa--explosion--miami-boat",
-    "source": "GN: Explosion",
-    "ts": 1778575269
-  },
-  {
     "key": "unknown--hantavirus--cruise-ship",
     "source": "GN: Outbreak",
     "ts": 1778575860
@@ -83,5 +68,20 @@
     "key": "pakistan--explosion--northwest-market",
     "source": "GN: Explosion",
     "ts": 1778578263
+  },
+  {
+    "key": "usa--hostage--sioux-falls",
+    "source": "GN: Hostage",
+    "ts": 1778578849
+  },
+  {
+    "key": "pakistan--explosion--bazaar",
+    "source": "GN: Explosion",
+    "ts": 1778578870
+  },
+  {
+    "key": "usa--quake--southern-california",
+    "source": "GN: Earthquake",
+    "ts": 1778578876
   }
 ]
