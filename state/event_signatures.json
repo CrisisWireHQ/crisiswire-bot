@@ -113,5 +113,10 @@
     "key": "usa--mass-shooting--oklahoma-lake",
     "source": "GN: Mass Shooting",
     "ts": 1778622073
+  },
+  {
+    "key": "canada--fire--edmonton-area",
+    "source": "GN: Wildfire",
+    "ts": 1778622445
   }
 ]
