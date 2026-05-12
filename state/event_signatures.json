@@ -1,10 +1,5 @@
 [
   {
-    "key": "liberia--fire--forest",
-    "source": "GDACS Disaster Alerts",
-    "ts": 1778613077
-  },
-  {
     "key": "canada--fire--woodlands-county",
     "source": "GN: Wildfire",
     "ts": 1778613079
