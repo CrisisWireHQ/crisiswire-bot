@@ -150,8 +150,32 @@ def poll_and_draft() -> int:
             print(f"[poll] draft error: {e}")
             continue
 
-        if not text or len(text) > 280:
-            print(f"[poll] bad draft len={len(text) if text else 0}: {text[:80]!r}")
+        if not text or text.strip().upper() == "SKIP":
+            print(f"[poll] drafter SKIPped: {item['title'][:80]!r}")
+            continue
+        if len(text) > 280:
+            print(f"[poll] draft too long ({len(text)}): {text[:80]!r}")
+            continue
+        # Reject drafts that smell speculative or incomplete
+        lowered = text.lower()
+        bad_phrases = [
+            "possible ", "may have ", "could be ", "could have ",
+            "if confirmed", "still unclear", "developing story",
+            "more to follow", "we will update", "stay tuned",
+            "appears to ", "seems to ", "fears of ", "concerns that ",
+            "raising questions", "may indicate", "could suggest",
+        ]
+        bad_starts = ("possible", "reportedly", "may ", "could ", "allegedly")
+        body = text.split("—", 1)[-1].strip().lower() if "—" in text else text.lower()
+        if text.rstrip().endswith("..."):
+            print(f"[poll] rejected (trailing ellipsis): {text[:80]!r}")
+            continue
+        if any(body.lstrip().startswith(b) for b in bad_starts):
+            print(f"[poll] rejected (speculative start): {text[:80]!r}")
+            continue
+        if any(p in lowered for p in bad_phrases):
+            matched = next(p for p in bad_phrases if p in lowered)
+            print(f"[poll] rejected (banned phrase {matched!r}): {text[:80]!r}")
             continue
 
         try:

@@ -32,7 +32,17 @@ EXCLUDE (mark as not relevant):
 - Vague aggregations: "growing concerns", "tensions rise", "experts warn" without a specific event
 - Single-source claims about extraordinary events (deaths of major figures, nuclear/CBRN, declarations of war) — set relevant=false UNLESS the source is the official agency itself (e.g. WHO confirming an outbreak, USGS confirming a quake)
 
-A news item must report a SPECIFIC EVENT that just happened. If you're not sure what concrete thing occurred, it's not breaking news.
+A news item must report a SPECIFIC EVENT that JUST HAPPENED (within the last few hours). If you're not sure what concrete thing occurred, mark relevant=false.
+
+ADDITIONAL HARD REJECTION RULES:
+- If the item is about something that happened MORE than 24 hours ago (even if the article is fresh), mark relevant=false. Example: an article today recapping a battle from last week → REJECT.
+- If the item is "context" / "background" / "history of" / "timeline" / "how we got here" → REJECT.
+- If the item only says "X may happen" or "X is feared" or "X could occur" with no actual event → REJECT.
+- If the item is a press conference, statement, or interview ABOUT an event (not the event itself) → only relevant if the statement contains hard NEW facts (death tolls, official confirmations, new actions). Pure reactions, opinions, or "concerns" → REJECT.
+- If the headline contains "what we know", "explained", "everything to know", "what happens next", "here's why", "deep dive" → REJECT.
+- If the item is from an official agency confirming a SPECIFIC NEW EVENT (USGS quake, WHO outbreak, GDACS alert, NWS extreme alert) → automatically relevant=true, severity at least major.
+
+Bias toward false negatives. Better to miss a borderline story than to flood with non-breaking content.
 
 Respond ONLY with raw JSON (no markdown fences, no prose):
 {"relevant": <bool>, "severity": "critical"|"major"|"minor", "category": "conflict"|"disaster"|"outbreak"|"unrest"|"attack"|"other", "event_key": "<slug>", "reason": "<short>"}

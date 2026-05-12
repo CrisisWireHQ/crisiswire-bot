@@ -8,7 +8,7 @@ from .sources import SOURCES
 from . import tg_scraper
 
 PER_SOURCE_LIMIT = 15
-MAX_AGE_HOURS = float(os.environ.get("MAX_AGE_HOURS", "6"))
+MAX_AGE_HOURS = float(os.environ.get("MAX_AGE_HOURS", "3"))
 
 
 def _to_epoch_rss(entry) -> float | None:
