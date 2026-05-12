@@ -1,45 +1,5 @@
 [
   {
-    "key": "spain--outbreak--canary-islands",
-    "source": "GN: Outbreak",
-    "ts": 1778572272
-  },
-  {
-    "key": "usa--explosion--chalmette-refinery",
-    "source": "GN: Explosion",
-    "ts": 1778572284
-  },
-  {
-    "key": "philippines--volcano--mayon",
-    "source": "ReliefWeb Updates",
-    "ts": 1778572290
-  },
-  {
-    "key": "iran--attack--hormuz-strait",
-    "source": "GN: Explosion",
-    "ts": 1778572295
-  },
-  {
-    "key": "pakistan--explosion--northwest-market",
-    "source": "GN: Explosion",
-    "ts": 1778572847
-  },
-  {
-    "key": "lebanon--airstrike--tyre",
-    "source": "GN: Strike Attack",
-    "ts": 1778572850
-  },
-  {
-    "key": "usa--shooting--harvard-street",
-    "source": "Al Jazeera",
-    "ts": 1778572854
-  },
-  {
-    "key": "pakistan--explosion--northwest-market",
-    "source": "GN: Explosion",
-    "ts": 1778572860
-  },
-  {
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778573454
@@ -83,5 +43,30 @@
     "key": "unknown--hantavirus--cruise-ship",
     "source": "GN: Outbreak",
     "ts": 1778575860
+  },
+  {
+    "key": "nepal--avalanche--makalu",
+    "source": "CBS News World",
+    "ts": 1778576447
+  },
+  {
+    "key": "nigeria--airstrike--zamfara",
+    "source": "GN: Strike Attack",
+    "ts": 1778576451
+  },
+  {
+    "key": "sweden--outbreak--hantavirus",
+    "source": "GN: Outbreak",
+    "ts": 1778576456
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Explosion",
+    "ts": 1778576460
+  },
+  {
+    "key": "ukraine--drone-strike--dnipropetrovsk",
+    "source": "Al Jazeera",
+    "ts": 1778576463
   }
 ]
