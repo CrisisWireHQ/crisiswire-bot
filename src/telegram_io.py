@@ -40,6 +40,9 @@ def _build_body(draft_text: str, item: dict, classification: dict) -> tuple[str,
         if is_breaking
         else ""
     )
+    src_line = f"📡 {item['source_name']}\n" if (item.get("source_name") or "").strip() else ""
+    link = (item.get("link") or "").strip()
+    link_line = f"🔗 {link}" if link else "🔗 (no source link)"
     body = (
         f"{header}\n"
         f"{DRAFT_SEP}\n"
@@ -47,8 +50,8 @@ def _build_body(draft_text: str, item: dict, classification: dict) -> tuple[str,
         f"{DRAFT_SEP}\n"
         f"{breaking_line}"
         f"{char_bar} {char_count}/280  •  {severity_icon} {classification.get('severity','?')}  •  🏷  {classification.get('category','?')}\n"
-        f"📡 {item['source_name']}\n"
-        f"🔗 {item['link']}"
+        f"{src_line}"
+        f"{link_line}"
     )
     if image_url:
         body += f"\n{IMG_LINE_PREFIX}{image_url}"

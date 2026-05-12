@@ -13,10 +13,94 @@ from pathlib import Path
 
 import tweepy
 
+from urllib.parse import urlparse
+
 try:
     from zoneinfo import ZoneInfo
 except ImportError:
     ZoneInfo = None
+
+# Map common outlet domains to a clean display name used as source attribution.
+OUTLET_MAP = {
+    "bbc.com": "BBC", "bbc.co.uk": "BBC",
+    "cnn.com": "CNN",
+    "reuters.com": "Reuters",
+    "apnews.com": "AP",
+    "aljazeera.com": "Al Jazeera",
+    "nytimes.com": "NYT",
+    "washingtonpost.com": "Washington Post",
+    "theguardian.com": "Guardian",
+    "ft.com": "FT",
+    "wsj.com": "WSJ",
+    "who.int": "WHO",
+    "cdc.gov": "CDC",
+    "promedmail.org": "ProMED",
+    "reliefweb.int": "ReliefWeb",
+    "nbcnews.com": "NBC News",
+    "cbsnews.com": "CBS News",
+    "abcnews.go.com": "ABC News",
+    "foxnews.com": "Fox News",
+    "npr.org": "NPR",
+    "dw.com": "DW",
+    "france24.com": "France 24",
+    "nhk.or.jp": "NHK",
+    "kyodonews.net": "Kyodo News",
+    "scmp.com": "SCMP",
+    "timesofindia.indiatimes.com": "Times of India",
+    "indianexpress.com": "Indian Express",
+    "thehindu.com": "The Hindu",
+    "sky.com": "Sky News", "news.sky.com": "Sky News",
+    "bloomberg.com": "Bloomberg",
+    "axios.com": "Axios",
+    "politico.com": "Politico",
+    "thehill.com": "The Hill",
+    "newsweek.com": "Newsweek",
+    "time.com": "TIME",
+    "telegraph.co.uk": "Telegraph",
+    "economist.com": "The Economist",
+    "rt.com": "RT",
+    "sputnikglobe.com": "Sputnik",
+    "tass.com": "TASS",
+}
+
+
+def _outlet_from_url(url: str) -> str:
+    try:
+        host = (urlparse(url).hostname or "").lower()
+    except Exception:
+        return ""
+    if host.startswith("www."):
+        host = host[4:]
+    if host in OUTLET_MAP:
+        return OUTLET_MAP[host]
+    parts = host.split(".")
+    if len(parts) >= 2:
+        parent = ".".join(parts[-2:])
+        if parent in OUTLET_MAP:
+            return OUTLET_MAP[parent]
+    # Fallback: title-case the first hostname segment (e.g. "thejournal" → "Thejournal")
+    if parts:
+        first = parts[0]
+        if first and first.lower() not in ("news", "www"):
+            return first.title()
+    return ""
+
+
+def _extract_external_url(tweet) -> tuple[str, str]:
+    """Find the first non-X external URL the tweet links to. Returns (url, outlet) or ('', '')."""
+    entities = getattr(tweet, "entities", None) or {}
+    urls = entities.get("urls") or []
+    for u in urls:
+        expanded = u.get("expanded_url") or u.get("unwound_url") or u.get("url") or ""
+        if not expanded:
+            continue
+        host = (urlparse(expanded).hostname or "").lower()
+        # Skip self-references and short-link domains
+        if any(s in host for s in ("twitter.com", "x.com", "t.co", "pic.twitter.com", "pbs.twimg.com")):
+            continue
+        outlet = _outlet_from_url(expanded)
+        return expanded, outlet
+    return "", ""
 
 _client = None
 STATE_FILE = Path(__file__).resolve().parent.parent / "state" / "x_watcher.json"
@@ -98,7 +182,7 @@ def fetch_user_tweets(username: str, poll_interval_sec: int = DEFAULT_POLL_INTER
         resp = _client_v2().get_users_tweets(
             id=user_id,
             max_results=10,
-            tweet_fields=["created_at", "attachments"],
+            tweet_fields=["created_at", "attachments", "entities"],
             media_fields=["url", "preview_image_url", "type"],
             expansions=["attachments.media_keys"],
             exclude=["replies", "retweets"],
@@ -146,10 +230,14 @@ def fetch_user_tweets(username: str, poll_interval_sec: int = DEFAULT_POLL_INTER
         ts = created_at.timestamp() if created_at else time.time()
         text = tw.text or ""
 
+        # Try to find the actual source the account is referencing.
+        ext_url, outlet = _extract_external_url(tw)
+
         out.append({
             "title": text.split("\n")[0][:200] if text else f"tweet {tweet_id}",
             "summary": text[:1500],
-            "link": f"https://x.com/{username}/status/{tweet_id}",
+            "link": ext_url,   # actual outlet URL when present; "" if not
+            "outlet": outlet,  # clean outlet name, e.g. "BBC" — empty if not resolved
             "published": created_at.isoformat() if created_at else "",
             "ts": ts,
             "image_url": image_url,

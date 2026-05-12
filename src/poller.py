@@ -134,13 +134,18 @@ def _from_x(src: dict) -> list[dict]:
     for r in raw:
         if not _is_fresh(r.get("ts")):
             continue
+        # Source attribution: prefer the outlet the watched account is citing.
+        # If no outlet resolved, attribute is left blank — drafter is told to
+        # write without attribution rather than credit the X account.
+        outlet = (r.get("outlet") or "").strip()
+        source_name = outlet if outlet else ""
         out.append({
-            "source_name": src["name"],
+            "source_name": source_name,
             "tier": src["tier"],
             "category": src["category"],
             "title": r["title"],
             "summary": r["summary"],
-            "link": r["link"],
+            "link": r["link"],  # actual outlet URL when present; "" if unresolved
             "published": r["published"],
             "ts": r["ts"],
             "image_url": r.get("image_url", ""),

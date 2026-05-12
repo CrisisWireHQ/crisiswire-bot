@@ -20,6 +20,7 @@ FORMAT:
 - Then: COUNTRY/REGION (uppercase) — factual sentence
 - Maximum 280 characters total
 - Attribution when needed: "per [source]", "according to [agency]"
+- If the Source field is blank or missing, write the post WITHOUT any attribution clause. Do NOT invent a source.
 
 SPECIFICITY REQUIREMENT — this is the most important rule. Mine the source text for concrete named details and INCLUDE them. Generic phrasing when specifics exist in the source is a HARD FAIL.
 
