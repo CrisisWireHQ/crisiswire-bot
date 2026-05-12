@@ -1,10 +1,5 @@
 [
   {
-    "key": "california--plane-crash-canyon-fire",
-    "source": "GN: Plane Crash",
-    "ts": 1778563244
-  },
-  {
     "key": "philadelphia--bagel-bakery-explosion--second-incident",
     "source": "GN: Explosion",
     "ts": 1778563842
@@ -43,5 +38,20 @@
     "key": "canada--whitecourt-wildfire-evacuation--alberta",
     "source": "GN: Wildfire",
     "ts": 1778566253
+  },
+  {
+    "key": "lebanon--israeli-demolition--bint-jbeil",
+    "source": "GN: Strike Attack",
+    "ts": 1778566842
+  },
+  {
+    "key": "ukraine--russian-troops-advance--three-towns",
+    "source": "GN: Strike Attack",
+    "ts": 1778566847
+  },
+  {
+    "key": "maine--plane-crash--victims-identified",
+    "source": "GN: Plane Crash",
+    "ts": 1778566852
   }
 ]
