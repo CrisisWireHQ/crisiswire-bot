@@ -1,20 +1,5 @@
 [
   {
-    "key": "pakistan--explosion--bazaar",
-    "source": "GN: Explosion",
-    "ts": 1778578870
-  },
-  {
-    "key": "usa--quake--southern-california",
-    "source": "GN: Earthquake",
-    "ts": 1778578876
-  },
-  {
-    "key": "n/a",
-    "source": "GN: Outbreak",
-    "ts": 1778579472
-  },
-  {
     "key": "france--outbreak--hantavirus",
     "source": "France 24 Intl",
     "ts": 1778580062
@@ -68,5 +53,25 @@
     "key": "pakistan--explosion--market",
     "source": "GN: Explosion",
     "ts": 1778582456
+  },
+  {
+    "key": "international--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778583049
+  },
+  {
+    "key": "usa--hantavirus--cruise",
+    "source": "GN: Outbreak",
+    "ts": 1778583061
+  },
+  {
+    "key": "nigeria--airstrike--market",
+    "source": "GN: Strike Attack",
+    "ts": 1778583064
+  },
+  {
+    "key": "uk--explosion--bristol",
+    "source": "GN: Explosion",
+    "ts": 1778583072
   }
 ]
