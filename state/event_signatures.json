@@ -1,20 +1,5 @@
 [
   {
-    "key": "spain--outbreak--hantavirus",
-    "source": "GN: Outbreak",
-    "ts": 1778595088
-  },
-  {
-    "key": "lebanon--airstrike--al-nabatieh",
-    "source": "GN: Strike Attack",
-    "ts": 1778595667
-  },
-  {
-    "key": "pakistan--explosion--northwest",
-    "source": "GN: Explosion",
-    "ts": 1778595672
-  },
-  {
     "key": "pakistan--explosion--market",
     "source": "GN: Explosion",
     "ts": 1778595685
@@ -68,5 +53,10 @@
     "key": "france--outbreak--mv-hondius-cruise",
     "source": "France 24 Intl",
     "ts": 1778598667
+  },
+  {
+    "key": "usa--quake--new-jersey",
+    "source": "GN: Earthquake",
+    "ts": 1778599276
   }
 ]
