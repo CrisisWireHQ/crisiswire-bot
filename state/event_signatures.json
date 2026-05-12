@@ -98,5 +98,25 @@
     "key": "iran--quake--tehran",
     "source": "TASS English",
     "ts": 1778620267
+  },
+  {
+    "key": "usa--plane-crash--florida-melbourne",
+    "source": "GN: Plane Crash",
+    "ts": 1778620985
+  },
+  {
+    "key": "iran--quake--location-tbd",
+    "source": "GN: Earthquake",
+    "ts": 1778620995
+  },
+  {
+    "key": "canada--mass-shooting--british-columbia",
+    "source": "GN: Mass Shooting",
+    "ts": 1778621004
+  },
+  {
+    "key": "usa--fire--wickenburg-arizona",
+    "source": "GN: Wildfire",
+    "ts": 1778621007
   }
 ]
