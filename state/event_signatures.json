@@ -1,20 +1,5 @@
 [
   {
-    "key": "georgia--mass-shooting-suspect-arrested--forest-park",
-    "source": "GN: Mass Shooting",
-    "ts": 1778559652
-  },
-  {
-    "key": "lebanon--israeli-airstrike--bangladeshi-expats-killed",
-    "source": "GN: Strike Attack",
-    "ts": 1778559655
-  },
-  {
-    "key": "haiti--gang-violence-displacement--port-au-prince",
-    "source": "Al Jazeera",
-    "ts": 1778560242
-  },
-  {
     "key": "ukraine--russian-missile-strike--merefa-kharkiv",
     "source": "GN: Strike Attack",
     "ts": 1778560250
@@ -83,5 +68,10 @@
     "key": "california--plane-crash-canyon-fire",
     "source": "GN: Plane Crash",
     "ts": 1778563244
+  },
+  {
+    "key": "philadelphia--bagel-bakery-explosion--second-incident",
+    "source": "GN: Explosion",
+    "ts": 1778563842
   }
 ]
