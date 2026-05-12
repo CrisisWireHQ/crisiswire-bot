@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--minnesota-cruise",
-    "source": "GN: Outbreak",
-    "ts": 1778622061
-  },
-  {
-    "key": "canada--fire--northwest-edmonton",
-    "source": "GN: Wildfire",
-    "ts": 1778622070
-  },
-  {
-    "key": "usa--mass-shooting--oklahoma-lake",
-    "source": "GN: Mass Shooting",
-    "ts": 1778622073
-  },
-  {
     "key": "canada--fire--edmonton-area",
     "source": "GN: Wildfire",
     "ts": 1778622445
