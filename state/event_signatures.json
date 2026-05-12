@@ -1,10 +1,5 @@
 [
   {
-    "key": "canada--fire--woodland-county-whitecourt",
-    "source": "GN: Wildfire",
-    "ts": 1778598651
-  },
-  {
     "key": "france--outbreak--mv-hondius-cruise",
     "source": "France 24 Intl",
     "ts": 1778598667
@@ -33,5 +28,15 @@
     "key": "null",
     "source": "GN: Outbreak",
     "ts": 1778601664
+  },
+  {
+    "key": "nigeria--airstrike--market",
+    "source": "GN: Strike Attack",
+    "ts": 1778602244
+  },
+  {
+    "key": "solomon-islands--quake--general",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778602251
   }
 ]
