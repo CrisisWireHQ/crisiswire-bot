@@ -201,10 +201,16 @@ def poll_and_draft() -> int:
                 and not is_hantavirus):
             continue
 
-        # Enrich item with full article body so drafter sees specific named details
-        # (vessel names, exact locations, casualty counts) that RSS summaries usually strip.
+        # Enrich item: resolve Google News redirect to real outlet URL + fetch full article body
+        # so the drafter sees specifics (vessel names, locations, counts) and the source reply
+        # cites the actual outlet instead of news.google.com.
         try:
-            body = article_fetcher.fetch_article_text(item.get("link", ""))
+            enriched = article_fetcher.fetch_article(item.get("link", ""))
+            resolved = enriched.get("resolved_url") or item.get("link", "")
+            if resolved and resolved != item.get("link"):
+                print(f"[enrich] resolved URL → {resolved[:80]}")
+                item["link"] = resolved
+            body = enriched.get("text", "")
             if body and len(body) > len(item.get("summary", "")):
                 item["summary"] = body[:4000]
                 print(f"[enrich] {item['source_name']}: +{len(body)} chars from article body")
