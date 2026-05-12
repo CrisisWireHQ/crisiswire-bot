@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from . import state, poller, classifier, drafter, telegram_io, x_poster, quote_finder
+from . import state, poller, classifier, drafter, telegram_io, x_poster, quote_finder, article_fetcher
 
 DRAFTS_PER_RUN = int(os.environ.get("DRAFTS_PER_RUN", "3"))
 MODE = os.environ.get("MODE", "")
@@ -200,6 +200,16 @@ def poll_and_draft() -> int:
                 and not is_breaking
                 and not is_hantavirus):
             continue
+
+        # Enrich item with full article body so drafter sees specific named details
+        # (vessel names, exact locations, casualty counts) that RSS summaries usually strip.
+        try:
+            body = article_fetcher.fetch_article_text(item.get("link", ""))
+            if body and len(body) > len(item.get("summary", "")):
+                item["summary"] = body[:4000]
+                print(f"[enrich] {item['source_name']}: +{len(body)} chars from article body")
+        except Exception as e:
+            print(f"[enrich] fetch failed: {e}")
 
         try:
             text = drafter.draft(item, is_breaking=is_breaking or is_hantavirus)
