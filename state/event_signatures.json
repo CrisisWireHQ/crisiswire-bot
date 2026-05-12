@@ -1,15 +1,5 @@
 [
   {
-    "key": "iran--quake--tehran",
-    "source": "GN: Earthquake",
-    "ts": 1778620248
-  },
-  {
-    "key": "iran--quake--tehran",
-    "source": "TASS English",
-    "ts": 1778620267
-  },
-  {
     "key": "usa--plane-crash--florida-melbourne",
     "source": "GN: Plane Crash",
     "ts": 1778620985
