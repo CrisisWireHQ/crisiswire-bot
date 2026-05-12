@@ -1,55 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778594483
-  },
-  {
-    "key": "usa--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778594489
-  },
-  {
-    "key": "usa--explosion--haulover-sandbar",
-    "source": "GN: Explosion",
-    "ts": 1778594491
-  },
-  {
-    "key": "lebanon--airstrike--kfardounine",
-    "source": "GN: Strike Attack",
-    "ts": 1778594499
-  },
-  {
-    "key": "usa--quake-swarm--southern-california",
-    "source": "GN: Earthquake",
-    "ts": 1778594501
-  },
-  {
-    "key": "iran--missile-strike--bushehr",
-    "source": "GN: Strike Attack",
-    "ts": 1778595039
-  },
-  {
-    "key": "spain--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778595056
-  },
-  {
-    "key": "n/a",
-    "source": "France 24 Intl",
-    "ts": 1778595060
-  },
-  {
-    "key": "netherlands--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778595064
-  },
-  {
-    "key": "china--explosion--firework-factory",
-    "source": "GN: Explosion",
-    "ts": 1778595068
-  },
-  {
     "key": "spain--outbreak--hantavirus",
     "source": "GN: Outbreak",
     "ts": 1778595088
@@ -108,5 +58,15 @@
     "key": "panama--hantavirus--cruise-ship",
     "source": "GN: Wildfire",
     "ts": 1778598069
+  },
+  {
+    "key": "canada--fire--woodland-county-whitecourt",
+    "source": "GN: Wildfire",
+    "ts": 1778598651
+  },
+  {
+    "key": "france--outbreak--mv-hondius-cruise",
+    "source": "France 24 Intl",
+    "ts": 1778598667
   }
 ]
