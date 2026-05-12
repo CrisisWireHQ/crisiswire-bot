@@ -78,5 +78,20 @@
     "key": "nigeria--airstrike--zamfara",
     "source": "GN: Strike Attack",
     "ts": 1778617883
+  },
+  {
+    "key": "global--hantavirus--outbreak",
+    "source": "GN: Outbreak",
+    "ts": 1778618442
+  },
+  {
+    "key": "iran--quake--tehran",
+    "source": "GN: Earthquake",
+    "ts": 1778618446
+  },
+  {
+    "key": "canada--fire--alberta-north-central",
+    "source": "GN: Wildfire",
+    "ts": 1778618461
   }
 ]
