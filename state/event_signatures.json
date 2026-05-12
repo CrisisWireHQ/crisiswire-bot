@@ -1,20 +1,5 @@
 [
   {
-    "key": "canada--fire--woodlands-county",
-    "source": "GN: Wildfire",
-    "ts": 1778613079
-  },
-  {
-    "key": "usa--tornado-warning--pasco-hernando",
-    "source": "GN: Breaking News",
-    "ts": 1778613086
-  },
-  {
-    "key": "uk--hantavirus--british-territories",
-    "source": "Straits Times World",
-    "ts": 1778613099
-  },
-  {
     "key": "trusted-wow",
     "source": "X: @outbreakupdates",
     "ts": 1778613221
