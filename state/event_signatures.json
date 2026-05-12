@@ -1,25 +1,5 @@
 [
   {
-    "key": "nigeria--air-strike--katsina-abasu-aiki",
-    "source": "GN: Strike Attack",
-    "ts": 1778559061
-  },
-  {
-    "key": "pakistan--terror-attack-prevented--kohat",
-    "source": "GN: Terror Attack",
-    "ts": 1778559072
-  },
-  {
-    "key": "arizona-maricopa--jones-wildfire--us93",
-    "source": "GN: Wildfire",
-    "ts": 1778559076
-  },
-  {
-    "key": "philadelphia--bagel-bakery-explosions--new-york-bagel",
-    "source": "GN: Explosion",
-    "ts": 1778559648
-  },
-  {
     "key": "georgia--mass-shooting-suspect-arrested--forest-park",
     "source": "GN: Mass Shooting",
     "ts": 1778559652
@@ -98,5 +78,10 @@
     "key": "lebanon--israeli-airstrikes--southern-casualties",
     "source": "GN: Strike Attack",
     "ts": 1778562652
+  },
+  {
+    "key": "california--plane-crash-canyon-fire",
+    "source": "GN: Plane Crash",
+    "ts": 1778563244
   }
 ]
