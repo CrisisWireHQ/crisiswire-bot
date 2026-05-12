@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--hostage--east-haven-connecticut",
-    "source": "GN: Hostage",
-    "ts": 1778612478
-  },
-  {
-    "key": "usa--crash--alabama-west",
-    "source": "GN: Plane Crash",
-    "ts": 1778612484
-  },
-  {
-    "key": "usa--crash--maine-avon",
-    "source": "GN: Plane Crash",
-    "ts": 1778612487
-  },
-  {
     "key": "liberia--fire--forest",
     "source": "GDACS Disaster Alerts",
     "ts": 1778613077
