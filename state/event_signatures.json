@@ -1,20 +1,5 @@
 [
   {
-    "key": "greece--drone-strike--island",
-    "source": "GN: Breaking News",
-    "ts": 1778592051
-  },
-  {
-    "key": "pakistan--explosion--sarai-naurang",
-    "source": "Al Jazeera",
-    "ts": 1778592059
-  },
-  {
-    "key": "palestinian-territories--raid--ramallah",
-    "source": "GN: Strike Attack",
-    "ts": 1778592063
-  },
-  {
     "key": "usa--fire--loveland-sedona",
     "source": "GN: Wildfire",
     "ts": 1778592645
@@ -93,5 +78,20 @@
     "key": "spain--outbreak--hantavirus",
     "source": "GN: Outbreak",
     "ts": 1778595088
+  },
+  {
+    "key": "lebanon--airstrike--al-nabatieh",
+    "source": "GN: Strike Attack",
+    "ts": 1778595667
+  },
+  {
+    "key": "pakistan--explosion--northwest",
+    "source": "GN: Explosion",
+    "ts": 1778595672
+  },
+  {
+    "key": "pakistan--explosion--market",
+    "source": "GN: Explosion",
+    "ts": 1778595685
   }
 ]
