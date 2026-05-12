@@ -1,15 +1,5 @@
 [
   {
-    "key": "canada--fire--woodlands-county",
-    "source": "GN: Wildfire",
-    "ts": 1778617299
-  },
-  {
-    "key": "indonesia--volcano--lewotobi-laki-laki",
-    "source": "GN: Earthquake",
-    "ts": 1778617301
-  },
-  {
     "key": "australia--crash--melbourne-offshore",
     "source": "GN: Breaking News",
     "ts": 1778617848
