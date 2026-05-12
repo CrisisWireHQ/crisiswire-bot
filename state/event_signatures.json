@@ -1,15 +1,5 @@
 [
   {
-    "key": "india--m4.9-quake--nicobar-islands",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778565037
-  },
-  {
-    "key": "alberta--wildfire-evacuation-orders--north-central",
-    "source": "GN: Wildfire",
-    "ts": 1778565043
-  },
-  {
     "key": "ukraine--russian-drone-attack--zhytomyr",
     "source": "GN: Strike Attack",
     "ts": 1778565653
@@ -58,5 +48,10 @@
     "key": "lebanon--israeli-strikes--south",
     "source": "GN: Strike Attack",
     "ts": 1778568047
+  },
+  {
+    "key": "russia--quake--kamchatka",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778568648
   }
 ]
