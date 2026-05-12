@@ -1,10 +1,5 @@
 [
   {
-    "key": "taiwan--quake--taitung",
-    "source": "GN: Earthquake",
-    "ts": 1778572242
-  },
-  {
     "key": "spain--outbreak--canary-islands",
     "source": "GN: Outbreak",
     "ts": 1778572272
@@ -83,5 +78,10 @@
     "key": "usa--explosion--miami-boat",
     "source": "GN: Explosion",
     "ts": 1778575269
+  },
+  {
+    "key": "unknown--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778575860
   }
 ]
