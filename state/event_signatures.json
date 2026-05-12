@@ -1,30 +1,5 @@
 [
   {
-    "key": "nepal--avalanche--makalu",
-    "source": "CBS News World",
-    "ts": 1778576447
-  },
-  {
-    "key": "nigeria--airstrike--zamfara",
-    "source": "GN: Strike Attack",
-    "ts": 1778576451
-  },
-  {
-    "key": "sweden--outbreak--hantavirus",
-    "source": "GN: Outbreak",
-    "ts": 1778576456
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Explosion",
-    "ts": 1778576460
-  },
-  {
-    "key": "ukraine--drone-strike--dnipropetrovsk",
-    "source": "Al Jazeera",
-    "ts": 1778576463
-  },
-  {
     "key": "kazakhstan--explosion--kazzinc-plant",
     "source": "GN: Explosion",
     "ts": 1778577046
@@ -83,5 +58,25 @@
     "key": "n/a",
     "source": "GN: Outbreak",
     "ts": 1778579472
+  },
+  {
+    "key": "france--outbreak--hantavirus",
+    "source": "France 24 Intl",
+    "ts": 1778580062
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778580068
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "Al Jazeera",
+    "ts": 1778580076
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778580084
   }
 ]
