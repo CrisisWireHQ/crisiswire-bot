@@ -157,6 +157,15 @@ def poll_and_draft() -> int:
     if MODE == "trusted-only":
         items = [i for i in items if i["source_name"] in TRUSTED_SOURCE_NAMES]
         print(f"[poll] trusted-only filter → {len(items)} items")
+    elif MODE == "force-trusted":
+        # One-shot debug mode: unsee all trusted items so we re-draft anything
+        # that got marked seen without a successful draft.
+        items = [i for i in items if i["source_name"] in TRUSTED_SOURCE_NAMES]
+        seen = state.load_seen()
+        for i in items:
+            seen.pop(state.url_hash(i["link"]), None)
+        state.save_seen(seen)
+        print(f"[poll] force-trusted: cleared seen-state for {len(items)} trusted items")
     else:
         # Regular runs (10-min cron, manual) skip trusted sources — those are
         # exclusively handled by the dedicated 1-min trusted-only path, otherwise
@@ -171,12 +180,19 @@ def poll_and_draft() -> int:
     drafted = 0
 
     for item in items:
+        is_trusted_src = item["source_name"] in TRUSTED_SOURCE_NAMES
         if drafted >= DRAFTS_PER_RUN:
+            if is_trusted_src:
+                print(f"[trusted-debug] HIT DRAFTS_PER_RUN cap; skipping {item['title'][:80]!r}")
             break
         if state.is_seen(seen, item["link"]):
+            if is_trusted_src:
+                print(f"[trusted-debug] already in seen.json: {item['title'][:80]!r} ({item['link']})")
             continue
+        if is_trusted_src:
+            print(f"[trusted-debug] NEW item, processing: {item['title'][:80]!r}")
         state.mark_seen(seen, item["link"])
-        is_trusted = item["source_name"] in TRUSTED_SOURCE_NAMES
+        is_trusted = is_trusted_src
 
         # Hantavirus is a special interest — detect via keyword regex and elevate aggressively.
         full_text = f"{item.get('title','')} {item.get('summary','')}"
