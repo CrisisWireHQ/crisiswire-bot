@@ -1,15 +1,5 @@
 [
   {
-    "key": "uganda--floods--bukedea-kamutur",
-    "source": "ReliefWeb Updates",
-    "ts": 1778560881
-  },
-  {
-    "key": "us-bootheel--m4.0-earthquake--missouri-arkansas",
-    "source": "GN: Earthquake",
-    "ts": 1778560886
-  },
-  {
     "key": "pakistan--terror-attack-prevented--kohat",
     "source": "GN: Terror Attack",
     "ts": 1778561581
@@ -63,5 +53,15 @@
     "key": "canada-alberta--wildfire-evacuation--northwest-edmonton",
     "source": "GN: Wildfire",
     "ts": 1778564445
+  },
+  {
+    "key": "india--m4.9-quake--nicobar-islands",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778565037
+  },
+  {
+    "key": "alberta--wildfire-evacuation-orders--north-central",
+    "source": "GN: Wildfire",
+    "ts": 1778565043
   }
 ]
