@@ -78,5 +78,10 @@
     "key": "palestinian-territories--raid--ramallah",
     "source": "GN: Strike Attack",
     "ts": 1778592063
+  },
+  {
+    "key": "usa--fire--loveland-sedona",
+    "source": "GN: Wildfire",
+    "ts": 1778592645
   }
 ]
