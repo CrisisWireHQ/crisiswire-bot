@@ -1,13 +1,26 @@
 import os
+import re
 import json
 from dotenv import load_dotenv
 
 load_dotenv()
 
 from . import state, poller, classifier, drafter, telegram_io, x_poster, quote_finder, article_fetcher
+from .sources import SOURCES
 
 DRAFTS_PER_RUN = int(os.environ.get("DRAFTS_PER_RUN", "3"))
+# MODE: "approvals-only" (fast loop) skips polling.
+#       "trusted-only" polls ONLY trusted sources (Faytuks etc.) and skips Claude classifier.
+#       Anything else does a full run.
 MODE = os.environ.get("MODE", "")
+TRUSTED_SOURCE_NAMES = {s["name"] for s in SOURCES if s.get("trusted")}
+
+
+def _trusted_event_key(title: str) -> str:
+    """Cheap event_key for trusted-source items (no Claude call)."""
+    s = re.sub(r"[^a-z0-9\s]+", "", (title or "").lower())
+    words = [w for w in s.split() if len(w) > 2][:5]
+    return f"trusted-{'-'.join(words)}"[:60] if words else ""
 
 
 def process_approvals() -> tuple[int, int]:
@@ -141,6 +154,9 @@ def process_webhook_approval() -> int:
 def poll_and_draft() -> int:
     items = poller.fetch_all()
     print(f"[poll] {len(items)} items fetched")
+    if MODE == "trusted-only":
+        items = [i for i in items if i["source_name"] in TRUSTED_SOURCE_NAMES]
+        print(f"[poll] trusted-only filter → {len(items)} items")
     seen = state.load_seen()
     sigs = state.load_event_signatures()
     drafted_keys = state.load_drafted_keys()
@@ -152,19 +168,33 @@ def poll_and_draft() -> int:
         if state.is_seen(seen, item["link"]):
             continue
         state.mark_seen(seen, item["link"])
-
-        try:
-            cls = classifier.classify(item)
-        except Exception as e:
-            print(f"[poll] classify error: {e}")
-            continue
+        is_trusted = item["source_name"] in TRUSTED_SOURCE_NAMES
 
         # Hantavirus is a special interest — detect via keyword regex and elevate aggressively.
         full_text = f"{item.get('title','')} {item.get('summary','')}"
         is_hantavirus = quote_finder.text_mentions_hantavirus(full_text)
+
+        if is_trusted:
+            # Skip the Claude classifier entirely — Faytuks-tier sources are
+            # pre-verified. Generate a cheap event_key for dedup.
+            cls = {
+                "relevant": True,
+                "severity": "major",
+                "category": item.get("category", "news"),
+                "event_key": _trusted_event_key(item.get("title", "")),
+                "is_trusted": True,
+            }
+            print(f"[trusted] bypassing classifier for {item['source_name']}")
+        else:
+            try:
+                cls = classifier.classify(item)
+            except Exception as e:
+                print(f"[poll] classify error: {e}")
+                continue
+
         cls["is_hantavirus"] = is_hantavirus
 
-        if not cls.get("relevant") and not is_hantavirus:
+        if not cls.get("relevant") and not is_hantavirus and not is_trusted:
             continue
 
         if is_hantavirus:
@@ -188,16 +218,16 @@ def poll_and_draft() -> int:
             print(f"[dedup] event_key {event_key!r} already drafted in last 6h; skipping")
             continue
 
-        # Hantavirus and breaking always pass severity filter; otherwise drop minor non-tier-1
+        # Trusted, hantavirus, and breaking all bypass the minor-tier filter
         if (cls.get("severity") == "minor"
                 and item.get("tier", 3) > 1
                 and not is_breaking
-                and not is_hantavirus):
+                and not is_hantavirus
+                and not is_trusted):
             continue
 
-        # Enrich item: resolve Google News redirect to real outlet URL + fetch full article body
-        # so the drafter sees specifics (vessel names, locations, counts) and the source reply
-        # cites the actual outlet instead of news.google.com.
+        # Enrich item: resolve Google News redirect to real outlet URL + fetch full article body.
+        # For TG sources we already have the full message text, so skip the network fetch.
         try:
             enriched = article_fetcher.fetch_article(item.get("link", ""))
             resolved = enriched.get("resolved_url") or item.get("link", "")
@@ -212,7 +242,7 @@ def poll_and_draft() -> int:
             print(f"[enrich] fetch failed: {e}")
 
         try:
-            text = drafter.draft(item, is_breaking=is_breaking or is_hantavirus)
+            text = drafter.draft(item, is_breaking=is_breaking or is_hantavirus or is_trusted)
         except Exception as e:
             print(f"[poll] draft error: {e}")
             continue
@@ -250,6 +280,7 @@ def poll_and_draft() -> int:
             drafted += 1
             state.mark_drafted(drafted_keys, event_key)
             tag = ""
+            if is_trusted: tag += "🔥 TRUSTED "
             if is_hantavirus: tag += "🦠 HANTAVIRUS "
             if is_breaking: tag += "🚨 BREAKING "
             print(f"[poll] {tag}DRAFTED ({event_key}): {text[:80]}")

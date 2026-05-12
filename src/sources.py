@@ -53,7 +53,7 @@ SOURCES = [
     {"name": "TG: Disclose.tv", "type": "tg", "channel": "disclosetv", "tier": 2, "category": "news"},
     {"name": "TG: Breaking911", "type": "tg", "channel": "breaking911", "tier": 2, "category": "news"},
     {"name": "TG: OSINTdefender", "type": "tg", "channel": "OSINTdefender", "tier": 2, "category": "conflict"},
-    {"name": "TG: Faytuks Network", "type": "tg", "channel": "Faytuks_Network", "tier": 2, "category": "conflict"},
+    {"name": "TG: Faytuks Network", "type": "tg", "channel": "Faytuks_Network", "tier": 2, "category": "conflict", "trusted": True},
     {"name": "TG: WarMonitors", "type": "tg", "channel": "warmonitors", "tier": 2, "category": "conflict"},
     {"name": "TG: AuroraIntel", "type": "tg", "channel": "AuroraIntel", "tier": 2, "category": "conflict"},
     {"name": "TG: OSINTtechnical", "type": "tg", "channel": "Osinttechnical", "tier": 2, "category": "conflict"},
