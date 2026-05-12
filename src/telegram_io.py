@@ -9,7 +9,10 @@ API = f"https://api.telegram.org/bot{TOKEN}"
 
 DRAFT_SEP = "━━━━━━━━━━━━━━"
 IMG_LINE_PREFIX = "🖼 "
+QT_LINE_PREFIX = "💬 Quote-tweeting: "
 _IMG_LINE_RE = re.compile(r"^🖼 (https?://\S+)", re.MULTILINE)
+_QT_LINE_RE = re.compile(r"^💬 Quote-tweeting: (https?://\S+)", re.MULTILINE)
+_TWEET_ID_RE = re.compile(r"/status/(\d+)")
 
 
 def _build_body(draft_text: str, item: dict, classification: dict) -> tuple[str, str]:
@@ -18,10 +21,17 @@ def _build_body(draft_text: str, item: dict, classification: dict) -> tuple[str,
     char_bar = "🟢" if char_count <= 240 else ("🟡" if char_count <= 270 else "🔴")
     severity_icon = {"critical": "🔴", "major": "🟠", "minor": "🟡"}.get(classification.get("severity", ""), "⚪")
     is_breaking = classification.get("is_breaking", False)
+    is_hantavirus = classification.get("is_hantavirus", False)
     confirming = classification.get("confirming_sources", [])
     image_url = (item.get("image_url") or "").strip()
+    quote_url = (item.get("quote_tweet_url") or "").strip()
 
-    header = "🚨🚨🚨 BREAKING — CROSS-CONFIRMED 🚨🚨🚨" if is_breaking else "📝 CRISIS WIRE DRAFT"
+    if is_hantavirus:
+        header = "🦠🦠🦠 HANTAVIRUS ALERT 🦠🦠🦠"
+    elif is_breaking:
+        header = "🚨🚨🚨 BREAKING — CROSS-CONFIRMED 🚨🚨🚨"
+    else:
+        header = "📝 CRISIS WIRE DRAFT"
     breaking_line = (
         f"⚡ Confirmed by {len(confirming)} sources: {', '.join(confirming)}\n"
         if is_breaking
@@ -39,7 +49,18 @@ def _build_body(draft_text: str, item: dict, classification: dict) -> tuple[str,
     )
     if image_url:
         body += f"\n{IMG_LINE_PREFIX}{image_url}"
+    if quote_url:
+        body += f"\n{QT_LINE_PREFIX}{quote_url}"
     return body, image_url
+
+
+def extract_quote_tweet_id_from_message(message_text: str) -> str:
+    m = _QT_LINE_RE.search(message_text or "")
+    if not m:
+        return ""
+    url = m.group(1)
+    tid = _TWEET_ID_RE.search(url)
+    return tid.group(1) if tid else ""
 
 
 def send_draft(draft_text: str, item: dict, classification: dict) -> dict:

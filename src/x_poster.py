@@ -89,8 +89,8 @@ def _upload_image(image_url: str) -> str | None:
                 pass
 
 
-def post(text: str, image_url: str = "") -> dict:
-    """Post a tweet, optionally with an attached image. Falls back to text-only on image failure."""
+def post(text: str, image_url: str = "", quote_tweet_id: str = "") -> dict:
+    """Post a tweet, optionally with an attached image and/or as a quote-tweet."""
     media_ids: list[str] = []
     if image_url:
         mid = _upload_image(image_url)
@@ -100,8 +100,17 @@ def post(text: str, image_url: str = "") -> dict:
         else:
             print(f"[x_poster] image attachment failed; posting text only")
 
+    kwargs = {"text": text}
     if media_ids:
-        resp = client().create_tweet(text=text, media_ids=media_ids)
-    else:
-        resp = client().create_tweet(text=text)
-    return {"id": resp.data["id"], "text": text, "had_image": bool(media_ids)}
+        kwargs["media_ids"] = media_ids
+    if quote_tweet_id:
+        kwargs["quote_tweet_id"] = str(quote_tweet_id)
+        print(f"[x_poster] quote-tweeting {quote_tweet_id}")
+
+    resp = client().create_tweet(**kwargs)
+    return {
+        "id": resp.data["id"],
+        "text": text,
+        "had_image": bool(media_ids),
+        "had_quote": bool(quote_tweet_id),
+    }

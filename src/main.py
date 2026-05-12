@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from . import state, poller, classifier, drafter, telegram_io, x_poster
+from . import state, poller, classifier, drafter, telegram_io, x_poster, quote_finder
 
 DRAFTS_PER_RUN = int(os.environ.get("DRAFTS_PER_RUN", "3"))
 MODE = os.environ.get("MODE", "")
@@ -58,18 +58,23 @@ def process_approvals() -> tuple[int, int]:
 
 
 def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_photo: bool = False) -> int:
-    """Extract draft from message text, post to X (with image if present), edit Telegram message."""
+    """Extract draft from message text, post to X (with image / quote-tweet if present), edit Telegram."""
     draft_text = telegram_io.extract_draft_from_message(msg_text)
     image_url = telegram_io.extract_image_url_from_message(msg_text)
+    quote_tweet_id = telegram_io.extract_quote_tweet_id_from_message(msg_text)
     if not draft_text:
         if callback_id:
             telegram_io.answer_callback(callback_id, "Could not parse draft.")
         telegram_io.edit_message(chat_id, message_id, f"⚠️ PARSE FAILED\n\n{msg_text}", is_photo=is_photo)
         return 0
     try:
-        result = x_poster.post(draft_text, image_url=image_url)
+        result = x_poster.post(draft_text, image_url=image_url, quote_tweet_id=quote_tweet_id)
         tweet_url = f"https://x.com/CrisisWireHQ/status/{result['id']}"
-        media_tag = "🖼 with image" if result.get("had_image") else "📝 text only"
+        tags = []
+        if result.get("had_image"): tags.append("🖼 image")
+        if result.get("had_quote"): tags.append("💬 quote")
+        if not tags: tags.append("📝 text only")
+        media_tag = " + ".join(tags)
         if callback_id:
             telegram_io.answer_callback(callback_id, "Posted ✓")
         telegram_io.edit_message(
@@ -134,11 +139,29 @@ def poll_and_draft() -> int:
             print(f"[poll] classify error: {e}")
             continue
 
-        if not cls.get("relevant"):
+        # Hantavirus is a special interest — detect via keyword regex and elevate aggressively.
+        full_text = f"{item.get('title','')} {item.get('summary','')}"
+        is_hantavirus = quote_finder.text_mentions_hantavirus(full_text)
+        cls["is_hantavirus"] = is_hantavirus
+
+        if not cls.get("relevant") and not is_hantavirus:
             continue
 
-        # Cross-source breaking detection: record this signature, then check
-        # whether 2+ distinct sources have reported the same event_key recently.
+        if is_hantavirus:
+            print(f"[hantavirus] match in {item['source_name']}: {item['title'][:80]!r}")
+            # Try to find a recent CDC/WHO tweet to quote-tweet
+            try:
+                hit = quote_finder.find_hantavirus_tweet(max_age_hours=72)
+            except Exception as e:
+                print(f"[hantavirus] quote_finder error: {e}")
+                hit = None
+            if hit:
+                tweet_id, tweet_url, source_user = hit
+                item["quote_tweet_id"] = tweet_id
+                item["quote_tweet_url"] = tweet_url
+                print(f"[hantavirus] will quote-tweet @{source_user}'s post")
+
+        # Cross-source breaking detection
         event_key = cls.get("event_key", "")
         is_breaking, source_count, source_list = state.check_breaking(sigs, event_key, item["source_name"])
         state.record_event_signature(sigs, event_key, item["source_name"])
@@ -148,12 +171,15 @@ def poll_and_draft() -> int:
         if is_breaking:
             print(f"[breaking] {event_key!r} confirmed by {source_count} sources: {source_list}")
 
-        # Drop minor severity from non-tier-1 sources, UNLESS marked breaking
-        if cls.get("severity") == "minor" and item.get("tier", 3) > 1 and not is_breaking:
+        # Hantavirus and breaking always pass severity filter; otherwise drop minor non-tier-1
+        if (cls.get("severity") == "minor"
+                and item.get("tier", 3) > 1
+                and not is_breaking
+                and not is_hantavirus):
             continue
 
         try:
-            text = drafter.draft(item, is_breaking=is_breaking)
+            text = drafter.draft(item, is_breaking=is_breaking or is_hantavirus)
         except Exception as e:
             print(f"[poll] draft error: {e}")
             continue
@@ -189,7 +215,9 @@ def poll_and_draft() -> int:
         try:
             telegram_io.send_draft(text, item, cls)
             drafted += 1
-            tag = "🚨 BREAKING " if is_breaking else ""
+            tag = ""
+            if is_hantavirus: tag += "🦠 HANTAVIRUS "
+            if is_breaking: tag += "🚨 BREAKING "
             print(f"[poll] {tag}DRAFTED: {text[:80]}")
         except Exception as e:
             print(f"[poll] telegram send error: {e}")
