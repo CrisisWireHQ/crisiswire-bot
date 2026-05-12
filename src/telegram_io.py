@@ -40,7 +40,11 @@ def _build_body(draft_text: str, item: dict, classification: dict) -> tuple[str,
         if is_breaking
         else ""
     )
-    src_line = f"📡 {item['source_name']}\n" if (item.get("source_name") or "").strip() else ""
+    # display_source overrides source_name for the visible attribution line
+    # (used by X-watcher items so we credit the outlet, not the watched account)
+    display_src = item["display_source"] if "display_source" in item else item.get("source_name", "")
+    display_src = (display_src or "").strip()
+    src_line = f"📡 {display_src}\n" if display_src else ""
     link = (item.get("link") or "").strip()
     link_line = f"🔗 {link}" if link else "🔗 (no source link)"
     body = (

@@ -134,18 +134,20 @@ def _from_x(src: dict) -> list[dict]:
     for r in raw:
         if not _is_fresh(r.get("ts")):
             continue
-        # Source attribution: prefer the outlet the watched account is citing.
-        # If no outlet resolved, attribute is left blank — drafter is told to
-        # write without attribution rather than credit the X account.
-        outlet = (r.get("outlet") or "").strip()
-        source_name = outlet if outlet else ""
+        # source_name stays as src["name"] (e.g. "X: @outbreakupdates") so
+        # trusted-only filtering and dedup logic still work.
+        # display_source overrides attribution in Telegram + drafter: when the
+        # watched account links to BBC, we credit BBC, not the watched account.
+        # If no outlet resolved, display_source = "" → drafter writes without
+        # attribution and source reply is skipped.
         out.append({
-            "source_name": source_name,
+            "source_name": src["name"],
+            "display_source": (r.get("outlet") or "").strip(),
             "tier": src["tier"],
             "category": src["category"],
             "title": r["title"],
             "summary": r["summary"],
-            "link": r["link"],  # actual outlet URL when present; "" if unresolved
+            "link": r["link"],
             "published": r["published"],
             "ts": r["ts"],
             "image_url": r.get("image_url", ""),

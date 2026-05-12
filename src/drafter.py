@@ -85,8 +85,14 @@ def draft(item: dict, is_breaking: bool = False, is_hantavirus: bool = False, is
             "If the post genuinely lacks ANY new fact (pure emoji / 1-word) you may SKIP."
         )
     note_block = ("\n\n" + "\n\n".join(notes)) if notes else ""
+    # When `display_source` is explicitly set (e.g., X-watcher items), use it for
+    # attribution — even if empty (means: don't credit anyone).
+    if "display_source" in item:
+        src_for_prompt = item["display_source"]
+    else:
+        src_for_prompt = item.get("source_name", "")
     user = (
-        f"Source: {item['source_name']}\n"
+        f"Source: {src_for_prompt}\n"
         f"Title: {item['title']}\n"
         f"Summary: {item['summary'][:1500]}"
         f"{note_block}"
