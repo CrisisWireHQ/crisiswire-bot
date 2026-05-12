@@ -1,15 +1,5 @@
 [
   {
-    "key": "taiwan--quake--hualien",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778570443
-  },
-  {
-    "key": "palestine--raid--ramallah",
-    "source": "GN: Strike Attack",
-    "ts": 1778570447
-  },
-  {
     "key": "usa--hantavirus--cruise-ship",
     "source": "GN: Outbreak",
     "ts": 1778571054
@@ -93,5 +83,10 @@
     "key": "pakistan--explosion--northwest-market",
     "source": "GN: Explosion",
     "ts": 1778573686
+  },
+  {
+    "key": "pakistan--explosion--northwest-market",
+    "source": "GN: Explosion",
+    "ts": 1778574039
   }
 ]
