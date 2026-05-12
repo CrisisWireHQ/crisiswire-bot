@@ -54,6 +54,9 @@ SOURCES = [
     {"name": "TG: Breaking911", "type": "tg", "channel": "breaking911", "tier": 2, "category": "news"},
     {"name": "TG: OSINTdefender", "type": "tg", "channel": "OSINTdefender", "tier": 2, "category": "conflict"},
     {"name": "TG: Faytuks Network", "type": "tg", "channel": "Faytuks_Network", "tier": 2, "category": "conflict", "trusted": True},
+
+    # Tier 2 — Direct X account watch (paid API; self-rate-limited to ~5 min and respects quiet hours)
+    {"name": "X: @outbreakupdates", "type": "x", "username": "outbreakupdates", "tier": 2, "category": "outbreak", "trusted": True},
     {"name": "TG: WarMonitors", "type": "tg", "channel": "warmonitors", "tier": 2, "category": "conflict"},
     {"name": "TG: AuroraIntel", "type": "tg", "channel": "AuroraIntel", "tier": 2, "category": "conflict"},
     {"name": "TG: OSINTtechnical", "type": "tg", "channel": "Osinttechnical", "tier": 2, "category": "conflict"},

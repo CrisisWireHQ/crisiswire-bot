@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 
 import feedparser
 from .sources import SOURCES
-from . import tg_scraper
+from . import tg_scraper, x_watcher
 
 _IMG_TAG_RE = re.compile(r'<img[^>]+src=["\']([^"\']+)["\']', re.IGNORECASE)
 
@@ -128,12 +128,35 @@ def _from_tg(src: dict) -> list[dict]:
     return out
 
 
+def _from_x(src: dict) -> list[dict]:
+    raw = x_watcher.fetch_user_tweets(src["username"])
+    out = []
+    for r in raw:
+        if not _is_fresh(r.get("ts")):
+            continue
+        out.append({
+            "source_name": src["name"],
+            "tier": src["tier"],
+            "category": src["category"],
+            "title": r["title"],
+            "summary": r["summary"],
+            "link": r["link"],
+            "published": r["published"],
+            "ts": r["ts"],
+            "image_url": r.get("image_url", ""),
+        })
+    return out
+
+
 def fetch_all() -> list[dict]:
     items = []
     for src in SOURCES:
         try:
-            if src.get("type") == "tg":
+            stype = src.get("type")
+            if stype == "tg":
                 got = _from_tg(src)
+            elif stype == "x":
+                got = _from_x(src)
             else:
                 got = _from_rss(src)
             print(f"[poller] {src['name']}: {len(got)} fresh items")
