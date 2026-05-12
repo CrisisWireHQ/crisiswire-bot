@@ -1,15 +1,5 @@
 [
   {
-    "key": "pakistan--explosion--northwest-market",
-    "source": "GN: Explosion",
-    "ts": 1778573686
-  },
-  {
-    "key": "pakistan--explosion--northwest-market",
-    "source": "GN: Explosion",
-    "ts": 1778574039
-  },
-  {
     "key": "pakistan--explosion--nw-police",
     "source": "GN: Explosion",
     "ts": 1778574660
@@ -73,5 +63,20 @@
     "key": "taiwan--quake--southeast",
     "source": "GN: Earthquake",
     "ts": 1778577059
+  },
+  {
+    "key": "nigeria--airstrike--zamfara",
+    "source": "GN: Strike Attack",
+    "ts": 1778577647
+  },
+  {
+    "key": "philippines--quake--pondaguitan",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778577648
+  },
+  {
+    "key": "china--explosion--fireworks-plant",
+    "source": "GN: Explosion",
+    "ts": 1778577658
   }
 ]
