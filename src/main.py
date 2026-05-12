@@ -141,6 +141,7 @@ def poll_and_draft() -> int:
     print(f"[poll] {len(items)} items fetched")
     seen = state.load_seen()
     sigs = state.load_event_signatures()
+    drafted_keys = state.load_drafted_keys()
     drafted = 0
 
     for item in items:
@@ -188,6 +189,11 @@ def poll_and_draft() -> int:
         if is_breaking:
             print(f"[breaking] {event_key!r} confirmed by {source_count} sources: {source_list}")
 
+        # Skip if we already drafted this same event_key in the last 6h
+        if state.is_drafted(drafted_keys, event_key):
+            print(f"[dedup] event_key {event_key!r} already drafted in last 6h; skipping")
+            continue
+
         # Hantavirus and breaking always pass severity filter; otherwise drop minor non-tier-1
         if (cls.get("severity") == "minor"
                 and item.get("tier", 3) > 1
@@ -232,15 +238,17 @@ def poll_and_draft() -> int:
         try:
             telegram_io.send_draft(text, item, cls)
             drafted += 1
+            state.mark_drafted(drafted_keys, event_key)
             tag = ""
             if is_hantavirus: tag += "🦠 HANTAVIRUS "
             if is_breaking: tag += "🚨 BREAKING "
-            print(f"[poll] {tag}DRAFTED: {text[:80]}")
+            print(f"[poll] {tag}DRAFTED ({event_key}): {text[:80]}")
         except Exception as e:
             print(f"[poll] telegram send error: {e}")
 
     state.save_seen(seen)
     state.save_event_signatures(sigs)
+    state.save_drafted_keys(drafted_keys)
     return drafted
 
 

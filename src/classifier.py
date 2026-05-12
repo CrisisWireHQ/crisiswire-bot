@@ -47,13 +47,29 @@ Bias toward false negatives. Better to miss a borderline story than to flood wit
 Respond ONLY with raw JSON (no markdown fences, no prose):
 {"relevant": <bool>, "severity": "critical"|"major"|"minor", "category": "conflict"|"disaster"|"outbreak"|"unrest"|"attack"|"other", "event_key": "<slug>", "reason": "<short>"}
 
-event_key: a stable lowercase slug identifying the SPECIFIC event, suitable for matching the same event across different news sources. Format: country-or-region--what-happened--key-detail. Examples:
-- "iran--us-drone-shot-down--strait-of-hormuz"
-- "japan--m6.3-quake--ibaraki"
-- "argentina--hantavirus-cluster--ushuaia"
-- "lebanon--israeli-strikes--south"
-- "russia--ukraine-drone-strike--belgorod"
-Keep it 3-6 hyphenated segments. Use the event itself, NOT the publication date. Two news items describing the same real-world event MUST produce the same event_key.
+event_key: a STABLE NORMALIZED lowercase slug identifying the SPECIFIC event. Two news items reporting the SAME real-world event MUST produce the IDENTICAL event_key.
+
+NORMALIZATION RULES (follow strictly):
+- Format: country--event-type--key-location-or-detail (3 segments, separated by double-hyphens)
+- Use the BASE country only (not "south lebanon" — use "lebanon"; not "western ukraine" — use "ukraine")
+- Use a CANONICAL event type from this list: strike, quake, fire, attack, shooting, explosion, crash, outbreak, coup, protest, hostage, drone-strike, missile-strike, airstrike, evacuation
+- DO NOT include casualty counts (they change as the story develops). Wrong: "lebanon--strike--6-killed". Right: "lebanon--airstrike--south"
+- DO NOT include date or time
+- DO NOT include source-specific wording or framing
+- DO NOT use synonyms — if it's an airstrike, ALWAYS write "airstrike" (not "air-attack", "bombing", "strike-from-air")
+
+GOOD EXAMPLES:
+- "iran--drone-shot-down--strait-of-hormuz"
+- "japan--quake--ibaraki"
+- "argentina--hantavirus--ushuaia"
+- "lebanon--airstrike--south"
+- "ukraine--missile-strike--kharkiv"
+- "usa--mass-shooting--utah"
+
+BAD EXAMPLES (do not produce these):
+- "lebanon--six-killed-airstrike" (casualty count, wrong order)
+- "south-lebanon--israeli-strike" (sub-region, source perspective)
+- "lebanon--bombs-fall--3-dead" (synonym, casualty)
 
 Severity guide:
 - critical: mass casualties, major escalation, novel outbreak, nuclear/CBRN, large-scale attack

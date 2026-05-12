@@ -7,10 +7,12 @@ STATE_DIR = Path(__file__).resolve().parent.parent / "state"
 SEEN_FILE = STATE_DIR / "seen.json"
 TG_OFFSET_FILE = STATE_DIR / "telegram_offset.json"
 EVENT_SIGS_FILE = STATE_DIR / "event_signatures.json"
+DRAFTED_KEYS_FILE = STATE_DIR / "drafted_keys.json"
 MAX_SEEN_AGE_DAYS = 30
-EVENT_SIG_TTL_SECONDS = 3600  # event signatures expire after 1 hour
-BREAKING_WINDOW_SECONDS = 600  # cross-source detection window: 10 minutes
-BREAKING_MIN_SOURCES = 2  # how many distinct sources to trigger breaking
+EVENT_SIG_TTL_SECONDS = 3600  # 1 hour
+BREAKING_WINDOW_SECONDS = 600  # 10 minutes
+BREAKING_MIN_SOURCES = 2
+DRAFTED_KEY_TTL_SECONDS = 6 * 3600  # don't redraft same event_key within 6 hours
 
 
 def _ensure_dir():
@@ -104,3 +106,35 @@ def record_event_signature(sigs: list[dict], event_key: str, source: str):
     if not event_key:
         return
     sigs.append({"key": event_key, "source": source, "ts": int(time.time())})
+
+
+def load_drafted_keys() -> dict:
+    """Map of event_key → last drafted timestamp. Auto-pruned on load."""
+    _ensure_dir()
+    if not DRAFTED_KEYS_FILE.exists():
+        return {}
+    try:
+        data = json.loads(DRAFTED_KEYS_FILE.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    cutoff = time.time() - DRAFTED_KEY_TTL_SECONDS
+    return {k: v for k, v in data.items() if v >= cutoff}
+
+
+def save_drafted_keys(keys: dict):
+    _ensure_dir()
+    cutoff = time.time() - DRAFTED_KEY_TTL_SECONDS
+    pruned = {k: v for k, v in keys.items() if v >= cutoff}
+    DRAFTED_KEYS_FILE.write_text(json.dumps(pruned, indent=2, sort_keys=True), encoding="utf-8")
+
+
+def is_drafted(keys: dict, event_key: str) -> bool:
+    if not event_key:
+        return False
+    return event_key in keys
+
+
+def mark_drafted(keys: dict, event_key: str):
+    if not event_key:
+        return
+    keys[event_key] = int(time.time())
