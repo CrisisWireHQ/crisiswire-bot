@@ -1,30 +1,5 @@
 [
   {
-    "key": "pakistan--terror-attack-prevented--kohat",
-    "source": "GN: Terror Attack",
-    "ts": 1778561581
-  },
-  {
-    "key": "canada-alberta--wildfire-evacuation--north-central",
-    "source": "GN: Wildfire",
-    "ts": 1778561589
-  },
-  {
-    "key": "china--fireworks-factory-explosion--death-toll-37",
-    "source": "GN: Explosion",
-    "ts": 1778561600
-  },
-  {
-    "key": "lebanon--israeli-airstrikes--southern",
-    "source": "GN: Strike Attack",
-    "ts": 1778562050
-  },
-  {
-    "key": "usa--hantavirus-cruise-evacuation--nebraska",
-    "source": "GN: Outbreak",
-    "ts": 1778562056
-  },
-  {
     "key": "ukraine--russian-double-tap-strike--first-responders",
     "source": "GN: Strike Attack",
     "ts": 1778562075
@@ -63,5 +38,10 @@
     "key": "alberta--wildfire-evacuation-orders--north-central",
     "source": "GN: Wildfire",
     "ts": 1778565043
+  },
+  {
+    "key": "ukraine--russian-drone-attack--zhytomyr",
+    "source": "GN: Strike Attack",
+    "ts": 1778565653
   }
 ]
