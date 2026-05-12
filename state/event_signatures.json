@@ -1,20 +1,5 @@
 [
   {
-    "key": "nigeria--airstrike--zamfara",
-    "source": "GN: Strike Attack",
-    "ts": 1778577647
-  },
-  {
-    "key": "philippines--quake--pondaguitan",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778577648
-  },
-  {
-    "key": "china--explosion--fireworks-plant",
-    "source": "GN: Explosion",
-    "ts": 1778577658
-  },
-  {
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778578258
