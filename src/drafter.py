@@ -60,17 +60,27 @@ USE "reportedly" / "unconfirmed reports" ONLY when the source itself hedges (e.g
 OUTPUT: only the post text, or the single token SKIP. No quotes, no preamble, no commentary."""
 
 
-def draft(item: dict, is_breaking: bool = False) -> str:
-    breaking_note = (
-        "\n\nNOTE: This event has been cross-confirmed by 2+ independent sources within a 10-minute window — it is BREAKING. Lead with 🚨 (instead of a flag emoji) and convey urgency through tighter, more declarative phrasing. Still no hashtags, opinion, or speculation."
-        if is_breaking
-        else ""
-    )
+def draft(item: dict, is_breaking: bool = False, is_hantavirus: bool = False) -> str:
+    notes = []
+    if is_breaking:
+        notes.append(
+            "NOTE: This event is BREAKING (cross-confirmed by 2+ sources or from a trusted firehose). "
+            "Lead with 🚨 instead of a flag emoji. Tighter, more declarative phrasing."
+        )
+    if is_hantavirus:
+        notes.append(
+            "NOTE: This is a HANTAVIRUS item — a topic of explicit editorial interest. "
+            "DO NOT output SKIP. Even if the article is framed as analysis/reaction, "
+            "extract the most concrete factual angle available (e.g. passenger count, "
+            "vessel name, location, response action) and write a declarative post about "
+            "THAT angle. Use 🦠 as the lead emoji."
+        )
+    note_block = ("\n\n" + "\n\n".join(notes)) if notes else ""
     user = (
         f"Source: {item['source_name']}\n"
         f"Title: {item['title']}\n"
         f"Summary: {item['summary'][:1500]}"
-        f"{breaking_note}"
+        f"{note_block}"
     )
     msg = client().messages.create(
         model="claude-sonnet-4-6",

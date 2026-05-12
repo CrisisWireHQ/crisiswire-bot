@@ -250,7 +250,11 @@ def poll_and_draft() -> int:
             print(f"[enrich] fetch failed: {e}")
 
         try:
-            text = drafter.draft(item, is_breaking=is_breaking or is_hantavirus or is_trusted)
+            text = drafter.draft(
+                item,
+                is_breaking=is_breaking or is_trusted,
+                is_hantavirus=is_hantavirus,
+            )
         except Exception as e:
             print(f"[poll] draft error: {e}")
             continue
