@@ -1,10 +1,5 @@
 [
   {
-    "key": "canada-alberta--wildfire-evacuation--northwest-edmonton",
-    "source": "GN: Wildfire",
-    "ts": 1778564445
-  },
-  {
     "key": "india--m4.9-quake--nicobar-islands",
     "source": "USGS Quakes M4.5+",
     "ts": 1778565037
@@ -53,5 +48,15 @@
     "key": "california--hantavirus-cruise-ship--4-cases",
     "source": "GN: Outbreak",
     "ts": 1778567451
+  },
+  {
+    "key": "lebanon--israeli-airstrike--southern-6-dead",
+    "source": "GN: Strike Attack",
+    "ts": 1778568042
+  },
+  {
+    "key": "lebanon--israeli-strikes--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778568047
   }
 ]
