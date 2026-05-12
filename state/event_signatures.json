@@ -1,15 +1,5 @@
 [
   {
-    "key": "trusted-france-has-now-transferred-first",
-    "source": "X: @outbreakupdates",
-    "ts": 1778608191
-  },
-  {
-    "key": "ukraine--airstrike--dnipropetrovsk",
-    "source": "GN: Strike Attack",
-    "ts": 1778608246
-  },
-  {
     "key": "usa--tornado--hudson-florida",
     "source": "NOAA NWS Extreme",
     "ts": 1778608853
@@ -153,5 +143,20 @@
     "key": "usa--plane-crash--avon-maine",
     "source": "GN: Plane Crash",
     "ts": 1778611299
+  },
+  {
+    "key": "mali--attack--kati-sevare-gao-mopti",
+    "source": "ReliefWeb Updates",
+    "ts": 1778611874
+  },
+  {
+    "key": "nigeria--airstrike--market",
+    "source": "GN: Strike Attack",
+    "ts": 1778611883
+  },
+  {
+    "key": "pakistan--explosion--northwest-market",
+    "source": "GN: Explosion",
+    "ts": 1778611887
   }
 ]
