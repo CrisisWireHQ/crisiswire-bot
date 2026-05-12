@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--denver-airport-person-hit-by-plane--frontier-airlines",
-    "source": "Times of India World",
-    "ts": 1778559052
-  },
-  {
     "key": "nigeria--air-strike--katsina-abasu-aiki",
     "source": "GN: Strike Attack",
     "ts": 1778559061
@@ -93,5 +88,15 @@
     "key": "ukraine--russian-double-tap-strike--first-responders",
     "source": "GN: Strike Attack",
     "ts": 1778562075
+  },
+  {
+    "key": "lebanon--israeli-airstrikes--beirut-drone",
+    "source": "GN: Strike Attack",
+    "ts": 1778562648
+  },
+  {
+    "key": "lebanon--israeli-airstrikes--southern-casualties",
+    "source": "GN: Strike Attack",
+    "ts": 1778562652
   }
 ]
