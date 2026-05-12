@@ -55,13 +55,42 @@ jobs:
 
       - name: Commit state
         run: |
+          set -e
           git config user.name "crisiswire-bot"
           git config user.email "bot@crisiswire.local"
+
+          # If nothing changed, bail
           git add state/
-          if ! git diff --staged --quiet; then
-            git commit -m "state: update [skip ci]"
-            git pull --rebase origin ${{ github.ref_name }} || true
-            git push
-          else
+          if git diff --staged --quiet; then
             echo "no state changes"
+            exit 0
           fi
+
+          git commit -m "state: update [skip ci]"
+
+          # Retry push with smart-merge on conflict (concurrent runs write state)
+          for attempt in 1 2 3 4 5; do
+            if git push 2>/dev/null; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "push rejected (attempt $attempt); smart-merging with remote..."
+
+            # Stash our state files, reset to remote, restore, then merge
+            mkdir -p /tmp/local_state
+            cp state/*.json /tmp/local_state/ 2>/dev/null || true
+            git fetch origin
+            git reset --hard origin/${{ github.ref_name }}
+            cp /tmp/local_state/*.json state/ 2>/dev/null || true
+            python tools/merge_state.py
+
+            git add state/
+            if git diff --staged --quiet; then
+              echo "nothing new after merge; done"
+              exit 0
+            fi
+            git commit -m "state: update [skip ci]"
+          done
+
+          echo "push failed after 5 attempts; abandoning state changes (next run will resync)"
+          exit 0
