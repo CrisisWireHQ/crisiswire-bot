@@ -1,10 +1,5 @@
 [
   {
-    "key": "canada--fire--woodlands-county",
-    "source": "GN: Wildfire",
-    "ts": 1778621457
-  },
-  {
     "key": "tonga--quake--houma",
     "source": "USGS Quakes M4.5+",
     "ts": 1778622042
