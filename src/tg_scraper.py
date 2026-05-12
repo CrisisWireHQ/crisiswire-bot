@@ -1,8 +1,25 @@
+import re
 import requests
 from bs4 import BeautifulSoup
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 PREVIEW = "https://t.me/s/{channel}"
+_BG_IMG_RE = re.compile(r"background-image\s*:\s*url\(['\"]?([^'\"\)]+)['\"]?\)")
+
+
+def _extract_image(block) -> str:
+    photo = block.select_one("a.tgme_widget_message_photo_wrap")
+    if photo and photo.get("style"):
+        m = _BG_IMG_RE.search(photo["style"])
+        if m:
+            return m.group(1).strip()
+    # Video preview thumbnail
+    video = block.select_one("a.tgme_widget_message_video_thumb")
+    if video and video.get("style"):
+        m = _BG_IMG_RE.search(video["style"])
+        if m:
+            return m.group(1).strip()
+    return ""
 
 
 def fetch_channel(channel: str, max_messages: int = 15) -> list[dict]:
@@ -25,13 +42,14 @@ def fetch_channel(channel: str, max_messages: int = 15) -> list[dict]:
         link = date_a.get("href", "").strip() if date_a else ""
         time_el = block.select_one("time")
         published = time_el.get("datetime", "") if time_el else ""
+        image_url = _extract_image(block)
 
-        # First sentence-ish as title; full text as summary.
         title = text.split("\n")[0][:200]
         out.append({
             "title": title,
             "summary": text[:1500],
             "link": link,
             "published": published,
+            "image_url": image_url,
         })
     return out

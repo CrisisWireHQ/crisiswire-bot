@@ -1,4 +1,5 @@
 import os
+import re
 import time
 import calendar
 from datetime import datetime, timezone
@@ -6,6 +7,37 @@ from datetime import datetime, timezone
 import feedparser
 from .sources import SOURCES
 from . import tg_scraper
+
+_IMG_TAG_RE = re.compile(r'<img[^>]+src=["\']([^"\']+)["\']', re.IGNORECASE)
+
+
+def _extract_rss_image(entry) -> str:
+    media = entry.get("media_content")
+    if media:
+        for m in media:
+            url = m.get("url") if isinstance(m, dict) else None
+            if url:
+                return url
+    thumb = entry.get("media_thumbnail")
+    if thumb:
+        for t in thumb:
+            url = t.get("url") if isinstance(t, dict) else None
+            if url:
+                return url
+    enclosures = entry.get("enclosures") or []
+    for e in enclosures:
+        if not isinstance(e, dict):
+            continue
+        if (e.get("type") or "").startswith("image/"):
+            url = e.get("href") or e.get("url")
+            if url:
+                return url
+    summary = entry.get("summary", "") or entry.get("description", "")
+    if summary:
+        m = _IMG_TAG_RE.search(summary)
+        if m:
+            return m.group(1)
+    return ""
 
 PER_SOURCE_LIMIT = 15
 MAX_AGE_HOURS = float(os.environ.get("MAX_AGE_HOURS", "3"))
@@ -63,6 +95,7 @@ def _from_rss(src: dict) -> list[dict]:
             "link": link,
             "published": entry.get("published", ""),
             "ts": ts,
+            "image_url": _extract_rss_image(entry),
         })
         kept += 1
         if kept >= PER_SOURCE_LIMIT:
@@ -87,6 +120,7 @@ def _from_tg(src: dict) -> list[dict]:
             "link": m["link"],
             "published": m["published"],
             "ts": ts,
+            "image_url": m.get("image_url", ""),
         })
         kept += 1
         if kept >= PER_SOURCE_LIMIT:

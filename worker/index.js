@@ -1,16 +1,16 @@
 // Cloudflare Worker: Telegram webhook handler for @CrisisWireHQ bot.
 //
 // Flow:
-//  1. Telegram POSTs callback_query to this Worker when user taps a button.
-//  2. Worker validates the secret token, answers the callback (toast),
-//     edits the message ("⏳ POSTING..." / "❌ REJECTED"), and for approvals
-//     triggers a GitHub repository_dispatch event that runs the X poster.
+//  1. Telegram POSTs callback_query when user taps a button.
+//  2. Worker validates the secret token, answers callback (toast),
+//     edits the message (or caption if photo), and on approval
+//     triggers a GitHub repository_dispatch to run the X poster.
 //
-// Required secrets (set via Cloudflare dashboard or `wrangler secret put`):
-//   TELEGRAM_BOT_TOKEN     — from BotFather
-//   TELEGRAM_SECRET_TOKEN  — arbitrary string; same value used in setWebhook
-//   GITHUB_TOKEN           — PAT with `repo` (or `public_repo`) scope
-//   GITHUB_REPO            — e.g. "CrisisWireHQ/crisiswire-bot"
+// Secrets (set via Cloudflare dashboard or `wrangler secret put`):
+//   TELEGRAM_BOT_TOKEN
+//   TELEGRAM_SECRET_TOKEN
+//   GITHUB_TOKEN
+//   GITHUB_REPO  (e.g. "CrisisWireHQ/crisiswire-bot")
 
 export default {
   async fetch(request, env) {
@@ -18,7 +18,6 @@ export default {
       return new Response("Crisis Wire webhook OK", { status: 200 });
     }
 
-    // Validate Telegram secret token (prevents random POST spam)
     const secret = request.headers.get("x-telegram-bot-api-secret-token");
     if (secret !== env.TELEGRAM_SECRET_TOKEN) {
       return new Response("forbidden", { status: 403 });
@@ -33,7 +32,6 @@ export default {
 
     const cb = update.callback_query;
     if (!cb) {
-      // Not a callback (probably a /command or text). Ignore for now.
       return new Response("ignored", { status: 200 });
     }
 
@@ -42,27 +40,34 @@ export default {
     const chatId = msg.chat?.id;
     const messageId = msg.message_id;
     const callbackId = cb.id;
-    const msgText = msg.text || "";
+    const msgText = msg.text || msg.caption || "";
+    const isPhoto = !!msg.photo;
 
     const tg = `https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}`;
+    const editEndpoint = isPhoto ? "editMessageCaption" : "editMessageText";
+    const editKey = isPhoto ? "caption" : "text";
+
+    const editPayload = (newText) => {
+      const p = {
+        chat_id: chatId,
+        message_id: messageId,
+        [editKey]: newText.slice(0, isPhoto ? 1024 : 4000),
+      };
+      if (!isPhoto) p.disable_web_page_preview = true;
+      return p;
+    };
 
     if (action === "ok") {
-      // Fire all three in parallel for max speed
       await Promise.all([
         fetch(`${tg}/answerCallbackQuery`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ callback_query_id: callbackId, text: "Queued ✓" }),
         }),
-        fetch(`${tg}/editMessageText`, {
+        fetch(`${tg}/${editEndpoint}`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            chat_id: chatId,
-            message_id: messageId,
-            text: `⏳ POSTING...\n\n${msgText}`,
-            disable_web_page_preview: true,
-          }),
+          body: JSON.stringify(editPayload(`⏳ POSTING...\n\n${msgText}`)),
         }),
         fetch(`https://api.github.com/repos/${env.GITHUB_REPO}/dispatches`, {
           method: "POST",
@@ -79,6 +84,7 @@ export default {
               chat_id: chatId,
               message_id: messageId,
               msg_text: msgText,
+              is_photo: isPhoto,
             },
           }),
         }),
@@ -90,19 +96,13 @@ export default {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ callback_query_id: callbackId, text: "Rejected." }),
         }),
-        fetch(`${tg}/editMessageText`, {
+        fetch(`${tg}/${editEndpoint}`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            chat_id: chatId,
-            message_id: messageId,
-            text: `❌ REJECTED\n\n${msgText}`,
-            disable_web_page_preview: true,
-          }),
+          body: JSON.stringify(editPayload(`❌ REJECTED\n\n${msgText}`)),
         }),
       ]);
     } else {
-      // Unknown action — just dismiss the loading spinner.
       await fetch(`${tg}/answerCallbackQuery`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },

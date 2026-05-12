@@ -39,16 +39,17 @@ def process_approvals() -> tuple[int, int]:
 
         action = cb.get("data", "")
         msg = cb.get("message") or {}
-        msg_text = msg.get("text", "")
+        msg_text = msg.get("text") or msg.get("caption") or ""
+        is_photo = bool(msg.get("photo"))
         chat_id = (msg.get("chat") or {}).get("id")
         message_id = msg.get("message_id")
         callback_id = cb.get("id")
 
         if action == "ok":
-            posted += _do_post_from_msg(msg_text, chat_id, message_id, callback_id)
+            posted += _do_post_from_msg(msg_text, chat_id, message_id, callback_id, is_photo=is_photo)
         elif action == "no":
             telegram_io.answer_callback(callback_id, "Rejected.")
-            telegram_io.edit_message(chat_id, message_id, f"❌ REJECTED\n\n{msg_text}")
+            telegram_io.edit_message(chat_id, message_id, f"❌ REJECTED\n\n{msg_text}", is_photo=is_photo)
             rejected += 1
 
         state.save_tg_offset(new_offset)
@@ -56,26 +57,32 @@ def process_approvals() -> tuple[int, int]:
     return (posted, rejected)
 
 
-def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None) -> int:
-    """Extract draft from message text, post to X, edit Telegram message. Returns 1 on success."""
+def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_photo: bool = False) -> int:
+    """Extract draft from message text, post to X (with image if present), edit Telegram message."""
     draft_text = telegram_io.extract_draft_from_message(msg_text)
+    image_url = telegram_io.extract_image_url_from_message(msg_text)
     if not draft_text:
         if callback_id:
             telegram_io.answer_callback(callback_id, "Could not parse draft.")
-        telegram_io.edit_message(chat_id, message_id, f"⚠️ PARSE FAILED\n\n{msg_text}")
+        telegram_io.edit_message(chat_id, message_id, f"⚠️ PARSE FAILED\n\n{msg_text}", is_photo=is_photo)
         return 0
     try:
-        result = x_poster.post(draft_text)
+        result = x_poster.post(draft_text, image_url=image_url)
         tweet_url = f"https://x.com/CrisisWireHQ/status/{result['id']}"
+        media_tag = "🖼 with image" if result.get("had_image") else "📝 text only"
         if callback_id:
             telegram_io.answer_callback(callback_id, "Posted ✓")
-        telegram_io.edit_message(chat_id, message_id, f"✅ POSTED\n\n{draft_text}\n\n{tweet_url}")
+        telegram_io.edit_message(
+            chat_id, message_id,
+            f"✅ POSTED ({media_tag})\n\n{draft_text}\n\n{tweet_url}",
+            is_photo=is_photo,
+        )
         return 1
     except Exception as e:
         print(f"[post] X post failed: {e}")
         if callback_id:
             telegram_io.answer_callback(callback_id, f"X error: {str(e)[:150]}")
-        telegram_io.edit_message(chat_id, message_id, f"❌ POST FAILED: {e}\n\n{msg_text}")
+        telegram_io.edit_message(chat_id, message_id, f"❌ POST FAILED: {e}\n\n{msg_text}", is_photo=is_photo)
         return 0
 
 
@@ -96,12 +103,13 @@ def process_webhook_approval() -> int:
     msg_text = payload.get("msg_text", "")
     chat_id = payload.get("chat_id")
     message_id = payload.get("message_id")
+    is_photo = bool(payload.get("is_photo"))
 
     if not msg_text or chat_id is None or message_id is None:
         print(f"[webhook] incomplete payload: chat={chat_id} msg_id={message_id} text_len={len(msg_text)}")
         return 0
 
-    posted = _do_post_from_msg(msg_text, chat_id, message_id)
+    posted = _do_post_from_msg(msg_text, chat_id, message_id, is_photo=is_photo)
     print(f"[webhook] posted={posted}")
     return posted
 
