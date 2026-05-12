@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778590280
-  },
-  {
-    "key": "usa--hantavirus--cruise-ship",
-    "source": "GN: Breaking News",
-    "ts": 1778590876
-  },
-  {
     "key": "pakistan--explosion--market",
     "source": "GN: Explosion",
     "ts": 1778591447
@@ -63,5 +53,30 @@
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778593872
+  },
+  {
+    "key": "usa--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778594483
+  },
+  {
+    "key": "usa--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778594489
+  },
+  {
+    "key": "usa--explosion--haulover-sandbar",
+    "source": "GN: Explosion",
+    "ts": 1778594491
+  },
+  {
+    "key": "lebanon--airstrike--kfardounine",
+    "source": "GN: Strike Attack",
+    "ts": 1778594499
+  },
+  {
+    "key": "usa--quake-swarm--southern-california",
+    "source": "GN: Earthquake",
+    "ts": 1778594501
   }
 ]
