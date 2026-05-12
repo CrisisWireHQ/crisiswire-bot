@@ -1,20 +1,5 @@
 [
   {
-    "key": "indonesia--quake--tobelo",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778617251
-  },
-  {
-    "key": "netherlands--hantavirus--mv-hondius",
-    "source": "France 24 Intl",
-    "ts": 1778617255
-  },
-  {
-    "key": "usa--hantavirus--kansas-cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778617285
-  },
-  {
     "key": "canada--fire--woodlands-county",
     "source": "GN: Wildfire",
     "ts": 1778617299
