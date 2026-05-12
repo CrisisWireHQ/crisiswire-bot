@@ -1,30 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778584263
-  },
-  {
-    "key": "spain--hantavirus--cruise-ship-hondius",
-    "source": "Guardian World",
-    "ts": 1778584265
-  },
-  {
-    "key": "spain--outbreak--hantavirus",
-    "source": "GN: Outbreak",
-    "ts": 1778584272
-  },
-  {
-    "key": "pakistan--explosion--sarai-naurang",
-    "source": "Al Jazeera",
-    "ts": 1778584278
-  },
-  {
-    "key": "somalia--flood--middle-shabelle-togdheer-galgaduud",
-    "source": "ReliefWeb Updates",
-    "ts": 1778584285
-  },
-  {
     "key": "france--hantavirus--national",
     "source": "France 24 Intl",
     "ts": 1778584852
