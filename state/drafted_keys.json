@@ -7,11 +7,11 @@
   "greece--drone-strike--island": 1778592055,
   "kuwait--attack--bubiyan-island": 1778591457,
   "lebanon--airstrike--al-nabatieh": 1778595671,
+  "lebanon--airstrike--nabatieh": 1778608875,
   "lebanon--airstrike--south": 1778593875,
   "lebanon--airstrike--tyre": 1778597457,
   "pakistan--explosion--northwest": 1778595675,
   "pakistan--explosion--northwest-bazaar": 1778604344,
-  "pakistan--severe-weather--khyber-pakhtunkhwa": 1778587278,
   "palestine--attack--west-bank-east-jerusalem": 1778593869,
   "palestinian-territories--raid--ramallah": 1778592066,
   "panama--hantavirus--cruise-ship": 1778598072,
@@ -34,5 +34,6 @@
   "usa--fire--wickenburg-arizona": 1778605857,
   "usa--hantavirus--cruise-ship": 1778594486,
   "usa--hantavirus--maryland-virginia": 1778590275,
-  "usa--plane-crash--avon-maine": 1778606459
+  "usa--plane-crash--avon-maine": 1778606459,
+  "usa--tornado--hudson-florida": 1778608857
 }

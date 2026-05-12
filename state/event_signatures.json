@@ -1,10 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778605283
-  },
-  {
     "key": "canada--fire--whitecourt-alberta",
     "source": "GN: Wildfire",
     "ts": 1778605293
@@ -123,5 +118,20 @@
     "key": "ukraine--airstrike--dnipropetrovsk",
     "source": "GN: Strike Attack",
     "ts": 1778608246
+  },
+  {
+    "key": "usa--tornado--hudson-florida",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778608853
+  },
+  {
+    "key": "canada--fire--whitecourt",
+    "source": "GN: Wildfire",
+    "ts": 1778608869
+  },
+  {
+    "key": "lebanon--airstrike--nabatieh",
+    "source": "BBC World",
+    "ts": 1778608872
   }
 ]
