@@ -1,4 +1,5 @@
 {
+  "australia--crash--melbourne-offshore": 1778617852,
   "canada--fire--whitecourt-alberta": 1778605296,
   "canada--fire--woodland-county-whitecourt": 1778598654,
   "canada--fire--woodlands-county": 1778613082,
@@ -9,6 +10,7 @@
   "lebanon--airstrike--nabatieh": 1778608875,
   "lebanon--airstrike--tyre": 1778597457,
   "nigeria--airstrike--market": 1778611886,
+  "nigeria--airstrike--zamfara": 1778617886,
   "pakistan--explosion--northwest-bazaar": 1778604344,
   "pakistan--explosion--northwest-market": 1778610675,
   "panama--hantavirus--cruise-ship": 1778598072,
@@ -36,6 +38,7 @@
   "usa--hantavirus--kansas-cruise-ship": 1778617288,
   "usa--hantavirus--repatriation-flight": 1778609456,
   "usa--plane-crash--avon-maine": 1778606459,
+  "usa--plane-crash--maine-avon": 1778617861,
   "usa--tornado--hudson-florida": 1778608857,
   "usa--tornado--pasco-hernando-florida": 1778610657
 }
