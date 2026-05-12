@@ -1,10 +1,5 @@
 [
   {
-    "key": "philadelphia--bagel-bakery-explosion--second-incident",
-    "source": "GN: Explosion",
-    "ts": 1778563842
-  },
-  {
     "key": "canada-alberta--wildfire-evacuation--northwest-edmonton",
     "source": "GN: Wildfire",
     "ts": 1778564445
@@ -53,5 +48,10 @@
     "key": "maine--plane-crash--victims-identified",
     "source": "GN: Plane Crash",
     "ts": 1778566852
+  },
+  {
+    "key": "california--hantavirus-cruise-ship--4-cases",
+    "source": "GN: Outbreak",
+    "ts": 1778567451
   }
 ]
