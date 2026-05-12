@@ -35,7 +35,15 @@ EXCLUDE (mark as not relevant):
 A news item must report a SPECIFIC EVENT that just happened. If you're not sure what concrete thing occurred, it's not breaking news.
 
 Respond ONLY with raw JSON (no markdown fences, no prose):
-{"relevant": <bool>, "severity": "critical"|"major"|"minor", "category": "conflict"|"disaster"|"outbreak"|"unrest"|"attack"|"other", "reason": "<short>"}
+{"relevant": <bool>, "severity": "critical"|"major"|"minor", "category": "conflict"|"disaster"|"outbreak"|"unrest"|"attack"|"other", "event_key": "<slug>", "reason": "<short>"}
+
+event_key: a stable lowercase slug identifying the SPECIFIC event, suitable for matching the same event across different news sources. Format: country-or-region--what-happened--key-detail. Examples:
+- "iran--us-drone-shot-down--strait-of-hormuz"
+- "japan--m6.3-quake--ibaraki"
+- "argentina--hantavirus-cluster--ushuaia"
+- "lebanon--israeli-strikes--south"
+- "russia--ukraine-drone-strike--belgorod"
+Keep it 3-6 hyphenated segments. Use the event itself, NOT the publication date. Two news items describing the same real-world event MUST produce the same event_key.
 
 Severity guide:
 - critical: mass casualties, major escalation, novel outbreak, nuclear/CBRN, large-scale attack
@@ -66,7 +74,8 @@ def classify(item: dict) -> dict:
         result.setdefault("relevant", False)
         result.setdefault("severity", "minor")
         result.setdefault("category", "other")
+        result.setdefault("event_key", "")
         result.setdefault("reason", "")
         return result
     except json.JSONDecodeError:
-        return {"relevant": False, "severity": "minor", "category": "other", "reason": "parse_error"}
+        return {"relevant": False, "severity": "minor", "category": "other", "event_key": "", "reason": "parse_error"}

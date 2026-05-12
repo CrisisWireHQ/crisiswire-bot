@@ -27,11 +27,17 @@ FORMAT:
 OUTPUT: Only the post text. No quotes around it, no preamble, no commentary."""
 
 
-def draft(item: dict) -> str:
+def draft(item: dict, is_breaking: bool = False) -> str:
+    breaking_note = (
+        "\n\nNOTE: This event has been cross-confirmed by 2+ independent sources within a 10-minute window — it is BREAKING. Lead with 🚨 (instead of a flag emoji) and convey urgency through tighter, more declarative phrasing. Still no hashtags, opinion, or speculation."
+        if is_breaking
+        else ""
+    )
     user = (
         f"Source: {item['source_name']}\n"
         f"Title: {item['title']}\n"
         f"Summary: {item['summary'][:1500]}"
+        f"{breaking_note}"
     )
     msg = client().messages.create(
         model="claude-sonnet-4-6",

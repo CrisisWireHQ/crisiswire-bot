@@ -110,6 +110,7 @@ def poll_and_draft() -> int:
     items = poller.fetch_all()
     print(f"[poll] {len(items)} items fetched")
     seen = state.load_seen()
+    sigs = state.load_event_signatures()
     drafted = 0
 
     for item in items:
@@ -128,11 +129,23 @@ def poll_and_draft() -> int:
         if not cls.get("relevant"):
             continue
 
-        if cls.get("severity") == "minor" and item.get("tier", 3) > 1:
+        # Cross-source breaking detection: record this signature, then check
+        # whether 2+ distinct sources have reported the same event_key recently.
+        event_key = cls.get("event_key", "")
+        is_breaking, source_count, source_list = state.check_breaking(sigs, event_key, item["source_name"])
+        state.record_event_signature(sigs, event_key, item["source_name"])
+        cls["is_breaking"] = is_breaking
+        cls["confirming_sources"] = source_list
+
+        if is_breaking:
+            print(f"[breaking] {event_key!r} confirmed by {source_count} sources: {source_list}")
+
+        # Drop minor severity from non-tier-1 sources, UNLESS marked breaking
+        if cls.get("severity") == "minor" and item.get("tier", 3) > 1 and not is_breaking:
             continue
 
         try:
-            text = drafter.draft(item)
+            text = drafter.draft(item, is_breaking=is_breaking)
         except Exception as e:
             print(f"[poll] draft error: {e}")
             continue
@@ -144,11 +157,13 @@ def poll_and_draft() -> int:
         try:
             telegram_io.send_draft(text, item, cls)
             drafted += 1
-            print(f"[poll] DRAFTED: {text[:80]}")
+            tag = "🚨 BREAKING " if is_breaking else ""
+            print(f"[poll] {tag}DRAFTED: {text[:80]}")
         except Exception as e:
             print(f"[poll] telegram send error: {e}")
 
     state.save_seen(seen)
+    state.save_event_signatures(sigs)
     return drafted
 
 

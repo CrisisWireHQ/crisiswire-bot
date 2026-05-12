@@ -13,11 +13,21 @@ def send_draft(draft_text: str, item: dict, classification: dict) -> dict:
     char_count = len(draft_text)
     char_bar = "🟢" if char_count <= 240 else ("🟡" if char_count <= 270 else "🔴")
     severity_icon = {"critical": "🔴", "major": "🟠", "minor": "🟡"}.get(classification.get("severity", ""), "⚪")
+    is_breaking = classification.get("is_breaking", False)
+    confirming = classification.get("confirming_sources", [])
+
+    header = "🚨🚨🚨 BREAKING — CROSS-CONFIRMED 🚨🚨🚨" if is_breaking else "📝 CRISIS WIRE DRAFT"
+    breaking_line = (
+        f"⚡ Confirmed by {len(confirming)} sources: {', '.join(confirming)}\n"
+        if is_breaking
+        else ""
+    )
     body = (
-        f"📝 CRISIS WIRE DRAFT\n"
+        f"{header}\n"
         f"{DRAFT_SEP}\n"
         f"{draft_text}\n"
         f"{DRAFT_SEP}\n"
+        f"{breaking_line}"
         f"{char_bar} {char_count}/280  •  {severity_icon} {classification.get('severity','?')}  •  🏷  {classification.get('category','?')}\n"
         f"📡 {item['source_name']}\n"
         f"🔗 {item['link']}"
