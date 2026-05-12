@@ -108,5 +108,20 @@
     "key": "trusted-cia-officers-facilitated-targeted-car",
     "source": "TG: Faytuks Network",
     "ts": 1778619946
+  },
+  {
+    "key": "usa--hantavirus--north-carolina",
+    "source": "GN: Outbreak",
+    "ts": 1778620244
+  },
+  {
+    "key": "iran--quake--tehran",
+    "source": "GN: Earthquake",
+    "ts": 1778620248
+  },
+  {
+    "key": "iran--quake--tehran",
+    "source": "TASS English",
+    "ts": 1778620267
   }
 ]
