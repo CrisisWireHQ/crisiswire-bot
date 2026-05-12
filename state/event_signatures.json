@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--plane-crash--avon-maine",
-    "source": "GN: Plane Crash",
-    "ts": 1778606456
-  },
-  {
-    "key": "usa--crash--maine-avon",
-    "source": "GN: Plane Crash",
-    "ts": 1778606462
-  },
-  {
     "key": "trusted-israeli-security-officials-have-told",
     "source": "TG: Faytuks Network",
     "ts": 1778606745
@@ -143,5 +133,20 @@
     "key": "trusted-breaking-saudi-arabia-carried-out",
     "source": "TG: Faytuks Network",
     "ts": 1778609795
+  },
+  {
+    "key": "usa--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778610088
+  },
+  {
+    "key": "n/a",
+    "source": "GN: Outbreak",
+    "ts": 1778610104
+  },
+  {
+    "key": "canada--fire--northern-british-columbia",
+    "source": "GN: Wildfire",
+    "ts": 1778610115
   }
 ]
