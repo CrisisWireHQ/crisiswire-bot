@@ -1,15 +1,5 @@
 [
   {
-    "key": "australia--crash--melbourne-offshore",
-    "source": "GN: Breaking News",
-    "ts": 1778617848
-  },
-  {
-    "key": "usa--plane-crash--maine-avon",
-    "source": "GN: Plane Crash",
-    "ts": 1778617857
-  },
-  {
     "key": "nigeria--airstrike--zamfara",
     "source": "GN: Strike Attack",
     "ts": 1778617883
@@ -118,5 +108,10 @@
     "key": "usa--fire--wickenburg-arizona",
     "source": "GN: Wildfire",
     "ts": 1778621007
+  },
+  {
+    "key": "canada--fire--woodlands-county",
+    "source": "GN: Wildfire",
+    "ts": 1778621457
   }
 ]
