@@ -128,10 +128,31 @@ def save_drafted_keys(keys: dict):
     DRAFTED_KEYS_FILE.write_text(json.dumps(pruned, indent=2, sort_keys=True), encoding="utf-8")
 
 
+def _coarse_key(event_key: str) -> str:
+    """First 2 segments of the event_key (country + event-type), used for
+    fuzzy dedup so near-duplicates with different last-segment details
+    still collide."""
+    if not event_key:
+        return ""
+    parts = event_key.split("--")
+    if len(parts) >= 2:
+        return "--".join(parts[:2])
+    return event_key
+
+
 def is_drafted(keys: dict, event_key: str) -> bool:
+    """True if event_key OR its coarse form (country+event-type) was drafted recently."""
     if not event_key:
         return False
-    return event_key in keys
+    if event_key in keys:
+        return True
+    coarse = _coarse_key(event_key)
+    if not coarse:
+        return False
+    for k in keys:
+        if _coarse_key(k) == coarse:
+            return True
+    return False
 
 
 def mark_drafted(keys: dict, event_key: str):

@@ -280,7 +280,18 @@ def poll_and_draft() -> int:
             seen.pop(state.url_hash(item["link"]), None)
             continue
 
-        if not text or text.strip().upper() == "SKIP":
+        # Drafter SKIP detection: treat the whole response as a skip if ANY
+        # standalone line is just "SKIP" (Claude sometimes writes a draft body
+        # AND then appends SKIP with reasoning — the SKIP wins).
+        def _is_skip(t: str) -> bool:
+            if not t:
+                return True
+            for line in t.strip().split("\n"):
+                if line.strip().upper() == "SKIP":
+                    return True
+            return False
+
+        if _is_skip(text):
             print(f"[poll] drafter SKIPped: {item['title'][:80]!r}")
             continue
         if len(text) > 280:
