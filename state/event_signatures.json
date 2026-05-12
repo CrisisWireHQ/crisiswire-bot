@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--cruise",
-    "source": "GN: Outbreak",
-    "ts": 1778598065
-  },
-  {
-    "key": "nigeria--airstrike--zamfara",
-    "source": "GN: Strike Attack",
-    "ts": 1778598068
-  },
-  {
-    "key": "panama--hantavirus--cruise-ship",
-    "source": "GN: Wildfire",
-    "ts": 1778598069
-  },
-  {
     "key": "canada--fire--woodland-county-whitecourt",
     "source": "GN: Wildfire",
     "ts": 1778598651
@@ -38,5 +23,15 @@
     "key": "dominican-republic--flooding--northwest",
     "source": "ReliefWeb Updates",
     "ts": 1778601044
+  },
+  {
+    "key": "solomon-islands--quake--lata",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778601656
+  },
+  {
+    "key": "null",
+    "source": "GN: Outbreak",
+    "ts": 1778601664
   }
 ]
