@@ -48,5 +48,20 @@
     "key": "japan--earthquake--tokyo",
     "source": "GN: Earthquake",
     "ts": 1778560268
+  },
+  {
+    "key": "russia--m4.5-quake--kamchatka-petropavlovsk",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778560843
+  },
+  {
+    "key": "uganda--floods--bukedea-kamutur",
+    "source": "ReliefWeb Updates",
+    "ts": 1778560881
+  },
+  {
+    "key": "us-bootheel--m4.0-earthquake--missouri-arkansas",
+    "source": "GN: Earthquake",
+    "ts": 1778560886
   }
 ]
