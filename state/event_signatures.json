@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--crash--maine",
-    "source": "GN: Plane Crash",
-    "ts": 1778625642
-  },
-  {
-    "key": "usa--hostage--iowa",
-    "source": "GN: Hostage",
-    "ts": 1778625647
-  },
-  {
     "key": "usa--hantavirus--cruise-ship",
     "source": "GN: Breaking News",
     "ts": 1778626248
