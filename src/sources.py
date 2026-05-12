@@ -9,6 +9,7 @@ SOURCES = [
     {"name": "ReliefWeb Updates", "type": "rss", "url": "https://reliefweb.int/updates/rss.xml", "tier": 1, "category": "humanitarian"},
     {"name": "NOAA NWS Extreme", "type": "rss", "url": "https://api.weather.gov/alerts/active.atom?severity=Extreme", "tier": 1, "category": "disaster"},
     {"name": "USGS Volcanoes", "type": "rss", "url": "https://volcanoes.usgs.gov/vhpss/notices_rss.php", "tier": 1, "category": "disaster"},
+    {"name": "CDC EID Journal", "type": "rss", "url": "https://wwwnc.cdc.gov/eid/rss/upcoming.xml", "tier": 1, "category": "outbreak"},
 
     # =====================================================================
     # Tier 2 — Major wire-style international news (English)
@@ -22,7 +23,15 @@ SOURCES = [
     {"name": "Guardian World", "type": "rss", "url": "https://www.theguardian.com/world/rss", "tier": 2, "category": "news"},
     {"name": "CBS News World", "type": "rss", "url": "https://www.cbsnews.com/latest/rss/world", "tier": 2, "category": "news"},
     {"name": "Times of India World", "type": "rss", "url": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms", "tier": 2, "category": "news"},
-    # Removed: CNN World (last item Apr 2023), NHK World (blocks scrapers), Kyodo News (URL dead), ProMED (URL dead)
+
+    # Pro replacements added 2026-05 (after CNN/NHK/Kyodo/ProMED removed)
+    {"name": "Channel News Asia", "type": "rss", "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6511", "tier": 2, "category": "news"},
+    {"name": "Straits Times World", "type": "rss", "url": "https://www.straitstimes.com/news/world/rss.xml", "tier": 2, "category": "news"},
+    {"name": "Times of Israel", "type": "rss", "url": "https://www.timesofisrael.com/feed/", "tier": 2, "category": "conflict"},
+    {"name": "Jerusalem Post", "type": "rss", "url": "https://www.jpost.com/rss/rssfeedsfrontpage.aspx", "tier": 2, "category": "conflict"},
+    {"name": "Defense News", "type": "rss", "url": "https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml", "tier": 2, "category": "conflict"},
+    {"name": "TASS English", "type": "rss", "url": "https://tass.com/rss/v2.xml", "tier": 2, "category": "news"},
+    {"name": "Politico Playbook", "type": "rss", "url": "https://rss.politico.com/playbook.xml", "tier": 2, "category": "news"},
 
     # =====================================================================
     # Tier 2 — Google News topic-tracking queries (broad capture, recent only)
@@ -40,8 +49,9 @@ SOURCES = [
     {"name": "GN: Strike Attack", "type": "rss", "url": "https://news.google.com/rss/search?q=%22airstrike%22+OR+%22missile+strike%22+when:6h&hl=en-US&gl=US&ceid=US:en", "tier": 2, "category": "conflict"},
 
     # =====================================================================
-    # Tier 3 — Specialized (ProMED RSS deprecated; no working URL found)
+    # Tier 3 — Specialized
     # =====================================================================
+    {"name": "Avian Flu Diary", "type": "rss", "url": "https://afludiary.blogspot.com/feeds/posts/default?alt=rss", "tier": 3, "category": "outbreak"},
 
     # =====================================================================
     # Tier 2 — OSINT mirrors (public Telegram channels via t.me/s/)

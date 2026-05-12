@@ -61,6 +61,15 @@ OUTLET_MAP = {
     "rt.com": "RT",
     "sputnikglobe.com": "Sputnik",
     "tass.com": "TASS",
+    "channelnewsasia.com": "Channel News Asia",
+    "straitstimes.com": "Straits Times",
+    "timesofisrael.com": "Times of Israel",
+    "jpost.com": "Jerusalem Post",
+    "defensenews.com": "Defense News",
+    "politico.com": "Politico",
+    "afludiary.blogspot.com": "Avian Flu Diary",
+    "cdc.gov": "CDC",
+    "wwwnc.cdc.gov": "CDC",
 }
 
 
