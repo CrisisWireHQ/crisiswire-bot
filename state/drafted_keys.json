@@ -12,6 +12,7 @@
   "lebanon--airstrike--tyre": 1778597457,
   "pakistan--explosion--northwest": 1778595675,
   "pakistan--explosion--northwest-bazaar": 1778604344,
+  "pakistan--explosion--northwest-market": 1778610675,
   "palestine--attack--west-bank-east-jerusalem": 1778593869,
   "palestinian-territories--raid--ramallah": 1778592066,
   "panama--hantavirus--cruise-ship": 1778598072,
@@ -37,5 +38,6 @@
   "usa--hantavirus--maryland-virginia": 1778590275,
   "usa--hantavirus--repatriation-flight": 1778609456,
   "usa--plane-crash--avon-maine": 1778606459,
-  "usa--tornado--hudson-florida": 1778608857
+  "usa--tornado--hudson-florida": 1778608857,
+  "usa--tornado--pasco-hernando-florida": 1778610657
 }
