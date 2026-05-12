@@ -12,7 +12,17 @@ permissions:
   contents: write
 
 concurrency:
-  group: crisiswire-bot
+  # Per-event-type concurrency groups so the 1-min trusted-only loop doesn't
+  # cancel the 10-min full poll (and vice versa). Within each group, the latest
+  # queued run still wins — which is fine, all runs in a group are equivalent.
+  group: >-
+    ${{
+      github.event.action == 'trusted-only' && 'trusted'
+      || github.event.action == 'webhook-approve' && 'webhook'
+      || github.event.action == 'force-trusted' && 'force-trusted'
+      || github.event.action == 'approvals-only' && 'approvals'
+      || 'full-poll'
+    }}
   cancel-in-progress: false
 
 jobs:
