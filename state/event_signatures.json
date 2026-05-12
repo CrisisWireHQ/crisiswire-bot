@@ -1,55 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--tyre",
-    "source": "GN: Strike Attack",
-    "ts": 1778586060
-  },
-  {
-    "key": "china--explosion--fireworks-plant",
-    "source": "GN: Explosion",
-    "ts": 1778586061
-  },
-  {
-    "key": "nepal--severe-weather--countrywide",
-    "source": "ReliefWeb Updates",
-    "ts": 1778586065
-  },
-  {
-    "key": "colombia--flood--antioquia-uraba",
-    "source": "ReliefWeb Updates",
-    "ts": 1778586069
-  },
-  {
-    "key": "spain--outbreak--hantavirus",
-    "source": "GN: Outbreak",
-    "ts": 1778586650
-  },
-  {
-    "key": "lebanon--airstrike--haris",
-    "source": "GN: Strike Attack",
-    "ts": 1778586657
-  },
-  {
-    "key": "lebanon--airstrike--khirbet-selm",
-    "source": "GN: Strike Attack",
-    "ts": 1778586661
-  },
-  {
-    "key": "lebanon--airstrike--kfardounine",
-    "source": "GN: Strike Attack",
-    "ts": 1778586667
-  },
-  {
-    "key": "pakistan--explosion--bazaar",
-    "source": "GN: Explosion",
-    "ts": 1778586671
-  },
-  {
-    "key": "usa--explosion--miami",
-    "source": "GN: Explosion",
-    "ts": 1778586672
-  },
-  {
     "key": "argentina--hantavirus--2018-retrospective",
     "source": "GN: Outbreak",
     "ts": 1778587247
@@ -103,5 +53,25 @@
     "key": "usa--hantavirus--cruise-ship",
     "source": "GN: Outbreak",
     "ts": 1778589655
+  },
+  {
+    "key": "unknown--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778590255
+  },
+  {
+    "key": "none",
+    "source": "GN: Outbreak",
+    "ts": 1778590264
+  },
+  {
+    "key": "usa--hantavirus--maryland-virginia",
+    "source": "GN: Outbreak",
+    "ts": 1778590272
+  },
+  {
+    "key": "usa--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778590280
   }
 ]
