@@ -33,5 +33,15 @@
     "key": "solomon-islands--quake--general",
     "source": "GDACS Disaster Alerts",
     "ts": 1778602251
+  },
+  {
+    "key": "solomon-islands--quake--lata",
+    "source": "GN: Earthquake",
+    "ts": 1778602838
+  },
+  {
+    "key": "lebanon--airstrike--tyre",
+    "source": "GN: Strike Attack",
+    "ts": 1778602858
   }
 ]
