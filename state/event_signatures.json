@@ -1,20 +1,5 @@
 [
   {
-    "key": "alberta--wildfire-evacuation-orders--north-central",
-    "source": "GN: Wildfire",
-    "ts": 1778566235
-  },
-  {
-    "key": "niger--military-airstrike--three-children-killed",
-    "source": "GN: Strike Attack",
-    "ts": 1778566241
-  },
-  {
-    "key": "canada--whitecourt-wildfire-evacuation--alberta",
-    "source": "GN: Wildfire",
-    "ts": 1778566253
-  },
-  {
     "key": "lebanon--israeli-demolition--bint-jbeil",
     "source": "GN: Strike Attack",
     "ts": 1778566842
@@ -53,5 +38,15 @@
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778569255
+  },
+  {
+    "key": "usa--quake--imperial-valley",
+    "source": "GN: Earthquake",
+    "ts": 1778569847
+  },
+  {
+    "key": "malaysia--boat-capsized--pangkor-island",
+    "source": "Al Jazeera",
+    "ts": 1778569854
   }
 ]
