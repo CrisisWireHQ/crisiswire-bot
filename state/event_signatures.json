@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-israeli-official-tells-cnn-that",
-    "source": "TG: Faytuks Network",
-    "ts": 1778616286
-  },
-  {
     "key": "indonesia--quake--tobelo",
     "source": "USGS Quakes M4.5+",
     "ts": 1778617251
@@ -108,5 +103,10 @@
     "key": "trusted-the-will-contribute-drones-jets",
     "source": "TG: Faytuks Network",
     "ts": 1778619704
+  },
+  {
+    "key": "trusted-cia-officers-facilitated-targeted-car",
+    "source": "TG: Faytuks Network",
+    "ts": 1778619946
   }
 ]
