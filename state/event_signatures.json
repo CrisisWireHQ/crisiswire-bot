@@ -1,10 +1,5 @@
 [
   {
-    "key": "russia--quake--kamchatka",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778568648
-  },
-  {
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778569255
@@ -53,5 +48,30 @@
     "key": "canada--evacuation--north-central-alberta",
     "source": "GN: Wildfire",
     "ts": 1778571653
+  },
+  {
+    "key": "taiwan--quake--taitung",
+    "source": "GN: Earthquake",
+    "ts": 1778572242
+  },
+  {
+    "key": "spain--outbreak--canary-islands",
+    "source": "GN: Outbreak",
+    "ts": 1778572272
+  },
+  {
+    "key": "usa--explosion--chalmette-refinery",
+    "source": "GN: Explosion",
+    "ts": 1778572284
+  },
+  {
+    "key": "philippines--volcano--mayon",
+    "source": "ReliefWeb Updates",
+    "ts": 1778572290
+  },
+  {
+    "key": "iran--attack--hormuz-strait",
+    "source": "GN: Explosion",
+    "ts": 1778572295
   }
 ]
