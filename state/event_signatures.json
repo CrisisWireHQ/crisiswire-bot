@@ -1,15 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778578258
-  },
-  {
-    "key": "pakistan--explosion--northwest-market",
-    "source": "GN: Explosion",
-    "ts": 1778578263
-  },
-  {
     "key": "usa--hostage--sioux-falls",
     "source": "GN: Hostage",
     "ts": 1778578849
@@ -68,5 +58,15 @@
     "key": "kazakhstan--explosion--kazzinc-plant",
     "source": "GN: Explosion",
     "ts": 1778580665
+  },
+  {
+    "key": "spain--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778581849
+  },
+  {
+    "key": "usa--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778581861
   }
 ]
