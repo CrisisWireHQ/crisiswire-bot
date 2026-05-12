@@ -191,7 +191,6 @@ def poll_and_draft() -> int:
             continue
         if is_trusted_src:
             print(f"[trusted-debug] NEW item, processing: {item['title'][:80]!r}")
-        state.mark_seen(seen, item["link"])
         is_trusted = is_trusted_src
 
         # Hantavirus is a special interest — detect via keyword regex and elevate aggressively.
@@ -199,8 +198,6 @@ def poll_and_draft() -> int:
         is_hantavirus = quote_finder.text_mentions_hantavirus(full_text)
 
         if is_trusted:
-            # Skip the Claude classifier entirely — Faytuks-tier sources are
-            # pre-verified. Generate a cheap event_key for dedup.
             cls = {
                 "relevant": True,
                 "severity": "major",
@@ -213,8 +210,13 @@ def poll_and_draft() -> int:
             try:
                 cls = classifier.classify(item)
             except Exception as e:
-                print(f"[poll] classify error: {e}")
+                # Transient API failure (529, network, etc.) — don't burn the item.
+                # Leave it unseen so the next run can retry once Anthropic recovers.
+                print(f"[poll] classify error (will retry next run): {e}")
                 continue
+
+        # Classifier (or trusted bypass) succeeded — safe to mark seen now.
+        state.mark_seen(seen, item["link"])
 
         cls["is_hantavirus"] = is_hantavirus
 
@@ -273,7 +275,9 @@ def poll_and_draft() -> int:
                 is_trusted=is_trusted,
             )
         except Exception as e:
-            print(f"[poll] draft error: {e}")
+            # Transient API failure — undo mark_seen so the item retries next run
+            print(f"[poll] draft error (will retry next run): {e}")
+            seen.pop(state.url_hash(item["link"]), None)
             continue
 
         if not text or text.strip().upper() == "SKIP":

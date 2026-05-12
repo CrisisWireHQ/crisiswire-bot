@@ -7,7 +7,11 @@ _client = None
 def client() -> Anthropic:
     global _client
     if _client is None:
-        _client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+        _client = Anthropic(
+            api_key=os.environ["ANTHROPIC_API_KEY"],
+            max_retries=4,
+            timeout=45,
+        )
     return _client
 
 
