@@ -58,5 +58,10 @@
     "key": "iran--quake--tehran",
     "source": "GN: Earthquake",
     "ts": 1778626865
+  },
+  {
+    "key": "iran--quake--tehran",
+    "source": "GN: Earthquake",
+    "ts": 1778627461
   }
 ]
