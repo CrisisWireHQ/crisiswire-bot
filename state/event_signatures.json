@@ -1,25 +1,5 @@
 [
   {
-    "key": "argentina--hantavirus--2018-retrospective",
-    "source": "GN: Outbreak",
-    "ts": 1778587247
-  },
-  {
-    "key": "pakistan--explosion--northwest-market",
-    "source": "GN: Explosion",
-    "ts": 1778587257
-  },
-  {
-    "key": "usa--hantavirus--unknown",
-    "source": "GN: Outbreak",
-    "ts": 1778587259
-  },
-  {
-    "key": "pakistan--severe-weather--khyber-pakhtunkhwa",
-    "source": "ReliefWeb Updates",
-    "ts": 1778587275
-  },
-  {
     "key": "pakistan--explosion--location-tbd",
     "source": "GN: Explosion",
     "ts": 1778588449
@@ -73,5 +53,10 @@
     "key": "usa--hantavirus--cruise-ship",
     "source": "GN: Outbreak",
     "ts": 1778590280
+  },
+  {
+    "key": "usa--hantavirus--cruise-ship",
+    "source": "GN: Breaking News",
+    "ts": 1778590876
   }
 ]
