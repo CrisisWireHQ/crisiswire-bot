@@ -1,10 +1,5 @@
 [
   {
-    "key": "france--attack--paris-louvre",
-    "source": "GN: Terror Attack",
-    "ts": 1778586053
-  },
-  {
     "key": "lebanon--airstrike--tyre",
     "source": "GN: Strike Attack",
     "ts": 1778586060
@@ -98,5 +93,15 @@
     "key": "usa--explosion--des-plaines-illinois",
     "source": "GN: Explosion",
     "ts": 1778589113
+  },
+  {
+    "key": "n/a",
+    "source": "GN: Outbreak",
+    "ts": 1778589649
+  },
+  {
+    "key": "usa--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778589655
   }
 ]
