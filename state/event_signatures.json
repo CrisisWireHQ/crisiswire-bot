@@ -1,15 +1,5 @@
 [
   {
-    "key": "n/a",
-    "source": "GN: Outbreak",
-    "ts": 1778605845
-  },
-  {
-    "key": "usa--fire--wickenburg-arizona",
-    "source": "GN: Wildfire",
-    "ts": 1778605854
-  },
-  {
     "key": "trusted-the-pledged-tuesday-provide-autonomous",
     "source": "TG: Faytuks Network",
     "ts": 1778606330
@@ -128,5 +118,25 @@
     "key": "lebanon--airstrike--nabatieh",
     "source": "BBC World",
     "ts": 1778608872
+  },
+  {
+    "key": "usa--hantavirus--repatriation-flight",
+    "source": "CBS News World",
+    "ts": 1778609452
+  },
+  {
+    "key": "usa--hantavirus--king-county",
+    "source": "GN: Outbreak",
+    "ts": 1778609460
+  },
+  {
+    "key": "canada--fire--edmonton-northwest",
+    "source": "GN: Wildfire",
+    "ts": 1778609472
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778609481
   }
 ]
