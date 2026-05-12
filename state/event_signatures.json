@@ -1,15 +1,5 @@
 [
   {
-    "key": "pakistan--explosion--location-tbd",
-    "source": "GN: Explosion",
-    "ts": 1778588449
-  },
-  {
-    "key": "saudi-arabia--drone-strike--us-embassy",
-    "source": "GN: Breaking News",
-    "ts": 1778588461
-  },
-  {
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778589083
@@ -73,5 +63,20 @@
     "key": "canada--evacuation--alberta",
     "source": "GN: Wildfire",
     "ts": 1778591471
+  },
+  {
+    "key": "greece--drone-strike--island",
+    "source": "GN: Breaking News",
+    "ts": 1778592051
+  },
+  {
+    "key": "pakistan--explosion--sarai-naurang",
+    "source": "Al Jazeera",
+    "ts": 1778592059
+  },
+  {
+    "key": "palestinian-territories--raid--ramallah",
+    "source": "GN: Strike Attack",
+    "ts": 1778592063
   }
 ]
