@@ -63,6 +63,14 @@ def extract_quote_tweet_id_from_message(message_text: str) -> str:
     return tid.group(1) if tid else ""
 
 
+_SOURCE_LINE_RE = re.compile(r"^🔗 (https?://\S+)", re.MULTILINE)
+
+
+def extract_source_url_from_message(message_text: str) -> str:
+    m = _SOURCE_LINE_RE.search(message_text or "")
+    return m.group(1).strip() if m else ""
+
+
 def send_draft(draft_text: str, item: dict, classification: dict) -> dict:
     body, image_url = _build_body(draft_text, item, classification)
     keyboard = {

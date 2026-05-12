@@ -58,10 +58,11 @@ def process_approvals() -> tuple[int, int]:
 
 
 def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_photo: bool = False) -> int:
-    """Extract draft from message text, post to X (with image / quote-tweet if present), edit Telegram."""
+    """Extract draft, post to X (image / quote-tweet if present), auto-reply with source, edit Telegram."""
     draft_text = telegram_io.extract_draft_from_message(msg_text)
     image_url = telegram_io.extract_image_url_from_message(msg_text)
     quote_tweet_id = telegram_io.extract_quote_tweet_id_from_message(msg_text)
+    source_url = telegram_io.extract_source_url_from_message(msg_text)
     if not draft_text:
         if callback_id:
             telegram_io.answer_callback(callback_id, "Could not parse draft.")
@@ -70,9 +71,25 @@ def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_p
     try:
         result = x_poster.post(draft_text, image_url=image_url, quote_tweet_id=quote_tweet_id)
         tweet_url = f"https://x.com/CrisisWireHQ/status/{result['id']}"
+
+        # Auto-reply with source link. Failure here doesn't fail the parent post.
+        reply_status = ""
+        if source_url:
+            try:
+                reply_text = f"Source: {source_url}"
+                # Truncate if needed to stay under 280
+                if len(reply_text) > 280:
+                    reply_text = source_url
+                x_poster.reply(reply_text, in_reply_to_tweet_id=result["id"])
+                reply_status = "📎 source replied"
+            except Exception as e:
+                print(f"[post] auto-reply failed: {e}")
+                reply_status = "⚠️ reply failed"
+
         tags = []
         if result.get("had_image"): tags.append("🖼 image")
         if result.get("had_quote"): tags.append("💬 quote")
+        if reply_status: tags.append(reply_status)
         if not tags: tags.append("📝 text only")
         media_tag = " + ".join(tags)
         if callback_id:

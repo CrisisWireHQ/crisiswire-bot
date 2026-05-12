@@ -114,3 +114,9 @@ def post(text: str, image_url: str = "", quote_tweet_id: str = "") -> dict:
         "had_image": bool(media_ids),
         "had_quote": bool(quote_tweet_id),
     }
+
+
+def reply(text: str, in_reply_to_tweet_id: str) -> dict:
+    """Post a reply to an existing tweet."""
+    resp = client().create_tweet(text=text, in_reply_to_tweet_id=str(in_reply_to_tweet_id))
+    return {"id": resp.data["id"], "text": text}
