@@ -78,5 +78,20 @@
     "key": "usa--attack--new-orleans",
     "source": "GN: Terror Attack",
     "ts": 1778623252
+  },
+  {
+    "key": "canada--fire--edmonton-northwest",
+    "source": "GN: Wildfire",
+    "ts": 1778623864
+  },
+  {
+    "key": "usa--explosion--haulover-beach",
+    "source": "GN: Explosion",
+    "ts": 1778623866
+  },
+  {
+    "key": "pakistan--explosion--bazaar",
+    "source": "GN: Explosion",
+    "ts": 1778623872
   }
 ]
