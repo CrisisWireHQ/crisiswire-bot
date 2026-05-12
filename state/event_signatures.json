@@ -1,35 +1,5 @@
 [
   {
-    "key": "indonesia--quake--morotai",
-    "source": "GN: Earthquake",
-    "ts": 1778611265
-  },
-  {
-    "key": "canada--fire--edmonton-northwest",
-    "source": "GN: Wildfire",
-    "ts": 1778611270
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778611276
-  },
-  {
-    "key": "canada--fire--alberta-northwest-edmonton",
-    "source": "GN: Wildfire",
-    "ts": 1778611287
-  },
-  {
-    "key": "usa--explosion--miami-boat",
-    "source": "GN: Explosion",
-    "ts": 1778611290
-  },
-  {
-    "key": "usa--plane-crash--avon-maine",
-    "source": "GN: Plane Crash",
-    "ts": 1778611299
-  },
-  {
     "key": "mali--attack--kati-sevare-gao-mopti",
     "source": "ReliefWeb Updates",
     "ts": 1778611874
