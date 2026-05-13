@@ -73,5 +73,15 @@
     "key": "uk--stabbing--london",
     "source": "GN: Terror Attack",
     "ts": 1778655662
+  },
+  {
+    "key": "israel--drone-strike--lebanon-border",
+    "source": "GN: Explosion",
+    "ts": 1778656252
+  },
+  {
+    "key": "gaza--airstrike--nuseirat",
+    "source": "GN: Strike Attack",
+    "ts": 1778656267
   }
 ]
