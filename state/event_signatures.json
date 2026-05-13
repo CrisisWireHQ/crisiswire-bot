@@ -28,5 +28,15 @@
     "key": "canada--fire--edmonton-northwest",
     "source": "GN: Wildfire",
     "ts": 1778641258
+  },
+  {
+    "key": "usa--mass-shooting--amarillo",
+    "source": "GN: Mass Shooting",
+    "ts": 1778641844
+  },
+  {
+    "key": "india--attack--pahalgam",
+    "source": "GN: Terror Attack",
+    "ts": 1778641847
   }
 ]
