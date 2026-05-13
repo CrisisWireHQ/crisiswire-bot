@@ -1,10 +1,5 @@
 [
   {
-    "key": "taiwan--quake--east",
-    "source": "GN: Earthquake",
-    "ts": 1778674848
-  },
-  {
     "key": "france--outbreak--bordeaux-cruise-ship",
     "source": "GN: Breaking News",
     "ts": 1778674850
