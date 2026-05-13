@@ -9,6 +9,8 @@
   "israel--drone-strike--lebanon-border": 1778656255,
   "italy--hantavirus--negative-results": 1778662854,
   "lebanon--airstrike--south-beirut": 1778654448,
+  "lebanon--drone-strike--jiyeh": 1778668275,
+  "mexico--explosion--oaxaca-refinery": 1778668249,
   "myanmar--airstrike--sagaing": 1778661675,
   "new-zealand--quake--kermadec-islands": 1778658650,
   "nigeria--airstrike--civilian-casualty": 1778661670,
@@ -25,7 +27,6 @@
   "usa--explosion--chalmette-refining": 1778660506,
   "usa--fire--wickenburg-arizona": 1778647260,
   "usa--mass-shooting--oklahoma-lake": 1778664065,
-  "usa--plane-crash--brevard-county": 1778646644,
   "usa--quake--southern-california": 1778667697,
   "usa--shooting--paterson": 1778655074
 }

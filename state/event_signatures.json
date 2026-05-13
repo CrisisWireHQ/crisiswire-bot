@@ -1,25 +1,5 @@
 [
   {
-    "key": "uruguay--severe-weather--nationwide",
-    "source": "ReliefWeb Updates",
-    "ts": 1778664649
-  },
-  {
-    "key": "pakistan--floods--khyber-pakhtunkhwa",
-    "source": "ReliefWeb Updates",
-    "ts": 1778664655
-  },
-  {
-    "key": "iran--quake--tehran",
-    "source": "GN: Earthquake",
-    "ts": 1778664662
-  },
-  {
-    "key": "colombia--explosion--coal-mine",
-    "source": "GN: Explosion",
-    "ts": 1778664668
-  },
-  {
     "key": "iran--quake--tehran",
     "source": "GN: Earthquake",
     "ts": 1778665261
@@ -93,5 +73,25 @@
     "key": "usa--quake--southern-california",
     "source": "GN: Earthquake",
     "ts": 1778667695
+  },
+  {
+    "key": "mexico--explosion--oaxaca-refinery",
+    "source": "GN: Explosion",
+    "ts": 1778668246
+  },
+  {
+    "key": "lebanon--airstrike--sidon",
+    "source": "GN: Strike Attack",
+    "ts": 1778668250
+  },
+  {
+    "key": "mexico--explosion--oaxaca-refinery",
+    "source": "Straits Times World",
+    "ts": 1778668257
+  },
+  {
+    "key": "lebanon--drone-strike--jiyeh",
+    "source": "Al Jazeera",
+    "ts": 1778668272
   }
 ]
