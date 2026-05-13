@@ -73,5 +73,15 @@
     "key": "lebanon--airstrike--south-beirut",
     "source": "GN: Strike Attack",
     "ts": 1778654446
+  },
+  {
+    "key": "russia--drone-strike--astrakhan",
+    "source": "Straits Times World",
+    "ts": 1778655058
+  },
+  {
+    "key": "usa--shooting--paterson",
+    "source": "GN: Mass Shooting",
+    "ts": 1778655071
   }
 ]
