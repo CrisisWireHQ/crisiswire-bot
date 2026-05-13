@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--quake--southern-california",
-    "source": "GN: Earthquake",
-    "ts": 1778707266
-  },
-  {
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778708449
