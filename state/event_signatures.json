@@ -93,5 +93,15 @@
     "key": "russia--airstrike--kharkiv",
     "source": "GN: Strike Attack",
     "ts": 1778674854
+  },
+  {
+    "key": "usa--outbreak--portland-cruise",
+    "source": "GN: Outbreak",
+    "ts": 1778675450
+  },
+  {
+    "key": "france--hantavirus--outbreak",
+    "source": "GN: Outbreak",
+    "ts": 1778675469
   }
 ]
