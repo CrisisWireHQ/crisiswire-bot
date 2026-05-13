@@ -1,20 +1,5 @@
 [
   {
-    "key": "france--outbreak--bordeaux-cruise-ship",
-    "source": "GN: Breaking News",
-    "ts": 1778674850
-  },
-  {
-    "key": "canada--fire--edmonton-northwest",
-    "source": "GN: Wildfire",
-    "ts": 1778674851
-  },
-  {
-    "key": "russia--airstrike--kharkiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778674854
-  },
-  {
     "key": "usa--outbreak--portland-cruise",
     "source": "GN: Outbreak",
     "ts": 1778675450
