@@ -1,15 +1,5 @@
 [
   {
-    "key": "canada--fire--northwest-edmonton",
-    "source": "GN: Wildfire",
-    "ts": 1778633467
-  },
-  {
-    "key": "iran--quake--tehran",
-    "source": "GN: Earthquake",
-    "ts": 1778633470
-  },
-  {
     "key": "usa--shooting--north-carolina",
     "source": "GN: Mass Shooting",
     "ts": 1778634053
