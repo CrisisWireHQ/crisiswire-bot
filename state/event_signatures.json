@@ -1,20 +1,5 @@
 [
   {
-    "key": "nigeria--airstrike--zamfara",
-    "source": "GN: Strike Attack",
-    "ts": 1778637648
-  },
-  {
-    "key": "cruise--hantavirus--ship",
-    "source": "GN: Outbreak",
-    "ts": 1778637650
-  },
-  {
-    "key": "usa--crash--atlantic-ocean",
-    "source": "GN: Plane Crash",
-    "ts": 1778637655
-  },
-  {
     "key": "canada--fire--edmonton",
     "source": "GN: Wildfire",
     "ts": 1778637661
@@ -48,5 +33,15 @@
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778640646
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778641246
+  },
+  {
+    "key": "canada--fire--edmonton-northwest",
+    "source": "GN: Wildfire",
+    "ts": 1778641258
   }
 ]
