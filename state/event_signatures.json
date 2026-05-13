@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778629848
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778629851
-  },
-  {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778629853
-  },
-  {
     "key": "lebanon--airstrike--south",
     "source": "TASS English",
     "ts": 1778630454
@@ -93,5 +78,15 @@
     "key": "lebanon--airstrike--jebchit",
     "source": "GN: Strike Attack",
     "ts": 1778632861
+  },
+  {
+    "key": "canada--fire--northwest-edmonton",
+    "source": "GN: Wildfire",
+    "ts": 1778633467
+  },
+  {
+    "key": "iran--quake--tehran",
+    "source": "GN: Earthquake",
+    "ts": 1778633470
   }
 ]
