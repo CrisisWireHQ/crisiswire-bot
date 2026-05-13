@@ -38,5 +38,15 @@
     "key": "india--attack--pahalgam",
     "source": "GN: Terror Attack",
     "ts": 1778641847
+  },
+  {
+    "key": "usa--shooting--west-philadelphia",
+    "source": "GN: Mass Shooting",
+    "ts": 1778642455
+  },
+  {
+    "key": "canada--fire--edmonton-northwest",
+    "source": "GN: Wildfire",
+    "ts": 1778642456
   }
 ]
