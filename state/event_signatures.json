@@ -1,20 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778667647
-  },
-  {
-    "key": "canada--fire--northwest-edmonton",
-    "source": "GN: Wildfire",
-    "ts": 1778667648
-  },
-  {
-    "key": "south-africa--xenophobic-attacks--nationwide",
-    "source": "Straits Times World",
-    "ts": 1778667650
-  },
-  {
     "key": "nigeria--airstrike--zamfara",
     "source": "GN: Strike Attack",
     "ts": 1778667693
@@ -118,5 +103,10 @@
     "key": "lebanon--drone-strike--south-beirut",
     "source": "GN: Strike Attack",
     "ts": 1778670670
+  },
+  {
+    "key": "trusted-chinese-vice-premier-lifeng-amp",
+    "source": "TG: Faytuks Network",
+    "ts": 1778671277
   }
 ]
