@@ -1,20 +1,5 @@
 [
   {
-    "key": "canada--fire--alberta-northwest-edmonton",
-    "source": "GN: Wildfire",
-    "ts": 1778628054
-  },
-  {
-    "key": "colombia--airstrike--eln-command",
-    "source": "GN: Strike Attack",
-    "ts": 1778628062
-  },
-  {
-    "key": "iran--quake--tehran",
-    "source": "GN: Earthquake",
-    "ts": 1778628068
-  },
-  {
     "key": "usa--hantavirus--cruise-ship",
     "source": "GN: Outbreak",
     "ts": 1778628650
