@@ -1,15 +1,5 @@
 [
   {
-    "key": "israel--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778700055
-  },
-  {
-    "key": "usa--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778700059
-  },
-  {
     "key": "trusted-operation-project-paused-freedom-watch",
     "source": "TG: Faytuks Network",
     "ts": 1778700473
@@ -73,5 +63,20 @@
     "key": "trusted-lets-try-push-our-youtube",
     "source": "TG: Faytuks Network",
     "ts": 1778703301
+  },
+  {
+    "key": "iran--quake--tehran",
+    "source": "GN: Earthquake",
+    "ts": 1778703653
+  },
+  {
+    "key": "japan--quake--automated-alert",
+    "source": "GN: Earthquake",
+    "ts": 1778703659
+  },
+  {
+    "key": "usa--hostage--shreveport-louisiana",
+    "source": "GN: Hostage",
+    "ts": 1778703664
   }
 ]
