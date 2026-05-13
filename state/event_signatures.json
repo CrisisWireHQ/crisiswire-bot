@@ -108,5 +108,25 @@
     "key": "philippines--shooting--senate-building",
     "source": "BBC World",
     "ts": 1778679684
+  },
+  {
+    "key": "philippines--shooting--senate",
+    "source": "NPR World",
+    "ts": 1778680280
+  },
+  {
+    "key": "france--outbreak--hantavirus",
+    "source": "GN: Outbreak",
+    "ts": 1778680296
+  },
+  {
+    "key": "usa--quake--bay-area",
+    "source": "GN: Earthquake",
+    "ts": 1778680304
+  },
+  {
+    "key": "usa--mass-shooting--minneapolis",
+    "source": "GN: Mass Shooting",
+    "ts": 1778680307
   }
 ]
