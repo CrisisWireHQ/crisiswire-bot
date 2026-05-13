@@ -83,5 +83,25 @@
     "key": "trusted-president-trump-has-landed-anchorage",
     "source": "TG: Faytuks Network",
     "ts": 1778635842
+  },
+  {
+    "key": "usa--crash--louisiana",
+    "source": "GN: Plane Crash",
+    "ts": 1778635858
+  },
+  {
+    "key": "pakistan--explosion--northwest",
+    "source": "GN: Explosion",
+    "ts": 1778635870
+  },
+  {
+    "key": "canada--fire--edmonton-northwest",
+    "source": "GN: Wildfire",
+    "ts": 1778635871
+  },
+  {
+    "key": "usa--mass-shooting--shreveport-louisiana",
+    "source": "GN: Mass Shooting",
+    "ts": 1778635873
   }
 ]
