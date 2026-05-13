@@ -108,5 +108,15 @@
     "key": "trusted-chinese-vice-premier-lifeng-amp",
     "source": "TG: Faytuks Network",
     "ts": 1778671277
+  },
+  {
+    "key": "n/a",
+    "source": "GN: Outbreak",
+    "ts": 1778671250
+  },
+  {
+    "key": "taiwan--quake--hualien",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778671254
   }
 ]
