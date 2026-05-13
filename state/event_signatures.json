@@ -1,25 +1,5 @@
 [
   {
-    "key": "india--ambush--kangpokpi",
-    "source": "GN: Hostage",
-    "ts": 1778678445
-  },
-  {
-    "key": "philippines--shooting--senate",
-    "source": "France 24 Intl",
-    "ts": 1778678453
-  },
-  {
-    "key": "usa--hantavirus--cruise-ship",
-    "source": "France 24 Intl",
-    "ts": 1778678466
-  },
-  {
-    "key": "usa--shooting--paterson-new-jersey",
-    "source": "GN: Mass Shooting",
-    "ts": 1778678472
-  },
-  {
     "key": "usa--crash--florida-coast",
     "source": "GN: Plane Crash",
     "ts": 1778679058
@@ -93,5 +73,25 @@
     "key": "null",
     "source": "GN: Outbreak",
     "ts": 1778681466
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778682056
+  },
+  {
+    "key": "usa--hantavirus--local",
+    "source": "GN: Outbreak",
+    "ts": 1778682059
+  },
+  {
+    "key": "n/a",
+    "source": "GN: Outbreak",
+    "ts": 1778682065
+  },
+  {
+    "key": "nigeria--airstrike--zamfara",
+    "source": "GN: Strike Attack",
+    "ts": 1778682077
   }
 ]
