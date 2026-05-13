@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--undisclosed",
-    "source": "GN: Outbreak",
-    "ts": 1778692861
-  },
-  {
     "key": "usa--crash--florida-coast",
     "source": "GN: Plane Crash",
     "ts": 1778692866
@@ -83,5 +78,15 @@
     "key": "usa--crash--louisiana",
     "source": "GN: Plane Crash",
     "ts": 1778695864
+  },
+  {
+    "key": "usa--earthquake-swarm--southern-california",
+    "source": "GN: Earthquake",
+    "ts": 1778696457
+  },
+  {
+    "key": "usa--crash--maine",
+    "source": "GN: Plane Crash",
+    "ts": 1778696462
   }
 ]
