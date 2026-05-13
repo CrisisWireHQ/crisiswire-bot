@@ -1,15 +1,5 @@
 [
   {
-    "key": "israel--drone-strike--lebanon-border",
-    "source": "GN: Explosion",
-    "ts": 1778656252
-  },
-  {
-    "key": "gaza--airstrike--nuseirat",
-    "source": "GN: Strike Attack",
-    "ts": 1778656267
-  },
-  {
     "key": "lebanon--airstrike--south-beirut",
     "source": "GN: Strike Attack",
     "ts": 1778656850
