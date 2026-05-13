@@ -1,10 +1,5 @@
 [
   {
-    "key": "iran--quake--tehran",
-    "source": "GN: Earthquake",
-    "ts": 1778661660
-  },
-  {
     "key": "nigeria--airstrike--civilian-casualty",
     "source": "GN: Strike Attack",
     "ts": 1778661668
@@ -78,5 +73,15 @@
     "key": "colombia--explosion--coal-mine",
     "source": "GN: Explosion",
     "ts": 1778664668
+  },
+  {
+    "key": "iran--quake--tehran",
+    "source": "GN: Earthquake",
+    "ts": 1778665261
+  },
+  {
+    "key": "usa--explosion--pennsylvania-amish",
+    "source": "GN: Explosion",
+    "ts": 1778665266
   }
 ]
