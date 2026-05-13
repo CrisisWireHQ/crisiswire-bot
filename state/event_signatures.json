@@ -1,20 +1,5 @@
 [
   {
-    "key": "gaza--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778691050
-  },
-  {
-    "key": "usa--crash--louisiana",
-    "source": "GN: Plane Crash",
-    "ts": 1778691052
-  },
-  {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778691056
-  },
-  {
     "key": "usa--explosion--matthews-north-carolina",
     "source": "GN: Explosion",
     "ts": 1778691654
