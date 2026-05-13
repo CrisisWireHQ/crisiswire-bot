@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--quake--southern-california",
-    "source": "GN: Earthquake",
-    "ts": 1778704258
-  },
-  {
     "key": "usa--shooting--bureau-county-illinois",
     "source": "GN: Hostage",
     "ts": 1778704856
