@@ -1,15 +1,5 @@
 [
   {
-    "key": "canada--fire--whitecourt-alberta",
-    "source": "GN: Wildfire",
-    "ts": 1778652791
-  },
-  {
-    "key": "new-zealand--quake--unspecified",
-    "source": "GN: Earthquake",
-    "ts": 1778652797
-  },
-  {
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778653251
