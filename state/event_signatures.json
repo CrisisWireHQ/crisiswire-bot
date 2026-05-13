@@ -2,11 +2,6 @@
   {
     "key": "iran--quake--tehran",
     "source": "GN: Earthquake",
-    "ts": 1778663452
-  },
-  {
-    "key": "iran--quake--tehran",
-    "source": "GN: Earthquake",
     "ts": 1778664050
   },
   {
@@ -73,5 +68,20 @@
     "key": "nigeria--airstrike--northwest",
     "source": "GN: Strike Attack",
     "ts": 1778666484
+  },
+  {
+    "key": "null",
+    "source": "Straits Times World",
+    "ts": 1778667042
+  },
+  {
+    "key": "null",
+    "source": "GN: Outbreak",
+    "ts": 1778667053
+  },
+  {
+    "key": "ukraine--missile-strike--sumy",
+    "source": "GN: Strike Attack",
+    "ts": 1778667061
   }
 ]
