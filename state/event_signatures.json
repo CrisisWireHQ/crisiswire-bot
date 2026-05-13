@@ -48,5 +48,10 @@
     "key": "usa--hantavirus--cruise-ship",
     "source": "GN: Outbreak",
     "ts": 1778700059
+  },
+  {
+    "key": "trusted-operation-project-paused-freedom-watch",
+    "source": "TG: Faytuks Network",
+    "ts": 1778700473
   }
 ]
