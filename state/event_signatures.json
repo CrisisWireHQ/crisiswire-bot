@@ -1,25 +1,5 @@
 [
   {
-    "key": "pakistan--explosion--northwest",
-    "source": "GN: Explosion",
-    "ts": 1778634660
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "Times of Israel",
-    "ts": 1778634663
-  },
-  {
-    "key": "usa--outbreak--kinston-north-carolina",
-    "source": "GN: Outbreak",
-    "ts": 1778634672
-  },
-  {
-    "key": "lebanon--strike--civilian-casualties",
-    "source": "GN: Strike Attack",
-    "ts": 1778634675
-  },
-  {
     "key": "trusted-president-trump-has-landed-anchorage",
     "source": "TG: Faytuks Network",
     "ts": 1778635842
