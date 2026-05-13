@@ -38,5 +38,10 @@
     "key": "usa--hantavirus--cruise",
     "source": "GN: Outbreak",
     "ts": 1778715063
+  },
+  {
+    "key": "lebanon--drone-strike--vehicles",
+    "source": "GN: Strike Attack",
+    "ts": 1778715788
   }
 ]
