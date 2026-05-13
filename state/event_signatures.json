@@ -1,15 +1,5 @@
 [
   {
-    "key": "none",
-    "source": "GN: Outbreak",
-    "ts": 1778684480
-  },
-  {
-    "key": "usa--quake--bay-area",
-    "source": "GN: Earthquake",
-    "ts": 1778684484
-  },
-  {
     "key": "usa--hostage--shreveport-louisiana",
     "source": "GN: Hostage",
     "ts": 1778685071
