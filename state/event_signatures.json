@@ -1,25 +1,5 @@
 [
   {
-    "key": "costa-rica--quake--jaco",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778691658
-  },
-  {
-    "key": "gaza--airstrike--hamas-commander",
-    "source": "GN: Strike Attack",
-    "ts": 1778691667
-  },
-  {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778691676
-  },
-  {
-    "key": "ukraine--missile-strike--nationwide",
-    "source": "GN: Strike Attack",
-    "ts": 1778691679
-  },
-  {
     "key": "lebanon--airstrike--south",
     "source": "Jerusalem Post",
     "ts": 1778692259
