@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778645451
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778645477
-  },
-  {
     "key": "solomon-islands--cyclone--maila",
     "source": "ReliefWeb Updates",
     "ts": 1778646052
