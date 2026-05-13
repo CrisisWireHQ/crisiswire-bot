@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--crash--atlantic-ocean",
-    "source": "GN: Plane Crash",
-    "ts": 1778644241
-  },
-  {
     "key": "nicaragua--quake--masachapa",
     "source": "USGS Quakes M4.5+",
     "ts": 1778644850
