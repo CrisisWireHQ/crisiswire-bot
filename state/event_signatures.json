@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--nebraska",
-    "source": "GN: Outbreak",
-    "ts": 1778709064
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778709069
-  },
-  {
-    "key": "usa--hantavirus--kansas",
-    "source": "GN: Wildfire",
-    "ts": 1778709077
-  },
-  {
-    "key": "usa--hantavirus--arizona",
-    "source": "GN: Outbreak",
-    "ts": 1778709078
-  },
-  {
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778709394
