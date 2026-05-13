@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--shooting--arcadia-lake-edmond",
-    "source": "GN: Mass Shooting",
-    "ts": 1778689263
-  },
-  {
-    "key": "spain--hantavirus--outbreak",
-    "source": "ReliefWeb Updates",
-    "ts": 1778689266
-  },
-  {
     "key": "usa--plane-crash--florida",
     "source": "GN: Plane Crash",
     "ts": 1778689859
@@ -83,5 +73,25 @@
     "key": "lebanon--drone-strike--vehicles",
     "source": "GN: Strike Attack",
     "ts": 1778692286
+  },
+  {
+    "key": "usa--hantavirus--undisclosed",
+    "source": "GN: Outbreak",
+    "ts": 1778692861
+  },
+  {
+    "key": "usa--crash--florida-coast",
+    "source": "GN: Plane Crash",
+    "ts": 1778692866
+  },
+  {
+    "key": "usa--plane-crash--louisiana",
+    "source": "GN: Plane Crash",
+    "ts": 1778692869
+  },
+  {
+    "key": "philippines--shooting--senate",
+    "source": "Sky News",
+    "ts": 1778692879
   }
 ]
