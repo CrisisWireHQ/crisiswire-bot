@@ -18,5 +18,30 @@
     "key": "germany--hostage--western",
     "source": "GN: Hostage",
     "ts": 1778714448
+  },
+  {
+    "key": "philippines--quake--calayan",
+    "source": "GN: Earthquake",
+    "ts": 1778715056
+  },
+  {
+    "key": "usa--crash--florida",
+    "source": "GN: Plane Crash",
+    "ts": 1778715059
+  },
+  {
+    "key": "usa--crash--florida",
+    "source": "GN: Plane Crash",
+    "ts": 1778715061
+  },
+  {
+    "key": "usa--crash--florida-coast",
+    "source": "GN: Plane Crash",
+    "ts": 1778715062
+  },
+  {
+    "key": "usa--hantavirus--cruise",
+    "source": "GN: Outbreak",
+    "ts": 1778715063
   }
 ]
