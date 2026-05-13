@@ -1,15 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778708449
-  },
-  {
-    "key": "nigeria--airstrike--zamfara",
-    "source": "GN: Strike Attack",
-    "ts": 1778708460
-  },
-  {
     "key": "usa--crash--florida-coast",
     "source": "GN: Plane Crash",
     "ts": 1778709054
@@ -68,5 +58,10 @@
     "key": "philippines--quake--namuac",
     "source": "USGS Quakes M4.5+",
     "ts": 1778710843
+  },
+  {
+    "key": "usa--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778712047
   }
 ]
