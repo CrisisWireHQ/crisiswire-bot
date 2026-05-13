@@ -1,15 +1,5 @@
 [
   {
-    "key": "france--outbreak--bordeaux-cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778683253
-  },
-  {
-    "key": "france--outbreak--bordeaux-cruise",
-    "source": "France 24 Intl",
-    "ts": 1778683267
-  },
-  {
     "key": "usa--explosion--miami",
     "source": "GN: Explosion",
     "ts": 1778683287
@@ -158,5 +148,10 @@
     "key": "pakistan--explosion--bazaar",
     "source": "GN: Explosion",
     "ts": 1778686281
+  },
+  {
+    "key": "usa--hostage--bureau-county-illinois",
+    "source": "GN: Hostage",
+    "ts": 1778686871
   }
 ]
