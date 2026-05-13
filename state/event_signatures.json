@@ -68,5 +68,15 @@
     "key": "france--hantavirus--outbreak",
     "source": "GN: Outbreak",
     "ts": 1778700661
+  },
+  {
+    "key": "france--outbreak--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778701264
+  },
+  {
+    "key": "germany--hostage--sinzig",
+    "source": "GN: Hostage",
+    "ts": 1778701265
   }
 ]
