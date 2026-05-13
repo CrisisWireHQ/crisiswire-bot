@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--shooting--west-philadelphia",
-    "source": "GN: Mass Shooting",
-    "ts": 1778642455
-  },
-  {
-    "key": "canada--fire--edmonton-northwest",
-    "source": "GN: Wildfire",
-    "ts": 1778642456
-  },
-  {
     "key": "japan--quake--izu-islands",
     "source": "USGS Quakes M4.5+",
     "ts": 1778643038
@@ -58,5 +48,10 @@
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778645477
+  },
+  {
+    "key": "solomon-islands--cyclone--maila",
+    "source": "ReliefWeb Updates",
+    "ts": 1778646052
   }
 ]
