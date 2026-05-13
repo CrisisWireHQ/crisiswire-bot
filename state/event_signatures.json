@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-air-force-one-lands-beijing",
-    "source": "TG: Faytuks Network",
-    "ts": 1778673460
-  },
-  {
     "key": "trusted-httpswwwyoutubecomwatchvd8klj1zxcrs",
     "source": "TG: Faytuks Network",
     "ts": 1778673522
@@ -133,5 +128,10 @@
     "key": "haiti--armed-conflict--cite-soleil",
     "source": "ReliefWeb Updates",
     "ts": 1778676677
+  },
+  {
+    "key": "trusted-beijing-president-trump-was-greeted",
+    "source": "TG: Faytuks Network",
+    "ts": 1778677067
   }
 ]
