@@ -1,10 +1,5 @@
 [
   {
-    "key": "costa-rica--quake--jaco",
-    "source": "GN: Earthquake",
-    "ts": 1778706667
-  },
-  {
     "key": "usa--hantavirus--new-mexico",
     "source": "GN: Outbreak",
     "ts": 1778707246
