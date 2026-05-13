@@ -53,5 +53,10 @@
     "key": "usa--shooting--west-philadelphia",
     "source": "GN: Mass Shooting",
     "ts": 1778647849
+  },
+  {
+    "key": "usa--hantavirus--investigation",
+    "source": "GN: Outbreak",
+    "ts": 1778648468
   }
 ]
