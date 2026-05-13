@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--quake--southern-california",
-    "source": "GN: Earthquake",
-    "ts": 1778701857
-  },
-  {
-    "key": "usa--explosion--matthews-north-carolina",
-    "source": "GN: Explosion",
-    "ts": 1778701861
-  },
-  {
     "key": "lebanon--airstrike--yohmor-al-shqif",
     "source": "GN: Strike Attack",
     "ts": 1778702468
