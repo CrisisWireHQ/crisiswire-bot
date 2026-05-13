@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--plane-crash--louisiana",
-    "source": "GN: Plane Crash",
-    "ts": 1778662856
-  },
-  {
-    "key": "nigeria--airstrike--zamfara",
-    "source": "GN: Strike Attack",
-    "ts": 1778662861
-  },
-  {
     "key": "iran--quake--tehran",
     "source": "GN: Earthquake",
     "ts": 1778663452
