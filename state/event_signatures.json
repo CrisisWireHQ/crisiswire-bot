@@ -1,15 +1,5 @@
 [
   {
-    "key": "iran--quake--tehran",
-    "source": "GN: Earthquake",
-    "ts": 1778665261
-  },
-  {
-    "key": "usa--explosion--pennsylvania-amish",
-    "source": "GN: Explosion",
-    "ts": 1778665266
-  },
-  {
     "key": "el-salvador--quake--conchagua",
     "source": "USGS Quakes M4.5+",
     "ts": 1778665841
