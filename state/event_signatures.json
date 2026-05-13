@@ -28,5 +28,15 @@
     "key": "nicaragua--quake--managua",
     "source": "GN: Earthquake",
     "ts": 1778651581
+  },
+  {
+    "key": "russia--quake--kamchatka",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778652043
+  },
+  {
+    "key": "usa--plane-crash--florida-coast",
+    "source": "GN: Plane Crash",
+    "ts": 1778652056
   }
 ]
