@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--quake-swarm--southern-california",
-    "source": "GN: Earthquake",
-    "ts": 1778657448
-  },
-  {
     "key": "france--hantavirus--cruise-ship",
     "source": "NPR World",
     "ts": 1778658042
@@ -43,5 +38,25 @@
     "key": "usa--explosion--chalmette-refining",
     "source": "GN: Explosion",
     "ts": 1778660504
+  },
+  {
+    "key": "lebanon--airstrike--tyre",
+    "source": "GN: Strike Attack",
+    "ts": 1778661047
+  },
+  {
+    "key": "south-sandwich-islands--quake--region",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778661049
+  },
+  {
+    "key": "russia--drone-attack--rostov-region",
+    "source": "TASS English",
+    "ts": 1778661058
+  },
+  {
+    "key": "usa--explosion--new-orleans-oil-refinery",
+    "source": "GN: Explosion",
+    "ts": 1778661065
   }
 ]
