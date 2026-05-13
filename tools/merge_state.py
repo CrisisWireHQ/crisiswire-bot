@@ -83,6 +83,7 @@ def _merge_x_watcher(local: dict, remote: dict) -> dict:
 MERGERS = {
     "state/seen.json": _merge_dict_max,
     "state/drafted_keys.json": _merge_dict_max,
+    "state/recent_drafts.json": _merge_dict_max,
     "state/event_signatures.json": _merge_event_signatures,
     "state/telegram_offset.json": _merge_telegram_offset,
     "state/x_watcher.json": _merge_x_watcher,

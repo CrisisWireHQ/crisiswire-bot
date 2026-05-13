@@ -177,6 +177,7 @@ def poll_and_draft() -> int:
     seen = state.load_seen()
     sigs = state.load_event_signatures()
     drafted_keys = state.load_drafted_keys()
+    recent_drafts = state.load_recent_drafts()
     drafted = 0
 
     for item in items:
@@ -326,10 +327,19 @@ def poll_and_draft() -> int:
             print(f"[poll] rejected (banned phrase {matched!r}): {text[:80]!r}")
             continue
 
+        # Final dedup: semantic fingerprint of the generated draft text.
+        # Catches near-duplicates that slipped past event_key / coarse_key
+        # checks (different sources, racing concurrent runs, classifier
+        # producing inconsistent event_keys for the same fact).
+        if state.is_recent_draft(recent_drafts, text):
+            print(f"[dedup] text fingerprint match (48h window); skipping: {text[:80]!r}")
+            continue
+
         try:
             telegram_io.send_draft(text, item, cls)
             drafted += 1
             state.mark_drafted(drafted_keys, event_key)
+            state.mark_recent_draft(recent_drafts, text)
             tag = ""
             if is_trusted: tag += "🔥 TRUSTED "
             if is_hantavirus: tag += "🦠 HANTAVIRUS "
@@ -341,6 +351,7 @@ def poll_and_draft() -> int:
     state.save_seen(seen)
     state.save_event_signatures(sigs)
     state.save_drafted_keys(drafted_keys)
+    state.save_recent_drafts(recent_drafts)
     return drafted
 
 

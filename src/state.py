@@ -1,4 +1,5 @@
 import json
+import re
 import hashlib
 import time
 from pathlib import Path
@@ -8,11 +9,13 @@ SEEN_FILE = STATE_DIR / "seen.json"
 TG_OFFSET_FILE = STATE_DIR / "telegram_offset.json"
 EVENT_SIGS_FILE = STATE_DIR / "event_signatures.json"
 DRAFTED_KEYS_FILE = STATE_DIR / "drafted_keys.json"
+RECENT_DRAFTS_FILE = STATE_DIR / "recent_drafts.json"
 MAX_SEEN_AGE_DAYS = 30
 EVENT_SIG_TTL_SECONDS = 3600  # 1 hour
 BREAKING_WINDOW_SECONDS = 600  # 10 minutes
 BREAKING_MIN_SOURCES = 2
-DRAFTED_KEY_TTL_SECONDS = 6 * 3600  # don't redraft same event_key within 6 hours
+DRAFTED_KEY_TTL_SECONDS = 24 * 3600  # don't redraft same event_key within 24h
+RECENT_DRAFT_TTL_SECONDS = 48 * 3600  # text-fingerprint window, 48h
 
 
 def _ensure_dir():
@@ -128,15 +131,39 @@ def save_drafted_keys(keys: dict):
     DRAFTED_KEYS_FILE.write_text(json.dumps(pruned, indent=2, sort_keys=True), encoding="utf-8")
 
 
+# Canonicalize event-type slugs so synonyms collide under coarse dedup.
+# Real-world: classifier emits "plane-crash" / "crash-landed" / "crash" for
+# the same event; "airstrike" / "drone-strike" / "missile-strike" / "attack"
+# for what is operationally the same incident.
+_EVENT_TYPE_CANON = {
+    "plane-crash": "crash",
+    "crash-landed": "crash",
+    "aviation-crash": "crash",
+    "airstrike": "strike",
+    "air-strike": "strike",
+    "drone-strike": "strike",
+    "missile-strike": "strike",
+    "air-attack": "strike",
+    "bombing": "strike",
+    "attack": "strike",
+    "mass-shooting": "shooting",
+    "wildfire": "fire",
+    "earthquake": "quake",
+    "blast": "explosion",
+}
+
+
 def _coarse_key(event_key: str) -> str:
-    """First 2 segments of the event_key (country + event-type), used for
-    fuzzy dedup so near-duplicates with different last-segment details
-    still collide."""
+    """First 2 segments of the event_key (country + canonical event-type),
+    used for fuzzy dedup so near-duplicates with different last-segment
+    details still collide."""
     if not event_key:
         return ""
     parts = event_key.split("--")
     if len(parts) >= 2:
-        return "--".join(parts[:2])
+        country = parts[0]
+        etype = _EVENT_TYPE_CANON.get(parts[1], parts[1])
+        return f"{country}--{etype}"
     return event_key
 
 
@@ -159,3 +186,75 @@ def mark_drafted(keys: dict, event_key: str):
     if not event_key:
         return
     keys[event_key] = int(time.time())
+
+
+# --- Draft-text fingerprint dedup ---------------------------------
+# Defense of last resort: even when event_keys diverge (different sources,
+# different classifier runs, race between concurrent workflows), if the
+# resulting draft text is semantically the same, suppress it.
+
+_STOPWORDS = {
+    "the", "a", "an", "and", "or", "but", "to", "in", "on", "of", "at", "for",
+    "with", "by", "from", "as", "is", "are", "was", "were", "be", "been",
+    "has", "have", "had", "will", "would", "could", "should", "may", "might",
+    "this", "that", "these", "those", "after", "before", "near", "into",
+    "per", "according", "reports", "reported", "via", "amid", "amid",
+}
+
+
+def _draft_fingerprint(text: str) -> str:
+    """Normalize a draft to its semantic core, then hash to 16 hex chars.
+
+    Strips emoji, attribution clauses ("per X"), punctuation, stopwords;
+    sorts the remaining content words alphabetically and takes the first
+    10. Sorting kills word-order variation; alphabetizing means
+    "11 killed in airstrike" and "airstrike killed 11" collapse to the
+    same fingerprint."""
+    if not text:
+        return ""
+    t = text.lower()
+    # Cut everything after the first attribution marker.
+    t = re.split(r"\b(per|according to|reported by|reports say|sources say)\b", t, 1)[0]
+    # Strip non-alphanumeric except spaces.
+    t = re.sub(r"[^a-z0-9\s]", " ", t)
+    # Collapse whitespace.
+    words = [w for w in t.split() if len(w) > 1 and w not in _STOPWORDS]
+    # Sort to be insensitive to word order, take top-10 content words.
+    core = " ".join(sorted(words)[:10])
+    if not core:
+        return ""
+    return hashlib.sha256(core.encode("utf-8")).hexdigest()[:16]
+
+
+def load_recent_drafts() -> dict:
+    """Map of draft_fingerprint → last sent timestamp. Auto-pruned on load."""
+    _ensure_dir()
+    if not RECENT_DRAFTS_FILE.exists():
+        return {}
+    try:
+        data = json.loads(RECENT_DRAFTS_FILE.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    cutoff = time.time() - RECENT_DRAFT_TTL_SECONDS
+    return {k: v for k, v in data.items() if v >= cutoff}
+
+
+def save_recent_drafts(drafts: dict):
+    _ensure_dir()
+    cutoff = time.time() - RECENT_DRAFT_TTL_SECONDS
+    pruned = {k: v for k, v in drafts.items() if v >= cutoff}
+    RECENT_DRAFTS_FILE.write_text(json.dumps(pruned, indent=2, sort_keys=True), encoding="utf-8")
+
+
+def is_recent_draft(drafts: dict, text: str) -> bool:
+    fp = _draft_fingerprint(text)
+    if not fp:
+        return False
+    return fp in drafts
+
+
+def mark_recent_draft(drafts: dict, text: str):
+    fp = _draft_fingerprint(text)
+    if not fp:
+        return
+    drafts[fp] = int(time.time())
