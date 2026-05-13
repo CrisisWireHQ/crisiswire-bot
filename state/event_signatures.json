@@ -68,5 +68,30 @@
     "key": "ukraine--missile-strike--sumy",
     "source": "GN: Strike Attack",
     "ts": 1778667061
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778667647
+  },
+  {
+    "key": "canada--fire--northwest-edmonton",
+    "source": "GN: Wildfire",
+    "ts": 1778667648
+  },
+  {
+    "key": "south-africa--xenophobic-attacks--nationwide",
+    "source": "Straits Times World",
+    "ts": 1778667650
+  },
+  {
+    "key": "nigeria--airstrike--zamfara",
+    "source": "GN: Strike Attack",
+    "ts": 1778667693
+  },
+  {
+    "key": "usa--quake--southern-california",
+    "source": "GN: Earthquake",
+    "ts": 1778667695
   }
 ]
