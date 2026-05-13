@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--shooting--bureau-county-illinois",
-    "source": "GN: Hostage",
-    "ts": 1778704856
-  },
-  {
     "key": "lebanon--strike--vehicles",
     "source": "GN: Strike Attack",
     "ts": 1778704865
@@ -68,5 +63,15 @@
     "key": "usa--quake--southern-california",
     "source": "GN: Earthquake",
     "ts": 1778707266
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778708449
+  },
+  {
+    "key": "nigeria--airstrike--zamfara",
+    "source": "GN: Strike Attack",
+    "ts": 1778708460
   }
 ]
