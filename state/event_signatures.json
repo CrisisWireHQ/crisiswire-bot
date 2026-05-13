@@ -1,15 +1,5 @@
 [
   {
-    "key": "pitcairn--hantavirus--exposure",
-    "source": "BBC World",
-    "ts": 1778682671
-  },
-  {
-    "key": "usa--explosion--miami-beach",
-    "source": "GN: Explosion",
-    "ts": 1778682680
-  },
-  {
     "key": "france--outbreak--bordeaux-cruise-ship",
     "source": "GN: Outbreak",
     "ts": 1778683253
