@@ -1,10 +1,5 @@
 [
   {
-    "key": "russia--drone-strike--astrakhan",
-    "source": "Straits Times World",
-    "ts": 1778655058
-  },
-  {
     "key": "usa--shooting--paterson",
     "source": "GN: Mass Shooting",
     "ts": 1778655071
@@ -58,5 +53,10 @@
     "key": "usa--shooting--arcadia-lake-oklahoma",
     "source": "GN: Mass Shooting",
     "ts": 1778658051
+  },
+  {
+    "key": "new-zealand--quake--kermadec-islands",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778658648
   }
 ]
