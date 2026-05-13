@@ -1,16 +1,6 @@
 [
   {
     "key": "mexico--explosion--oaxaca-refinery",
-    "source": "GN: Explosion",
-    "ts": 1778668246
-  },
-  {
-    "key": "lebanon--airstrike--sidon",
-    "source": "GN: Strike Attack",
-    "ts": 1778668250
-  },
-  {
-    "key": "mexico--explosion--oaxaca-refinery",
     "source": "Straits Times World",
     "ts": 1778668257
   },
@@ -118,5 +108,15 @@
     "key": "trusted-follow-our-coverage-the-chinaus",
     "source": "TG: Faytuks Network",
     "ts": 1778671366
+  },
+  {
+    "key": "france--outbreak--hantavirus",
+    "source": "GN: Outbreak",
+    "ts": 1778671849
+  },
+  {
+    "key": "iran--quake--tehran",
+    "source": "GN: Earthquake",
+    "ts": 1778671852
   }
 ]
