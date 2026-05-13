@@ -138,5 +138,10 @@
     "key": "usa--hostage--bureau-county-illinois",
     "source": "GN: Hostage",
     "ts": 1778686871
+  },
+  {
+    "key": "usa--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778687464
   }
 ]
