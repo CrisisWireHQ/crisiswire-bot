@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778692866
-  },
-  {
-    "key": "usa--plane-crash--louisiana",
-    "source": "GN: Plane Crash",
-    "ts": 1778692869
-  },
-  {
-    "key": "philippines--shooting--senate",
-    "source": "Sky News",
-    "ts": 1778692879
-  },
-  {
     "key": "india--attack--manipur-church",
     "source": "Al Jazeera",
     "ts": 1778693465
