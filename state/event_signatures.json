@@ -1,20 +1,5 @@
 [
   {
-    "key": "pakistan--explosion--bazaar",
-    "source": "GN: Explosion",
-    "ts": 1778685675
-  },
-  {
-    "key": "eu--hantavirus--coordination",
-    "source": "GN: Outbreak",
-    "ts": 1778685680
-  },
-  {
-    "key": "ukraine--explosion--uzhgorod",
-    "source": "GN: Explosion",
-    "ts": 1778685686
-  },
-  {
     "key": "usa--plane-crash--maine",
     "source": "GN: Plane Crash",
     "ts": 1778686255
