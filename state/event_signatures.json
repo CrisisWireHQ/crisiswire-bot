@@ -48,5 +48,10 @@
     "key": "solomon-islands--cyclone--maila",
     "source": "ReliefWeb Updates",
     "ts": 1778646052
+  },
+  {
+    "key": "usa--plane-crash--brevard-county",
+    "source": "GN: Plane Crash",
+    "ts": 1778646641
   }
 ]
