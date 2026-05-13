@@ -88,5 +88,10 @@
     "key": "canada--fire--northwest-edmonton",
     "source": "GN: Wildfire",
     "ts": 1778637662
+  },
+  {
+    "key": "trusted-httpstcor0kkxvefkw",
+    "source": "X: @outbreakupdates",
+    "ts": 1778638057
   }
 ]
