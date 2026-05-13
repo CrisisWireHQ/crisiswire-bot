@@ -1,10 +1,5 @@
 [
   {
-    "key": "new-zealand--quake--kermadec-islands",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778658648
-  },
-  {
     "key": "unknown--outbreak--hantavirus",
     "source": "GN: Outbreak",
     "ts": 1778660448
@@ -63,5 +58,15 @@
     "key": "myanmar--airstrike--sagaing",
     "source": "GN: Strike Attack",
     "ts": 1778661672
+  },
+  {
+    "key": "israel--drone-strike--lebanon-border",
+    "source": "GN: Explosion",
+    "ts": 1778662248
+  },
+  {
+    "key": "spain--hantavirus--national",
+    "source": "France 24 Intl",
+    "ts": 1778662253
   }
 ]
