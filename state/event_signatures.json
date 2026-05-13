@@ -1,15 +1,5 @@
 [
   {
-    "key": "canada--fire--edmonton",
-    "source": "GN: Wildfire",
-    "ts": 1778698242
-  },
-  {
-    "key": "france--outbreak--bordeaux-cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778698258
-  },
-  {
     "key": "trusted-georgia-governor-brian-kemp-has",
     "source": "TG: Faytuks Network",
     "ts": 1778698419
@@ -78,5 +68,20 @@
     "key": "germany--hostage--sinzig",
     "source": "GN: Hostage",
     "ts": 1778701265
+  },
+  {
+    "key": "ukraine--drone-strike--nationwide",
+    "source": "Al Jazeera",
+    "ts": 1778701853
+  },
+  {
+    "key": "usa--quake--southern-california",
+    "source": "GN: Earthquake",
+    "ts": 1778701857
+  },
+  {
+    "key": "usa--explosion--matthews-north-carolina",
+    "source": "GN: Explosion",
+    "ts": 1778701861
   }
 ]
