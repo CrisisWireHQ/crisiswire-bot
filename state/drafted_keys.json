@@ -6,6 +6,7 @@
   "el-salvador--quake--conchagua": 1778665843,
   "france--hantavirus--cruise-ship": 1778658046,
   "france--outbreak--hantavirus": 1778671851,
+  "haiti--armed-conflict--cite-soleil": 1778676681,
   "israel--drone-strike--lebanon-border": 1778656255,
   "italy--hantavirus--negative-results": 1778662854,
   "lebanon--drone-strike--jiyeh": 1778668275,
@@ -17,7 +18,6 @@
   "pakistan--floods--khyber-pakhtunkhwa": 1778664659,
   "philippines--shooting--senate": 1778676048,
   "russia--airstrike--kharkiv": 1778674856,
-  "russia--drone-strike--astrakhan": 1778655062,
   "russia--strike--oil-gas-infrastructure": 1778674254,
   "south-africa--xenophobic-attacks--nationwide": 1778667653,
   "south-sandwich-islands--quake--south-sandwich-islands": 1778655651,
@@ -36,6 +36,5 @@
   "usa--mass-shooting--oklahoma-lake": 1778664065,
   "usa--outbreak--portland-cruise": 1778675452,
   "usa--plane-crash--avon-maine": 1778673675,
-  "usa--quake--southern-california": 1778667697,
-  "usa--shooting--paterson": 1778655074
+  "usa--quake--southern-california": 1778667697
 }
