@@ -1,20 +1,5 @@
 [
   {
-    "key": "iran--quake--tehran",
-    "source": "GN: Earthquake",
-    "ts": 1778664050
-  },
-  {
-    "key": "usa--fire--oscoda-county-michigan",
-    "source": "GN: Wildfire",
-    "ts": 1778664061
-  },
-  {
-    "key": "usa--mass-shooting--oklahoma-lake",
-    "source": "GN: Mass Shooting",
-    "ts": 1778664062
-  },
-  {
     "key": "uruguay--severe-weather--nationwide",
     "source": "ReliefWeb Updates",
     "ts": 1778664649
