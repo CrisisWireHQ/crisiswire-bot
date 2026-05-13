@@ -103,5 +103,30 @@
     "key": "france--hantavirus--outbreak",
     "source": "GN: Outbreak",
     "ts": 1778675469
+  },
+  {
+    "key": "philippines--shooting--senate",
+    "source": "Jerusalem Post",
+    "ts": 1778676044
+  },
+  {
+    "key": "philippines--shooting--senate",
+    "source": "GN: Breaking News",
+    "ts": 1778676054
+  },
+  {
+    "key": "philippines--shooting--senate",
+    "source": "Guardian World",
+    "ts": 1778676065
+  },
+  {
+    "key": "usa--quake--nevada",
+    "source": "GN: Earthquake",
+    "ts": 1778676083
+  },
+  {
+    "key": "usa--crash--kentucky",
+    "source": "GN: Plane Crash",
+    "ts": 1778676084
   }
 ]
