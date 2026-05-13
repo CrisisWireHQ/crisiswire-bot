@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778679058
-  },
-  {
-    "key": "argentina--hantavirus--ushuaia",
-    "source": "France 24 Intl",
-    "ts": 1778679064
-  },
-  {
-    "key": "france--hantavirus--cruise-ship",
-    "source": "France 24 Intl",
-    "ts": 1778679070
-  },
-  {
     "key": "ukraine--drone-strike--nationwide",
     "source": "Guardian World",
     "ts": 1778679087
@@ -93,5 +78,20 @@
     "key": "nigeria--airstrike--zamfara",
     "source": "GN: Strike Attack",
     "ts": 1778682077
+  },
+  {
+    "key": "lebanon--airstrike--south-beirut",
+    "source": "TASS English",
+    "ts": 1778682654
+  },
+  {
+    "key": "pitcairn--hantavirus--exposure",
+    "source": "BBC World",
+    "ts": 1778682671
+  },
+  {
+    "key": "usa--explosion--miami-beach",
+    "source": "GN: Explosion",
+    "ts": 1778682680
   }
 ]
