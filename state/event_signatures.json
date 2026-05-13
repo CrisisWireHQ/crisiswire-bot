@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--explosion--miami",
-    "source": "GN: Explosion",
-    "ts": 1778683287
-  },
-  {
-    "key": "lebanon--airstrike--south-beirut",
-    "source": "GN: Strike Attack",
-    "ts": 1778683295
-  },
-  {
-    "key": "lebanon--airstrike--sidon",
-    "source": "GN: Strike Attack",
-    "ts": 1778683297
-  },
-  {
     "key": "usa--shooting--new-york",
     "source": "GN: Mass Shooting",
     "ts": 1778683859
