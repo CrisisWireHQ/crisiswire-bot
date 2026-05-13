@@ -38,5 +38,15 @@
     "key": "usa--explosion--chalmette-refinery",
     "source": "GN: Explosion",
     "ts": 1778660452
+  },
+  {
+    "key": "usa--shooting--las-vegas",
+    "source": "GN: Mass Shooting",
+    "ts": 1778660503
+  },
+  {
+    "key": "usa--explosion--chalmette-refining",
+    "source": "GN: Explosion",
+    "ts": 1778660504
   }
 ]
