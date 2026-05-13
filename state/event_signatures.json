@@ -133,5 +133,10 @@
     "key": "nigeria--airstrike--zamfara",
     "source": "GN: Strike Attack",
     "ts": 1778669478
+  },
+  {
+    "key": "lebanon--drone-strike--south-beirut",
+    "source": "GN: Strike Attack",
+    "ts": 1778670073
   }
 ]
