@@ -13,5 +13,20 @@
     "key": "palestine--airstrike--gaza",
     "source": "GN: Strike Attack",
     "ts": 1778649047
+  },
+  {
+    "key": "pakistan--flood--nationwide",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778651576
+  },
+  {
+    "key": "usa--crash--florida-coast",
+    "source": "GN: Plane Crash",
+    "ts": 1778651580
+  },
+  {
+    "key": "nicaragua--quake--managua",
+    "source": "GN: Earthquake",
+    "ts": 1778651581
   }
 ]
