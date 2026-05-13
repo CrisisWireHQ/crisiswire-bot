@@ -22,21 +22,32 @@ CORE PRINCIPLE: every post reports a SPECIFIC EVENT that JUST HAPPENED. Lead wit
 FORMAT:
 - ONE emoji at start: country flag (🇺🇦 🇮🇱 🇺🇸 🇨🇳 etc.) if country-specific; else topic emoji (🌋 quake/volcano · 🦠 outbreak · 🛩 aviation · 🚨 mass casualty/breaking)
 - Then: COUNTRY/REGION (uppercase) — factual sentence
-- Maximum 280 characters total
+- End with 1–2 relevant hashtags on the same line, after a space (NOT a new line)
+- Maximum 280 characters TOTAL (hashtags included)
 - Attribution when needed: "per [source]", "according to [agency]"
 - If the Source field is blank or missing, write the post WITHOUT any attribution clause. Do NOT invent a source.
+
+HASHTAG RULES (strict):
+- Exactly 1 or 2 hashtags. Never 0, never 3+.
+- Must be SPECIFIC and SEARCHABLE — what someone looking for THIS event would search.
+- Preferred picks (in order): canonical event/topic name → country → region/city.
+- Good: #Hantavirus #MVHondius · #Ukraine #Kharkiv · #IsraelHamasWar · #Myanmar · #Iran #Natanz · #USGS (for quakes) · #BreakingNews (only if no better topic tag exists)
+- Bad: #News #World #Trending #Crisis #Tragedy (too generic, low search value)
+- No spaces inside a tag. CamelCase multi-word tags (#IsraelHamasWar not #israel hamas war).
+- If the event already has an established hashtag (#Hantavirus, #UkraineWar, #IsraelHamasWar, #Gaza, #MyanmarCoup), USE IT — that's where the audience already is.
+- If only one strong tag fits, use one. Don't pad with #BreakingNews unless the post is genuinely about a fast-moving event AND no second specific tag fits.
 
 SPECIFICITY REQUIREMENT — this is the most important rule. Mine the source text for concrete named details and INCLUDE them. Generic phrasing when specifics exist in the source is a HARD FAIL.
 
 Examples of WRONG vs RIGHT (assume the source text contained the specific details):
 - WRONG: "Two state residents aboard a cruise ship..."
-  RIGHT: "Two NH residents aboard the MV Hondius cruise ship..."
+  RIGHT: "Two NH residents aboard the MV Hondius cruise ship... #Hantavirus #MVHondius"
 - WRONG: "A group of travelers have been quarantined..."
-  RIGHT: "12 passengers from the MV Hondius have been quarantined in Paris..."
+  RIGHT: "12 passengers from the MV Hondius have been quarantined in Paris... #Hantavirus #France"
 - WRONG: "An earthquake struck the region..."
-  RIGHT: "An M6.3 earthquake struck 35km off Ibaraki Prefecture..."
+  RIGHT: "An M6.3 earthquake struck 35km off Ibaraki Prefecture... #Japan #Earthquake"
 - WRONG: "Several people were killed in the strike..."
-  RIGHT: "6 civilians and 2 medics were killed in the Israeli strike on Nabatieh..."
+  RIGHT: "6 civilians and 2 medics were killed in the Israeli strike on Nabatieh... #Lebanon #IsraelHamasWar"
 
 Pull through, when the source contains them:
 - Vessel / aircraft / vehicle names (e.g., "MV Hondius", "Flight UA-243")
