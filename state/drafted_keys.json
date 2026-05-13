@@ -11,6 +11,7 @@
   "germany--hostage--sinzig": 1778701269,
   "haiti--armed-conflict--cite-soleil": 1778676681,
   "india--attack--manipur-church": 1778693467,
+  "iran--airstrike--tehran": 1778709657,
   "israel--shooting--west-bank-barrier": 1778688660,
   "lebanon--airstrike--south-beirut": 1778677869,
   "lebanon--drone-strike--vehicles": 1778692289,
@@ -37,5 +38,6 @@
   "usa--hostage--shreveport-louisiana": 1778685073,
   "usa--outbreak--portland-cruise": 1778675452,
   "usa--quake--southern-california": 1778701860,
-  "usa--shooting--paterson-new-jersey": 1778678475
+  "usa--shooting--paterson-new-jersey": 1778678475,
+  "usa--shooting-plot--new-orleans": 1778709643
 }
