@@ -133,5 +133,15 @@
     "key": "china--explosion--fireworks-factory",
     "source": "GN: Explosion",
     "ts": 1778679098
+  },
+  {
+    "key": "france--outbreak--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778679659
+  },
+  {
+    "key": "philippines--shooting--senate-building",
+    "source": "BBC World",
+    "ts": 1778679684
   }
 ]
