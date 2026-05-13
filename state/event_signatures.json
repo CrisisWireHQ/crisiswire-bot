@@ -83,5 +83,10 @@
     "key": "nigeria--airstrike--zamfara",
     "source": "GN: Strike Attack",
     "ts": 1778662861
+  },
+  {
+    "key": "iran--quake--tehran",
+    "source": "GN: Earthquake",
+    "ts": 1778663452
   }
 ]
