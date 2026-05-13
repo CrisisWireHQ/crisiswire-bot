@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--explosion--miami-beach",
-    "source": "GN: Explosion",
-    "ts": 1778685086
-  },
-  {
-    "key": "usa--explosion--miami-boat",
-    "source": "GN: Explosion",
-    "ts": 1778685087
-  },
-  {
     "key": "none",
     "source": "GN: Outbreak",
     "ts": 1778685650
