@@ -45,8 +45,20 @@ def _build_body(draft_text: str, item: dict, classification: dict) -> tuple[str,
     display_src = item["display_source"] if "display_source" in item else item.get("source_name", "")
     display_src = (display_src or "").strip()
     src_line = f"📡 {display_src}\n" if display_src else ""
-    link = (item.get("link") or "").strip()
-    link_line = f"🔗 {link}" if link else "🔗 (no source link)"
+    # `source_url`, if present, overrides `link` for the visible source URL.
+    # This lets trusted-firehose items (Faytuks) link to the underlying source
+    # in the X reply instead of crediting the watched account's telegram post.
+    # An explicit empty `source_url` means "no source reply" — omit the line.
+    if "source_url" in item:
+        link = (item.get("source_url") or "").strip()
+    else:
+        link = (item.get("link") or "").strip()
+    if link:
+        link_line = f"🔗 {link}"
+    elif "source_url" in item:
+        link_line = ""  # trusted item with no external URL: suppress
+    else:
+        link_line = "🔗 (no source link)"
     body = (
         f"{header}\n"
         f"{DRAFT_SEP}\n"

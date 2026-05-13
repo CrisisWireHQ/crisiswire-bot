@@ -7,6 +7,25 @@ PREVIEW = "https://t.me/s/{channel}"
 _BG_IMG_RE = re.compile(r"background-image\s*:\s*url\(['\"]?([^'\"\)]+)['\"]?\)")
 
 
+def _extract_external_url(text_el) -> str:
+    """First href in the message body that is NOT a self-link to Telegram.
+    Used to find the underlying source URL Faytuks et al. usually link to."""
+    if text_el is None:
+        return ""
+    for a in text_el.find_all("a", href=True):
+        href = a["href"].strip()
+        if not href.startswith(("http://", "https://")):
+            continue
+        low = href.lower()
+        if "t.me/" in low or "telegram.me/" in low or "telegram.org/" in low:
+            continue
+        # Skip hashtag / mention links which are tg:// or anchor refs
+        if href.startswith("#") or href.startswith("tg:"):
+            continue
+        return href
+    return ""
+
+
 def _extract_image(block) -> str:
     photo = block.select_one("a.tgme_widget_message_photo_wrap")
     if photo and photo.get("style"):
@@ -43,6 +62,7 @@ def fetch_channel(channel: str, max_messages: int = 15) -> list[dict]:
             break
         if not text_el:
             continue
+        external_url = _extract_external_url(text_el)
         text = text_el.get_text(separator=" ", strip=True)
         if len(text) < 15:
             continue
@@ -60,6 +80,7 @@ def fetch_channel(channel: str, max_messages: int = 15) -> list[dict]:
             "link": link,
             "published": published,
             "image_url": image_url,
+            "external_url": external_url,
         })
     if channel.lower() in ("faytuks_network", "outbreakupdates"):
         for o in out[:6]:

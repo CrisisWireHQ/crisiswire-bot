@@ -111,17 +111,25 @@ def _from_tg(src: dict) -> list[dict]:
         ts = _to_epoch_iso(m["published"])
         if not _is_fresh(ts):
             continue
-        out.append({
+        item = {
             "source_name": src["name"],
             "tier": src["tier"],
             "category": src["category"],
             "title": m["title"],
             "summary": m["summary"],
-            "link": m["link"],
+            "link": m["link"],           # t.me URL — used for is_seen dedup
             "published": m["published"],
             "ts": ts,
             "image_url": m.get("image_url", ""),
-        })
+        }
+        # Trusted firehose (e.g. Faytuks): we're competing with them, so don't
+        # credit them in the post and don't link their telegram in the X reply.
+        # Use the underlying source URL from the message body if they linked one;
+        # otherwise no source reply at all.
+        if src.get("trusted"):
+            item["display_source"] = ""  # blank → drafter omits attribution
+            item["source_url"] = m.get("external_url", "")  # may be ""
+        out.append(item)
         kept += 1
         if kept >= PER_SOURCE_LIMIT:
             break
