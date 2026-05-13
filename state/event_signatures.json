@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-beijing-president-donald-trump-heading",
-    "source": "TG: Faytuks Network",
-    "ts": 1778669149
-  },
-  {
     "key": "ecuador--shooting--machala",
     "source": "CBS News World",
     "ts": 1778669449
@@ -93,5 +88,10 @@
     "key": "iran--quake--overnight",
     "source": "GN: Earthquake",
     "ts": 1778672522
+  },
+  {
+    "key": "trusted-manila-armed-forces-the-philippines",
+    "source": "TG: Faytuks Network",
+    "ts": 1778672801
   }
 ]
