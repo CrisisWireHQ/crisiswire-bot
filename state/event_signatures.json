@@ -1,20 +1,5 @@
 [
   {
-    "key": "uk--quake--morecambe",
-    "source": "GN: Earthquake",
-    "ts": 1778666458
-  },
-  {
-    "key": "lebanon--airstrike--tyre",
-    "source": "GN: Strike Attack",
-    "ts": 1778666480
-  },
-  {
-    "key": "nigeria--airstrike--northwest",
-    "source": "GN: Strike Attack",
-    "ts": 1778666484
-  },
-  {
     "key": "null",
     "source": "Straits Times World",
     "ts": 1778667042
