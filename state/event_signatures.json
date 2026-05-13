@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--local",
-    "source": "GN: Outbreak",
-    "ts": 1778682059
-  },
-  {
-    "key": "n/a",
-    "source": "GN: Outbreak",
-    "ts": 1778682065
-  },
-  {
-    "key": "nigeria--airstrike--zamfara",
-    "source": "GN: Strike Attack",
-    "ts": 1778682077
-  },
-  {
     "key": "lebanon--airstrike--south-beirut",
     "source": "TASS English",
     "ts": 1778682654
