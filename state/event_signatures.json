@@ -1,15 +1,5 @@
 [
   {
-    "key": "canada--fire--northwest-edmonton",
-    "source": "GN: Wildfire",
-    "ts": 1778636439
-  },
-  {
-    "key": "usa--shooting--arcadia-lake-oklahoma",
-    "source": "GN: Mass Shooting",
-    "ts": 1778636440
-  },
-  {
     "key": "canada--fire--edmonton-northwest",
     "source": "GN: Wildfire",
     "ts": 1778636461
