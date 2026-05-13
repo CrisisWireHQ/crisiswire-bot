@@ -1,20 +1,5 @@
 [
   {
-    "key": "south-sandwich-islands--quake--region",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778661049
-  },
-  {
-    "key": "russia--drone-attack--rostov-region",
-    "source": "TASS English",
-    "ts": 1778661058
-  },
-  {
-    "key": "usa--explosion--new-orleans-oil-refinery",
-    "source": "GN: Explosion",
-    "ts": 1778661065
-  },
-  {
     "key": "iran--quake--tehran",
     "source": "GN: Earthquake",
     "ts": 1778661660
