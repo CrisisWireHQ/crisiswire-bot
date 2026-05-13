@@ -113,5 +113,30 @@
     "key": "usa--quake--bay-area",
     "source": "GN: Earthquake",
     "ts": 1778684484
+  },
+  {
+    "key": "usa--hostage--shreveport-louisiana",
+    "source": "GN: Hostage",
+    "ts": 1778685071
+  },
+  {
+    "key": "lebanon--drone-strike--vehicles",
+    "source": "GN: Strike Attack",
+    "ts": 1778685077
+  },
+  {
+    "key": "france--outbreak--cruise-ship",
+    "source": "Sky News",
+    "ts": 1778685083
+  },
+  {
+    "key": "usa--explosion--miami-beach",
+    "source": "GN: Explosion",
+    "ts": 1778685086
+  },
+  {
+    "key": "usa--explosion--miami-boat",
+    "source": "GN: Explosion",
+    "ts": 1778685087
   }
 ]
