@@ -43,5 +43,10 @@
     "key": "lebanon--drone-strike--vehicles",
     "source": "GN: Strike Attack",
     "ts": 1778715788
+  },
+  {
+    "key": "usa--shooting--depue-illinois",
+    "source": "GN: Hostage",
+    "ts": 1778716238
   }
 ]
