@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--new-mexico",
-    "source": "GN: Outbreak",
-    "ts": 1778707246
-  },
-  {
-    "key": "usa--mass-shooting--arcadia-lake",
-    "source": "GN: Mass Shooting",
-    "ts": 1778707251
-  },
-  {
     "key": "usa--quake--southern-california",
     "source": "GN: Earthquake",
     "ts": 1778707266
@@ -78,5 +68,10 @@
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778710255
+  },
+  {
+    "key": "philippines--quake--namuac",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778710843
   }
 ]
