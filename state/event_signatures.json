@@ -48,5 +48,15 @@
     "key": "usa--quake-swarm--southern-california",
     "source": "GN: Earthquake",
     "ts": 1778657448
+  },
+  {
+    "key": "france--hantavirus--cruise-ship",
+    "source": "NPR World",
+    "ts": 1778658042
+  },
+  {
+    "key": "usa--shooting--arcadia-lake-oklahoma",
+    "source": "GN: Mass Shooting",
+    "ts": 1778658051
   }
 ]
