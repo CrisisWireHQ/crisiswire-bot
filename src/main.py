@@ -207,6 +207,13 @@ def poll_and_draft() -> int:
             }
             print(f"[trusted] bypassing classifier for {item['source_name']}")
         else:
+            # Cheap headline-regex pre-filter — kills obvious non-breaking
+            # items (explainers, anniversaries, opinion, etc.) without a
+            # Claude call. Hantavirus items always go to the classifier.
+            if not is_hantavirus and classifier.cheap_prefilter_reject(item):
+                print(f"[prefilter] reject {item['source_name']}: {item['title'][:80]!r}")
+                state.mark_seen(seen, item["link"])
+                continue
             try:
                 cls = classifier.classify(item)
             except Exception as e:

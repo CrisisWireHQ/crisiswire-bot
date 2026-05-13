@@ -1,6 +1,38 @@
 import os
+import re
 import json
 from anthropic import Anthropic
+
+# Cheap pre-filter: kill obvious non-breaking items by headline alone, so we
+# never spend a Haiku call on them. Patterns mirror the SYSTEM prompt's hard
+# rejections.
+_REJECT_PATTERNS = re.compile(
+    r"\b("
+    r"what we know|what to know|everything (you|to) know|here'?s why|here'?s what|"
+    r"explained|explainer|deep dive|deep-dive|"
+    r"a year later|years later|years on|months later|anniversary|look back|looking back|"
+    r"the human cost|voices from|what it'?s like|inside the|civilians describe|"
+    r"how we got here|timeline|history of|background on|"
+    r"opinion|op-ed|analysis|commentary|column|"
+    r"profile|interview with|sits down with|"
+    r"experts warn|fears (of|that)|concerns (over|that|grow)|tensions rise|"
+    r"may happen|could happen|might happen|if confirmed|"
+    r"what happens next|what comes next|"
+    r"recap|roundup|round-up|weekly|in pictures|in photos"
+    r")\b",
+    re.IGNORECASE,
+)
+
+
+def cheap_prefilter_reject(item: dict) -> bool:
+    """Return True if the headline obviously isn't breaking news.
+    Saves a Haiku call. Conservative — only matches strong signals."""
+    title = (item.get("title") or "").strip()
+    if not title:
+        return True
+    if _REJECT_PATTERNS.search(title):
+        return True
+    return False
 
 _client = None
 
@@ -85,12 +117,12 @@ def classify(item: dict) -> dict:
     user = (
         f"Source: {item['source_name']} (tier {item['tier']})\n"
         f"Title: {item['title']}\n"
-        f"Summary: {item['summary'][:1000]}"
+        f"Summary: {item['summary'][:400]}"
     )
     msg = client().messages.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=200,
-        system=SYSTEM,
+        max_tokens=120,
+        system=[{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}],
         messages=[{"role": "user", "content": user}],
     )
     text = msg.content[0].text.strip()

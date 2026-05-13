@@ -104,7 +104,7 @@ def draft(item: dict, is_breaking: bool = False, is_hantavirus: bool = False, is
     msg = client().messages.create(
         model="claude-sonnet-4-6",
         max_tokens=400,
-        system=SYSTEM,
+        system=[{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}],
         messages=[{"role": "user", "content": user}],
     )
     text = msg.content[0].text.strip()
