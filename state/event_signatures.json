@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--crash--florida",
-    "source": "GN: Plane Crash",
-    "ts": 1778694675
-  },
-  {
-    "key": "usa--plane-crash--louisiana",
-    "source": "GN: Plane Crash",
-    "ts": 1778694686
-  },
-  {
-    "key": "usa--fire--washington",
-    "source": "GN: Wildfire",
-    "ts": 1778694688
-  },
-  {
     "key": "usa--explosion--amaero-plant",
     "source": "GN: Explosion",
     "ts": 1778695262
