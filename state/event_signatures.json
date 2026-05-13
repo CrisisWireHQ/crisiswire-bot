@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778687464
-  },
-  {
     "key": "usa--crash--florida-melbourne",
     "source": "GN: Plane Crash",
     "ts": 1778688066
