@@ -1,15 +1,5 @@
 [
   {
-    "key": "canada--fire--edmonton",
-    "source": "GN: Wildfire",
-    "ts": 1778644862
-  },
-  {
-    "key": "usa--hantavirus--investigation",
-    "source": "GN: Outbreak",
-    "ts": 1778644864
-  },
-  {
     "key": "unknown--hantavirus--cruise-ship",
     "source": "GN: Outbreak",
     "ts": 1778645446
