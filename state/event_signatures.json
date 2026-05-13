@@ -1,15 +1,5 @@
 [
   {
-    "key": "el-salvador--quake--conchagua",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778665841
-  },
-  {
-    "key": "france--hantavirus--cruise-ship",
-    "source": "France 24 Intl",
-    "ts": 1778665845
-  },
-  {
     "key": "uk--quake--morecambe",
     "source": "GN: Earthquake",
     "ts": 1778666458
