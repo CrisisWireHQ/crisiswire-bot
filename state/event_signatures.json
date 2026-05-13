@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--shooting--las-vegas",
-    "source": "GN: Mass Shooting",
-    "ts": 1778660503
-  },
-  {
-    "key": "usa--explosion--chalmette-refining",
-    "source": "GN: Explosion",
-    "ts": 1778660504
-  },
-  {
     "key": "lebanon--airstrike--tyre",
     "source": "GN: Strike Attack",
     "ts": 1778661047
