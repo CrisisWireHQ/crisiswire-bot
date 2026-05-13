@@ -58,5 +58,20 @@
     "key": "usa--crash--florida-coast",
     "source": "GN: Plane Crash",
     "ts": 1778705452
+  },
+  {
+    "key": "unknown--outbreak--hantavirus",
+    "source": "GN: Outbreak",
+    "ts": 1778706054
+  },
+  {
+    "key": "usa--shooting--bureau-county-illinois",
+    "source": "GN: Hostage",
+    "ts": 1778706059
+  },
+  {
+    "key": "usa--hantavirus--cruise",
+    "source": "GN: Outbreak",
+    "ts": 1778706061
   }
 ]
