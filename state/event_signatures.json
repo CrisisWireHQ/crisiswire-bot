@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--shooting--north-carolina",
-    "source": "GN: Mass Shooting",
-    "ts": 1778634053
-  },
-  {
-    "key": "usa--mass-shooting--texas",
-    "source": "GN: Mass Shooting",
-    "ts": 1778634055
-  },
-  {
-    "key": "canada--fire--alberta",
-    "source": "GN: Wildfire",
-    "ts": 1778634060
-  },
-  {
     "key": "pakistan--explosion--northwest",
     "source": "GN: Explosion",
     "ts": 1778634660
@@ -78,5 +63,30 @@
     "key": "canada--fire--edmonton-northwest",
     "source": "GN: Wildfire",
     "ts": 1778637051
+  },
+  {
+    "key": "nigeria--airstrike--zamfara",
+    "source": "GN: Strike Attack",
+    "ts": 1778637648
+  },
+  {
+    "key": "cruise--hantavirus--ship",
+    "source": "GN: Outbreak",
+    "ts": 1778637650
+  },
+  {
+    "key": "usa--crash--atlantic-ocean",
+    "source": "GN: Plane Crash",
+    "ts": 1778637655
+  },
+  {
+    "key": "canada--fire--edmonton",
+    "source": "GN: Wildfire",
+    "ts": 1778637661
+  },
+  {
+    "key": "canada--fire--northwest-edmonton",
+    "source": "GN: Wildfire",
+    "ts": 1778637662
   }
 ]
