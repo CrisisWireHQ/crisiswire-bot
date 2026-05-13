@@ -1,15 +1,5 @@
 [
   {
-    "key": "france--outbreak--hantavirus",
-    "source": "GN: Outbreak",
-    "ts": 1778671849
-  },
-  {
-    "key": "iran--quake--tehran",
-    "source": "GN: Earthquake",
-    "ts": 1778671852
-  },
-  {
     "key": "lebanon--drone-strike--south-beirut",
     "source": "GN: Strike Attack",
     "ts": 1778672507
