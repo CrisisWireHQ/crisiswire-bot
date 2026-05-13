@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--hostage--shreveport-louisiana",
-    "source": "GN: Hostage",
-    "ts": 1778685071
-  },
-  {
-    "key": "lebanon--drone-strike--vehicles",
-    "source": "GN: Strike Attack",
-    "ts": 1778685077
-  },
-  {
-    "key": "france--outbreak--cruise-ship",
-    "source": "Sky News",
-    "ts": 1778685083
-  },
-  {
     "key": "usa--explosion--miami-beach",
     "source": "GN: Explosion",
     "ts": 1778685086
@@ -108,5 +93,20 @@
     "key": "china--explosion--fireworks-plant",
     "source": "GN: Explosion",
     "ts": 1778688077
+  },
+  {
+    "key": "ukraine--airstrike--kindergarten",
+    "source": "GN: Explosion",
+    "ts": 1778688654
+  },
+  {
+    "key": "israel--shooting--west-bank-barrier",
+    "source": "GN: Breaking News",
+    "ts": 1778688657
+  },
+  {
+    "key": "nigeria--airstrike--zamfara",
+    "source": "GN: Strike Attack",
+    "ts": 1778688665
   }
 ]
