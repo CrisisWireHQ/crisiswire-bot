@@ -1,10 +1,5 @@
 [
   {
-    "key": "nicaragua--quake--masachapa",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778644850
-  },
-  {
     "key": "canada--fire--edmonton",
     "source": "GN: Wildfire",
     "ts": 1778644862
