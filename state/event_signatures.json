@@ -1,15 +1,5 @@
 [
   {
-    "key": "cruise-ship--hantavirus-outbreak--unspecified",
-    "source": "GN: Outbreak",
-    "ts": 1778670653
-  },
-  {
-    "key": "lebanon--drone-strike--south-beirut",
-    "source": "GN: Strike Attack",
-    "ts": 1778670670
-  },
-  {
     "key": "trusted-chinese-vice-premier-lifeng-amp",
     "source": "TG: Faytuks Network",
     "ts": 1778671277
@@ -93,5 +83,30 @@
     "key": "usa--explosion--miami",
     "source": "GN: Explosion",
     "ts": 1778673678
+  },
+  {
+    "key": "france--outbreak--bordeaux-cruise-ship",
+    "source": "BBC World",
+    "ts": 1778674247
+  },
+  {
+    "key": "russia--strike--oil-gas-infrastructure",
+    "source": "Straits Times World",
+    "ts": 1778674250
+  },
+  {
+    "key": "iran--quake--tehran",
+    "source": "GN: Earthquake",
+    "ts": 1778674255
+  },
+  {
+    "key": "lebanon--drone-strike--south-beirut",
+    "source": "GN: Strike Attack",
+    "ts": 1778674268
+  },
+  {
+    "key": "france--hantavirus--outbreak",
+    "source": "GN: Outbreak",
+    "ts": 1778674270
   }
 ]
