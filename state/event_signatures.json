@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--outbreak--portland-cruise",
-    "source": "GN: Outbreak",
-    "ts": 1778675450
-  },
-  {
-    "key": "france--hantavirus--outbreak",
-    "source": "GN: Outbreak",
-    "ts": 1778675469
-  },
-  {
     "key": "philippines--shooting--senate",
     "source": "Jerusalem Post",
     "ts": 1778676044
