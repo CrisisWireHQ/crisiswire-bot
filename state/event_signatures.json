@@ -1,20 +1,5 @@
 [
   {
-    "key": "pakistan--flood--nationwide",
-    "source": "GDACS Disaster Alerts",
-    "ts": 1778651576
-  },
-  {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778651580
-  },
-  {
-    "key": "nicaragua--quake--managua",
-    "source": "GN: Earthquake",
-    "ts": 1778651581
-  },
-  {
     "key": "russia--quake--kamchatka",
     "source": "USGS Quakes M4.5+",
     "ts": 1778652043
