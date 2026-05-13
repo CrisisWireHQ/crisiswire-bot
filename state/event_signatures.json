@@ -5,16 +5,6 @@
     "ts": 1778671277
   },
   {
-    "key": "n/a",
-    "source": "GN: Outbreak",
-    "ts": 1778671250
-  },
-  {
-    "key": "taiwan--quake--hualien",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778671254
-  },
-  {
     "key": "trusted-chinese-vice-premier-lifeng-amp",
     "source": "TG: Faytuks Network",
     "ts": 1778671312
@@ -108,5 +98,25 @@
     "key": "france--hantavirus--outbreak",
     "source": "GN: Outbreak",
     "ts": 1778674270
+  },
+  {
+    "key": "taiwan--quake--east",
+    "source": "GN: Earthquake",
+    "ts": 1778674848
+  },
+  {
+    "key": "france--outbreak--bordeaux-cruise-ship",
+    "source": "GN: Breaking News",
+    "ts": 1778674850
+  },
+  {
+    "key": "canada--fire--edmonton-northwest",
+    "source": "GN: Wildfire",
+    "ts": 1778674851
+  },
+  {
+    "key": "russia--airstrike--kharkiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778674854
   }
 ]
