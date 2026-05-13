@@ -1,25 +1,5 @@
 [
   {
-    "key": "none",
-    "source": "GN: Outbreak",
-    "ts": 1778685650
-  },
-  {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778685654
-  },
-  {
-    "key": "philippines--shooting--manila-senate",
-    "source": "France 24 Intl",
-    "ts": 1778685658
-  },
-  {
-    "key": "lebanon--airstrike--vehicles",
-    "source": "Al Jazeera",
-    "ts": 1778685666
-  },
-  {
     "key": "pakistan--explosion--bazaar",
     "source": "GN: Explosion",
     "ts": 1778685675
@@ -98,5 +78,15 @@
     "key": "nigeria--airstrike--zamfara",
     "source": "GN: Strike Attack",
     "ts": 1778688665
+  },
+  {
+    "key": "usa--shooting--arcadia-lake-edmond",
+    "source": "GN: Mass Shooting",
+    "ts": 1778689263
+  },
+  {
+    "key": "spain--hantavirus--outbreak",
+    "source": "ReliefWeb Updates",
+    "ts": 1778689266
   }
 ]
