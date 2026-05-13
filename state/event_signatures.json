@@ -1,15 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--south",
-    "source": "TASS English",
-    "ts": 1778630454
-  },
-  {
-    "key": "iran--quake--tehran",
-    "source": "GN: Earthquake",
-    "ts": 1778630461
-  },
-  {
     "key": "usa--hantavirus--vermont",
     "source": "GN: Outbreak",
     "ts": 1778630463
@@ -88,5 +78,20 @@
     "key": "iran--quake--tehran",
     "source": "GN: Earthquake",
     "ts": 1778633470
+  },
+  {
+    "key": "usa--shooting--north-carolina",
+    "source": "GN: Mass Shooting",
+    "ts": 1778634053
+  },
+  {
+    "key": "usa--mass-shooting--texas",
+    "source": "GN: Mass Shooting",
+    "ts": 1778634055
+  },
+  {
+    "key": "canada--fire--alberta",
+    "source": "GN: Wildfire",
+    "ts": 1778634060
   }
 ]
