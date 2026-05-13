@@ -1,10 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--south-beirut",
-    "source": "GN: Strike Attack",
-    "ts": 1778656850
-  },
-  {
     "key": "trusted-idf-over-the-past-hours",
     "source": "TG: Faytuks Network",
     "ts": 1778657017
@@ -28,5 +23,20 @@
     "key": "new-zealand--quake--kermadec-islands",
     "source": "USGS Quakes M4.5+",
     "ts": 1778658648
+  },
+  {
+    "key": "unknown--outbreak--hantavirus",
+    "source": "GN: Outbreak",
+    "ts": 1778660448
+  },
+  {
+    "key": "usa--shooting--las-vegas",
+    "source": "GN: Mass Shooting",
+    "ts": 1778660451
+  },
+  {
+    "key": "usa--explosion--chalmette-refinery",
+    "source": "GN: Explosion",
+    "ts": 1778660452
   }
 ]
