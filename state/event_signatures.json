@@ -2,11 +2,6 @@
   {
     "key": "iran--quake--tehran",
     "source": "GN: Earthquake",
-    "ts": 1778626865
-  },
-  {
-    "key": "iran--quake--tehran",
-    "source": "GN: Earthquake",
     "ts": 1778627461
   },
   {
@@ -63,5 +58,20 @@
     "key": "usa--crash--florida-coast",
     "source": "GN: Plane Crash",
     "ts": 1778629853
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "TASS English",
+    "ts": 1778630454
+  },
+  {
+    "key": "iran--quake--tehran",
+    "source": "GN: Earthquake",
+    "ts": 1778630461
+  },
+  {
+    "key": "usa--hantavirus--vermont",
+    "source": "GN: Outbreak",
+    "ts": 1778630463
   }
 ]
