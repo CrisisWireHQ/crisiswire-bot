@@ -1,20 +1,5 @@
 [
   {
-    "key": "unknown--outbreak--hantavirus",
-    "source": "GN: Outbreak",
-    "ts": 1778660448
-  },
-  {
-    "key": "usa--shooting--las-vegas",
-    "source": "GN: Mass Shooting",
-    "ts": 1778660451
-  },
-  {
-    "key": "usa--explosion--chalmette-refinery",
-    "source": "GN: Explosion",
-    "ts": 1778660452
-  },
-  {
     "key": "usa--shooting--las-vegas",
     "source": "GN: Mass Shooting",
     "ts": 1778660503
@@ -88,5 +73,20 @@
     "key": "iran--quake--tehran",
     "source": "GN: Earthquake",
     "ts": 1778663452
+  },
+  {
+    "key": "iran--quake--tehran",
+    "source": "GN: Earthquake",
+    "ts": 1778664050
+  },
+  {
+    "key": "usa--fire--oscoda-county-michigan",
+    "source": "GN: Wildfire",
+    "ts": 1778664061
+  },
+  {
+    "key": "usa--mass-shooting--oklahoma-lake",
+    "source": "GN: Mass Shooting",
+    "ts": 1778664062
   }
 ]
