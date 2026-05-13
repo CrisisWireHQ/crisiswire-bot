@@ -1,15 +1,5 @@
 [
   {
-    "key": "jamaica--quake--eastern",
-    "source": "GN: Earthquake",
-    "ts": 1778676660
-  },
-  {
-    "key": "jamaica--quake--east",
-    "source": "GN: Earthquake",
-    "ts": 1778676666
-  },
-  {
     "key": "lebanon--airstrike--general",
     "source": "GN: Strike Attack",
     "ts": 1778676674
