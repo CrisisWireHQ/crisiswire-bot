@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778709054
-  },
-  {
-    "key": "usa--shooting--bureau-county-illinois",
-    "source": "GN: Hostage",
-    "ts": 1778709059
-  },
-  {
     "key": "usa--hantavirus--nebraska",
     "source": "GN: Outbreak",
     "ts": 1778709064
