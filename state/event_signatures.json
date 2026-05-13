@@ -73,5 +73,25 @@
     "key": "usa--mass-shooting--oklahoma-lake",
     "source": "GN: Mass Shooting",
     "ts": 1778664062
+  },
+  {
+    "key": "uruguay--severe-weather--nationwide",
+    "source": "ReliefWeb Updates",
+    "ts": 1778664649
+  },
+  {
+    "key": "pakistan--floods--khyber-pakhtunkhwa",
+    "source": "ReliefWeb Updates",
+    "ts": 1778664655
+  },
+  {
+    "key": "iran--quake--tehran",
+    "source": "GN: Earthquake",
+    "ts": 1778664662
+  },
+  {
+    "key": "colombia--explosion--coal-mine",
+    "source": "GN: Explosion",
+    "ts": 1778664668
   }
 ]
