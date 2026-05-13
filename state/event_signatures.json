@@ -63,5 +63,10 @@
     "key": "lebanon--airstrike--bekaa-valley",
     "source": "GN: Strike Attack",
     "ts": 1778702470
+  },
+  {
+    "key": "usa--hantavirus--kent-county",
+    "source": "GN: Outbreak",
+    "ts": 1778703051
   }
 ]
