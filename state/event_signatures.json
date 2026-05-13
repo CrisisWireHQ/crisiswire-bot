@@ -93,5 +93,10 @@
     "key": "none",
     "source": "GN: Outbreak",
     "ts": 1778680872
+  },
+  {
+    "key": "trusted-the-producer-price-index-ppi",
+    "source": "TG: Faytuks Network",
+    "ts": 1778680898
   }
 ]
