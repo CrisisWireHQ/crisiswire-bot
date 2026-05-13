@@ -1,15 +1,5 @@
 [
   {
-    "key": "france--outbreak--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778679659
-  },
-  {
-    "key": "philippines--shooting--senate-building",
-    "source": "BBC World",
-    "ts": 1778679684
-  },
-  {
     "key": "philippines--shooting--senate",
     "source": "NPR World",
     "ts": 1778680280
