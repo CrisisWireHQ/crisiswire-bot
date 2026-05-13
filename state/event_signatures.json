@@ -93,5 +93,10 @@
     "key": "usa--hostage--louisiana",
     "source": "GN: Hostage",
     "ts": 1778631069
+  },
+  {
+    "key": "lebanon--airstrike--nabatieh",
+    "source": "GN: Strike Attack",
+    "ts": 1778631649
   }
 ]
