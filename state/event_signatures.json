@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778698852
-  },
-  {
-    "key": "usa--hantavirus--unknown",
-    "source": "GN: Outbreak",
-    "ts": 1778698864
-  },
-  {
     "key": "israel--airstrike--gaza",
     "source": "GN: Strike Attack",
     "ts": 1778700055
@@ -63,5 +53,15 @@
     "key": "usa--explosion--matthews-north-carolina",
     "source": "GN: Explosion",
     "ts": 1778701861
+  },
+  {
+    "key": "lebanon--airstrike--yohmor-al-shqif",
+    "source": "GN: Strike Attack",
+    "ts": 1778702468
+  },
+  {
+    "key": "lebanon--airstrike--bekaa-valley",
+    "source": "GN: Strike Attack",
+    "ts": 1778702470
   }
 ]
