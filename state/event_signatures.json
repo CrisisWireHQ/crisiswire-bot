@@ -58,5 +58,15 @@
     "key": "lebanon--strike--vehicles",
     "source": "GN: Strike Attack",
     "ts": 1778704865
+  },
+  {
+    "key": "usa--explosion--matthews-north-carolina",
+    "source": "GN: Explosion",
+    "ts": 1778705450
+  },
+  {
+    "key": "usa--crash--florida-coast",
+    "source": "GN: Plane Crash",
+    "ts": 1778705452
   }
 ]
