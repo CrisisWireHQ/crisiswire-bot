@@ -1,10 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--haret-saida",
-    "source": "GN: Strike Attack",
-    "ts": 1778639447
-  },
-  {
     "key": "japan--quake--akkeshi",
     "source": "USGS Quakes M4.5+",
     "ts": 1778640043
@@ -48,5 +43,15 @@
     "key": "canada--fire--edmonton-northwest",
     "source": "GN: Wildfire",
     "ts": 1778642456
+  },
+  {
+    "key": "japan--quake--izu-islands",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778643038
+  },
+  {
+    "key": "usa--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778643042
   }
 ]
