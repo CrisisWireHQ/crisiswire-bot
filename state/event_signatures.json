@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--quake--new-york",
-    "source": "GN: Earthquake",
-    "ts": 1778755861
-  },
-  {
-    "key": "unknown--crash--life-raft-rescue",
-    "source": "GN: Plane Crash",
-    "ts": 1778755863
-  },
-  {
-    "key": "iran--explosion--factory",
-    "source": "GN: Explosion",
-    "ts": 1778755866
-  },
-  {
     "key": "lebanon--airstrike--western-bekaa",
     "source": "GN: Strike Attack",
     "ts": 1778756467
@@ -113,5 +98,20 @@
     "key": "lebanon--drone-strike--south",
     "source": "GN: Strike Attack",
     "ts": 1778758871
+  },
+  {
+    "key": "oman--ship-attack--arabian-sea",
+    "source": "GN: Strike Attack",
+    "ts": 1778759440
+  },
+  {
+    "key": "india--ambush--manipur",
+    "source": "GN: Hostage",
+    "ts": 1778759445
+  },
+  {
+    "key": "ukraine--attack--kremenchuk",
+    "source": "GN: Strike Attack",
+    "ts": 1778759470
   }
 ]
