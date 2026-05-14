@@ -1,15 +1,5 @@
 [
   {
-    "key": "philippines--quake--sanchez-mira",
-    "source": "GN: Earthquake",
-    "ts": 1778713253
-  },
-  {
-    "key": "lebanon--drone-strike--vehicles",
-    "source": "GN: Strike Attack",
-    "ts": 1778713254
-  },
-  {
     "key": "germany--hostage--western",
     "source": "GN: Hostage",
     "ts": 1778714448
