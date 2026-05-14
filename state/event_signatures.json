@@ -68,5 +68,10 @@
     "key": "usa--measles-outbreak--buckingham-county-virginia",
     "source": "GN: Outbreak",
     "ts": 1778772067
+  },
+  {
+    "key": "lebanon--missile-strike--south",
+    "source": "TG: WarMonitors",
+    "ts": 1778772658
   }
 ]
