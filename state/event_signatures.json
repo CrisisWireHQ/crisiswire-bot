@@ -63,5 +63,25 @@
     "key": "lebanon--missile-strike--south",
     "source": "TG: WarMonitors",
     "ts": 1778772658
+  },
+  {
+    "key": "lebanon--airstrike--haris",
+    "source": "GN: Strike Attack",
+    "ts": 1778773239
+  },
+  {
+    "key": "ukraine--drone-strike--kyiv",
+    "source": "CBS News World",
+    "ts": 1778773248
+  },
+  {
+    "key": "mali--airstrike--north",
+    "source": "GN: Strike Attack",
+    "ts": 1778773256
+  },
+  {
+    "key": "spain--outbreak--tenerife",
+    "source": "WHO All News",
+    "ts": 1778773263
   }
 ]
