@@ -1,35 +1,5 @@
 [
   {
-    "key": "india--explosion--dewas-madhya-pradesh",
-    "source": "GN: Explosion",
-    "ts": 1778751082
-  },
-  {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778751088
-  },
-  {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778751089
-  },
-  {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778751090
-  },
-  {
-    "key": "usa--plane-crash--rescue",
-    "source": "GN: Plane Crash",
-    "ts": 1778751099
-  },
-  {
-    "key": "pakistan--attack--bannu",
-    "source": "GN: Terror Attack",
-    "ts": 1778751100
-  },
-  {
     "key": "unknown--plane-crash--at-sea",
     "source": "GN: CNN",
     "ts": 1778751646
