@@ -1,10 +1,5 @@
 [
   {
-    "key": "philippines--quake--cagayan",
-    "source": "GN: Earthquake",
-    "ts": 1778722846
-  },
-  {
     "key": "chile--outbreak--andes-virus-cruise",
     "source": "GN: Outbreak",
     "ts": 1778723451
@@ -38,5 +33,15 @@
     "key": "philippines--quake--namuac",
     "source": "USGS Quakes M4.5+",
     "ts": 1778725847
+  },
+  {
+    "key": "usa--mass-shooting--arcadia-lake-edmond-oklahoma",
+    "source": "GN: Mass Shooting",
+    "ts": 1778726445
+  },
+  {
+    "key": "philippines--quake--cagayan",
+    "source": "GN: Earthquake",
+    "ts": 1778726447
   }
 ]
