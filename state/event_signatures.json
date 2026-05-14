@@ -1,25 +1,5 @@
 [
   {
-    "key": "south-sandwich-islands--quake--region",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778798445
-  },
-  {
-    "key": "usa--fire--san-bernardino-county",
-    "source": "GN: Wildfire",
-    "ts": 1778798445
-  },
-  {
-    "key": "usa--fire--georgia",
-    "source": "GN: Wildfire",
-    "ts": 1778798445
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778798445
-  },
-  {
     "key": "australia--quake--darwin",
     "source": "GN: Earthquake",
     "ts": 1778799047
