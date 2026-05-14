@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--quake--imperial-county-california",
-    "source": "GN: Earthquake",
-    "ts": 1778778656
-  },
-  {
     "key": "oman--ship-attack--arabian-sea",
     "source": "GN: Strike Attack",
     "ts": 1778779256
