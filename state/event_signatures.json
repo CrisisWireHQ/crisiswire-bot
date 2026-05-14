@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778768454
-  },
-  {
-    "key": "lebanon--airstrike--zrariyeh",
-    "source": "GN: Strike Attack",
-    "ts": 1778768456
-  },
-  {
     "key": "ukraine--missile-strike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778769083
@@ -68,5 +58,15 @@
     "key": "pakistan--explosion--khyber-pakhtunkhwa",
     "source": "GN: Explosion",
     "ts": 1778771452
+  },
+  {
+    "key": "uae--boarding--gulf-of-oman",
+    "source": "TG: Breaking911",
+    "ts": 1778772046
+  },
+  {
+    "key": "usa--measles-outbreak--buckingham-county-virginia",
+    "source": "GN: Outbreak",
+    "ts": 1778772067
   }
 ]
