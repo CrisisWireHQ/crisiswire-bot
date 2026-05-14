@@ -1,10 +1,5 @@
 [
   {
-    "key": "argentina--quake--san-antonio-de-los-cobres",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778728251
-  },
-  {
     "key": "nigeria--airstrike--zamfara",
     "source": "GN: Strike Attack",
     "ts": 1778728847
