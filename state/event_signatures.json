@@ -43,5 +43,10 @@
     "key": "usa--quake--central-nevada",
     "source": "GN: Earthquake",
     "ts": 1778734863
+  },
+  {
+    "key": "usa--quake--inland-empire",
+    "source": "GN: Earthquake",
+    "ts": 1778735451
   }
 ]
