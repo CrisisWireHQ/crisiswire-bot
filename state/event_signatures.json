@@ -1,20 +1,5 @@
 [
   {
-    "key": "india--storm--uttar-pradesh",
-    "source": "GN: Reuters",
-    "ts": 1778739673
-  },
-  {
-    "key": "cuba--protest--havana",
-    "source": "GN: Reuters",
-    "ts": 1778739687
-  },
-  {
-    "key": "usa--shooting--tennessee",
-    "source": "GN: AP News",
-    "ts": 1778739696
-  },
-  {
     "key": "usa--crash--florida-coast",
     "source": "GN: Plane Crash",
     "ts": 1778740258
