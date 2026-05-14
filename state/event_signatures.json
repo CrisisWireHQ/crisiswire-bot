@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--shooting--tennessee",
-    "source": "GN: Breaking News",
-    "ts": 1778740852
-  },
-  {
     "key": "eu--hantavirus--general",
     "source": "GN: Outbreak",
     "ts": 1778741440
@@ -28,5 +23,10 @@
     "key": "ukraine--missile-strike--kyiv",
     "source": "BBC World",
     "ts": 1778743857
+  },
+  {
+    "key": "lebanon--drone-strike--vehicles",
+    "source": "GN: Strike Attack",
+    "ts": 1778744457
   }
 ]
