@@ -38,5 +38,15 @@
     "key": "lebanon--airstrike--mansouri",
     "source": "GN: Strike Attack",
     "ts": 1778742046
+  },
+  {
+    "key": "israel--airstrike--lebanon",
+    "source": "GN: Strike Attack",
+    "ts": 1778742677
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778742696
   }
 ]
