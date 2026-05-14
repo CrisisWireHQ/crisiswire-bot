@@ -58,5 +58,30 @@
     "key": "greece--shooting--athens",
     "source": "GN: Mass Shooting",
     "ts": 1778800250
+  },
+  {
+    "key": "canada--fire--central-alberta",
+    "source": "GN: Wildfire",
+    "ts": 1778800843
+  },
+  {
+    "key": "usa--outbreak--arkansas-hantavirus",
+    "source": "GN: Outbreak",
+    "ts": 1778800843
+  },
+  {
+    "key": "usa--outbreak--california-hantavirus",
+    "source": "GN: Outbreak",
+    "ts": 1778800843
+  },
+  {
+    "key": "usa--explosion--central-pennsylvania",
+    "source": "GN: Explosion",
+    "ts": 1778800843
+  },
+  {
+    "key": "usa--fire--wickenburg-jones",
+    "source": "GN: Wildfire",
+    "ts": 1778800843
   }
 ]
