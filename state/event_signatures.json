@@ -1,25 +1,5 @@
 [
   {
-    "key": "india--explosion--coal-mine-eastern",
-    "source": "GN: Explosion",
-    "ts": 1778771443
-  },
-  {
-    "key": "usa--outbreak--buckingham-county",
-    "source": "GN: Outbreak",
-    "ts": 1778771448
-  },
-  {
-    "key": "lebanon--airstrike--tyre",
-    "source": "GN: Strike Attack",
-    "ts": 1778771451
-  },
-  {
-    "key": "pakistan--explosion--khyber-pakhtunkhwa",
-    "source": "GN: Explosion",
-    "ts": 1778771452
-  },
-  {
     "key": "uae--boarding--gulf-of-oman",
     "source": "TG: Breaking911",
     "ts": 1778772046
