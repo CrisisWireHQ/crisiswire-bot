@@ -1,25 +1,5 @@
 [
   {
-    "key": "russia--drone-strike--belgorod",
-    "source": "Straits Times World",
-    "ts": 1778793049
-  },
-  {
-    "key": "usa--quake--southern-california",
-    "source": "GN: Earthquake",
-    "ts": 1778793052
-  },
-  {
-    "key": "lebanon--airstrike--arnoun-al-shqif",
-    "source": "GN: Strike Attack",
-    "ts": 1778793052
-  },
-  {
-    "key": "usa--crash--new-mexico",
-    "source": "GN: Plane Crash",
-    "ts": 1778793052
-  },
-  {
     "key": "n/a",
     "source": "GN: Outbreak",
     "ts": 1778793656
