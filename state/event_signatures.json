@@ -1,20 +1,5 @@
 [
   {
-    "key": "unknown--plane-crash--life-raft-rescue",
-    "source": "GN: Plane Crash",
-    "ts": 1778753488
-  },
-  {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778753492
-  },
-  {
-    "key": "usa--crash--aircraft",
-    "source": "GN: Plane Crash",
-    "ts": 1778753493
-  },
-  {
     "key": "unknown--crash--unknown-location",
     "source": "GN: Plane Crash",
     "ts": 1778754065
