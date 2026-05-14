@@ -58,5 +58,15 @@
     "key": "usa--quake-swarm--imperial-county-california",
     "source": "GN: Earthquake",
     "ts": 1778738448
+  },
+  {
+    "key": "nigeria--airstrike--zamfara",
+    "source": "GN: Strike Attack",
+    "ts": 1778739036
+  },
+  {
+    "key": "ukraine--airstrike--kyiv",
+    "source": "France 24 Intl",
+    "ts": 1778739037
   }
 ]
