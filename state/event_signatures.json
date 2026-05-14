@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778764853
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778764862
-  },
-  {
-    "key": "oman--attack--ship",
-    "source": "GN: Strike Attack",
-    "ts": 1778764863
-  },
-  {
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778765449
