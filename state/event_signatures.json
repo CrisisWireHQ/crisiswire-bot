@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--crash--coventry-crossing-akron",
-    "source": "GN: Plane Crash",
-    "ts": 1778794239
-  },
-  {
     "key": "usa--seaplane--emergency-landing",
     "source": "GN: CNN",
     "ts": 1778794856
