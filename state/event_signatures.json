@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--fire--rosamond-california",
-    "source": "GN: Wildfire",
-    "ts": 1778722246
-  },
-  {
-    "key": "usa--crash--florida-ocean",
-    "source": "GN: Plane Crash",
-    "ts": 1778722250
-  },
-  {
     "key": "usa--fire--alpine-arizona",
     "source": "GN: Wildfire",
     "ts": 1778722263
@@ -48,5 +38,10 @@
     "key": "ukraine--missile-strike--countrywide",
     "source": "GN: Strike Attack",
     "ts": 1778725249
+  },
+  {
+    "key": "philippines--quake--namuac",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778725847
   }
 ]
