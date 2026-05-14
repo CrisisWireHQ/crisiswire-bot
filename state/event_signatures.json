@@ -1,10 +1,5 @@
 [
   {
-    "key": "oman--vessel-strike--haji-ali",
-    "source": "GN: Strike Attack",
-    "ts": 1778730049
-  },
-  {
     "key": "venezuela--protest--caracas",
     "source": "Al Jazeera",
     "ts": 1778730648
@@ -38,5 +33,10 @@
     "key": "usa--fire--chino-hills",
     "source": "GN: Wildfire",
     "ts": 1778732459
+  },
+  {
+    "key": "unknown--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778733649
   }
 ]
