@@ -1,10 +1,5 @@
 [
   {
-    "key": "australia--quake--darwin",
-    "source": "GN: Earthquake",
-    "ts": 1778799047
-  },
-  {
     "key": "usa--outbreak--virginia",
     "source": "GN: Outbreak",
     "ts": 1778800250
@@ -73,5 +68,20 @@
     "key": "iraq--missile-strike--baghdad",
     "source": "GN: Strike Attack",
     "ts": 1778802043
+  },
+  {
+    "key": "haiti--gang-violence--port-au-prince",
+    "source": "France 24 Intl",
+    "ts": 1778802645
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "CBS News World",
+    "ts": 1778802651
+  },
+  {
+    "key": "bolivia--protest--mining",
+    "source": "Al Jazeera",
+    "ts": 1778802651
   }
 ]
