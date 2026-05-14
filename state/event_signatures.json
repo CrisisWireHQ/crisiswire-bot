@@ -1,15 +1,5 @@
 [
   {
-    "key": "netherlands--hantavirus--cruise-ship-hondius",
-    "source": "Guardian World",
-    "ts": 1778732451
-  },
-  {
-    "key": "usa--fire--chino-hills",
-    "source": "GN: Wildfire",
-    "ts": 1778732455
-  },
-  {
     "key": "usa--fire--chino-hills",
     "source": "GN: Wildfire",
     "ts": 1778732459
@@ -48,5 +38,15 @@
     "key": "usa--quake--inland-empire",
     "source": "GN: Earthquake",
     "ts": 1778735451
+  },
+  {
+    "key": "usa--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778736050
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "Al Jazeera",
+    "ts": 1778736051
   }
 ]
