@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--crash--air-force-rescue",
-    "source": "GN: Plane Crash",
-    "ts": 1778745670
-  },
-  {
-    "key": "usa--crash--air-force-rescue",
-    "source": "GN: Plane Crash",
-    "ts": 1778745671
-  },
-  {
-    "key": "usa--crash--plane-rescue",
-    "source": "GN: Plane Crash",
-    "ts": 1778745673
-  },
-  {
-    "key": "china--explosion--fireworks-plant",
-    "source": "GN: Explosion",
-    "ts": 1778745679
-  },
-  {
     "key": "tonga--quake--hihifo",
     "source": "USGS Quakes M4.5+",
     "ts": 1778746256
