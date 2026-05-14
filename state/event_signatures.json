@@ -1,30 +1,5 @@
 [
   {
-    "key": "n/a",
-    "source": "GN: Outbreak",
-    "ts": 1778793656
-  },
-  {
-    "key": "usa--outbreak--nevada-hantavirus",
-    "source": "GN: Outbreak",
-    "ts": 1778793659
-  },
-  {
-    "key": "uk--outbreak--reading-meningitis",
-    "source": "GN: Strike Attack",
-    "ts": 1778793659
-  },
-  {
-    "key": "oman--attack--indian-ship",
-    "source": "GN: Terror Attack",
-    "ts": 1778793659
-  },
-  {
-    "key": "usa--crash--new-mexico",
-    "source": "GN: Plane Crash",
-    "ts": 1778793659
-  },
-  {
     "key": "usa--crash--coventry-crossing-akron",
     "source": "GN: Plane Crash",
     "ts": 1778794239
