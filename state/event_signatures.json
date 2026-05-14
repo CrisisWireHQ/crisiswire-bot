@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--fire--alpine-arizona",
-    "source": "GN: Wildfire",
-    "ts": 1778722263
-  },
-  {
     "key": "philippines--quake--cagayan",
     "source": "GN: Earthquake",
     "ts": 1778722846
