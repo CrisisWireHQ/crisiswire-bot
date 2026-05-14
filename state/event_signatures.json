@@ -128,5 +128,35 @@
     "key": "trusted-the-commerce-department-approved-the",
     "source": "TG: Faytuks Network",
     "ts": 1778761121
+  },
+  {
+    "key": "drc--withdrawal--east",
+    "source": "France 24 Intl",
+    "ts": 1778761257
+  },
+  {
+    "key": "south-africa--evacuation--xenophobic-violence",
+    "source": "France 24 Intl",
+    "ts": 1778761262
+  },
+  {
+    "key": "netherlands--attack--asylum-center",
+    "source": "GN: CNN",
+    "ts": 1778761271
+  },
+  {
+    "key": "lebanon--airstrike--kfar-melki",
+    "source": "GN: Strike Attack",
+    "ts": 1778761274
+  },
+  {
+    "key": "lebanon--airstrike--western-bekaa",
+    "source": "GN: Strike Attack",
+    "ts": 1778761279
+  },
+  {
+    "key": "india--explosion--delhi",
+    "source": "GN: Terror Attack",
+    "ts": 1778761280
   }
 ]
