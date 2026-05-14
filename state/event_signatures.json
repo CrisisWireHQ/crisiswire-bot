@@ -128,5 +128,40 @@
     "key": "ukraine--missile-strike--kyiv",
     "source": "France 24 Intl",
     "ts": 1778748648
+  },
+  {
+    "key": "israel--drone-strike--rosh-hanikra",
+    "source": "Jerusalem Post",
+    "ts": 1778749241
+  },
+  {
+    "key": "nigeria--airstrike--zamfara",
+    "source": "GN: Strike Attack",
+    "ts": 1778749278
+  },
+  {
+    "key": "usa--attack--denver-airport",
+    "source": "GN: AP News",
+    "ts": 1778749316
+  },
+  {
+    "key": "usa--plane-crash--rescue",
+    "source": "GN: Plane Crash",
+    "ts": 1778749323
+  },
+  {
+    "key": "usa--crash--air-force-rescue",
+    "source": "GN: Plane Crash",
+    "ts": 1778749324
+  },
+  {
+    "key": "usa--plane-crash--unspecified",
+    "source": "GN: Plane Crash",
+    "ts": 1778749325
+  },
+  {
+    "key": "india--storm--uttar-pradesh",
+    "source": "Sky News",
+    "ts": 1778749333
   }
 ]
