@@ -1,15 +1,5 @@
 [
   {
-    "key": "unknown--plane-crash--at-sea",
-    "source": "GN: CNN",
-    "ts": 1778751646
-  },
-  {
-    "key": "usa--plane-crash--arizona",
-    "source": "GN: Plane Crash",
-    "ts": 1778751650
-  },
-  {
     "key": "unknown--plane-crash--unknown",
     "source": "GN: Plane Crash",
     "ts": 1778751652
