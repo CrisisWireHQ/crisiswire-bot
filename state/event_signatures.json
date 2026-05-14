@@ -148,5 +148,40 @@
     "key": "argentina--hantavirus--cruise-ship",
     "source": "GN: Outbreak",
     "ts": 1778787686
+  },
+  {
+    "key": "bolivia--protest--la-paz",
+    "source": "Straits Times World",
+    "ts": 1778788252
+  },
+  {
+    "key": "usa--shooting--illinois",
+    "source": "GN: Hostage",
+    "ts": 1778788258
+  },
+  {
+    "key": "iraq--drone-strike--isis",
+    "source": "GN: Strike Attack",
+    "ts": 1778788259
+  },
+  {
+    "key": "usa--crash--new-mexico",
+    "source": "GN: Plane Crash",
+    "ts": 1778788268
+  },
+  {
+    "key": "usa--crash--new-mexico",
+    "source": "GN: Plane Crash",
+    "ts": 1778788269
+  },
+  {
+    "key": "usa--explosion--montebello",
+    "source": "GN: Explosion",
+    "ts": 1778788271
+  },
+  {
+    "key": "canada--fire--whitecourt",
+    "source": "GN: Wildfire",
+    "ts": 1778788275
   }
 ]
