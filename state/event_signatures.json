@@ -33,5 +33,10 @@
     "key": "oman--vessel-strike--haji-ali",
     "source": "GN: Strike Attack",
     "ts": 1778730049
+  },
+  {
+    "key": "venezuela--protest--caracas",
+    "source": "Al Jazeera",
+    "ts": 1778730648
   }
 ]
