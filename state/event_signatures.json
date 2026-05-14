@@ -103,5 +103,15 @@
     "key": "unknown--outbreak--hantavirus",
     "source": "GN: Outbreak",
     "ts": 1778784057
+  },
+  {
+    "key": "somalia--hostage-rescue--middle-shabelle",
+    "source": "GN: Hostage",
+    "ts": 1778784699
+  },
+  {
+    "key": "philippines--quake--central",
+    "source": "GN: Earthquake",
+    "ts": 1778784708
   }
 ]
