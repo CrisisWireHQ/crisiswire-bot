@@ -8,6 +8,7 @@
   "cuba--protest--havana": 1778739690,
   "drc--withdrawal--east": 1778761261,
   "ethiopia--quake--turmi": 1778718647,
+  "europe--outbreak--andes-hantavirus": 1778773891,
   "france--gastroenteritis-outbreak--bordeaux-cruise-ship": 1778689879,
   "france--hantavirus--outbreak": 1778700664,
   "france--outbreak--bordeaux-cruise-ship": 1778693479,
@@ -62,5 +63,6 @@
   "usa--quake--southern-california": 1778701860,
   "usa--quake-swarm--imperial-county-california": 1778738451,
   "usa--shooting-plot--new-orleans": 1778709643,
-  "venezuela--protest--caracas": 1778730650
+  "venezuela--protest--caracas": 1778730650,
+  "wales--hantavirus--outbreak": 1778773870
 }
