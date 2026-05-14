@@ -149,7 +149,34 @@ _EVENT_TYPE_CANON = {
     "mass-shooting": "shooting",
     "wildfire": "fire",
     "earthquake": "quake",
+    "earthquake-swarm": "quake",
+    "quake-swarm": "quake",
+    "seismic-swarm": "quake",
+    "tremor": "quake",
+    "aftershock": "quake",
     "blast": "explosion",
+    "detonation": "explosion",
+    "ied-blast": "explosion",
+    "car-bomb": "explosion",
+    "shooting-plot": "shooting",
+    "active-shooter": "shooting",
+    "gun-attack": "shooting",
+    "stabbing": "attack",
+    "kidnapping": "hostage",
+    "abduction": "hostage",
+    "vessel-strike": "strike",
+    "naval-strike": "strike",
+    "combined-strike": "strike",
+    "drone-attack": "strike",
+    "missile-attack": "strike",
+    "armed-conflict": "strike",
+    "gastroenteritis-outbreak": "outbreak",
+    "hantavirus": "outbreak",
+    "hantavirus-exposure": "outbreak",
+    "hantavirus-outbreak": "outbreak",
+    "plane-crash-landed": "crash",
+    "aviation-incident": "crash",
+    "helicopter-crash": "crash",
 }
 
 
@@ -202,7 +229,7 @@ _STOPWORDS = {
 }
 
 
-JACCARD_DUPLICATE_THRESHOLD = 0.55  # set-overlap ratio that counts as "same story"
+JACCARD_DUPLICATE_THRESHOLD = 0.45  # set-overlap ratio that counts as "same story"
 
 
 def _draft_word_set(text: str) -> set:
