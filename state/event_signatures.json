@@ -1,10 +1,5 @@
 [
   {
-    "key": "colombia--quake--darien",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778764842
-  },
-  {
     "key": "usa--crash--florida-coast",
     "source": "GN: Plane Crash",
     "ts": 1778764853
