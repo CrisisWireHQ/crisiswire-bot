@@ -1,10 +1,5 @@
 [
   {
-    "key": "uae--vessel-seizure--fujairah",
-    "source": "Straits Times World",
-    "ts": 1778766083
-  },
-  {
     "key": "oman--attack--ship-sinking",
     "source": "GN: Reuters",
     "ts": 1778766091
@@ -118,5 +113,10 @@
     "key": "uae--vessel-seizure--fujairah",
     "source": "GN: Reuters",
     "ts": 1778769084
+  },
+  {
+    "key": "hungary--quake--nagykanizsa",
+    "source": "GN: Earthquake",
+    "ts": 1778769669
   }
 ]
