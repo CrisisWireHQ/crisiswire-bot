@@ -1,55 +1,5 @@
 [
   {
-    "key": "iran--ship-seizure--strait-of-hormuz",
-    "source": "TG: WarMonitors",
-    "ts": 1778745650
-  },
-  {
-    "key": "lebanon--airstrike--nationwide",
-    "source": "GN: Strike Attack",
-    "ts": 1778745659
-  },
-  {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778745660
-  },
-  {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778745661
-  },
-  {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778745662
-  },
-  {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778745663
-  },
-  {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778745666
-  },
-  {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778745667
-  },
-  {
-    "key": "usa--crash--air-force-rescue",
-    "source": "GN: Plane Crash",
-    "ts": 1778745668
-  },
-  {
-    "key": "usa--plane-crash--rescue",
-    "source": "GN: Plane Crash",
-    "ts": 1778745669
-  },
-  {
     "key": "usa--crash--air-force-rescue",
     "source": "GN: Plane Crash",
     "ts": 1778745670
