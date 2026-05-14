@@ -83,5 +83,35 @@
     "key": "usa--crash--new-mexico",
     "source": "GN: Breaking News",
     "ts": 1778782278
+  },
+  {
+    "key": "indonesia--quake--tual",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778782995
+  },
+  {
+    "key": "scotland--hantavirus--outbreak",
+    "source": "GN: Outbreak",
+    "ts": 1778783003
+  },
+  {
+    "key": "usa--plane-crash--maine",
+    "source": "GN: Plane Crash",
+    "ts": 1778783007
+  },
+  {
+    "key": "uk--outbreak--berkshire-meningitis",
+    "source": "GN: Outbreak",
+    "ts": 1778783014
+  },
+  {
+    "key": "uk--outbreak--reading-meningitis",
+    "source": "GN: Breaking News",
+    "ts": 1778783021
+  },
+  {
+    "key": "oman--ship-attack--arabian-sea",
+    "source": "GN: Strike Attack",
+    "ts": 1778783026
   }
 ]
