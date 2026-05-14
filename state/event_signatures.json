@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--ongoing",
-    "source": "GN: Outbreak",
-    "ts": 1778781678
-  },
-  {
-    "key": "uk--outbreak--reading",
-    "source": "GN: Breaking News",
-    "ts": 1778781679
-  },
-  {
-    "key": "usa--explosion--des-plaines-illinois",
-    "source": "GN: Explosion",
-    "ts": 1778781685
-  },
-  {
     "key": "usa--crash--florida-coast",
     "source": "GN: Plane Crash",
     "ts": 1778782259
