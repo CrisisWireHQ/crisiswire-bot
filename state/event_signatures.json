@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--seaplane--emergency-landing",
-    "source": "GN: CNN",
-    "ts": 1778794856
-  },
-  {
-    "key": "usa--crash--akron-ohio",
-    "source": "GN: Breaking News",
-    "ts": 1778794859
-  },
-  {
-    "key": "usa--crash--andover-massachusetts",
-    "source": "GN: Breaking News",
-    "ts": 1778794859
-  },
-  {
-    "key": "usa--crash--new-mexico",
-    "source": "GN: Plane Crash",
-    "ts": 1778794859
-  },
-  {
     "key": "canada--fire--edmonton",
     "source": "GN: Wildfire",
     "ts": 1778795454
