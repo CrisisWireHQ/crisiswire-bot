@@ -88,5 +88,30 @@
     "key": "oman--attack--ship-sinking",
     "source": "GN: Reuters",
     "ts": 1778766091
+  },
+  {
+    "key": "usa--crash--florida-coast",
+    "source": "GN: Plane Crash",
+    "ts": 1778766653
+  },
+  {
+    "key": "india--hostage--manipur",
+    "source": "GN: Hostage",
+    "ts": 1778766654
+  },
+  {
+    "key": "israel--drone-attack--north",
+    "source": "Times of Israel",
+    "ts": 1778766667
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778766668
+  },
+  {
+    "key": "ukraine--drone-strike--kyiv",
+    "source": "Al Jazeera",
+    "ts": 1778766669
   }
 ]
