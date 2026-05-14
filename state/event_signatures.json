@@ -1,20 +1,5 @@
 [
   {
-    "key": "france--hantavirus--monitoring",
-    "source": "Jerusalem Post",
-    "ts": 1778767251
-  },
-  {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778767257
-  },
-  {
-    "key": "n/a",
-    "source": "GN: Outbreak",
-    "ts": 1778767274
-  },
-  {
     "key": "ukraine--airstrike--kyiv",
     "source": "GN: CNN",
     "ts": 1778767280
