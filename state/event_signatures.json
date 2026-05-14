@@ -1,35 +1,5 @@
 [
   {
-    "key": "usa--crash--new-mexico",
-    "source": "GN: Plane Crash",
-    "ts": 1778777497
-  },
-  {
-    "key": "usa--crash--new-mexico",
-    "source": "GN: Plane Crash",
-    "ts": 1778777503
-  },
-  {
-    "key": "atlantic-ocean--crash--plane",
-    "source": "GN: Plane Crash",
-    "ts": 1778777513
-  },
-  {
-    "key": "usa--crash--new-mexico",
-    "source": "GN: Breaking News",
-    "ts": 1778777520
-  },
-  {
-    "key": "maldives--diving-incident--cave-exploration",
-    "source": "Straits Times World",
-    "ts": 1778777530
-  },
-  {
-    "key": "ukraine--strike--russian-air-defense",
-    "source": "GN: Strike Attack",
-    "ts": 1778777535
-  },
-  {
     "key": "usa--explosion--chalmette-refinery-louisiana",
     "source": "GN: Explosion",
     "ts": 1778778049
