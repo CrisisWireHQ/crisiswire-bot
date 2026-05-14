@@ -1,25 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--haris",
-    "source": "GN: Strike Attack",
-    "ts": 1778773239
-  },
-  {
-    "key": "ukraine--drone-strike--kyiv",
-    "source": "CBS News World",
-    "ts": 1778773248
-  },
-  {
-    "key": "mali--airstrike--north",
-    "source": "GN: Strike Attack",
-    "ts": 1778773256
-  },
-  {
-    "key": "spain--outbreak--tenerife",
-    "source": "WHO All News",
-    "ts": 1778773263
-  },
-  {
     "key": "wales--hantavirus--outbreak",
     "source": "GN: Outbreak",
     "ts": 1778773867
@@ -143,5 +123,15 @@
     "key": "oman--ship-attack--arabian-sea",
     "source": "GN: Strike Attack",
     "ts": 1778776421
+  },
+  {
+    "key": "cuba--grid-collapse--eastern",
+    "source": "Straits Times World",
+    "ts": 1778776847
+  },
+  {
+    "key": "usa--measles-outbreak--buckingham-county-virginia",
+    "source": "GN: Outbreak",
+    "ts": 1778776867
   }
 ]
