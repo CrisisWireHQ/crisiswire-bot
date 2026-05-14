@@ -113,31 +113,111 @@ Severity guide:
 - minor: developing story, small-scale incident, single-region update"""
 
 
-def classify(item: dict) -> dict:
-    user = (
-        f"Source: {item['source_name']} (tier {item['tier']})\n"
-        f"Title: {item['title']}\n"
-        f"Summary: {item['summary'][:400]}"
-    )
-    msg = client().messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=120,
-        system=[{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}],
-        messages=[{"role": "user", "content": user}],
-    )
-    text = msg.content[0].text.strip()
+def _default_cls(reason: str = "") -> dict:
+    return {"relevant": False, "severity": "minor", "category": "other", "event_key": "", "reason": reason}
+
+
+def _normalize_cls(d: dict) -> dict:
+    d.setdefault("relevant", False)
+    d.setdefault("severity", "minor")
+    d.setdefault("category", "other")
+    d.setdefault("event_key", "")
+    d.setdefault("reason", "")
+    return d
+
+
+def _strip_fences(text: str) -> str:
+    text = text.strip()
     if text.startswith("```"):
         text = text.strip("`")
         if text.startswith("json"):
             text = text[4:]
         text = text.strip()
+    return text
+
+
+def classify(item: dict) -> dict:
+    """Single-item classify. Kept for callers that need a one-off; the main
+    poller uses classify_batch which is ~6-8x cheaper per item."""
+    results = classify_batch([item])
+    return results[0] if results else _default_cls("empty_batch")
+
+
+BATCH_SIZE = int(os.environ.get("CLASSIFIER_BATCH_SIZE", "10"))
+
+
+def classify_batch(items: list[dict]) -> list[dict]:
+    """Classify multiple items in a single Haiku call.
+
+    Amortizes the ~1900-token SYSTEM prompt across many items, which was the
+    dominant cost driver (Haiku 4.5 cache minimum is 2048 tokens — our SYSTEM
+    sits just under, so per-call caching never kicked in).
+
+    Returns results aligned 1:1 with `items`. On parse failure for a batch,
+    the items in that batch fall back to not-relevant (caller will skip them
+    and they'll be retried next run if still unseen)."""
+    if not items:
+        return []
+
+    out: list[dict] = []
+    for start in range(0, len(items), BATCH_SIZE):
+        chunk = items[start:start + BATCH_SIZE]
+        out.extend(_classify_chunk(chunk))
+    return out
+
+
+def _classify_chunk(chunk: list[dict]) -> list[dict]:
+    blocks = []
+    for i, it in enumerate(chunk, 1):
+        blocks.append(
+            f"[{i}] Source: {it['source_name']} (tier {it['tier']})\n"
+            f"Title: {it['title']}\n"
+            f"Summary: {(it.get('summary') or '')[:400]}"
+        )
+    user = (
+        f"Classify the following {len(chunk)} news items. "
+        f"Return ONLY a raw JSON array of exactly {len(chunk)} objects in the SAME ORDER as the input. "
+        f"Each object has the schema specified in the system prompt. "
+        f"Do not wrap the array in markdown fences or prose.\n\n"
+        + "\n\n".join(blocks)
+    )
     try:
-        result = json.loads(text)
-        result.setdefault("relevant", False)
-        result.setdefault("severity", "minor")
-        result.setdefault("category", "other")
-        result.setdefault("event_key", "")
-        result.setdefault("reason", "")
-        return result
+        msg = client().messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=120 * len(chunk),
+            system=[{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}],
+            messages=[{"role": "user", "content": user}],
+        )
+    except Exception as e:
+        # Caller decides retry; surface a parse_error-style fallback so
+        # caller doesn't crash but also won't mark these items seen.
+        raise
+
+    text = _strip_fences(msg.content[0].text)
+    try:
+        parsed = json.loads(text)
     except json.JSONDecodeError:
-        return {"relevant": False, "severity": "minor", "category": "other", "event_key": "", "reason": "parse_error"}
+        # Try to salvage: sometimes the model emits NDJSON / one object per line.
+        parsed = []
+        for line in text.splitlines():
+            line = line.strip().rstrip(",")
+            if not line or line in ("[", "]"):
+                continue
+            try:
+                parsed.append(json.loads(line))
+            except json.JSONDecodeError:
+                continue
+        if not parsed:
+            print(f"[classifier] batch JSON parse failed; text head={text[:200]!r}")
+            return [_default_cls("parse_error") for _ in chunk]
+
+    if not isinstance(parsed, list):
+        return [_default_cls("not_a_list") for _ in chunk]
+
+    # Align length: pad / truncate so output matches input cardinality.
+    if len(parsed) < len(chunk):
+        parsed = parsed + [_default_cls("missing_in_batch") for _ in range(len(chunk) - len(parsed))]
+    elif len(parsed) > len(chunk):
+        parsed = parsed[:len(chunk)]
+
+    return [_normalize_cls(p if isinstance(p, dict) else _default_cls("not_a_dict")) for p in parsed]

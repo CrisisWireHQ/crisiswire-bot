@@ -190,7 +190,59 @@ def poll_and_draft() -> int:
     recent_drafts = state.load_recent_drafts()
     drafted = 0
 
-    for item in items:
+    # ---- Batch-classify upfront --------------------------------------------
+    # Pre-compute classifier results for all candidates in batched Haiku calls.
+    # This replaces the old per-item classifier.classify() inside the draft
+    # loop, which was paying for the full ~1900-token SYSTEM prompt on every
+    # single item (Haiku 4.5 cache minimum is 2048 tokens, so caching never
+    # engaged). Batching amortizes the system prompt over ~10 items per call.
+    needs_classify: list[dict] = []
+    needs_classify_idx: list[int] = []
+    item_cls: dict[int, dict] = {}
+    item_is_hantavirus: dict[int, bool] = {}
+
+    for idx, item in enumerate(items):
+        if state.is_seen(seen, item["link"]):
+            continue
+        is_trusted_src = item["source_name"] in TRUSTED_SOURCE_NAMES
+        full_text = f"{item.get('title','')} {item.get('summary','')}"
+        is_hantavirus = quote_finder.text_mentions_hantavirus(full_text)
+        item_is_hantavirus[idx] = is_hantavirus
+
+        if is_trusted_src:
+            item_cls[idx] = {
+                "relevant": True,
+                "severity": "major",
+                "category": item.get("category", "news"),
+                "event_key": _trusted_event_key(item.get("title", "")),
+                "is_trusted": True,
+            }
+            continue
+
+        if not is_hantavirus and classifier.cheap_prefilter_reject(item):
+            print(f"[prefilter] reject {item['source_name']}: {item['title'][:80]!r}")
+            state.mark_seen(seen, item["link"])
+            item_cls[idx] = None  # sentinel: skip
+            continue
+
+        needs_classify.append(item)
+        needs_classify_idx.append(idx)
+
+    if needs_classify:
+        try:
+            batch_results = classifier.classify_batch(needs_classify)
+            print(f"[classifier] batch classified {len(needs_classify)} items in "
+                  f"{(len(needs_classify) + classifier.BATCH_SIZE - 1) // classifier.BATCH_SIZE} call(s)")
+            for idx, cls in zip(needs_classify_idx, batch_results):
+                item_cls[idx] = cls
+        except Exception as e:
+            # Transient API failure — leave these items unseen for retry next run.
+            print(f"[poll] batch classify error (will retry next run): {e}")
+            for idx in needs_classify_idx:
+                item_cls[idx] = None  # sentinel: skip without marking seen
+
+    # ---- Draft loop --------------------------------------------------------
+    for idx, item in enumerate(items):
         is_trusted_src = item["source_name"] in TRUSTED_SOURCE_NAMES
         if drafted >= DRAFTS_PER_RUN:
             if is_trusted_src:
@@ -204,34 +256,11 @@ def poll_and_draft() -> int:
             print(f"[trusted-debug] NEW item, processing: {item['title'][:80]!r}")
         is_trusted = is_trusted_src
 
-        # Hantavirus is a special interest — detect via keyword regex and elevate aggressively.
-        full_text = f"{item.get('title','')} {item.get('summary','')}"
-        is_hantavirus = quote_finder.text_mentions_hantavirus(full_text)
-
-        if is_trusted:
-            cls = {
-                "relevant": True,
-                "severity": "major",
-                "category": item.get("category", "news"),
-                "event_key": _trusted_event_key(item.get("title", "")),
-                "is_trusted": True,
-            }
-            print(f"[trusted] bypassing classifier for {item['source_name']}")
-        else:
-            # Cheap headline-regex pre-filter — kills obvious non-breaking
-            # items (explainers, anniversaries, opinion, etc.) without a
-            # Claude call. Hantavirus items always go to the classifier.
-            if not is_hantavirus and classifier.cheap_prefilter_reject(item):
-                print(f"[prefilter] reject {item['source_name']}: {item['title'][:80]!r}")
-                state.mark_seen(seen, item["link"])
-                continue
-            try:
-                cls = classifier.classify(item)
-            except Exception as e:
-                # Transient API failure (529, network, etc.) — don't burn the item.
-                # Leave it unseen so the next run can retry once Anthropic recovers.
-                print(f"[poll] classify error (will retry next run): {e}")
-                continue
+        cls = item_cls.get(idx)
+        if cls is None:
+            # Prefilter-rejected (already marked seen) OR batch failed (leave unseen).
+            continue
+        is_hantavirus = item_is_hantavirus.get(idx, False)
 
         # Classifier (or trusted bypass) succeeded — safe to mark seen now.
         state.mark_seen(seen, item["link"])
