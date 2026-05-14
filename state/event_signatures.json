@@ -53,5 +53,10 @@
     "key": "usa--quake--oregon-coast",
     "source": "GN: Earthquake",
     "ts": 1778724658
+  },
+  {
+    "key": "ukraine--missile-strike--countrywide",
+    "source": "GN: Strike Attack",
+    "ts": 1778725249
   }
 ]
