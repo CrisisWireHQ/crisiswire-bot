@@ -1,15 +1,5 @@
 [
   {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778783477
-  },
-  {
-    "key": "cuba--grid-collapse--nationwide",
-    "source": "GN: Reuters",
-    "ts": 1778783485
-  },
-  {
     "key": "usa--hantavirus--cruise-ship",
     "source": "GN: Outbreak",
     "ts": 1778784048
