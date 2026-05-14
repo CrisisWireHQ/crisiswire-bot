@@ -1,20 +1,5 @@
 [
   {
-    "key": "ukraine--attack--kherson-humanitarian-convoy",
-    "source": "GN: Terror Attack",
-    "ts": 1778775071
-  },
-  {
-    "key": "iran--quake--tehran",
-    "source": "GN: Earthquake",
-    "ts": 1778775072
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv-oblast",
-    "source": "GN: Strike Attack",
-    "ts": 1778775073
-  },
-  {
     "key": "france--outbreak--bordeaux-cruise-ship",
     "source": "GN: Outbreak",
     "ts": 1778775664
