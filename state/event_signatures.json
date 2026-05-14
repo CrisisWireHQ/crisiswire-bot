@@ -1,45 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--arnoun-al-shqif",
-    "source": "GN: Strike Attack",
-    "ts": 1778787660
-  },
-  {
-    "key": "indonesia--quake--banda-sea",
-    "source": "GN: Earthquake",
-    "ts": 1778787662
-  },
-  {
-    "key": "ukraine--attack--kyiv",
-    "source": "France 24 Intl",
-    "ts": 1778787663
-  },
-  {
-    "key": "oman--ship-sinking--arabian-sea",
-    "source": "GN: Strike Attack",
-    "ts": 1778787666
-  },
-  {
-    "key": "usa--crash--new-mexico",
-    "source": "GN: Plane Crash",
-    "ts": 1778787669
-  },
-  {
-    "key": "usa--crash--new-mexico",
-    "source": "GN: Plane Crash",
-    "ts": 1778787670
-  },
-  {
-    "key": "usa--crash--new-mexico",
-    "source": "GN: Plane Crash",
-    "ts": 1778787671
-  },
-  {
-    "key": "usa--hantavirus--monitoring",
-    "source": "GN: Outbreak",
-    "ts": 1778787672
-  },
-  {
     "key": "usa--hantavirus--monitoring",
     "source": "GN: Reuters",
     "ts": 1778787679
@@ -138,5 +98,30 @@
     "key": "trusted-cia-director-john-ratcliffe-took",
     "source": "TG: Faytuks Network",
     "ts": 1778791175
+  },
+  {
+    "key": "cuba--power-grid-collapse--eastern",
+    "source": "NPR World",
+    "ts": 1778791253
+  },
+  {
+    "key": "usa--plane-crash--akron-ohio",
+    "source": "GN: Explosion",
+    "ts": 1778791257
+  },
+  {
+    "key": "usa--crash--new-mexico",
+    "source": "GN: Plane Crash",
+    "ts": 1778791266
+  },
+  {
+    "key": "usa--crash--new-mexico",
+    "source": "GN: Plane Crash",
+    "ts": 1778791267
+  },
+  {
+    "key": "usa--shooting--newport",
+    "source": "GN: Breaking News",
+    "ts": 1778791268
   }
 ]
