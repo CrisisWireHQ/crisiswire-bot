@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778721057
-  },
-  {
     "key": "usa--crash--florida",
     "source": "GN: Plane Crash",
     "ts": 1778721652
@@ -48,5 +43,15 @@
     "key": "usa--quake--oregon-coast",
     "source": "GN: Earthquake",
     "ts": 1778724054
+  },
+  {
+    "key": "usa--hantavirus--michigan",
+    "source": "GN: Outbreak",
+    "ts": 1778724655
+  },
+  {
+    "key": "usa--quake--oregon-coast",
+    "source": "GN: Earthquake",
+    "ts": 1778724658
   }
 ]
