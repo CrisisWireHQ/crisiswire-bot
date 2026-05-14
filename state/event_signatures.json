@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--quake--upstate-ny",
-    "source": "GN: Earthquake",
-    "ts": 1778760648
-  },
-  {
     "key": "israel--drone-strike--northern",
     "source": "GN: Explosion",
     "ts": 1778760655
