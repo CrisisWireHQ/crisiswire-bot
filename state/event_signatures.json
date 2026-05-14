@@ -1,10 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--western-bekaa",
-    "source": "GN: Strike Attack",
-    "ts": 1778756467
-  },
-  {
     "key": "netherlands--arson--asylum-center",
     "source": "GN: CNN",
     "ts": 1778757049
@@ -113,5 +108,30 @@
     "key": "ukraine--attack--kremenchuk",
     "source": "GN: Strike Attack",
     "ts": 1778759470
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778760057
+  },
+  {
+    "key": "usa--measles-outbreak--buckingham-virginia",
+    "source": "GN: Outbreak",
+    "ts": 1778760060
+  },
+  {
+    "key": "usa--explosion--miami-beach",
+    "source": "GN: Explosion",
+    "ts": 1778760070
+  },
+  {
+    "key": "ukraine--airstrike--kremenchuk",
+    "source": "GN: Strike Attack",
+    "ts": 1778760072
+  },
+  {
+    "key": "unknown--plane-crash--life-raft-rescue",
+    "source": "GN: Plane Crash",
+    "ts": 1778760077
   }
 ]
