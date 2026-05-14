@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778736050
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "Al Jazeera",
-    "ts": 1778736051
-  },
-  {
     "key": "ukraine--missile-strike--kyiv",
     "source": "NPR World",
     "ts": 1778736659
