@@ -1,25 +1,5 @@
 [
   {
-    "key": "netherlands--attack--asylum-center",
-    "source": "GN: CNN",
-    "ts": 1778761271
-  },
-  {
-    "key": "lebanon--airstrike--kfar-melki",
-    "source": "GN: Strike Attack",
-    "ts": 1778761274
-  },
-  {
-    "key": "lebanon--airstrike--western-bekaa",
-    "source": "GN: Strike Attack",
-    "ts": 1778761279
-  },
-  {
-    "key": "india--explosion--delhi",
-    "source": "GN: Terror Attack",
-    "ts": 1778761280
-  },
-  {
     "key": "oman--attack--ship-sinking",
     "source": "GN: Strike Attack",
     "ts": 1778761873
