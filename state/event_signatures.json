@@ -88,5 +88,10 @@
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778798445
+  },
+  {
+    "key": "australia--quake--darwin",
+    "source": "GN: Earthquake",
+    "ts": 1778799047
   }
 ]
