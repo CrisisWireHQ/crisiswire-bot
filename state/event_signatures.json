@@ -1,35 +1,5 @@
 [
   {
-    "key": "wales--hantavirus--outbreak",
-    "source": "GN: Outbreak",
-    "ts": 1778773867
-  },
-  {
-    "key": "usa--quake--southern-california",
-    "source": "GN: Earthquake",
-    "ts": 1778773875
-  },
-  {
-    "key": "ukraine--airstrike--druzhkivka",
-    "source": "GN: Strike Attack",
-    "ts": 1778773881
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "Guardian World",
-    "ts": 1778773885
-  },
-  {
-    "key": "europe--outbreak--andes-hantavirus",
-    "source": "GN: Outbreak",
-    "ts": 1778773888
-  },
-  {
-    "key": "usa--hantavirus--kansas",
-    "source": "GN: Breaking News",
-    "ts": 1778773894
-  },
-  {
     "key": "ukraine--drone-attack--zaporozhye-npp",
     "source": "TASS English",
     "ts": 1778774456
