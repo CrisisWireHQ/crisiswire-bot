@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--outbreak--buckingham-county-virginia",
-    "source": "GN: Outbreak",
-    "ts": 1778719858
-  },
-  {
     "key": "ukraine--missile-strike--kyiv",
     "source": "Jerusalem Post",
     "ts": 1778720445
