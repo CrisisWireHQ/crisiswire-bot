@@ -1,20 +1,5 @@
 [
   {
-    "key": "oman--attack--indian-ship",
-    "source": "GN: Strike Attack",
-    "ts": 1778762453
-  },
-  {
-    "key": "japan--quake--offshore",
-    "source": "GN: Earthquake",
-    "ts": 1778762454
-  },
-  {
-    "key": "usa--crash--capitan-mountains",
-    "source": "GN: Breaking News",
-    "ts": 1778762460
-  },
-  {
     "key": "ukraine--drone-and-missile-assault--nationwide",
     "source": "GN: CNN",
     "ts": 1778763091
@@ -93,5 +78,15 @@
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778765463
+  },
+  {
+    "key": "uae--vessel-seizure--fujairah",
+    "source": "Straits Times World",
+    "ts": 1778766083
+  },
+  {
+    "key": "oman--attack--ship-sinking",
+    "source": "GN: Reuters",
+    "ts": 1778766091
   }
 ]
