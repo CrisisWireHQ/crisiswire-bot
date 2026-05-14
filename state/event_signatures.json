@@ -1,35 +1,5 @@
 [
   {
-    "key": "israel--drone-strike--northern",
-    "source": "GN: Explosion",
-    "ts": 1778760655
-  },
-  {
-    "key": "usa--outbreak--nh-mv-hondius",
-    "source": "GN: Outbreak",
-    "ts": 1778760664
-  },
-  {
-    "key": "lebanon--airstrike--sidon",
-    "source": "GN: Strike Attack",
-    "ts": 1778760668
-  },
-  {
-    "key": "iran--quake--tehran",
-    "source": "GN: Earthquake",
-    "ts": 1778760669
-  },
-  {
-    "key": "usa--crash--alaska",
-    "source": "GN: Plane Crash",
-    "ts": 1778760671
-  },
-  {
-    "key": "uae--ship-seizure--gulf",
-    "source": "GN: Strike Attack",
-    "ts": 1778760674
-  },
-  {
     "key": "trusted-the-commerce-department-approved-the",
     "source": "TG: Faytuks Network",
     "ts": 1778761121
