@@ -1,15 +1,5 @@
 [
   {
-    "key": "cuba--grid-collapse--eastern",
-    "source": "Straits Times World",
-    "ts": 1778776847
-  },
-  {
-    "key": "usa--measles-outbreak--buckingham-county-virginia",
-    "source": "GN: Outbreak",
-    "ts": 1778776867
-  },
-  {
     "key": "usa--crash--new-mexico",
     "source": "GN: Plane Crash",
     "ts": 1778777497
@@ -133,5 +123,20 @@
     "key": "trusted-iran-sank-livestock-carrier-and",
     "source": "TG: Faytuks Network",
     "ts": 1778780150
+  },
+  {
+    "key": "usa--crash--new-mexico",
+    "source": "GN: Plane Crash",
+    "ts": 1778780454
+  },
+  {
+    "key": "usa--crash--medical-plane",
+    "source": "GN: Breaking News",
+    "ts": 1778780458
+  },
+  {
+    "key": "lebanon--airstrike--haris",
+    "source": "GN: Strike Attack",
+    "ts": 1778780462
   }
 ]
