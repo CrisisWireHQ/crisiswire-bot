@@ -1,20 +1,5 @@
 [
   {
-    "key": "oman--ship-attack--arabian-sea",
-    "source": "GN: Strike Attack",
-    "ts": 1778759440
-  },
-  {
-    "key": "india--ambush--manipur",
-    "source": "GN: Hostage",
-    "ts": 1778759445
-  },
-  {
-    "key": "ukraine--attack--kremenchuk",
-    "source": "GN: Strike Attack",
-    "ts": 1778759470
-  },
-  {
     "key": "ukraine--missile-strike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778760057
