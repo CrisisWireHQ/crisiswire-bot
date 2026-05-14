@@ -53,5 +53,20 @@
     "key": "ukraine--airstrike--kyiv",
     "source": "France 24 Intl",
     "ts": 1778739037
+  },
+  {
+    "key": "india--storm--uttar-pradesh",
+    "source": "GN: Reuters",
+    "ts": 1778739673
+  },
+  {
+    "key": "cuba--protest--havana",
+    "source": "GN: Reuters",
+    "ts": 1778739687
+  },
+  {
+    "key": "usa--shooting--tennessee",
+    "source": "GN: AP News",
+    "ts": 1778739696
   }
 ]
