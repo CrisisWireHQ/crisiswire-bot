@@ -1,15 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--mansouri",
-    "source": "GN: Strike Attack",
-    "ts": 1778737848
-  },
-  {
-    "key": "nigeria--airstrike--zamfara",
-    "source": "GN: Strike Attack",
-    "ts": 1778737849
-  },
-  {
     "key": "usa--quake-swarm--imperial-county-california",
     "source": "GN: Earthquake",
     "ts": 1778738448
@@ -53,5 +43,10 @@
     "key": "usa--shooting--tennessee",
     "source": "GN: Breaking News",
     "ts": 1778740852
+  },
+  {
+    "key": "eu--hantavirus--general",
+    "source": "GN: Outbreak",
+    "ts": 1778741440
   }
 ]
