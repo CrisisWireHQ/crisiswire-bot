@@ -1,30 +1,5 @@
 [
   {
-    "key": "oman--ship-attack--arabian-sea",
-    "source": "GN: Strike Attack",
-    "ts": 1778779256
-  },
-  {
-    "key": "usa--hantavirus--california-cruise",
-    "source": "GN: Outbreak",
-    "ts": 1778779261
-  },
-  {
-    "key": "usa--quake--lake-santeetlah-north-carolina",
-    "source": "GN: Earthquake",
-    "ts": 1778779262
-  },
-  {
-    "key": "usa--crash--new-mexico",
-    "source": "GN: Plane Crash",
-    "ts": 1778779275
-  },
-  {
-    "key": "iran--ship-fire--strait-of-hormuz",
-    "source": "GN: Strike Attack",
-    "ts": 1778779285
-  },
-  {
     "key": "somalia--hostage--somali-pirates-pakistani",
     "source": "GN: Hostage",
     "ts": 1778779847
