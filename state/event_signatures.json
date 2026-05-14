@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778746870
-  },
-  {
-    "key": "usa--crash--air-force-rescue",
-    "source": "GN: Plane Crash",
-    "ts": 1778746871
-  },
-  {
-    "key": "uae--seizure--strait-of-hormuz",
-    "source": "GN: AP News",
-    "ts": 1778746873
-  },
-  {
     "key": "iran--quake--bardair",
     "source": "USGS Quakes M4.5+",
     "ts": 1778747446
