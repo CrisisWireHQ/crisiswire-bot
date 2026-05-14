@@ -1,25 +1,5 @@
 [
   {
-    "key": "ukraine--airstrike--kyiv",
-    "source": "GN: CNN",
-    "ts": 1778767280
-  },
-  {
-    "key": "ukraine--airstrike--eastern",
-    "source": "GN: CNN",
-    "ts": 1778767281
-  },
-  {
-    "key": "usa--outbreak--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778767287
-  },
-  {
-    "key": "usa--quake--boulder-creek",
-    "source": "GN: Earthquake",
-    "ts": 1778767293
-  },
-  {
     "key": "usa--crash--maine",
     "source": "GN: Plane Crash",
     "ts": 1778767848
