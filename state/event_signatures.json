@@ -108,5 +108,45 @@
     "key": "lebanon--airstrike--western-bekaa",
     "source": "GN: Strike Attack",
     "ts": 1778756467
+  },
+  {
+    "key": "netherlands--arson--asylum-center",
+    "source": "GN: CNN",
+    "ts": 1778757049
+  },
+  {
+    "key": "usa--hantavirus--outbreak",
+    "source": "GN: Outbreak",
+    "ts": 1778757056
+  },
+  {
+    "key": "unknown--crash--sea",
+    "source": "GN: CNN",
+    "ts": 1778757068
+  },
+  {
+    "key": "usa--crash--upper-michigan",
+    "source": "GN: Plane Crash",
+    "ts": 1778757069
+  },
+  {
+    "key": "unclear--plane-crash--life-raft-rescue",
+    "source": "GN: Plane Crash",
+    "ts": 1778757070
+  },
+  {
+    "key": "unknown--crash--ocean-raft-rescue",
+    "source": "GN: Plane Crash",
+    "ts": 1778757073
+  },
+  {
+    "key": "unknown--crash--ocean-rescue",
+    "source": "GN: Plane Crash",
+    "ts": 1778757074
+  },
+  {
+    "key": "uae--seizure--gulf-waters",
+    "source": "GN: Strike Attack",
+    "ts": 1778757076
   }
 ]
