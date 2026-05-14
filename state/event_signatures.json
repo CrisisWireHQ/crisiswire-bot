@@ -1,35 +1,5 @@
 [
   {
-    "key": "oman--attack--vessel-off-coast",
-    "source": "GN: Terror Attack",
-    "ts": 1778778641
-  },
-  {
-    "key": "usa--crash--new-mexico",
-    "source": "GN: Plane Crash",
-    "ts": 1778778650
-  },
-  {
-    "key": "oman--attack--indian-ship",
-    "source": "GN: Terror Attack",
-    "ts": 1778778651
-  },
-  {
-    "key": "usa--crash--new-mexico",
-    "source": "GN: Breaking News",
-    "ts": 1778778653
-  },
-  {
-    "key": "usa--crash--new-mexico",
-    "source": "GN: Plane Crash",
-    "ts": 1778778654
-  },
-  {
-    "key": "usa--crash--new-mexico",
-    "source": "GN: Plane Crash",
-    "ts": 1778778655
-  },
-  {
     "key": "usa--quake--imperial-county-california",
     "source": "GN: Earthquake",
     "ts": 1778778656
