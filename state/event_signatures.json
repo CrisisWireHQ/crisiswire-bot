@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--monitoring",
-    "source": "GN: Reuters",
-    "ts": 1778787679
-  },
-  {
-    "key": "argentina--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778787686
-  },
-  {
     "key": "bolivia--protest--la-paz",
     "source": "Straits Times World",
     "ts": 1778788252
