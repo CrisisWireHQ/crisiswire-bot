@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--michigan",
-    "source": "GN: Outbreak",
-    "ts": 1778724655
-  },
-  {
     "key": "usa--quake--oregon-coast",
     "source": "GN: Earthquake",
     "ts": 1778724658
