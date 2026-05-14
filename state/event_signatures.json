@@ -153,5 +153,10 @@
     "key": "iran--ship-fire--strait-of-hormuz",
     "source": "GN: Strike Attack",
     "ts": 1778779285
+  },
+  {
+    "key": "somalia--hostage--somali-pirates-pakistani",
+    "source": "GN: Hostage",
+    "ts": 1778779847
   }
 ]
