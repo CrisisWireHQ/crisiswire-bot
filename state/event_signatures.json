@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--outbreak--napa-mushroom-poisoning",
-    "source": "GN: Outbreak",
-    "ts": 1778758284
-  },
-  {
-    "key": "unknown--plane-crash--unknown",
-    "source": "GN: Plane Crash",
-    "ts": 1778758288
-  },
-  {
     "key": "usa--crash--logan-airport-boston",
     "source": "GN: Breaking News",
     "ts": 1778758841
