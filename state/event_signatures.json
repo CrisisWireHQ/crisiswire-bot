@@ -1,25 +1,5 @@
 [
   {
-    "key": "lebanon--drone-strike--qusaybah",
-    "source": "TG: WarMonitors",
-    "ts": 1778754646
-  },
-  {
-    "key": "south-sandwich-islands--quake--region",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778754649
-  },
-  {
-    "key": "unknown--crash--unknown",
-    "source": "GN: Plane Crash",
-    "ts": 1778754672
-  },
-  {
-    "key": "usa--quake--oregon-coast",
-    "source": "GN: Earthquake",
-    "ts": 1778754676
-  },
-  {
     "key": "null",
     "source": "GN: Outbreak",
     "ts": 1778755245
@@ -138,5 +118,20 @@
     "key": "unknown--crash--unknown",
     "source": "GN: Plane Crash",
     "ts": 1778757665
+  },
+  {
+    "key": "ukraine--attack--kyiv",
+    "source": "GN: CNN",
+    "ts": 1778758270
+  },
+  {
+    "key": "usa--outbreak--napa-mushroom-poisoning",
+    "source": "GN: Outbreak",
+    "ts": 1778758284
+  },
+  {
+    "key": "unknown--plane-crash--unknown",
+    "source": "GN: Plane Crash",
+    "ts": 1778758288
   }
 ]
