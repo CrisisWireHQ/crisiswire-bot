@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--quake--oregon-coast",
-    "source": "GN: Earthquake",
-    "ts": 1778724054
-  },
-  {
     "key": "usa--hantavirus--michigan",
     "source": "GN: Outbreak",
     "ts": 1778724655
@@ -33,5 +28,15 @@
     "key": "philippines--quake--cagayan",
     "source": "GN: Earthquake",
     "ts": 1778726447
+  },
+  {
+    "key": "lebanon--drone-strike--vehicles",
+    "source": "GN: Strike Attack",
+    "ts": 1778727653
+  },
+  {
+    "key": "alaska--quake--general",
+    "source": "GN: Earthquake",
+    "ts": 1778727654
   }
 ]
