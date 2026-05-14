@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--crash--lincoln-county-new-mexico",
-    "source": "GN: Plane Crash",
-    "ts": 1778791864
-  },
-  {
-    "key": "russia--drone-attack--belgorod",
-    "source": "TASS English",
-    "ts": 1778791866
-  },
-  {
-    "key": "usa--crash--new-mexico",
-    "source": "GN: Plane Crash",
-    "ts": 1778791885
-  },
-  {
     "key": "iraq--drone-strike--isis",
     "source": "GN: Strike Attack",
     "ts": 1778792458
