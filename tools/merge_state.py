@@ -80,10 +80,24 @@ def _merge_x_watcher(local: dict, remote: dict) -> dict:
     return out
 
 
+def _merge_recent_drafts(local: dict, remote: dict) -> dict:
+    """{fingerprint: {ts, words[]}}. Keep entry with max ts."""
+    out = dict(remote or {})
+    for k, v in (local or {}).items():
+        if not isinstance(v, dict):
+            continue
+        if k not in out or not isinstance(out[k], dict):
+            out[k] = v
+            continue
+        if v.get("ts", 0) > out[k].get("ts", 0):
+            out[k] = v
+    return out
+
+
 MERGERS = {
     "state/seen.json": _merge_dict_max,
     "state/drafted_keys.json": _merge_dict_max,
-    "state/recent_drafts.json": _merge_dict_max,
+    "state/recent_drafts.json": _merge_recent_drafts,
     "state/event_signatures.json": _merge_event_signatures,
     "state/telegram_offset.json": _merge_telegram_offset,
     "state/x_watcher.json": _merge_x_watcher,

@@ -202,32 +202,35 @@ _STOPWORDS = {
 }
 
 
-def _draft_fingerprint(text: str) -> str:
-    """Normalize a draft to its semantic core, then hash to 16 hex chars.
+JACCARD_DUPLICATE_THRESHOLD = 0.55  # set-overlap ratio that counts as "same story"
 
-    Strips emoji, attribution clauses ("per X"), punctuation, stopwords;
-    sorts the remaining content words alphabetically and takes the first
-    10. Sorting kills word-order variation; alphabetizing means
-    "11 killed in airstrike" and "airstrike killed 11" collapse to the
-    same fingerprint."""
+
+def _draft_word_set(text: str) -> set:
+    """Distinctive content words (lowercase, length>2, no stopwords/punct).
+    Cuts at the first attribution clause ('per X', 'according to Y') so
+    the source name doesn't leak into the comparison."""
     if not text:
-        return ""
+        return set()
     t = text.lower()
-    # Cut everything after the first attribution marker.
     t = re.split(r"\b(per|according to|reported by|reports say|sources say)\b", t, 1)[0]
-    # Strip non-alphanumeric except spaces.
     t = re.sub(r"[^a-z0-9\s]", " ", t)
-    # Collapse whitespace.
-    words = [w for w in t.split() if len(w) > 1 and w not in _STOPWORDS]
-    # Sort to be insensitive to word order, take top-10 content words.
-    core = " ".join(sorted(words)[:10])
-    if not core:
+    return {w for w in t.split() if len(w) > 2 and w not in _STOPWORDS}
+
+
+def _draft_fingerprint(text: str) -> str:
+    """Stable signature hash used as the dict key for `recent_drafts.json`.
+    Identical word-sets → identical hash (which lets us upsert)."""
+    words = _draft_word_set(text)
+    if not words:
         return ""
-    return hashlib.sha256(core.encode("utf-8")).hexdigest()[:16]
+    return hashlib.sha256(" ".join(sorted(words)).encode("utf-8")).hexdigest()[:16]
 
 
 def load_recent_drafts() -> dict:
-    """Map of draft_fingerprint → last sent timestamp. Auto-pruned on load."""
+    """Map of fingerprint → {ts, words[]}. Auto-pruned on load.
+
+    Back-compat: old schema stored bare ints (timestamps) — those are dropped
+    on load since they carry no word-set for similarity comparison."""
     _ensure_dir()
     if not RECENT_DRAFTS_FILE.exists():
         return {}
@@ -236,25 +239,56 @@ def load_recent_drafts() -> dict:
     except json.JSONDecodeError:
         return {}
     cutoff = time.time() - RECENT_DRAFT_TTL_SECONDS
-    return {k: v for k, v in data.items() if v >= cutoff}
+    out = {}
+    for k, v in data.items():
+        if not isinstance(v, dict):
+            continue  # drop legacy bare-int entries
+        if v.get("ts", 0) < cutoff:
+            continue
+        out[k] = v
+    return out
 
 
 def save_recent_drafts(drafts: dict):
     _ensure_dir()
     cutoff = time.time() - RECENT_DRAFT_TTL_SECONDS
-    pruned = {k: v for k, v in drafts.items() if v >= cutoff}
+    pruned = {
+        k: v for k, v in drafts.items()
+        if isinstance(v, dict) and v.get("ts", 0) >= cutoff
+    }
     RECENT_DRAFTS_FILE.write_text(json.dumps(pruned, indent=2, sort_keys=True), encoding="utf-8")
 
 
 def is_recent_draft(drafts: dict, text: str) -> bool:
-    fp = _draft_fingerprint(text)
-    if not fp:
+    """True iff any stored draft has word-set Jaccard ≥ threshold with this text.
+    Catches paraphrased restatements of the same story even when the exact
+    word-set differs."""
+    new_words = _draft_word_set(text)
+    if len(new_words) < 4:  # too sparse to compare reliably
         return False
-    return fp in drafts
+    best = 0.0
+    for entry in drafts.values():
+        if not isinstance(entry, dict):
+            continue
+        old_words = set(entry.get("words", []))
+        if len(old_words) < 4:
+            continue
+        union = new_words | old_words
+        if not union:
+            continue
+        jaccard = len(new_words & old_words) / len(union)
+        if jaccard > best:
+            best = jaccard
+        if jaccard >= JACCARD_DUPLICATE_THRESHOLD:
+            return True
+    return False
 
 
 def mark_recent_draft(drafts: dict, text: str):
     fp = _draft_fingerprint(text)
     if not fp:
         return
-    drafts[fp] = int(time.time())
+    drafts[fp] = {
+        "ts": int(time.time()),
+        "words": sorted(_draft_word_set(text)),
+    }

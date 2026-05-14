@@ -116,10 +116,20 @@ def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_p
         )
         return 1
     except Exception as e:
+        err = str(e)
+        # X returns 403 Forbidden when it considers a post a duplicate of
+        # something we (or anyone on the account) recently sent. Make this
+        # legible so you don't waste time debugging credentials.
+        if "403" in err and ("Forbidden" in err or "duplicate" in err.lower()):
+            label = "❌ POST FAILED (X 403 — likely duplicate of a recent post)"
+            cb_msg = "X rejected as duplicate (403)"
+        else:
+            label = f"❌ POST FAILED: {e}"
+            cb_msg = f"X error: {err[:150]}"
         print(f"[post] X post failed: {e}")
         if callback_id:
-            telegram_io.answer_callback(callback_id, f"X error: {str(e)[:150]}")
-        telegram_io.edit_message(chat_id, message_id, f"❌ POST FAILED: {e}\n\n{msg_text}", is_photo=is_photo)
+            telegram_io.answer_callback(callback_id, cb_msg)
+        telegram_io.edit_message(chat_id, message_id, f"{label}\n\n{msg_text}", is_photo=is_photo)
         return 0
 
 
