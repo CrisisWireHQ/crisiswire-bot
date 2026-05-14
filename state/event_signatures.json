@@ -238,5 +238,30 @@
     "key": "usa--crash--air-force-rescue",
     "source": "GN: Plane Crash",
     "ts": 1778752268
+  },
+  {
+    "key": "cuba--protest--havana",
+    "source": "GN: Reuters",
+    "ts": 1778752866
+  },
+  {
+    "key": "unknown--plane-crash--unknown",
+    "source": "GN: Plane Crash",
+    "ts": 1778752868
+  },
+  {
+    "key": "unknown--crash--unknown-location",
+    "source": "GN: Plane Crash",
+    "ts": 1778752870
+  },
+  {
+    "key": "usa--shooting--iowa-city",
+    "source": "GN: Mass Shooting",
+    "ts": 1778752873
+  },
+  {
+    "key": "usa--crash--florida-coast",
+    "source": "GN: Plane Crash",
+    "ts": 1778752877
   }
 ]
