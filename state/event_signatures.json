@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--kansas",
-    "source": "GN: Breaking News",
-    "ts": 1778764246
-  },
-  {
-    "key": "india--duststorm--northern",
-    "source": "Al Jazeera",
-    "ts": 1778764248
-  },
-  {
     "key": "colombia--quake--darien",
     "source": "USGS Quakes M4.5+",
     "ts": 1778764842
