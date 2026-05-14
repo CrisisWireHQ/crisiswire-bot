@@ -98,5 +98,20 @@
     "key": "ukraine--missile-strike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778796048
+  },
+  {
+    "key": "russia--drone-defense--multiple-regions",
+    "source": "TASS English",
+    "ts": 1778797248
+  },
+  {
+    "key": "usa--fire--penn-station",
+    "source": "GN: Breaking News",
+    "ts": 1778797252
+  },
+  {
+    "key": "usa--norovirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778797253
   }
 ]
