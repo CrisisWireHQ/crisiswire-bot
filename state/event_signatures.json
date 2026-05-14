@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--hostage--princeton",
-    "source": "GN: Hostage",
-    "ts": 1778790175
-  },
-  {
     "key": "canada--quake--edmonton",
     "source": "GN: Earthquake",
     "ts": 1778790188
