@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--fire--san-bernardino-county",
-    "source": "GN: Wildfire",
-    "ts": 1778734846
-  },
-  {
-    "key": "france--outbreak--cruise-ship-ambition",
-    "source": "Times of India World",
-    "ts": 1778734850
-  },
-  {
-    "key": "israel--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778734851
-  },
-  {
     "key": "usa--quake--central-nevada",
     "source": "GN: Earthquake",
     "ts": 1778734863
@@ -73,5 +58,10 @@
     "key": "nigeria--airstrike--zamfara",
     "source": "GN: Strike Attack",
     "ts": 1778737849
+  },
+  {
+    "key": "usa--quake-swarm--imperial-county-california",
+    "source": "GN: Earthquake",
+    "ts": 1778738448
   }
 ]
