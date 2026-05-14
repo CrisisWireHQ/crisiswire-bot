@@ -108,5 +108,25 @@
     "key": "oman--ship-attack--arabian-sea",
     "source": "GN: Strike Attack",
     "ts": 1778783026
+  },
+  {
+    "key": "indonesia--quake--unknown-location",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778783472
+  },
+  {
+    "key": "usa--crash--new-mexico",
+    "source": "GN: Plane Crash",
+    "ts": 1778783476
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778783477
+  },
+  {
+    "key": "cuba--grid-collapse--nationwide",
+    "source": "GN: Reuters",
+    "ts": 1778783485
   }
 ]
