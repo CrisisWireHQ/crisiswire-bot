@@ -1,15 +1,5 @@
 [
   {
-    "key": "lebanon--drone-strike--vehicles",
-    "source": "GN: Strike Attack",
-    "ts": 1778727653
-  },
-  {
-    "key": "alaska--quake--general",
-    "source": "GN: Earthquake",
-    "ts": 1778727654
-  },
-  {
     "key": "argentina--quake--san-antonio-de-los-cobres",
     "source": "USGS Quakes M4.5+",
     "ts": 1778728251
@@ -38,5 +28,20 @@
     "key": "venezuela--protest--caracas",
     "source": "Al Jazeera",
     "ts": 1778730648
+  },
+  {
+    "key": "usa--fire--san-bernardino-county",
+    "source": "GN: Wildfire",
+    "ts": 1778731251
+  },
+  {
+    "key": "multiple--hantavirus--cruise-ship-hondius",
+    "source": "Times of India World",
+    "ts": 1778731255
+  },
+  {
+    "key": "usa--quake--oregon-coast",
+    "source": "GN: Earthquake",
+    "ts": 1778731262
   }
 ]
