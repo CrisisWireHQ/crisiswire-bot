@@ -33,6 +33,13 @@ SOURCES = [
     {"name": "TASS English", "type": "rss", "url": "https://tass.com/rss/v2.xml", "tier": 2, "category": "news"},
     {"name": "Politico Playbook", "type": "rss", "url": "https://rss.politico.com/playbook.xml", "tier": 2, "category": "news"},
 
+    # Wires & majors that killed their own RSS — captured via Google News source filter.
+    # Reuters dropped public RSS in 2020, AP in 2021, CNN around the same time.
+    {"name": "GN: Reuters", "type": "rss", "url": "https://news.google.com/rss/search?q=when:6h+site:reuters.com&hl=en-US&gl=US&ceid=US:en", "tier": 1, "category": "news"},
+    {"name": "GN: AP News", "type": "rss", "url": "https://news.google.com/rss/search?q=when:6h+site:apnews.com&hl=en-US&gl=US&ceid=US:en", "tier": 1, "category": "news"},
+    {"name": "GN: CNN", "type": "rss", "url": "https://news.google.com/rss/search?q=when:6h+site:cnn.com&hl=en-US&gl=US&ceid=US:en", "tier": 2, "category": "news"},
+    {"name": "Yahoo News World", "type": "rss", "url": "https://www.yahoo.com/news/rss/world", "tier": 2, "category": "news"},
+
     # =====================================================================
     # Tier 2 — Google News topic-tracking queries (broad capture, recent only)
     # =====================================================================
