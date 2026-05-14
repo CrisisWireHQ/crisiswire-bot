@@ -1,15 +1,5 @@
 [
   {
-    "key": "ukraine--drone-strike--nationwide",
-    "source": "France 24 Intl",
-    "ts": 1778757660
-  },
-  {
-    "key": "unknown--crash--unknown",
-    "source": "GN: Plane Crash",
-    "ts": 1778757665
-  },
-  {
     "key": "ukraine--attack--kyiv",
     "source": "GN: CNN",
     "ts": 1778758270
