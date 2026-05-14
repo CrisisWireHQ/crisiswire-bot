@@ -1,10 +1,5 @@
 [
   {
-    "key": "jamaica--quake--island",
-    "source": "GN: Earthquake",
-    "ts": 1778718660
-  },
-  {
     "key": "usa--outbreak--buckingham-county-virginia",
     "source": "GN: Outbreak",
     "ts": 1778719858
