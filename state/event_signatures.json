@@ -93,5 +93,15 @@
     "key": "usa--mass-shooting--ez-lounge",
     "source": "GN: Mass Shooting",
     "ts": 1778882446
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778883048
+  },
+  {
+    "key": "india--attack--pahalgam",
+    "source": "GN: Terror Attack",
+    "ts": 1778883048
   }
 ]
