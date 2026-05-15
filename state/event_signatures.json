@@ -1,15 +1,5 @@
 [
   {
-    "key": "india--storm--uttar-pradesh",
-    "source": "Channel News Asia",
-    "ts": 1778812845
-  },
-  {
-    "key": "india--hostage-incident--manipur",
-    "source": "GN: Hostage",
-    "ts": 1778812845
-  },
-  {
     "key": "usa--mass-shooting--paterson-nj",
     "source": "GN: Mass Shooting",
     "ts": 1778813499
@@ -63,5 +53,25 @@
     "key": "canada--fire--central-alberta",
     "source": "GN: Wildfire",
     "ts": 1778815865
+  },
+  {
+    "key": "ukraine--airstrike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778816446
+  },
+  {
+    "key": "usa--outbreak--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778816446
+  },
+  {
+    "key": "india--attack--vessel",
+    "source": "GN: Terror Attack",
+    "ts": 1778816446
+  },
+  {
+    "key": "lebanon--attack--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778816448
   }
 ]
