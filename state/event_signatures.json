@@ -275,11 +275,6 @@
     "ts": 1778846461
   },
   {
-    "key": "japan--quake--honshu",
-    "source": "GN: Earthquake",
-    "ts": 1778846461
-  },
-  {
     "key": "usa--crash--new-mexico",
     "source": "GN: Plane Crash",
     "ts": 1778846461
@@ -292,11 +287,6 @@
   {
     "key": "japan--quake--east-honshu",
     "source": "GN: Earthquake",
-    "ts": 1778846461
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
     "ts": 1778846461
   },
   {
