@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--monitoring",
-    "source": "Straits Times World",
-    "ts": 1778801448
-  },
-  {
-    "key": "canada--fire--central-alberta",
-    "source": "GN: Wildfire",
-    "ts": 1778801448
-  },
-  {
-    "key": "japan--quake--offshore",
-    "source": "GN: Earthquake",
-    "ts": 1778801448
-  },
-  {
     "key": "ukraine--airstrike--zaporozhye",
     "source": "TASS English",
     "ts": 1778802043
