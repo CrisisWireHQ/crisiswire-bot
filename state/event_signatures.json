@@ -1,25 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--burj-al-shamali",
-    "source": "TG: WarMonitors",
-    "ts": 1778837458
-  },
-  {
-    "key": "sudan--famine-risk--food-insecurity",
-    "source": "ReliefWeb Updates",
-    "ts": 1778837458
-  },
-  {
-    "key": "drc--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778837459
-  },
-  {
-    "key": "usa--storm--up",
-    "source": "GN: Breaking News",
-    "ts": 1778837459
-  },
-  {
     "key": "haiti--gang-clashes--port-au-prince",
     "source": "France 24 Intl",
     "ts": 1778838051
