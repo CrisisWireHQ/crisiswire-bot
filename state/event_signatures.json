@@ -1,25 +1,5 @@
 [
   {
-    "key": "drc--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778833244
-  },
-  {
-    "key": "ukraine--airstrike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778833244
-  },
-  {
-    "key": "myanmar--quake--countrywide",
-    "source": "GN: Earthquake",
-    "ts": 1778833244
-  },
-  {
-    "key": "pakistan--suicide-blast--khyber-pakhtunkhwa",
-    "source": "GN: Explosion",
-    "ts": 1778833244
-  },
-  {
     "key": "ukraine--attack--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778833860
