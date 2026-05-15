@@ -1,20 +1,5 @@
 [
   {
-    "key": "ukraine--airstrike--zaporozhye",
-    "source": "TASS English",
-    "ts": 1778802043
-  },
-  {
-    "key": "ukraine--drone-strike--kherson",
-    "source": "Al Jazeera",
-    "ts": 1778802043
-  },
-  {
-    "key": "iraq--missile-strike--baghdad",
-    "source": "GN: Strike Attack",
-    "ts": 1778802043
-  },
-  {
     "key": "haiti--gang-violence--port-au-prince",
     "source": "France 24 Intl",
     "ts": 1778802645
@@ -93,5 +78,15 @@
     "key": "usa--fire--texas-oklahoma-new-mexico-panhandles",
     "source": "GN: Wildfire",
     "ts": 1778805068
+  },
+  {
+    "key": "usa--fire--texas-panhandle",
+    "source": "GN: Wildfire",
+    "ts": 1778805659
+  },
+  {
+    "key": "japan--quake--increased-risk",
+    "source": "GN: Earthquake",
+    "ts": 1778805659
   }
 ]
