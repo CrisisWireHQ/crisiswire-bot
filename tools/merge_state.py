@@ -94,6 +94,30 @@ def _merge_recent_drafts(local: dict, remote: dict) -> dict:
     return out
 
 
+def _merge_x_self_mirror(local: dict, remote: dict) -> dict:
+    """{user_id, last_tweet_id, last_poll_ts, mirrored:{tweet_id:ts}}.
+
+    Critical: must be monotonic so an already-mirrored tweet is never
+    re-mirrored after a rebase/smart-merge. UNION the mirrored set, take the
+    forward-most cursor, newest poll ts.
+    """
+    out = dict(remote or {})
+    loc = local or {}
+    if loc.get("user_id"):
+        out["user_id"] = loc["user_id"]
+    if int(loc.get("last_poll_ts", 0) or 0) > int(out.get("last_poll_ts", 0) or 0):
+        out["last_poll_ts"] = loc["last_poll_ts"]
+    ltid = int(loc.get("last_tweet_id", "0") or 0)
+    rtid = int(out.get("last_tweet_id", "0") or 0)
+    out["last_tweet_id"] = str(max(ltid, rtid))
+    merged_mirrored = dict(out.get("mirrored", {}) or {})
+    for tid, ts in (loc.get("mirrored", {}) or {}).items():
+        if tid not in merged_mirrored or ts > merged_mirrored[tid]:
+            merged_mirrored[tid] = ts
+    out["mirrored"] = merged_mirrored
+    return out
+
+
 MERGERS = {
     "state/seen.json": _merge_dict_max,
     "state/drafted_keys.json": _merge_dict_max,
@@ -101,6 +125,8 @@ MERGERS = {
     "state/event_signatures.json": _merge_event_signatures,
     "state/telegram_offset.json": _merge_telegram_offset,
     "state/x_watcher.json": _merge_x_watcher,
+    "state/x_self_mirror.json": _merge_x_self_mirror,
+    "state/bot_tweets.json": _merge_dict_max,
 }
 
 
