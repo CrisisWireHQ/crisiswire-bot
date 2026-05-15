@@ -1,45 +1,5 @@
 [
   {
-    "key": "japan--quake--eastern-coast",
-    "source": "GN: Earthquake",
-    "ts": 1778854997
-  },
-  {
-    "key": "ukraine--fire--chernobyl-exclusion-zone",
-    "source": "TASS English",
-    "ts": 1778854997
-  },
-  {
-    "key": "usa--explosion--cleveland",
-    "source": "GN: Explosion",
-    "ts": 1778855001
-  },
-  {
-    "key": "usa--hostage--jacksonville",
-    "source": "GN: Hostage",
-    "ts": 1778855001
-  },
-  {
-    "key": "usa--crash--marlborough",
-    "source": "GN: Breaking News",
-    "ts": 1778855001
-  },
-  {
-    "key": "ukraine--attack--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778855001
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778855003
-  },
-  {
-    "key": "lebanon--airstrike--ghandouriyeh",
-    "source": "GN: Strike Attack",
-    "ts": 1778855003
-  },
-  {
     "key": "congo--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1778855456
