@@ -1,25 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--unspecified",
-    "source": "GN: Strike Attack",
-    "ts": 1778863251
-  },
-  {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1778863251
-  },
-  {
-    "key": "ukraine--missile-strike--unspecified",
-    "source": "GN: Strike Attack",
-    "ts": 1778863251
-  },
-  {
-    "key": "nigeria--hostage--borno-state",
-    "source": "Straits Times World",
-    "ts": 1778863251
-  },
-  {
     "key": "usa--hantavirus--unspecified",
     "source": "GN: Outbreak",
     "ts": 1778863255
@@ -178,5 +158,10 @@
     "key": "ukraine--attack--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778866253
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778866853
   }
 ]
