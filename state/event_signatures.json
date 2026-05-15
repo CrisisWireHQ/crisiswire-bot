@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--quake--lake-county-california",
-    "source": "GN: Earthquake",
-    "ts": 1778835064
-  },
-  {
-    "key": "usa--explosion--los-angeles",
-    "source": "GN: Explosion",
-    "ts": 1778835064
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: AP News",
-    "ts": 1778835064
-  },
-  {
     "key": "ukraine--missile-strike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778835660
