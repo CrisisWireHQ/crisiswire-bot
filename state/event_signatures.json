@@ -1,35 +1,5 @@
 [
   {
-    "key": "canada--fire--clearwater-county",
-    "source": "GN: Wildfire",
-    "ts": 1778862646
-  },
-  {
-    "key": "russia--airstrike--oil-refinery",
-    "source": "GN: Strike Attack",
-    "ts": 1778862646
-  },
-  {
-    "key": "usa--crash--akron",
-    "source": "GN: Plane Crash",
-    "ts": 1778862646
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778862649
-  },
-  {
-    "key": "canada--fire--sundre",
-    "source": "GN: Wildfire",
-    "ts": 1778862649
-  },
-  {
-    "key": "oman--strike--indian-ship",
-    "source": "GN: Strike Attack",
-    "ts": 1778862649
-  },
-  {
     "key": "canada--fire--clearwater-county-calgary",
     "source": "GN: Wildfire",
     "ts": 1778862730
@@ -213,5 +183,35 @@
     "key": "canada--fire--sundre",
     "source": "GN: Wildfire",
     "ts": 1778865656
+  },
+  {
+    "key": "uk--outbreak--berkshire",
+    "source": "Times of India World",
+    "ts": 1778866250
+  },
+  {
+    "key": "uganda--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778866250
+  },
+  {
+    "key": "usa--explosion--maine",
+    "source": "GN: Explosion",
+    "ts": 1778866253
+  },
+  {
+    "key": "usa--explosion--maine",
+    "source": "GN: Explosion",
+    "ts": 1778866253
+  },
+  {
+    "key": "usa--crash--akron",
+    "source": "GN: Plane Crash",
+    "ts": 1778866253
+  },
+  {
+    "key": "ukraine--attack--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778866253
   }
 ]
