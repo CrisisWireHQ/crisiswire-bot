@@ -88,5 +88,10 @@
     "key": "usa--fire--eastern-new-mexico",
     "source": "GN: Wildfire",
     "ts": 1778809254
+  },
+  {
+    "key": "trusted-there-large-fire-seen-this",
+    "source": "TG: Faytuks Network",
+    "ts": 1778809505
   }
 ]
