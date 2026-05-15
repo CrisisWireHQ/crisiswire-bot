@@ -1,35 +1,5 @@
 [
   {
-    "key": "canada--fire--clearwater-county-calgary",
-    "source": "GN: Wildfire",
-    "ts": 1778862730
-  },
-  {
-    "key": "ukraine--drone-strike--russian-oil-refinery",
-    "source": "GN: Strike Attack",
-    "ts": 1778862730
-  },
-  {
-    "key": "usa--crash--akron",
-    "source": "GN: Plane Crash",
-    "ts": 1778862730
-  },
-  {
-    "key": "israel--airstrike--lebanon",
-    "source": "GN: Strike Attack",
-    "ts": 1778862733
-  },
-  {
-    "key": "lebanon--airstrike--tebnine",
-    "source": "GN: Strike Attack",
-    "ts": 1778862734
-  },
-  {
-    "key": "india--missile-strike--oman-sea",
-    "source": "GN: Strike Attack",
-    "ts": 1778862734
-  },
-  {
     "key": "lebanon--airstrike--unspecified",
     "source": "GN: Strike Attack",
     "ts": 1778863251
