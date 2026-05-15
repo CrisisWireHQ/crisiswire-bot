@@ -1,15 +1,5 @@
 [
   {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778883048
-  },
-  {
-    "key": "india--attack--pahalgam",
-    "source": "GN: Terror Attack",
-    "ts": 1778883048
-  },
-  {
     "key": "usa--attack--synagogue-plot",
     "source": "GN: Terror Attack",
     "ts": 1778883649
@@ -93,5 +83,20 @@
     "key": "usa--explosion--searsmont-maine",
     "source": "GN: Explosion",
     "ts": 1778886048
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778886650
+  },
+  {
+    "key": "usa--fire--united-states",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778886650
+  },
+  {
+    "key": "usa--fire--texas-oklahoma",
+    "source": "GN: Wildfire",
+    "ts": 1778886650
   }
 ]
