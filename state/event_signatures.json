@@ -48,5 +48,20 @@
     "key": "australia--hantavirus-quarantine--ship",
     "source": "GN: AP News",
     "ts": 1778831456
+  },
+  {
+    "key": "ukraine--airstrike--sumy",
+    "source": "TASS English",
+    "ts": 1778832648
+  },
+  {
+    "key": "drc--outbreak--ebola-east",
+    "source": "BBC World",
+    "ts": 1778832648
+  },
+  {
+    "key": "oman--attack--indian-vessel",
+    "source": "GN: Terror Attack",
+    "ts": 1778832648
   }
 ]
