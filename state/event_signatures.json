@@ -208,5 +208,30 @@
     "key": "venezuela--fire--gas-facility",
     "source": "GN: Reuters",
     "ts": 1778863862
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778864450
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778864450
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "Al Jazeera",
+    "ts": 1778864450
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778864450
+  },
+  {
+    "key": "atlantic--plane-crash--atlantic",
+    "source": "GN: Plane Crash",
+    "ts": 1778864450
   }
 ]
