@@ -1,15 +1,5 @@
 [
   {
-    "key": "argentina--hantavirus--countrywide",
-    "source": "Straits Times World",
-    "ts": 1778811641
-  },
-  {
-    "key": "middle-east--flight-cancellations--regional",
-    "source": "GN: Reuters",
-    "ts": 1778811645
-  },
-  {
     "key": "usa--outbreak--nevada-hantavirus",
     "source": "GN: Outbreak",
     "ts": 1778812248
@@ -63,5 +53,10 @@
     "key": "usa--plane-crash--akron",
     "source": "GN: Plane Crash",
     "ts": 1778814647
+  },
+  {
+    "key": "usa--plane-crash--akron",
+    "source": "GN: Plane Crash",
+    "ts": 1778815247
   }
 ]
