@@ -83,5 +83,15 @@
     "key": "usa--fire--texas-panhandle-new-mexico",
     "source": "GN: Wildfire",
     "ts": 1778812248
+  },
+  {
+    "key": "india--storm--uttar-pradesh",
+    "source": "Channel News Asia",
+    "ts": 1778812845
+  },
+  {
+    "key": "india--hostage-incident--manipur",
+    "source": "GN: Hostage",
+    "ts": 1778812845
   }
 ]
