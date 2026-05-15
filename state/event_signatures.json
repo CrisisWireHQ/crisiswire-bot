@@ -1,40 +1,5 @@
 [
   {
-    "key": "usa--shooting--arlington",
-    "source": "GN: Hostage",
-    "ts": 1778839852
-  },
-  {
-    "key": "usa--quake--petrolia-california",
-    "source": "GN: Earthquake",
-    "ts": 1778839852
-  },
-  {
-    "key": "lebanon--airstrike--tyre",
-    "source": "GN: Strike Attack",
-    "ts": 1778839852
-  },
-  {
-    "key": "philippines--shooting--senate",
-    "source": "GN: AP News",
-    "ts": 1778839852
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778839856
-  },
-  {
-    "key": "drc--ebola--congo",
-    "source": "GN: Outbreak",
-    "ts": 1778839856
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778839859
-  },
-  {
     "key": "lebanon--airstrike--chabriha",
     "source": "GN: Strike Attack",
     "ts": 1778840449
@@ -153,5 +118,100 @@
     "key": "india--explosion--west-imphal",
     "source": "GN: Breaking News",
     "ts": 1778842871
+  },
+  {
+    "key": "usa--fire--northern-texas-new-mexico",
+    "source": "GN: Wildfire",
+    "ts": 1778843462
+  },
+  {
+    "key": "lebanon--airstrike--unspecified",
+    "source": "GN: Strike Attack",
+    "ts": 1778843462
+  },
+  {
+    "key": "russia--fire--unspecified",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778843462
+  },
+  {
+    "key": "usa--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778843465
+  },
+  {
+    "key": "australia--fire--unspecified",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778843465
+  },
+  {
+    "key": "russia--fire--unspecified",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778843466
+  },
+  {
+    "key": "australia--fire--active",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778843466
+  },
+  {
+    "key": "australia--fire--active",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778843468
+  },
+  {
+    "key": "russia--fire--active",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778843470
+  },
+  {
+    "key": "australia--fire--active",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778843470
+  },
+  {
+    "key": "australia--fire--active",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778843471
+  },
+  {
+    "key": "australia--fire--active",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778843472
+  },
+  {
+    "key": "australia--fire--active",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778843474
+  },
+  {
+    "key": "usa--fire--active",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778843475
+  },
+  {
+    "key": "ukraine--drone-strike--kherson",
+    "source": "France 24 Intl",
+    "ts": 1778843475
+  },
+  {
+    "key": "congo--ebola--outbreak",
+    "source": "GN: Outbreak",
+    "ts": 1778843475
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778843479
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Reuters",
+    "ts": 1778843479
+  },
+  {
+    "key": "pakistan--explosion--army-camp-kp",
+    "source": "GN: Breaking News",
+    "ts": 1778843479
   }
 ]
