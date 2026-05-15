@@ -1,20 +1,5 @@
 [
   {
-    "key": "japan--quake--honshu-east",
-    "source": "GN: Earthquake",
-    "ts": 1778850672
-  },
-  {
-    "key": "pakistan--attack--outpost",
-    "source": "GN: Explosion",
-    "ts": 1778850676
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778850678
-  },
-  {
     "key": "ukraine--military-operation--zaporozhye",
     "source": "TASS English",
     "ts": 1778851255
