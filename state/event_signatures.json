@@ -1,35 +1,5 @@
 [
   {
-    "key": "india--hostage--manipur",
-    "source": "GN: Hostage",
-    "ts": 1778836849
-  },
-  {
-    "key": "ukraine--strike--sumy",
-    "source": "TASS English",
-    "ts": 1778836849
-  },
-  {
-    "key": "usa--explosion--miami",
-    "source": "GN: Explosion",
-    "ts": 1778836849
-  },
-  {
-    "key": "iraq--explosion--erbil",
-    "source": "GN: Explosion",
-    "ts": 1778836849
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778836849
-  },
-  {
-    "key": "ukraine--airstrike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778836849
-  },
-  {
     "key": "lebanon--airstrike--burj-al-shamali",
     "source": "TG: WarMonitors",
     "ts": 1778837458
@@ -168,5 +138,25 @@
     "key": "ukraine--missile-strike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778839859
+  },
+  {
+    "key": "lebanon--airstrike--chabriha",
+    "source": "GN: Strike Attack",
+    "ts": 1778840449
+  },
+  {
+    "key": "indonesia--landslide--sijunjung",
+    "source": "Channel News Asia",
+    "ts": 1778840449
+  },
+  {
+    "key": "ukraine--prisoner-swap--general",
+    "source": "GN: Reuters",
+    "ts": 1778840452
+  },
+  {
+    "key": "india--hostage-release--manipur",
+    "source": "GN: Hostage",
+    "ts": 1778840455
   }
 ]
