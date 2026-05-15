@@ -33,5 +33,15 @@
     "key": "iran--attack--strait-of-hormuz",
     "source": "NPR World",
     "ts": 1778822443
+  },
+  {
+    "key": "australia--hantavirus-quarantine--passengers",
+    "source": "GN: Outbreak",
+    "ts": 1778823651
+  },
+  {
+    "key": "finland--drone-activity--helsinki",
+    "source": "GN: Reuters",
+    "ts": 1778823654
   }
 ]
