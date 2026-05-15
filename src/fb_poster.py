@@ -8,6 +8,7 @@ Failure here never blocks the X post — _do_post_from_msg wraps this in try/exc
 and treats FB as best-effort.
 """
 import os
+import json
 import requests
 
 GRAPH_VERSION = "v21.0"
@@ -103,6 +104,64 @@ def post(text: str, image_url: str = "", image_path: str = "", link_url: str = "
     if r.status_code != 200:
         raise RuntimeError(f"FB feed post failed ({r.status_code}): {r.text[:300]}")
     return {"id": r.json().get("id", ""), "had_image": False}
+
+
+def post_album(text: str, image_urls: list[str]) -> dict:
+    """Post multiple remote images as ONE Facebook post (album).
+
+    Used for manual tweets that carry 2+ photos — they must become a single
+    multi-photo FB post, not one post per image. Each image is uploaded as an
+    unpublished photo, then a single feed post ties them together via
+    attached_media.
+
+    Falls back gracefully: 0 usable urls → text-only; 1 url → normal single
+    photo post; any individual upload failure is skipped; if every upload
+    fails we still publish the text. Returns {"id", "had_image"}.
+    """
+    urls = [u for u in (image_urls or []) if u and u.lower().startswith("http")]
+    if not urls:
+        return post(text)
+    if len(urls) == 1:
+        return post(text, image_url=urls[0])
+
+    pid = _page_id()
+    token = _token()
+    body = text.strip()
+
+    media_fbids = []
+    for u in urls[:10]:  # FB album cap is generous; 10 is plenty for a tweet
+        try:
+            r = requests.post(
+                f"{GRAPH_BASE}/{pid}/photos",
+                data={"url": u, "published": "false", "access_token": token},
+                timeout=TIMEOUT,
+            )
+            if r.status_code == 200:
+                mid = r.json().get("id")
+                if mid:
+                    media_fbids.append(mid)
+            else:
+                print(f"[fb_poster] album photo upload failed ({r.status_code}): {r.text[:160]}")
+        except Exception as e:
+            print(f"[fb_poster] album photo upload exception: {e}")
+
+    if not media_fbids:
+        # Every upload failed — don't lose the post.
+        return post(text)
+    if len(media_fbids) == 1:
+        # Only one survived; just attach it normally.
+        return post(text, image_url=urls[0])
+
+    data = {"message": body, "access_token": token}
+    for i, mid in enumerate(media_fbids):
+        data[f"attached_media[{i}]"] = json.dumps({"media_fbid": mid})
+
+    r = requests.post(f"{GRAPH_BASE}/{pid}/feed", data=data, timeout=TIMEOUT)
+    if r.status_code != 200:
+        print(f"[fb_poster] album feed post failed ({r.status_code}): {r.text[:200]}; "
+              f"falling back to single photo")
+        return post(text, image_url=urls[0])
+    return {"id": r.json().get("id", ""), "had_image": True}
 
 
 def post_url(post_id: str) -> str:

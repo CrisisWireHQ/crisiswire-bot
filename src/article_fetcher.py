@@ -103,6 +103,7 @@ def fetch_article(url: str, max_chars: int = 4000) -> dict:
 _BAD_IMG_HINTS = (
     "logo", "sprite", "placeholder", "default", "blank", "1x1", "pixel",
     "avatar", "icon", "favicon", "share", "social-default",
+    "gstatic", "googlelogo", "google_news", "news.google",
 )
 
 
@@ -116,6 +117,15 @@ def fetch_og_image(url: str) -> str:
     if not url or _is_telegram(url):
         return ""
     target = resolve_url(url)
+    # If the Google News redirect couldn't be decoded, `target` is still a
+    # google.com / news.google.com URL. Scraping it yields Google News's own
+    # og:image (the Google logo), which is useless. Bail so the caller falls
+    # back to the generated headline card instead.
+    low_t = (target or "").lower()
+    if ("news.google.com" in low_t or "google.com/" in low_t
+            or "googleusercontent.com" in low_t):
+        print(f"[article_fetcher] og:image skipped — unresolved Google URL: {target[:80]}")
+        return ""
     try:
         r = requests.get(target, headers={"User-Agent": UA}, timeout=15)
         if r.status_code != 200 or "html" not in (r.headers.get("content-type") or "").lower():

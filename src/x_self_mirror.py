@@ -159,16 +159,18 @@ def run() -> int:
         # FB doesn't need it and it looks ugly.
         text = _strip_trailing_tco(text)
 
-        image_url = ""
+        # Collect ALL media from the tweet (a 2+ photo tweet must become ONE
+        # FB album post, not one post per image). Photos expose .url;
+        # videos / animated_gifs expose .preview_image_url.
+        image_urls = []
         attachments = getattr(tw, "attachments", None) or {}
         for key in attachments.get("media_keys", []) or []:
             m = media_by_key.get(key)
             if not m:
                 continue
             url = getattr(m, "url", None) or getattr(m, "preview_image_url", None)
-            if url:
-                image_url = url
-                break
+            if url and url not in image_urls:
+                image_urls.append(url)
 
         ext_url, _outlet = _extract_external_url(tw)
 
@@ -176,21 +178,29 @@ def run() -> int:
         # og:image from the linked article → generated headline card. Meta
         # heavily down-ranks text-only posts.
         fb_card_path = ""
-        if not image_url and ext_url:
+        if not image_urls and ext_url:
             try:
                 og = article_fetcher.fetch_og_image(ext_url)
                 if og:
-                    image_url = og
+                    image_urls = [og]
                     print(f"[x_self_mirror] using og:image {og[:80]}")
             except Exception as e:
                 print(f"[x_self_mirror] og:image lookup failed: {e}")
-        if not image_url:
+        if not image_urls:
             fb_card_path = fb_card.generate(text)
             if fb_card_path:
                 print("[x_self_mirror] no photo; generated headline card")
 
         try:
-            fb_result = fb_poster.post(text, image_url=image_url, image_path=fb_card_path, link_url="")
+            if len(image_urls) > 1:
+                fb_result = fb_poster.post_album(text, image_urls)
+            else:
+                fb_result = fb_poster.post(
+                    text,
+                    image_url=image_urls[0] if image_urls else "",
+                    image_path=fb_card_path,
+                    link_url="",
+                )
             fb_id = fb_result.get("id", "")
             print(f"[x_self_mirror] mirrored tweet {tweet_id} → FB post {fb_id}")
         except Exception as e:
