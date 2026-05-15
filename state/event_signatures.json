@@ -113,5 +113,45 @@
     "key": "lebanon--ceasefire-extension--israel",
     "source": "GN: Strike Attack",
     "ts": 1778875251
+  },
+  {
+    "key": "russia--drone-attack--belgorod",
+    "source": "TASS English",
+    "ts": 1778876453
+  },
+  {
+    "key": "palestine--airstrike--gaza-city",
+    "source": "GN: Strike Attack",
+    "ts": 1778876453
+  },
+  {
+    "key": "usa--fire--randall-county",
+    "source": "GN: Wildfire",
+    "ts": 1778876453
+  },
+  {
+    "key": "usa--explosion--maine",
+    "source": "GN: Explosion",
+    "ts": 1778876453
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778876453
+  },
+  {
+    "key": "usa--crash--new-mexico",
+    "source": "GN: Plane Crash",
+    "ts": 1778876453
+  },
+  {
+    "key": "lebanon--airstrike--israel",
+    "source": "GN: Strike Attack",
+    "ts": 1778876453
+  },
+  {
+    "key": "usa--explosion--maine",
+    "source": "GN: Explosion",
+    "ts": 1778876456
   }
 ]
