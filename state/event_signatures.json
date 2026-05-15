@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--fire--randall-county",
-    "source": "GN: Wildfire",
-    "ts": 1778803855
-  },
-  {
-    "key": "usa--fire--jefferson-county",
-    "source": "GN: Breaking News",
-    "ts": 1778803855
-  },
-  {
-    "key": "canada--fire--sundre",
-    "source": "GN: Wildfire",
-    "ts": 1778803855
-  },
-  {
     "key": "usa--fire--texas-panhandle-new-mexico",
     "source": "GN: Wildfire",
     "ts": 1778804100
@@ -93,5 +78,30 @@
     "key": "usa--crash--ohio-home",
     "source": "GN: Wildfire",
     "ts": 1778806881
+  },
+  {
+    "key": "usa--fire--potter-randall-county-texas",
+    "source": "GN: Wildfire",
+    "ts": 1778807447
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778807447
+  },
+  {
+    "key": "usa--stabbing--atlanta",
+    "source": "GN: Breaking News",
+    "ts": 1778807447
+  },
+  {
+    "key": "global--hantavirus--news-conference",
+    "source": "GN: Outbreak",
+    "ts": 1778807447
+  },
+  {
+    "key": "usa--hantavirus--explainer",
+    "source": "GN: Outbreak",
+    "ts": 1778807463
   }
 ]
