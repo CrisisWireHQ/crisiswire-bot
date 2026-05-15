@@ -22,6 +22,7 @@ import os
 import re
 import json
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 
 import tweepy
@@ -34,6 +35,14 @@ STATE_FILE = Path(__file__).resolve().parent.parent / "state" / "x_self_mirror.j
 POLL_INTERVAL_SEC = int(os.environ.get("X_SELF_MIRROR_INTERVAL", str(8 * 60)))  # 8 min default
 MAX_TWEETS_PER_RUN = 5  # safety cap so a burst doesn't flood FB
 MIRRORED_TTL_SECONDS = 14 * 24 * 3600
+# Defer tweets younger than this. The approval flow records a bot tweet's ID
+# in bot_tweets.json via a *separate* (webhook-approve) GitHub Actions run,
+# which commits state asynchronously. A scheduled run-bot that checks out
+# before that commit merges would not see the ID and would mirror the
+# approved post as if it were manual. Waiting out a buffer lets the state
+# propagate. Manual posts just mirror to FB a bit later — acceptable, since
+# X (not FB) is the breaking-speed channel.
+MIN_TWEET_AGE_SECONDS = int(os.environ.get("X_SELF_MIRROR_MIN_AGE", str(25 * 60)))
 
 _client = None
 
@@ -126,15 +135,33 @@ def run() -> int:
             media_by_key[m.media_key] = m
 
     bot_tweets = state.load_bot_tweets()
+    recent_drafts = state.load_recent_drafts()
     mirrored = st.setdefault("mirrored", {})
 
     # Process oldest-first so chronological order is preserved on FB.
     tweets = sorted(resp.data, key=lambda t: int(t.id))
     newest_id = since_id or "0"
     mirrored_count = 0
+    now_utc = datetime.now(timezone.utc)
 
     for tw in tweets:
         tweet_id = str(tw.id)
+
+        # Recency guard. Tweets are ascending by id (≈ chronological), so the
+        # first too-young tweet means every following one is also too young —
+        # stop here and DON'T advance newest_id, so they're re-fetched (and
+        # re-evaluated against by-then-propagated bot_tweets) on a later run.
+        created = getattr(tw, "created_at", None)
+        if created is not None:
+            if created.tzinfo is None:
+                created = created.replace(tzinfo=timezone.utc)
+            age = (now_utc - created).total_seconds()
+            if age < MIN_TWEET_AGE_SECONDS:
+                print(f"[x_self_mirror] defer tweet {tweet_id} "
+                      f"(age {int(age)}s < {MIN_TWEET_AGE_SECONDS}s); will retry later")
+                break
+
+        # Finalized (old enough to decide) — safe to advance the cursor.
         if int(tweet_id) > int(newest_id):
             newest_id = tweet_id
 
@@ -176,6 +203,18 @@ def run() -> int:
         if not _probe or _probe.lower().startswith("source:") or re.fullmatch(r"https?://\S+", _probe):
             print(f"[x_self_mirror] skip non-content tweet {tweet_id}: {_probe[:60]!r}")
             continue
+
+        # Backstop for the state-propagation race: even if this tweet's ID
+        # hasn't landed in bot_tweets.json yet, the bot's approved draft text
+        # is fingerprinted in recent_drafts.json. If the tweet text matches a
+        # recent bot draft, it's an approved post (already mirrored to FB by
+        # _do_post_from_msg) — skip it.
+        try:
+            if state.is_recent_draft(recent_drafts, text):
+                print(f"[x_self_mirror] skip tweet {tweet_id}: matches a recent bot draft")
+                continue
+        except Exception as e:
+            print(f"[x_self_mirror] recent-draft check failed (non-fatal): {e}")
 
         # Strip the trailing t.co URL X auto-appends when there's an attached image.
         # FB doesn't need it and it looks ugly.
