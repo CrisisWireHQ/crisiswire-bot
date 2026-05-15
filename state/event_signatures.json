@@ -1,40 +1,5 @@
 [
   {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778847662
-  },
-  {
-    "key": "japan--quake--northeastern",
-    "source": "GN: Earthquake",
-    "ts": 1778847662
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778847662
-  },
-  {
-    "key": "usa--fire--kansas",
-    "source": "GN: Wildfire",
-    "ts": 1778847662
-  },
-  {
-    "key": "usa--explosion--louisiana",
-    "source": "GN: Explosion",
-    "ts": 1778847662
-  },
-  {
-    "key": "japan--quake--general",
-    "source": "GN: Earthquake",
-    "ts": 1778847662
-  },
-  {
-    "key": "denmark--outbreak--salmonella",
-    "source": "GN: Outbreak",
-    "ts": 1778847662
-  },
-  {
     "key": "ukraine--attack--kharkov-region",
     "source": "TASS English",
     "ts": 1778848260
@@ -163,5 +128,40 @@
     "key": "congo--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1778850678
+  },
+  {
+    "key": "ukraine--military-operation--zaporozhye",
+    "source": "TASS English",
+    "ts": 1778851255
+  },
+  {
+    "key": "usa--quake--bear-lake",
+    "source": "GN: Earthquake",
+    "ts": 1778851259
+  },
+  {
+    "key": "pakistan--attack--northwest",
+    "source": "Al Jazeera",
+    "ts": 1778851259
+  },
+  {
+    "key": "usa--death--denver-airport",
+    "source": "GN: AP News",
+    "ts": 1778851263
+  },
+  {
+    "key": "japan--quake--multiple-prefectures",
+    "source": "GN: Earthquake",
+    "ts": 1778851266
+  },
+  {
+    "key": "africa--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778851266
+  },
+  {
+    "key": "usa--mass-shooting--iowa-city",
+    "source": "GN: Mass Shooting",
+    "ts": 1778851268
   }
 ]
