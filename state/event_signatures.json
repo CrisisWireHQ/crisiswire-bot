@@ -80,8 +80,33 @@
     "ts": 1778836258
   },
   {
+    "key": "india--hostage--manipur",
+    "source": "GN: Hostage",
+    "ts": 1778836849
+  },
+  {
+    "key": "ukraine--strike--sumy",
+    "source": "TASS English",
+    "ts": 1778836849
+  },
+  {
+    "key": "usa--explosion--miami",
+    "source": "GN: Explosion",
+    "ts": 1778836849
+  },
+  {
+    "key": "iraq--explosion--erbil",
+    "source": "GN: Explosion",
+    "ts": 1778836849
+  },
+  {
     "key": "ukraine--missile-strike--kyiv",
     "source": "GN: Strike Attack",
-    "ts": 1778836258
+    "ts": 1778836849
+  },
+  {
+    "key": "ukraine--airstrike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778836849
   }
 ]
