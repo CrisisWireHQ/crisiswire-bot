@@ -1,25 +1,5 @@
 [
   {
-    "key": "n/a",
-    "source": "GN: Outbreak",
-    "ts": 1778806865
-  },
-  {
-    "key": "usa--fire--chino-hills-california",
-    "source": "GN: Wildfire",
-    "ts": 1778806881
-  },
-  {
-    "key": "usa--shooting--grand-blanc-township-michigan",
-    "source": "GN: Mass Shooting",
-    "ts": 1778806881
-  },
-  {
-    "key": "usa--crash--ohio-home",
-    "source": "GN: Wildfire",
-    "ts": 1778806881
-  },
-  {
     "key": "usa--fire--potter-randall-county-texas",
     "source": "GN: Wildfire",
     "ts": 1778807447
