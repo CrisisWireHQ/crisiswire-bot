@@ -1,15 +1,5 @@
 [
   {
-    "key": "australia--hantavirus-quarantine--passengers",
-    "source": "GN: Outbreak",
-    "ts": 1778823651
-  },
-  {
-    "key": "finland--drone-activity--helsinki",
-    "source": "GN: Reuters",
-    "ts": 1778823654
-  },
-  {
     "key": "russia--drone-strike--ryazan",
     "source": "GN: Reuters",
     "ts": 1778824253
@@ -108,5 +98,20 @@
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778826660
+  },
+  {
+    "key": "congo--outbreak--ituri",
+    "source": "GN: Outbreak",
+    "ts": 1778827250
+  },
+  {
+    "key": "ukraine--strike--kyiv-darnytskyi",
+    "source": "GN: Strike Attack",
+    "ts": 1778827253
+  },
+  {
+    "key": "australia--outbreak--cruise-ship-hantavirus",
+    "source": "GN: Reuters",
+    "ts": 1778827253
   }
 ]
