@@ -2,11 +2,6 @@
   {
     "key": "usa--plane-crash--akron",
     "source": "GN: Plane Crash",
-    "ts": 1778814647
-  },
-  {
-    "key": "usa--plane-crash--akron",
-    "source": "GN: Plane Crash",
     "ts": 1778815247
   },
   {
@@ -68,5 +63,10 @@
     "key": "ukraine--airstrike--druzhkivka",
     "source": "GN: Strike Attack",
     "ts": 1778817048
+  },
+  {
+    "key": "russia--drone-attack--ryazan",
+    "source": "Straits Times World",
+    "ts": 1778818247
   }
 ]
