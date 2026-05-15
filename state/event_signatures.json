@@ -1,15 +1,5 @@
 [
   {
-    "key": "drc--outbreak--ebola",
-    "source": "Avian Flu Diary",
-    "ts": 1778841051
-  },
-  {
-    "key": "n/a",
-    "source": "GN: Outbreak",
-    "ts": 1778841051
-  },
-  {
     "key": "ukraine--missile-strike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778841054
