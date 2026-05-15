@@ -73,4 +73,9 @@ SOURCES = [
     {"name": "TG: AuroraIntel", "type": "tg", "channel": "AuroraIntel", "tier": 2, "category": "conflict"},
     {"name": "TG: OSINTtechnical", "type": "tg", "channel": "Osinttechnical", "tier": 2, "category": "conflict"},
     {"name": "TG: Spectator Index", "type": "tg", "channel": "spectatorindex", "tier": 2, "category": "news"},
+
+    # =====================================================================
+    # Tier 2 — Trusted X firehose (paid X API read; bypasses Claude classifier)
+    # =====================================================================
+    {"name": "X: @Osinttechnical", "type": "x", "username": "Osinttechnical", "tier": 2, "category": "conflict", "trusted": True},
 ]
