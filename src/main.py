@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from . import state, poller, classifier, drafter, telegram_io, x_poster, quote_finder, article_fetcher
+from . import state, poller, classifier, drafter, telegram_io, x_poster, fb_poster, quote_finder, article_fetcher
 from .sources import SOURCES
 
 DRAFTS_PER_RUN = int(os.environ.get("DRAFTS_PER_RUN", "3"))
@@ -101,10 +101,26 @@ def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_p
                 print(f"[post] auto-reply failed: {e}")
                 reply_status = "⚠️ reply failed"
 
+        # Mirror to Facebook Page (best-effort; never blocks X post success).
+        fb_status = ""
+        if fb_poster.enabled():
+            try:
+                fb_result = fb_poster.post(
+                    draft_text,
+                    image_url=image_url,
+                    link_url=source_url,  # FB will preview-card the source link
+                )
+                fb_status = "📘 FB posted" + (" w/ img" if fb_result.get("had_image") else "")
+                print(f"[fb] posted: {fb_poster.post_url(fb_result.get('id', ''))}")
+            except Exception as e:
+                print(f"[fb] post failed (non-fatal): {e}")
+                fb_status = "⚠️ FB failed"
+
         tags = []
         if result.get("had_image"): tags.append("🖼 image")
         if result.get("had_quote"): tags.append("💬 quote")
         if reply_status: tags.append(reply_status)
+        if fb_status: tags.append(fb_status)
         if not tags: tags.append("📝 text only")
         media_tag = " + ".join(tags)
         if callback_id:
