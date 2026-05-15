@@ -1,15 +1,5 @@
 [
   {
-    "key": "australia--hantavirus-qa--outbreak",
-    "source": "GN: Outbreak",
-    "ts": 1778824862
-  },
-  {
-    "key": "usa--hantavirus--monitoring",
-    "source": "GN: Outbreak",
-    "ts": 1778824863
-  },
-  {
     "key": "unknown--hantavirus--cruise-ship",
     "source": "Straits Times World",
     "ts": 1778825451
