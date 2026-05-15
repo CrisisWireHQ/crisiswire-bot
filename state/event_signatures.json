@@ -1,50 +1,5 @@
 [
   {
-    "key": "australia--fire--active",
-    "source": "GDACS Disaster Alerts",
-    "ts": 1778843471
-  },
-  {
-    "key": "australia--fire--active",
-    "source": "GDACS Disaster Alerts",
-    "ts": 1778843472
-  },
-  {
-    "key": "australia--fire--active",
-    "source": "GDACS Disaster Alerts",
-    "ts": 1778843474
-  },
-  {
-    "key": "usa--fire--active",
-    "source": "GDACS Disaster Alerts",
-    "ts": 1778843475
-  },
-  {
-    "key": "ukraine--drone-strike--kherson",
-    "source": "France 24 Intl",
-    "ts": 1778843475
-  },
-  {
-    "key": "congo--ebola--outbreak",
-    "source": "GN: Outbreak",
-    "ts": 1778843475
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778843479
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Reuters",
-    "ts": 1778843479
-  },
-  {
-    "key": "pakistan--explosion--army-camp-kp",
-    "source": "GN: Breaking News",
-    "ts": 1778843479
-  },
-  {
     "key": "italy--cave-diving-accident--genoa",
     "source": "CBS News World",
     "ts": 1778844050
