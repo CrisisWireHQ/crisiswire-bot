@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--quake--inland-empire",
-    "source": "GN: Earthquake",
-    "ts": 1778810450
-  },
-  {
     "key": "usa--fire--texas-new-mexico",
     "source": "GN: Wildfire",
     "ts": 1778811050
