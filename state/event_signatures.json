@@ -223,5 +223,30 @@
     "key": "trusted-new-israel-says-carried-out",
     "source": "TG: Faytuks Network",
     "ts": 1778865639
+  },
+  {
+    "key": "mauritius--outbreak--chikungunya",
+    "source": "GN: Outbreak",
+    "ts": 1778865653
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1778865656
+  },
+  {
+    "key": "usa--crash--capitan",
+    "source": "GN: Plane Crash",
+    "ts": 1778865656
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778865656
+  },
+  {
+    "key": "canada--fire--sundre",
+    "source": "GN: Wildfire",
+    "ts": 1778865656
   }
 ]
