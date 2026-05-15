@@ -1,45 +1,5 @@
 [
   {
-    "key": "usa--fire--castro-county-texas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778874060
-  },
-  {
-    "key": "gaza--airstrike--hamas-military",
-    "source": "GN: Strike Attack",
-    "ts": 1778874060
-  },
-  {
-    "key": "usa--mass-shooting--san-francisco",
-    "source": "GN: Mass Shooting",
-    "ts": 1778874060
-  },
-  {
-    "key": "usa--shooting--tennessee",
-    "source": "Times of India World",
-    "ts": 1778874060
-  },
-  {
-    "key": "nigeria--hostage--borno",
-    "source": "GN: Reuters",
-    "ts": 1778874060
-  },
-  {
-    "key": "usa--explosion--maine",
-    "source": "GN: Explosion",
-    "ts": 1778874060
-  },
-  {
-    "key": "ukraine--airstrike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778874060
-  },
-  {
-    "key": "gaza--airstrike--hamas-military",
-    "source": "GN: Strike Attack",
-    "ts": 1778874063
-  },
-  {
     "key": "drc--outbreak--kasai",
     "source": "GN: Outbreak",
     "ts": 1778874650
@@ -143,5 +103,15 @@
     "key": "lebanon--conflict--israel-hezbollah",
     "source": "GN: AP News",
     "ts": 1778877059
+  },
+  {
+    "key": "haiti--violence--artibonite",
+    "source": "ReliefWeb Updates",
+    "ts": 1778877661
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "ReliefWeb Updates",
+    "ts": 1778877665
   }
 ]
