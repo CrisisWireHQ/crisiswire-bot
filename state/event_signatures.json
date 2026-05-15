@@ -108,5 +108,15 @@
     "key": "oman--attack--indian-ship",
     "source": "GN: Terror Attack",
     "ts": 1778828458
+  },
+  {
+    "key": "myanmar--quake--countrywide",
+    "source": "GN: Earthquake",
+    "ts": 1778829044
+  },
+  {
+    "key": "usa--quake-swarm--southern-california",
+    "source": "GN: Earthquake",
+    "ts": 1778829044
   }
 ]
