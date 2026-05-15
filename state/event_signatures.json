@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--fire--texas-panhandle",
-    "source": "GN: Wildfire",
-    "ts": 1778805659
-  },
-  {
-    "key": "japan--quake--increased-risk",
-    "source": "GN: Earthquake",
-    "ts": 1778805659
-  },
-  {
     "key": "canada--fire--clearwater-county-alberta",
     "source": "GN: Wildfire",
     "ts": 1778806276
