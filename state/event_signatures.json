@@ -73,5 +73,20 @@
     "key": "lebanon--attack--south",
     "source": "GN: Strike Attack",
     "ts": 1778816448
+  },
+  {
+    "key": "china--quake--unspecified",
+    "source": "GN: Earthquake",
+    "ts": 1778817045
+  },
+  {
+    "key": "yemen--hostage--detainee-swap",
+    "source": "GN: AP News",
+    "ts": 1778817045
+  },
+  {
+    "key": "ukraine--airstrike--druzhkivka",
+    "source": "GN: Strike Attack",
+    "ts": 1778817048
   }
 ]
