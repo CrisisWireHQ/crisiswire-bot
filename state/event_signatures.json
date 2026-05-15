@@ -1,20 +1,5 @@
 [
   {
-    "key": "atlantic--crash--ocean",
-    "source": "GN: Plane Crash",
-    "ts": 1778860856
-  },
-  {
-    "key": "usa--fire--searsmont",
-    "source": "GN: Explosion",
-    "ts": 1778860859
-  },
-  {
-    "key": "atlantic--crash--ocean",
-    "source": "GN: Plane Crash",
-    "ts": 1778860859
-  },
-  {
     "key": "peru--quake--palca",
     "source": "USGS Quakes M4.5+",
     "ts": 1778861451
