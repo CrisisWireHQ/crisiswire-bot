@@ -93,5 +93,45 @@
     "key": "usa--explosion--maine-lumber-mill",
     "source": "GN: Explosion",
     "ts": 1778873456
+  },
+  {
+    "key": "usa--fire--castro-county-texas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778874060
+  },
+  {
+    "key": "gaza--airstrike--hamas-military",
+    "source": "GN: Strike Attack",
+    "ts": 1778874060
+  },
+  {
+    "key": "usa--mass-shooting--san-francisco",
+    "source": "GN: Mass Shooting",
+    "ts": 1778874060
+  },
+  {
+    "key": "usa--shooting--tennessee",
+    "source": "Times of India World",
+    "ts": 1778874060
+  },
+  {
+    "key": "nigeria--hostage--borno",
+    "source": "GN: Reuters",
+    "ts": 1778874060
+  },
+  {
+    "key": "usa--explosion--maine",
+    "source": "GN: Explosion",
+    "ts": 1778874060
+  },
+  {
+    "key": "ukraine--airstrike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778874060
+  },
+  {
+    "key": "gaza--airstrike--hamas-military",
+    "source": "GN: Strike Attack",
+    "ts": 1778874063
   }
 ]
