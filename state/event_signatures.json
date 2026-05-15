@@ -58,5 +58,25 @@
     "key": "ukraine--attack--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778833860
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "TG: WarMonitors",
+    "ts": 1778834444
+  },
+  {
+    "key": "iraq--explosion--erbil",
+    "source": "TG: WarMonitors",
+    "ts": 1778834444
+  },
+  {
+    "key": "india--hostage--manipur",
+    "source": "GN: Hostage",
+    "ts": 1778834444
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778834444
   }
 ]
