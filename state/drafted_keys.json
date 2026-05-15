@@ -1,5 +1,6 @@
 {
   "argentina--hantavirus--countrywide": 1778811645,
+  "atlantic--plane-crash--atlantic": 1778861457,
   "atlantic-ocean--crash--plane": 1778777516,
   "australia--hantavirus-quarantine--passengers": 1778823654,
   "australia--outbreak--cruise-ship-hantavirus": 1778827256,
@@ -43,6 +44,7 @@
   "pakistan--suicide-blast--afghan-border": 1778824862,
   "palestine--shooting--west-bank": 1778848266,
   "papua-new-guinea--quake--lorengau": 1778809254,
+  "peru--quake--palca": 1778861454,
   "philippines--shooting--senate": 1778839856,
   "russia--drone-defense--multiple-regions": 1778797252,
   "russia--drone-strike--belgorod": 1778793052,
@@ -65,7 +67,6 @@
   "ukraine--prisoner-exchange--kyiv": 1778853081,
   "ukraine--prisoner-swap--general": 1778840455,
   "usa--attack--new-orleans": 1778845863,
-  "usa--crash--new-mexico": 1778775057,
   "usa--death--denver-airport": 1778851266,
   "usa--explosion--chalmette-refinery-louisiana": 1778778052,
   "usa--fire--eastern-new-mexico": 1778809851,
