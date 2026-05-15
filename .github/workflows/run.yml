@@ -23,7 +23,13 @@ concurrency:
       || github.event.action == 'approvals-only' && 'approvals'
       || 'full-poll'
     }}
-  cancel-in-progress: false
+  # Only trusted-only auto-supersedes: it fires ~every minute, so a backlog
+  # builds whenever GitHub is slow to allocate runners. Cancelling the older
+  # in-progress trusted run is safe — every trusted poll is equivalent (re-reads
+  # the same firehose) and the next run re-picks anything unsent. webhook-approve
+  # must NEVER be cancelled (it posts to X mid-run); full-poll/approvals stay
+  # uncancelled too so a long classify pass isn't dropped.
+  cancel-in-progress: ${{ github.event.action == 'trusted-only' }}
 
 jobs:
   run:
