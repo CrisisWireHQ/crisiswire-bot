@@ -1,40 +1,5 @@
 [
   {
-    "key": "ukraine--military-operation--zaporozhye",
-    "source": "TASS English",
-    "ts": 1778851255
-  },
-  {
-    "key": "usa--quake--bear-lake",
-    "source": "GN: Earthquake",
-    "ts": 1778851259
-  },
-  {
-    "key": "pakistan--attack--northwest",
-    "source": "Al Jazeera",
-    "ts": 1778851259
-  },
-  {
-    "key": "usa--death--denver-airport",
-    "source": "GN: AP News",
-    "ts": 1778851263
-  },
-  {
-    "key": "japan--quake--multiple-prefectures",
-    "source": "GN: Earthquake",
-    "ts": 1778851266
-  },
-  {
-    "key": "africa--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778851266
-  },
-  {
-    "key": "usa--mass-shooting--iowa-city",
-    "source": "GN: Mass Shooting",
-    "ts": 1778851268
-  },
-  {
     "key": "nigeria--attack--borno",
     "source": "GN: Terror Attack",
     "ts": 1778851850
