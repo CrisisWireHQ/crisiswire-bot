@@ -78,5 +78,20 @@
     "key": "usa--explosion--maine",
     "source": "GN: Explosion",
     "ts": 1778885449
+  },
+  {
+    "key": "usa--fire--birmingham-alabama",
+    "source": "GN: Breaking News",
+    "ts": 1778886048
+  },
+  {
+    "key": "usa--quake--the-geysers-california",
+    "source": "GN: Earthquake",
+    "ts": 1778886048
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1778886048
   }
 ]
