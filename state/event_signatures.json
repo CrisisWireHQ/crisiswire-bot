@@ -73,5 +73,15 @@
     "key": "japan--quake--increased-risk",
     "source": "GN: Earthquake",
     "ts": 1778805659
+  },
+  {
+    "key": "canada--fire--clearwater-county-alberta",
+    "source": "GN: Wildfire",
+    "ts": 1778806276
+  },
+  {
+    "key": "uk--explosion--belfast-police-station",
+    "source": "GN: Explosion",
+    "ts": 1778806291
   }
 ]
