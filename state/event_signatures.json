@@ -148,5 +148,25 @@
     "key": "usa--explosion--maine-lumber-mill",
     "source": "GN: Explosion",
     "ts": 1778866853
+  },
+  {
+    "key": "usa--terrorism-charges--iraqi-national",
+    "source": "GN: Breaking News",
+    "ts": 1778867454
+  },
+  {
+    "key": "gaza--airstrike--gaza-city",
+    "source": "GN: Strike Attack",
+    "ts": 1778867457
+  },
+  {
+    "key": "usa--shooting--buckeye-arizona",
+    "source": "GN: Breaking News",
+    "ts": 1778867459
+  },
+  {
+    "key": "ukraine--airstrike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778867459
   }
 ]
