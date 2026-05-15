@@ -143,5 +143,40 @@
     "key": "ukraine--conflict--kyiv",
     "source": "Al Jazeera",
     "ts": 1778868062
+  },
+  {
+    "key": "gaza--airstrike--hamas-leader",
+    "source": "Straits Times World",
+    "ts": 1778868662
+  },
+  {
+    "key": "none",
+    "source": "GN: Outbreak",
+    "ts": 1778868662
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778868666
+  },
+  {
+    "key": "ukraine--airstrike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778868666
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778868666
+  },
+  {
+    "key": "ukraine--attack--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778868666
+  },
+  {
+    "key": "usa--crash--akron",
+    "source": "GN: Plane Crash",
+    "ts": 1778868666
   }
 ]
