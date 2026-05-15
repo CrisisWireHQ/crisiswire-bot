@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--quake--socal",
-    "source": "GN: Earthquake",
-    "ts": 1778839447
-  },
-  {
-    "key": "usa--crash--florida",
-    "source": "GN: Plane Crash",
-    "ts": 1778839447
-  },
-  {
-    "key": "usa--crash--atlantic-ocean",
-    "source": "GN: Plane Crash",
-    "ts": 1778839447
-  },
-  {
     "key": "trusted-trump-says-the-white-house",
     "source": "TG: Faytuks Network",
     "ts": 1778839597
