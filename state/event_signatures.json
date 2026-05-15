@@ -1,30 +1,5 @@
 [
   {
-    "key": "atlantic--crash--atlantic",
-    "source": "GN: Plane Crash",
-    "ts": 1778860254
-  },
-  {
-    "key": "none",
-    "source": "GN: Outbreak",
-    "ts": 1778860256
-  },
-  {
-    "key": "atlantic--crash--atlantic",
-    "source": "GN: Plane Crash",
-    "ts": 1778860258
-  },
-  {
-    "key": "atlantic--crash--atlantic",
-    "source": "GN: Plane Crash",
-    "ts": 1778860260
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778860262
-  },
-  {
     "key": "atlantic--crash--ocean",
     "source": "GN: Plane Crash",
     "ts": 1778860856
@@ -203,5 +178,40 @@
     "key": "usa--fire--pennsylvania",
     "source": "GN: Breaking News",
     "ts": 1778863257
+  },
+  {
+    "key": "usa--fire--canyon-hunggate",
+    "source": "GN: Wildfire",
+    "ts": 1778863860
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778863860
+  },
+  {
+    "key": "canada--fire--sundre",
+    "source": "GN: Wildfire",
+    "ts": 1778863860
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778863860
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778863860
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1778863862
+  },
+  {
+    "key": "venezuela--fire--gas-facility",
+    "source": "GN: Reuters",
+    "ts": 1778863862
   }
 ]
