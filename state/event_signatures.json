@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-general-emergency-alert-vaaratiedote-was",
-    "source": "TG: Faytuks Network",
-    "ts": 1778827416
-  },
-  {
     "key": "usa--quake--nevada",
     "source": "GN: Earthquake",
     "ts": 1778827841
