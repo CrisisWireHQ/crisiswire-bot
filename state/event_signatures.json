@@ -48,5 +48,20 @@
     "key": "usa--explosion--miami",
     "source": "GN: Explosion",
     "ts": 1778820040
+  },
+  {
+    "key": "finland--drone-threat--helsinki",
+    "source": "Straits Times World",
+    "ts": 1778821249
+  },
+  {
+    "key": "usa--explosion--florida",
+    "source": "GN: Explosion",
+    "ts": 1778821252
+  },
+  {
+    "key": "france--collapse--cannes",
+    "source": "GN: Terror Attack",
+    "ts": 1778821252
   }
 ]
