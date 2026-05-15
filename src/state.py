@@ -10,12 +10,14 @@ TG_OFFSET_FILE = STATE_DIR / "telegram_offset.json"
 EVENT_SIGS_FILE = STATE_DIR / "event_signatures.json"
 DRAFTED_KEYS_FILE = STATE_DIR / "drafted_keys.json"
 RECENT_DRAFTS_FILE = STATE_DIR / "recent_drafts.json"
+BOT_TWEETS_FILE = STATE_DIR / "bot_tweets.json"
 MAX_SEEN_AGE_DAYS = 30
 EVENT_SIG_TTL_SECONDS = 3600  # 1 hour
 BREAKING_WINDOW_SECONDS = 600  # 10 minutes
 BREAKING_MIN_SOURCES = 2
 DRAFTED_KEY_TTL_SECONDS = 24 * 3600  # don't redraft same event_key within 24h
 RECENT_DRAFT_TTL_SECONDS = 48 * 3600  # text-fingerprint window, 48h
+BOT_TWEET_TTL_SECONDS = 14 * 24 * 3600  # remember bot-posted tweet IDs for 14d
 
 
 def _ensure_dir():
@@ -319,3 +321,41 @@ def mark_recent_draft(drafts: dict, text: str):
         "ts": int(time.time()),
         "words": sorted(_draft_word_set(text)),
     }
+
+
+# --- Bot-posted tweet IDs -----------------------------------------------
+# Used by x_self_mirror to distinguish tweets the bot itself posted (via the
+# Telegram approval flow) from tweets the human posted manually on X. Only
+# manual tweets get mirrored to Facebook.
+
+def load_bot_tweets() -> dict:
+    """Map of tweet_id (str) → ts. Pruned on load."""
+    _ensure_dir()
+    if not BOT_TWEETS_FILE.exists():
+        return {}
+    try:
+        data = json.loads(BOT_TWEETS_FILE.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    cutoff = time.time() - BOT_TWEET_TTL_SECONDS
+    return {k: v for k, v in data.items() if isinstance(v, (int, float)) and v >= cutoff}
+
+
+def save_bot_tweets(tweets: dict):
+    _ensure_dir()
+    cutoff = time.time() - BOT_TWEET_TTL_SECONDS
+    pruned = {k: v for k, v in tweets.items() if isinstance(v, (int, float)) and v >= cutoff}
+    BOT_TWEETS_FILE.write_text(json.dumps(pruned, indent=2, sort_keys=True), encoding="utf-8")
+
+
+def record_bot_tweet(tweet_id: str):
+    """One-shot: load, append, save. Cheap because the file stays small."""
+    if not tweet_id:
+        return
+    tweets = load_bot_tweets()
+    tweets[str(tweet_id)] = int(time.time())
+    save_bot_tweets(tweets)
+
+
+def is_bot_tweet(tweets: dict, tweet_id: str) -> bool:
+    return str(tweet_id) in tweets

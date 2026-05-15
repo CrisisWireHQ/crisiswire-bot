@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from . import state, poller, classifier, drafter, telegram_io, x_poster, fb_poster, quote_finder, article_fetcher
+from . import state, poller, classifier, drafter, telegram_io, x_poster, fb_poster, x_self_mirror, quote_finder, article_fetcher
 from .sources import SOURCES
 
 DRAFTS_PER_RUN = int(os.environ.get("DRAFTS_PER_RUN", "3"))
@@ -87,6 +87,13 @@ def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_p
         result = x_poster.post(draft_text, image_url=image_url, quote_tweet_id=quote_tweet_id)
         tweet_url = f"https://x.com/CrisisWireHQ/status/{result['id']}"
 
+        # Record bot-posted tweet ID so x_self_mirror skips it (otherwise the
+        # bot's own approved drafts would get re-mirrored to FB a second time).
+        try:
+            state.record_bot_tweet(result["id"])
+        except Exception as e:
+            print(f"[post] record_bot_tweet failed (non-fatal): {e}")
+
         # Auto-reply with source link. Failure here doesn't fail the parent post.
         reply_status = ""
         if source_url:
@@ -105,13 +112,22 @@ def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_p
         fb_status = ""
         if fb_poster.enabled():
             try:
-                fb_result = fb_poster.post(
-                    draft_text,
-                    image_url=image_url,
-                    link_url=source_url,  # FB will preview-card the source link
-                )
+                # Don't append source_url into message body — we add it as a
+                # comment below (parity with the X auto-reply behavior).
+                fb_result = fb_poster.post(draft_text, image_url=image_url, link_url="")
+                fb_post_id = fb_result.get("id", "")
                 fb_status = "📘 FB posted" + (" w/ img" if fb_result.get("had_image") else "")
-                print(f"[fb] posted: {fb_poster.post_url(fb_result.get('id', ''))}")
+                print(f"[fb] posted: {fb_poster.post_url(fb_post_id)}")
+
+                # Source comment on FB post (mirrors the X reply).
+                if source_url and fb_post_id:
+                    try:
+                        fb_poster.comment(fb_post_id, f"Source: {source_url}")
+                        fb_status += " + 📎 src"
+                        print(f"[fb] commented source on {fb_post_id}")
+                    except Exception as e:
+                        print(f"[fb] source comment failed (non-fatal): {e}")
+                        fb_status += " ⚠️ src failed"
             except Exception as e:
                 print(f"[fb] post failed (non-fatal): {e}")
                 fb_status = "⚠️ FB failed"
@@ -428,6 +444,17 @@ def main():
     else:
         drafted = poll_and_draft()
         print(f"[main] new drafts sent: {drafted}")
+
+        # Mirror any manually-posted X tweets to Facebook. Runs after
+        # poll_and_draft so the bot's own approved drafts are recorded in
+        # bot_tweets.json before the mirror checks for skip-IDs. Safe to fail.
+        if MODE != "trusted-only" and MODE != "force-trusted":
+            try:
+                mirrored = x_self_mirror.run()
+                if mirrored:
+                    print(f"[main] manual X → FB mirror: {mirrored} tweet(s)")
+            except Exception as e:
+                print(f"[main] x_self_mirror error (non-fatal): {e}")
 
     print("[main] === run end ===")
 
