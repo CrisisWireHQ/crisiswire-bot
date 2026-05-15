@@ -83,5 +83,20 @@
     "key": "bolivia--protest--mining",
     "source": "Al Jazeera",
     "ts": 1778802651
+  },
+  {
+    "key": "usa--hantavirus--arkansas",
+    "source": "GN: Outbreak",
+    "ts": 1778803258
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778803258
+  },
+  {
+    "key": "usa--shooting--chicago-howard-station",
+    "source": "GN: Breaking News",
+    "ts": 1778803258
   }
 ]
