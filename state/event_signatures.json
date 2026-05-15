@@ -1,25 +1,5 @@
 [
   {
-    "key": "who--hantavirus-outbreak--confirmation",
-    "source": "GN: Outbreak",
-    "ts": 1778818851
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778818853
-  },
-  {
-    "key": "iran--attack--strait-of-hormuz",
-    "source": "GN: Strike Attack",
-    "ts": 1778818853
-  },
-  {
-    "key": "lebanon--conflict--israel-hezbollah",
-    "source": "GN: Strike Attack",
-    "ts": 1778818854
-  },
-  {
     "key": "ukraine--missile-strike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778819471
