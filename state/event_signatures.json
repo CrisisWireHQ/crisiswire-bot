@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--unspecified",
-    "source": "GN: Outbreak",
-    "ts": 1778863255
-  },
-  {
-    "key": "usa--explosion--searsmont-maine",
-    "source": "GN: Explosion",
-    "ts": 1778863257
-  },
-  {
-    "key": "usa--fire--pennsylvania",
-    "source": "GN: Breaking News",
-    "ts": 1778863257
-  },
-  {
     "key": "usa--fire--canyon-hunggate",
     "source": "GN: Wildfire",
     "ts": 1778863860
