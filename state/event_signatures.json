@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--fire--penn-station",
-    "source": "GN: Breaking News",
-    "ts": 1778838662
-  },
-  {
-    "key": "ukraine--attack--kyiv",
-    "source": "GN: AP News",
-    "ts": 1778838662
-  },
-  {
-    "key": "japan--quake--aftershock",
-    "source": "GN: Earthquake",
-    "ts": 1778838662
-  },
-  {
     "key": "congo--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1778839262
