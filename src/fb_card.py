@@ -12,8 +12,8 @@ Deterministic, $0 — pure Pillow, no AI/model calls. Degrades gracefully:
   scalable default font.
 """
 import os
+import re
 import tempfile
-import textwrap
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
@@ -96,10 +96,15 @@ def generate(headline: str) -> str:
     headline = (headline or "").strip()
     if not headline:
         return ""
-    # Strip a trailing "— Source" attribution if the draft has one; the card
-    # is just the headline, attribution rides in the FB comment.
-    if "—" in headline:
-        headline = headline.rsplit("—", 1)[0].strip() or headline
+    # Strip ONLY a genuine trailing attribution — never plain em-dash content.
+    # The drafter uses "—" as a normal sentence connector, so we must not cut
+    # at the dash. Real attribution looks like "... per Reuters" or a trailing
+    # "Source: <url>" / "(Reuters)"; remove just that tail.
+    headline = re.sub(
+        r"\s*[—-]?\s*(?:source\s*:.*|per\s+[A-Z][\w .&'-]{1,40}|\((?:via\s+)?[A-Z][\w .&'-]{1,40}\))\s*$",
+        "",
+        headline,
+    ).strip() or headline
 
     try:
         img = _base_canvas()
