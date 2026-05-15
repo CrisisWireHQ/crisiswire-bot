@@ -83,8 +83,23 @@ def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_p
             telegram_io.answer_callback(callback_id, "Could not parse draft.")
         telegram_io.edit_message(chat_id, message_id, f"⚠️ PARSE FAILED\n\n{msg_text}", is_photo=is_photo)
         return 0
+    # X now weights media-bearing posts well above text-only. If the item
+    # carried no media, recover a real story photo via the source article's
+    # og:image (same scrape FB uses). Deliberately NOT falling back to the
+    # generated headline card here: a same-looking branded card on every
+    # text tweet is the structural-sameness pattern the content classifier
+    # down-ranks — a varied real photo is the only safe media boost on X.
+    x_image_url = image_url
+    if not x_image_url and source_url:
+        try:
+            og = article_fetcher.fetch_og_image(source_url)
+            if og:
+                x_image_url = og
+                print(f"[x_poster] using og:image fallback {og[:80]}")
+        except Exception as e:
+            print(f"[x_poster] og:image lookup failed (non-fatal): {e}")
     try:
-        result = x_poster.post(draft_text, image_url=image_url, quote_tweet_id=quote_tweet_id)
+        result = x_poster.post(draft_text, image_url=x_image_url, quote_tweet_id=quote_tweet_id)
         tweet_url = f"https://x.com/CrisisWireHQ/status/{result['id']}"
 
         # Record bot-posted tweet ID so x_self_mirror skips it (otherwise the
@@ -124,15 +139,9 @@ def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_p
                 #   1. image already attached to the item (RSS/TG media)
                 #   2. og:image scraped from the source article (real story photo)
                 #   3. generated branded headline card (never bare text)
-                fb_image_url = image_url
-                if not fb_image_url and source_url:
-                    try:
-                        og = article_fetcher.fetch_og_image(source_url)
-                        if og:
-                            fb_image_url = og
-                            print(f"[fb] using og:image {og[:80]}")
-                    except Exception as e:
-                        print(f"[fb] og:image lookup failed: {e}")
+                # Reuse x_image_url: it already carries the item media or the
+                # og:image scrape resolved above, so we never fetch twice.
+                fb_image_url = x_image_url
                 if not fb_image_url:
                     fb_card_path = fb_card.generate(draft_text)
                     if fb_card_path:
