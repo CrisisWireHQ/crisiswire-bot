@@ -1,25 +1,5 @@
 [
   {
-    "key": "congo--outbreak--ebola",
-    "source": "CBS News World",
-    "ts": 1778836255
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778836255
-  },
-  {
-    "key": "none",
-    "source": "GN: CNN",
-    "ts": 1778836255
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778836258
-  },
-  {
     "key": "india--hostage--manipur",
     "source": "GN: Hostage",
     "ts": 1778836849
@@ -153,5 +133,40 @@
     "key": "trusted-trump-says-the-white-house",
     "source": "TG: Faytuks Network",
     "ts": 1778839597
+  },
+  {
+    "key": "usa--shooting--arlington",
+    "source": "GN: Hostage",
+    "ts": 1778839852
+  },
+  {
+    "key": "usa--quake--petrolia-california",
+    "source": "GN: Earthquake",
+    "ts": 1778839852
+  },
+  {
+    "key": "lebanon--airstrike--tyre",
+    "source": "GN: Strike Attack",
+    "ts": 1778839852
+  },
+  {
+    "key": "philippines--shooting--senate",
+    "source": "GN: AP News",
+    "ts": 1778839852
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778839856
+  },
+  {
+    "key": "drc--ebola--congo",
+    "source": "GN: Outbreak",
+    "ts": 1778839856
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778839859
   }
 ]
