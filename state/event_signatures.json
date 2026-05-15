@@ -1,10 +1,5 @@
 [
   {
-    "key": "ukraine--attack--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778833860
-  },
-  {
     "key": "ukraine--missile-strike--kyiv",
     "source": "TG: WarMonitors",
     "ts": 1778834444
@@ -108,5 +103,25 @@
     "key": "ukraine--airstrike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778836849
+  },
+  {
+    "key": "lebanon--airstrike--burj-al-shamali",
+    "source": "TG: WarMonitors",
+    "ts": 1778837458
+  },
+  {
+    "key": "sudan--famine-risk--food-insecurity",
+    "source": "ReliefWeb Updates",
+    "ts": 1778837458
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778837459
+  },
+  {
+    "key": "usa--storm--up",
+    "source": "GN: Breaking News",
+    "ts": 1778837459
   }
 ]
