@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--plane-crash--akron",
-    "source": "GN: Plane Crash",
-    "ts": 1778815247
-  },
-  {
     "key": "israel--combat-death--lebanon",
     "source": "Jerusalem Post",
     "ts": 1778815856
@@ -68,5 +63,30 @@
     "key": "russia--drone-attack--ryazan",
     "source": "Straits Times World",
     "ts": 1778818247
+  },
+  {
+    "key": "who--hantavirus-outbreak--confirmation",
+    "source": "GN: Outbreak",
+    "ts": 1778818851
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778818853
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778818853
+  },
+  {
+    "key": "iran--attack--strait-of-hormuz",
+    "source": "GN: Strike Attack",
+    "ts": 1778818853
+  },
+  {
+    "key": "lebanon--conflict--israel-hezbollah",
+    "source": "GN: Strike Attack",
+    "ts": 1778818854
   }
 ]
