@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--attack--synagogue-plot",
-    "source": "GN: Terror Attack",
-    "ts": 1778883649
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778883649
-  },
-  {
-    "key": "usa--quake--oregon-coast",
-    "source": "GN: Earthquake",
-    "ts": 1778883649
-  },
-  {
-    "key": "japan--quake--chiba",
-    "source": "GN: Earthquake",
-    "ts": 1778883651
-  },
-  {
     "key": "usa--hostage--jacksonville",
     "source": "GN: Hostage",
     "ts": 1778884251
