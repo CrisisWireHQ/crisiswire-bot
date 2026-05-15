@@ -65,11 +65,6 @@
     "ts": 1778880042
   },
   {
-    "key": "gaza--airstrike--hamas-leader",
-    "source": "GN: Strike Attack",
-    "ts": 1778880042
-  },
-  {
     "key": "usa--outbreak--california-mushroom",
     "source": "GN: Outbreak",
     "ts": 1778880042
@@ -91,22 +86,12 @@
   },
   {
     "key": "palestine--airstrike--gaza-city",
-    "source": "GN: Strike Attack",
-    "ts": 1778880647
-  },
-  {
-    "key": "palestine--airstrike--gaza-city",
     "source": "Al Jazeera",
     "ts": 1778880647
   },
   {
     "key": "usa--hantavirus--cruise-ship",
     "source": "GN: Outbreak",
-    "ts": 1778880647
-  },
-  {
-    "key": "palestine--airstrike--gaza-city",
-    "source": "GN: Strike Attack",
     "ts": 1778880647
   },
   {
