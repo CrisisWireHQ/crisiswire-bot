@@ -1,20 +1,5 @@
 [
   {
-    "key": "nigeria--attack--borno",
-    "source": "GN: Terror Attack",
-    "ts": 1778851850
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778851850
-  },
-  {
-    "key": "usa--crash--ohio",
-    "source": "GN: Plane Crash",
-    "ts": 1778851850
-  },
-  {
     "key": "oman--attack--vessel-indian",
     "source": "GN: Terror Attack",
     "ts": 1778852454
@@ -173,5 +158,20 @@
     "key": "lebanon--airstrike--ghandouriyeh",
     "source": "GN: Strike Attack",
     "ts": 1778855003
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778855456
+  },
+  {
+    "key": "none",
+    "source": "GN: AP News",
+    "ts": 1778855459
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778855461
   }
 ]
