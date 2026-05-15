@@ -6,6 +6,8 @@ import base64
 import re
 import requests
 import trafilatura
+from urllib.parse import urljoin
+from bs4 import BeautifulSoup
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 _GN_ARTICLE_RE = re.compile(r"/articles/([A-Za-z0-9_-]+)")
@@ -96,6 +98,49 @@ def fetch_article(url: str, max_chars: int = 4000) -> dict:
         print(f"[article_fetcher] extract failed for {target}: {e}")
 
     return result
+
+
+_BAD_IMG_HINTS = (
+    "logo", "sprite", "placeholder", "default", "blank", "1x1", "pixel",
+    "avatar", "icon", "favicon", "share", "social-default",
+)
+
+
+def fetch_og_image(url: str) -> str:
+    """Return the article's lead image (og:image / twitter:image) absolute URL.
+
+    Used as the Facebook image when an RSS/Telegram item carried no media of
+    its own — the outlet's own story photo is the most relevant, story-specific
+    visual we can attach for free. Returns "" if nothing usable found.
+    """
+    if not url or _is_telegram(url):
+        return ""
+    target = resolve_url(url)
+    try:
+        r = requests.get(target, headers={"User-Agent": UA}, timeout=15)
+        if r.status_code != 200 or "html" not in (r.headers.get("content-type") or "").lower():
+            return ""
+        soup = BeautifulSoup(r.text, "lxml")
+    except Exception as e:
+        print(f"[article_fetcher] og:image fetch failed for {target}: {e}")
+        return ""
+
+    candidates = []
+    for prop in ("og:image:secure_url", "og:image:url", "og:image", "twitter:image", "twitter:image:src"):
+        for tag in soup.find_all("meta", attrs={"property": prop}) + soup.find_all("meta", attrs={"name": prop}):
+            content = (tag.get("content") or "").strip()
+            if content:
+                candidates.append(content)
+
+    for c in candidates:
+        absu = urljoin(target, c)
+        low = absu.lower()
+        if not low.startswith("http"):
+            continue
+        if any(h in low for h in _BAD_IMG_HINTS):
+            continue
+        return absu
+    return ""
 
 
 # Backwards-compat shim

@@ -35,12 +35,14 @@ def enabled() -> bool:
     return bool(os.environ.get("FB_PAGE_ID") and os.environ.get("FB_PAGE_TOKEN"))
 
 
-def post(text: str, image_url: str = "", link_url: str = "") -> dict:
+def post(text: str, image_url: str = "", image_path: str = "", link_url: str = "") -> dict:
     """Post to the configured Page.
 
     - text-only: POST /{page_id}/feed with `message`
-    - with image: POST /{page_id}/photos with `url` (Meta fetches the image
+    - remote image: POST /{page_id}/photos with `url` (Meta fetches it
       server-side, no upload needed) and `caption`
+    - local image (image_path): POST /{page_id}/photos with multipart
+      `source` file upload (used for the generated headline card)
     - link_url is appended to the message body when present; FB's link
       previewer will render a card from it. We don't use the `link` param
       because Meta deprecated custom link previews for unverified apps.
@@ -55,7 +57,24 @@ def post(text: str, image_url: str = "", link_url: str = "") -> dict:
     if link_url and link_url not in body:
         body = f"{body}\n\n{link_url}"
 
-    if image_url:
+    if image_path and os.path.exists(image_path):
+        # Local file (generated headline card) — multipart upload via `source`.
+        try:
+            with open(image_path, "rb") as fh:
+                r = requests.post(
+                    f"{GRAPH_BASE}/{pid}/photos",
+                    data={"caption": body, "access_token": token},
+                    files={"source": fh},
+                    timeout=TIMEOUT,
+                )
+            if r.status_code == 200:
+                data = r.json()
+                return {"id": data.get("post_id") or data.get("id", ""), "had_image": True}
+            print(f"[fb_poster] local photo upload failed ({r.status_code}): {r.text[:200]}; falling back to text")
+        except Exception as e:
+            print(f"[fb_poster] local photo upload exception: {e}; falling back to text")
+
+    elif image_url:
         # Photo endpoint with remote URL — Meta handles the download itself.
         try:
             r = requests.post(

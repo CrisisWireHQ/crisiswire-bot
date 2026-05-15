@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from . import state, poller, classifier, drafter, telegram_io, x_poster, fb_poster, x_self_mirror, quote_finder, article_fetcher
+from . import state, poller, classifier, drafter, telegram_io, x_poster, fb_poster, fb_card, x_self_mirror, quote_finder, article_fetcher
 from .sources import SOURCES
 
 DRAFTS_PER_RUN = int(os.environ.get("DRAFTS_PER_RUN", "3"))
@@ -111,10 +111,34 @@ def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_p
         # Mirror to Facebook Page (best-effort; never blocks X post success).
         fb_status = ""
         if fb_poster.enabled():
+            fb_card_path = ""
             try:
+                # Visual fallback chain (Meta down-ranks text-only posts):
+                #   1. image already attached to the item (RSS/TG media)
+                #   2. og:image scraped from the source article (real story photo)
+                #   3. generated branded headline card (never bare text)
+                fb_image_url = image_url
+                if not fb_image_url and source_url:
+                    try:
+                        og = article_fetcher.fetch_og_image(source_url)
+                        if og:
+                            fb_image_url = og
+                            print(f"[fb] using og:image {og[:80]}")
+                    except Exception as e:
+                        print(f"[fb] og:image lookup failed: {e}")
+                if not fb_image_url:
+                    fb_card_path = fb_card.generate(draft_text)
+                    if fb_card_path:
+                        print("[fb] no photo found; generated headline card")
+
                 # Don't append source_url into message body — we add it as a
                 # comment below (parity with the X auto-reply behavior).
-                fb_result = fb_poster.post(draft_text, image_url=image_url, link_url="")
+                fb_result = fb_poster.post(
+                    draft_text,
+                    image_url=fb_image_url,
+                    image_path=fb_card_path,
+                    link_url="",
+                )
                 fb_post_id = fb_result.get("id", "")
                 fb_status = "📘 FB posted" + (" w/ img" if fb_result.get("had_image") else "")
                 print(f"[fb] posted: {fb_poster.post_url(fb_post_id)}")
@@ -131,6 +155,12 @@ def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_p
             except Exception as e:
                 print(f"[fb] post failed (non-fatal): {e}")
                 fb_status = "⚠️ FB failed"
+            finally:
+                if fb_card_path and os.path.exists(fb_card_path):
+                    try:
+                        os.unlink(fb_card_path)
+                    except Exception:
+                        pass
 
         tags = []
         if result.get("had_image"): tags.append("🖼 image")

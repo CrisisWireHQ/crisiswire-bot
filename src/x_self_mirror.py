@@ -25,7 +25,7 @@ from pathlib import Path
 
 import tweepy
 
-from . import fb_poster, state
+from . import fb_poster, fb_card, article_fetcher, state
 from .x_watcher import _extract_external_url, OUTLET_MAP  # reuse outlet resolution
 
 OWN_USERNAME = os.environ.get("X_OWN_USERNAME", "CrisisWireHQ")
@@ -172,13 +172,36 @@ def run() -> int:
 
         ext_url, _outlet = _extract_external_url(tw)
 
+        # Visual fallback chain (mirrors _do_post_from_msg): tweet media →
+        # og:image from the linked article → generated headline card. Meta
+        # heavily down-ranks text-only posts.
+        fb_card_path = ""
+        if not image_url and ext_url:
+            try:
+                og = article_fetcher.fetch_og_image(ext_url)
+                if og:
+                    image_url = og
+                    print(f"[x_self_mirror] using og:image {og[:80]}")
+            except Exception as e:
+                print(f"[x_self_mirror] og:image lookup failed: {e}")
+        if not image_url:
+            fb_card_path = fb_card.generate(text)
+            if fb_card_path:
+                print("[x_self_mirror] no photo; generated headline card")
+
         try:
-            fb_result = fb_poster.post(text, image_url=image_url, link_url="")  # link added via comment instead
+            fb_result = fb_poster.post(text, image_url=image_url, image_path=fb_card_path, link_url="")
             fb_id = fb_result.get("id", "")
             print(f"[x_self_mirror] mirrored tweet {tweet_id} → FB post {fb_id}")
         except Exception as e:
             print(f"[x_self_mirror] FB post failed for tweet {tweet_id}: {e}")
-            continue  # don't mark mirrored; retry next run
+            continue  # don't mark mirrored; retry next run (finally cleans card)
+        finally:
+            if fb_card_path and os.path.exists(fb_card_path):
+                try:
+                    os.unlink(fb_card_path)
+                except Exception:
+                    pass
 
         # Source comment (parity with X auto-reply behavior in _do_post_from_msg).
         if ext_url and fb_id:
