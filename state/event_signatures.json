@@ -223,5 +223,40 @@
     "key": "ukraine--strike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778848266
+  },
+  {
+    "key": "russia--drone-attack--ryazan",
+    "source": "TASS English",
+    "ts": 1778848848
+  },
+  {
+    "key": "japan--quake--bonin-islands",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778848848
+  },
+  {
+    "key": "usa--outbreak--virginia",
+    "source": "GN: Outbreak",
+    "ts": 1778848848
+  },
+  {
+    "key": "kazakhstan--explosion--kazzinc",
+    "source": "GN: Explosion",
+    "ts": 1778848848
+  },
+  {
+    "key": "usa--quake--bear-lake",
+    "source": "GN: Earthquake",
+    "ts": 1778848849
+  },
+  {
+    "key": "japan--quake--northern",
+    "source": "GN: Earthquake",
+    "ts": 1778848851
+  },
+  {
+    "key": "canada--fire--russell-road",
+    "source": "GN: Breaking News",
+    "ts": 1778848851
   }
 ]
