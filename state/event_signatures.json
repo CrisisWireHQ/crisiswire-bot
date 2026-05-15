@@ -1,35 +1,5 @@
 [
   {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "NPR World",
-    "ts": 1778838054
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778838054
-  },
-  {
-    "key": "india--quake--kolkata",
-    "source": "GN: Earthquake",
-    "ts": 1778838054
-  },
-  {
-    "key": "india--storm--uttar-pradesh",
-    "source": "GN: Breaking News",
-    "ts": 1778838056
-  },
-  {
-    "key": "india--hostage--manipur",
-    "source": "GN: Hostage",
-    "ts": 1778838059
-  },
-  {
-    "key": "oman--attack--indian-vessel",
-    "source": "GN: Terror Attack",
-    "ts": 1778838059
-  },
-  {
     "key": "usa--fire--penn-station",
     "source": "GN: Breaking News",
     "ts": 1778838662
