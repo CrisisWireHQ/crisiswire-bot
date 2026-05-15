@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--outbreak--hantavirus",
-    "source": "GN: Outbreak",
-    "ts": 1778872848
-  },
-  {
     "key": "usa--crash--akron",
     "source": "GN: Plane Crash",
     "ts": 1778872851
