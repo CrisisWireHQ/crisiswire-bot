@@ -1,20 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--chabriha",
-    "source": "GN: Strike Attack",
-    "ts": 1778840449
-  },
-  {
-    "key": "indonesia--landslide--sijunjung",
-    "source": "Channel News Asia",
-    "ts": 1778840449
-  },
-  {
-    "key": "ukraine--prisoner-swap--general",
-    "source": "GN: Reuters",
-    "ts": 1778840452
-  },
-  {
     "key": "india--hostage-release--manipur",
     "source": "GN: Hostage",
     "ts": 1778840455
@@ -213,5 +198,25 @@
     "key": "pakistan--explosion--army-camp-kp",
     "source": "GN: Breaking News",
     "ts": 1778843479
+  },
+  {
+    "key": "italy--cave-diving-accident--genoa",
+    "source": "CBS News World",
+    "ts": 1778844050
+  },
+  {
+    "key": "russia--strike--oil-refinery",
+    "source": "Straits Times World",
+    "ts": 1778844053
+  },
+  {
+    "key": "drc--outbreak--ituri",
+    "source": "GN: Breaking News",
+    "ts": 1778844053
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778844053
   }
 ]
