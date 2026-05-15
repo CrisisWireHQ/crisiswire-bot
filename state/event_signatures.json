@@ -1,35 +1,5 @@
 [
   {
-    "key": "venezuela--fire--maracaibo-gas-facility",
-    "source": "Straits Times World",
-    "ts": 1778859051
-  },
-  {
-    "key": "usa--measles--buckingham-county",
-    "source": "GN: Outbreak",
-    "ts": 1778859054
-  },
-  {
-    "key": "usa--explosion--choudrant-gas-pipeline",
-    "source": "GN: Explosion",
-    "ts": 1778859056
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778859056
-  },
-  {
-    "key": "japan--quake--honshu",
-    "source": "GN: Earthquake",
-    "ts": 1778859059
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778859059
-  },
-  {
     "key": "usa--explosion--searsmont",
     "source": "GN: Explosion",
     "ts": 1778859662
