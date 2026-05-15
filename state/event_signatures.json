@@ -1,25 +1,5 @@
 [
   {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778842252
-  },
-  {
-    "key": "ukraine--strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778842252
-  },
-  {
-    "key": "congo--outbreak--ituri",
-    "source": "GN: Outbreak",
-    "ts": 1778842252
-  },
-  {
-    "key": "ukraine--missile-strike--odesa",
-    "source": "GN: Strike Attack",
-    "ts": 1778842252
-  },
-  {
     "key": "unknown--crash--plane-survivors",
     "source": "GN: Plane Crash",
     "ts": 1778842867
