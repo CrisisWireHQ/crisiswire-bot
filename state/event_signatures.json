@@ -98,5 +98,20 @@
     "key": "canada--fire--sundre",
     "source": "GN: Wildfire",
     "ts": 1778803855
+  },
+  {
+    "key": "usa--fire--texas-panhandle-new-mexico",
+    "source": "GN: Wildfire",
+    "ts": 1778804100
+  },
+  {
+    "key": "usa--crash--ohio",
+    "source": "GN: Plane Crash",
+    "ts": 1778804100
+  },
+  {
+    "key": "usa--bomb-hoax--massachusetts-school",
+    "source": "GN: Breaking News",
+    "ts": 1778804100
   }
 ]
