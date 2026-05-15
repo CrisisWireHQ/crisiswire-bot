@@ -1,30 +1,5 @@
 [
   {
-    "key": "israel--attack--south-lebanon",
-    "source": "Times of Israel",
-    "ts": 1778826056
-  },
-  {
-    "key": "usa--crash--ohio",
-    "source": "GN: Plane Crash",
-    "ts": 1778826056
-  },
-  {
-    "key": "usa--crash--medical-transport",
-    "source": "GN: Plane Crash",
-    "ts": 1778826056
-  },
-  {
-    "key": "oman--drone-strike--arabian-sea",
-    "source": "GN: Strike Attack",
-    "ts": 1778826056
-  },
-  {
-    "key": "iran--quake--tehran",
-    "source": "GN: Earthquake",
-    "ts": 1778826057
-  },
-  {
     "key": "oman--drone-strike--muscat",
     "source": "GN: Strike Attack",
     "ts": 1778826655
