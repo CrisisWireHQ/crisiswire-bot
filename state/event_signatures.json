@@ -1,10 +1,5 @@
 [
   {
-    "key": "fiji--quake--levuka",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778881253
-  },
-  {
     "key": "usa--explosion--maine",
     "source": "GN: Explosion",
     "ts": 1778881256
@@ -78,5 +73,25 @@
     "key": "trusted-the-supreme-court-has-rejected",
     "source": "TG: Faytuks Network",
     "ts": 1778884660
+  },
+  {
+    "key": "usa--hantavirus--san-luis-obispo",
+    "source": "GN: Outbreak",
+    "ts": 1778884852
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778884852
+  },
+  {
+    "key": "usa--crash--akron",
+    "source": "GN: Plane Crash",
+    "ts": 1778884852
+  },
+  {
+    "key": "usa--dust-storm--north-dakota",
+    "source": "GN: CNN",
+    "ts": 1778884852
   }
 ]
