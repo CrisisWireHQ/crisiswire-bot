@@ -1,20 +1,5 @@
 [
   {
-    "key": "india--hostage--manipur",
-    "source": "GN: Hostage",
-    "ts": 1778830387
-  },
-  {
-    "key": "oman--attack--vessel",
-    "source": "GN: Terror Attack",
-    "ts": 1778830387
-  },
-  {
-    "key": "iran--threat--us-mideast",
-    "source": "GN: Strike Attack",
-    "ts": 1778830387
-  },
-  {
     "key": "russia--drone-strike--ryazan",
     "source": "TASS English",
     "ts": 1778831456
