@@ -1,30 +1,5 @@
 [
   {
-    "key": "israel--combat-death--lebanon",
-    "source": "Jerusalem Post",
-    "ts": 1778815856
-  },
-  {
-    "key": "timor-leste--flood--countrywide",
-    "source": "ReliefWeb Updates",
-    "ts": 1778815859
-  },
-  {
-    "key": "guatemala--outbreak--measles",
-    "source": "ReliefWeb Updates",
-    "ts": 1778815862
-  },
-  {
-    "key": "usa--fire--texas-panhandle-new-mexico",
-    "source": "GN: Wildfire",
-    "ts": 1778815865
-  },
-  {
-    "key": "canada--fire--central-alberta",
-    "source": "GN: Wildfire",
-    "ts": 1778815865
-  },
-  {
     "key": "ukraine--airstrike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778816446
@@ -88,5 +63,10 @@
     "key": "lebanon--conflict--israel-hezbollah",
     "source": "GN: Strike Attack",
     "ts": 1778818854
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778819471
   }
 ]
