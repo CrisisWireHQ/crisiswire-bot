@@ -153,5 +153,10 @@
     "key": "ukraine--attack--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778871062
+  },
+  {
+    "key": "usa--fire--kansas",
+    "source": "GN: Wildfire",
+    "ts": 1778871644
   }
 ]
