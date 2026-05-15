@@ -1,25 +1,5 @@
 [
   {
-    "key": "drc--ebola--eastern",
-    "source": "France 24 Intl",
-    "ts": 1778878246
-  },
-  {
-    "key": "lebanon--ceasefire-extension--israel",
-    "source": "Times of Israel",
-    "ts": 1778878246
-  },
-  {
-    "key": "usa--shooting--riverdale-college-park",
-    "source": "GN: Breaking News",
-    "ts": 1778878246
-  },
-  {
-    "key": "gaza--airstrike--central",
-    "source": "GN: Strike Attack",
-    "ts": 1778878246
-  },
-  {
     "key": "usa--hantavirus--cruise-ship",
     "source": "GN: Outbreak",
     "ts": 1778878874
