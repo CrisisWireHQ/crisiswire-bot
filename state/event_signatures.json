@@ -1,25 +1,5 @@
 [
   {
-    "key": "canada--fire--sundre",
-    "source": "GN: Wildfire",
-    "ts": 1778820040
-  },
-  {
-    "key": "russia--drone-strike--ryazan",
-    "source": "TASS English",
-    "ts": 1778820040
-  },
-  {
-    "key": "usa--mass-shooting--iowa",
-    "source": "GN: Mass Shooting",
-    "ts": 1778820040
-  },
-  {
-    "key": "usa--explosion--miami",
-    "source": "GN: Explosion",
-    "ts": 1778820040
-  },
-  {
     "key": "finland--drone-threat--helsinki",
     "source": "Straits Times World",
     "ts": 1778821249
