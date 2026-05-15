@@ -113,5 +113,25 @@
     "key": "trusted-via-httpstcoloj6imulzy-httpstcolhikoi6sl4",
     "source": "X: @Osinttechnical",
     "ts": 1778874648
+  },
+  {
+    "key": "usa--crash--akron",
+    "source": "GN: Plane Crash",
+    "ts": 1778875249
+  },
+  {
+    "key": "usa--explosion--searsmont",
+    "source": "GN: Explosion",
+    "ts": 1778875249
+  },
+  {
+    "key": "mexico--cartel-violence--central",
+    "source": "GN: AP News",
+    "ts": 1778875249
+  },
+  {
+    "key": "lebanon--ceasefire-extension--israel",
+    "source": "GN: Strike Attack",
+    "ts": 1778875251
   }
 ]
