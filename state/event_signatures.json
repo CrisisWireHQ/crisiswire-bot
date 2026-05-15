@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--mass-shooting--paterson-nj",
-    "source": "GN: Mass Shooting",
-    "ts": 1778813499
-  },
-  {
-    "key": "usa--crash--ohio",
-    "source": "GN: CNN",
-    "ts": 1778813499
-  },
-  {
-    "key": "usa--fire--quay-county",
-    "source": "GN: Wildfire",
-    "ts": 1778813499
-  },
-  {
     "key": "canada--evacuation--sundre",
     "source": "GN: Wildfire",
     "ts": 1778814058
