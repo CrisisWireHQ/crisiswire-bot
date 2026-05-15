@@ -118,5 +118,30 @@
     "key": "ukraine--airstrike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778867459
+  },
+  {
+    "key": "palestine--airstrike--gaza-city",
+    "source": "TASS English",
+    "ts": 1778868056
+  },
+  {
+    "key": "palestine--airstrike--gaza-city",
+    "source": "GN: Strike Attack",
+    "ts": 1778868060
+  },
+  {
+    "key": "somalia--hostage--pirate-crew",
+    "source": "GN: Hostage",
+    "ts": 1778868060
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778868062
+  },
+  {
+    "key": "ukraine--conflict--kyiv",
+    "source": "Al Jazeera",
+    "ts": 1778868062
   }
 ]
