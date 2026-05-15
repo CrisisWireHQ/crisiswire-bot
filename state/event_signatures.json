@@ -2,11 +2,6 @@
   {
     "key": "n/a",
     "source": "GN: Outbreak",
-    "ts": 1778806849
-  },
-  {
-    "key": "n/a",
-    "source": "GN: Outbreak",
     "ts": 1778806865
   },
   {
@@ -103,5 +98,10 @@
     "key": "ukraine--missile-strike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778809851
+  },
+  {
+    "key": "usa--quake--inland-empire",
+    "source": "GN: Earthquake",
+    "ts": 1778810450
   }
 ]
