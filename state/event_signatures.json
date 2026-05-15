@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--outbreak--virginia",
-    "source": "GN: Outbreak",
-    "ts": 1778800250
-  },
-  {
-    "key": "japan--quake--offshore",
-    "source": "GN: Earthquake",
-    "ts": 1778800250
-  },
-  {
-    "key": "greece--shooting--athens",
-    "source": "GN: Mass Shooting",
-    "ts": 1778800250
-  },
-  {
     "key": "canada--fire--central-alberta",
     "source": "GN: Wildfire",
     "ts": 1778800843
@@ -98,5 +83,20 @@
     "key": "usa--shooting--chicago-howard-station",
     "source": "GN: Breaking News",
     "ts": 1778803258
+  },
+  {
+    "key": "usa--fire--randall-county",
+    "source": "GN: Wildfire",
+    "ts": 1778803855
+  },
+  {
+    "key": "usa--fire--jefferson-county",
+    "source": "GN: Breaking News",
+    "ts": 1778803855
+  },
+  {
+    "key": "canada--fire--sundre",
+    "source": "GN: Wildfire",
+    "ts": 1778803855
   }
 ]
