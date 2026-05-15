@@ -163,5 +163,15 @@
     "key": "n/a",
     "source": "GN: AP News",
     "ts": 1778841054
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778841661
+  },
+  {
+    "key": "ukraine--drone-attack--russia",
+    "source": "Guardian World",
+    "ts": 1778841661
   }
 ]
