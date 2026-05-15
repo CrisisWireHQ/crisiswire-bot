@@ -118,5 +118,40 @@
     "key": "palestine--airstrike--gaza",
     "source": "GN: Strike Attack",
     "ts": 1778887850
+  },
+  {
+    "key": "africa--outbreak--ebola",
+    "source": "CBS News World",
+    "ts": 1778888450
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Breaking News",
+    "ts": 1778888451
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "Times of Israel",
+    "ts": 1778888451
+  },
+  {
+    "key": "usa--attack--jewish-institutions-foiled",
+    "source": "CBS News World",
+    "ts": 1778888451
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778888451
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778888451
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778888451
   }
 ]
