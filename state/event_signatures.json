@@ -1,20 +1,5 @@
 [
   {
-    "key": "haiti--gang-violence--port-au-prince",
-    "source": "France 24 Intl",
-    "ts": 1778802645
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "CBS News World",
-    "ts": 1778802651
-  },
-  {
-    "key": "bolivia--protest--mining",
-    "source": "Al Jazeera",
-    "ts": 1778802651
-  },
-  {
     "key": "usa--hantavirus--arkansas",
     "source": "GN: Outbreak",
     "ts": 1778803258
