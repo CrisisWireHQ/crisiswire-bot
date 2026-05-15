@@ -153,5 +153,25 @@
     "key": "israel--airstrike--gaza-city",
     "source": "BBC World",
     "ts": 1778880647
+  },
+  {
+    "key": "fiji--quake--levuka",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778881253
+  },
+  {
+    "key": "usa--explosion--maine",
+    "source": "GN: Explosion",
+    "ts": 1778881256
+  },
+  {
+    "key": "israel--military-zone--lebanon-border",
+    "source": "TASS English",
+    "ts": 1778881256
+  },
+  {
+    "key": "gaza--airstrike--hamas",
+    "source": "GN: Strike Attack",
+    "ts": 1778881260
   }
 ]
