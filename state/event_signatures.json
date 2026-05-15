@@ -1,35 +1,5 @@
 [
   {
-    "key": "usa--explosion--searsmont",
-    "source": "GN: Explosion",
-    "ts": 1778859662
-  },
-  {
-    "key": "usa--crash--akron",
-    "source": "GN: Plane Crash",
-    "ts": 1778859662
-  },
-  {
-    "key": "usa--mass-casualty--searsmont-maine",
-    "source": "GN: Breaking News",
-    "ts": 1778859662
-  },
-  {
-    "key": "russia-ukraine--prisoner-swap--",
-    "source": "France 24 Intl",
-    "ts": 1778859665
-  },
-  {
-    "key": "usa--fire--chino-hills",
-    "source": "GN: Wildfire",
-    "ts": 1778859668
-  },
-  {
-    "key": "usa--shooting--arcadia-lake",
-    "source": "GN: Mass Shooting",
-    "ts": 1778859668
-  },
-  {
     "key": "atlantic--crash--atlantic",
     "source": "GN: Plane Crash",
     "ts": 1778860254
