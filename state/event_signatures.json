@@ -1,15 +1,5 @@
 [
   {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778855456
-  },
-  {
-    "key": "none",
-    "source": "GN: AP News",
-    "ts": 1778855459
-  },
-  {
     "key": "ukraine--missile-strike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778855461
@@ -158,5 +148,35 @@
     "key": "ukraine--missile-strike--kyiv",
     "source": "BBC World",
     "ts": 1778858466
+  },
+  {
+    "key": "venezuela--fire--maracaibo-gas-facility",
+    "source": "Straits Times World",
+    "ts": 1778859051
+  },
+  {
+    "key": "usa--measles--buckingham-county",
+    "source": "GN: Outbreak",
+    "ts": 1778859054
+  },
+  {
+    "key": "usa--explosion--choudrant-gas-pipeline",
+    "source": "GN: Explosion",
+    "ts": 1778859056
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778859056
+  },
+  {
+    "key": "japan--quake--honshu",
+    "source": "GN: Earthquake",
+    "ts": 1778859059
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778859059
   }
 ]
