@@ -1,15 +1,5 @@
 [
   {
-    "key": "canada--fire--clearwater-county-alberta",
-    "source": "GN: Wildfire",
-    "ts": 1778806276
-  },
-  {
-    "key": "uk--explosion--belfast-police-station",
-    "source": "GN: Explosion",
-    "ts": 1778806291
-  },
-  {
     "key": "n/a",
     "source": "GN: Outbreak",
     "ts": 1778806849
