@@ -1,15 +1,5 @@
 [
   {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778835660
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "Straits Times World",
-    "ts": 1778835660
-  },
-  {
     "key": "congo--outbreak--ebola",
     "source": "CBS News World",
     "ts": 1778836255
@@ -128,5 +118,20 @@
     "key": "japan--quake--aftershock",
     "source": "GN: Earthquake",
     "ts": 1778838662
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778839262
+  },
+  {
+    "key": "usa--fire--penn-station",
+    "source": "GN: Breaking News",
+    "ts": 1778839262
+  },
+  {
+    "key": "ukraine--frontline-clashes--may-14",
+    "source": "GN: Strike Attack",
+    "ts": 1778839262
   }
 ]
