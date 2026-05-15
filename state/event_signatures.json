@@ -68,5 +68,10 @@
     "key": "pakistan--suicide-blast--khyber-pakhtunkhwa",
     "source": "GN: Explosion",
     "ts": 1778833244
+  },
+  {
+    "key": "ukraine--attack--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778833860
   }
 ]
