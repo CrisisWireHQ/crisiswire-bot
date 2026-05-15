@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--fire--texas-new-mexico",
-    "source": "GN: Wildfire",
-    "ts": 1778811050
-  },
-  {
-    "key": "usa--hantavirus--outbreak",
-    "source": "GN: Outbreak",
-    "ts": 1778811050
-  },
-  {
-    "key": "israel--missile-strike--beit-shemesh",
-    "source": "GN: Strike Attack",
-    "ts": 1778811050
-  },
-  {
     "key": "argentina--hantavirus--countrywide",
     "source": "Straits Times World",
     "ts": 1778811641
