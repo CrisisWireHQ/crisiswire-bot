@@ -258,5 +258,25 @@
     "key": "canada--fire--russell-road",
     "source": "GN: Breaking News",
     "ts": 1778848851
+  },
+  {
+    "key": "usa--quake--idaho-utah-border",
+    "source": "GN: Earthquake",
+    "ts": 1778849448
+  },
+  {
+    "key": "usa--quake--idaho-bennington",
+    "source": "GN: Earthquake",
+    "ts": 1778849448
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778849448
+  },
+  {
+    "key": "usa--explosion--harvard",
+    "source": "GN: Explosion",
+    "ts": 1778849448
   }
 ]
