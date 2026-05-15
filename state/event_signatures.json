@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--explosion--maine",
-    "source": "GN: Explosion",
-    "ts": 1778881256
-  },
-  {
-    "key": "israel--military-zone--lebanon-border",
-    "source": "TASS English",
-    "ts": 1778881256
-  },
-  {
-    "key": "gaza--airstrike--hamas",
-    "source": "GN: Strike Attack",
-    "ts": 1778881260
-  },
-  {
     "key": "trusted-full-video-english-subtitles",
     "source": "X: @Osinttechnical",
     "ts": 1778881361
