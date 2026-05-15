@@ -105,29 +105,6 @@ def post(text: str, image_url: str = "", image_path: str = "", link_url: str = "
     return {"id": r.json().get("id", ""), "had_image": False}
 
 
-def comment(post_id: str, text: str) -> dict:
-    """Post a comment AS the Page on one of the Page's own posts.
-
-    Used to mirror the X behavior where every approved draft gets a follow-up
-    reply with the source URL. Requires `pages_manage_engagement` scope on the
-    Page token (in addition to `pages_manage_posts` used by post()).
-
-    Returns {"id": "<comment_id>"}. Raises on failure (caller should treat
-    comment failure as non-fatal — the parent post is already live)."""
-    if not post_id or not text:
-        return {"id": ""}
-    pid = _page_id()
-    token = _token()
-    r = requests.post(
-        f"{GRAPH_BASE}/{post_id}/comments",
-        data={"message": text, "access_token": token},
-        timeout=TIMEOUT,
-    )
-    if r.status_code != 200:
-        raise RuntimeError(f"FB comment failed ({r.status_code}): {r.text[:300]}")
-    return {"id": r.json().get("id", "")}
-
-
 def post_url(post_id: str) -> str:
     """Public URL for a Page post. Format works for both feed posts and
     photo posts (Meta returns combined `<page_id>_<post_id>` strings)."""

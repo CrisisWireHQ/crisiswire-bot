@@ -131,8 +131,10 @@ def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_p
                     if fb_card_path:
                         print("[fb] no photo found; generated headline card")
 
-                # Don't append source_url into message body — we add it as a
-                # comment below (parity with the X auto-reply behavior).
+                # No links on Facebook at all — no source URL in the body and
+                # no follow-up source comment. External links (even in the
+                # first comment) suppress FB reach, so we post visual + text
+                # only. Source attribution stays on the X side.
                 fb_result = fb_poster.post(
                     draft_text,
                     image_url=fb_image_url,
@@ -142,16 +144,6 @@ def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_p
                 fb_post_id = fb_result.get("id", "")
                 fb_status = "📘 FB posted" + (" w/ img" if fb_result.get("had_image") else "")
                 print(f"[fb] posted: {fb_poster.post_url(fb_post_id)}")
-
-                # Source comment on FB post (mirrors the X reply).
-                if source_url and fb_post_id:
-                    try:
-                        fb_poster.comment(fb_post_id, f"Source: {source_url}")
-                        fb_status += " + 📎 src"
-                        print(f"[fb] commented source on {fb_post_id}")
-                    except Exception as e:
-                        print(f"[fb] source comment failed (non-fatal): {e}")
-                        fb_status += " ⚠️ src failed"
             except Exception as e:
                 print(f"[fb] post failed (non-fatal): {e}")
                 fb_status = "⚠️ FB failed"

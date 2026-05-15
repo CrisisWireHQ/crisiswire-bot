@@ -10,9 +10,9 @@ Approach:
    state.bot_tweets.json (recorded in _do_post_from_msg after successful
    x_poster.post()).
 3. Filter out tweets we already mirrored (tracked in state/x_self_mirror.json).
-4. For each remaining "manual" tweet, post text + image (if any) to FB,
-   then comment with the first external URL found in the tweet entities
-   (parity with the X source-reply behavior).
+4. For each remaining "manual" tweet, post text + visual to FB (tweet
+   media → og:image → generated headline card). No links/source comment
+   on FB — external links suppress reach; attribution stays X-side.
 
 Runs every 10 minutes from the main cron. Self-rate-limits via the same
 mechanism x_watcher uses. Quiet hours are NOT respected here — if the
@@ -203,14 +203,8 @@ def run() -> int:
                 except Exception:
                     pass
 
-        # Source comment (parity with X auto-reply behavior in _do_post_from_msg).
-        if ext_url and fb_id:
-            try:
-                fb_poster.comment(fb_id, f"Source: {ext_url}")
-                print(f"[x_self_mirror] commented source on FB post {fb_id}")
-            except Exception as e:
-                # Non-fatal — post is already live.
-                print(f"[x_self_mirror] source comment failed (non-fatal): {e}")
+        # No source comment / links on Facebook — external links suppress
+        # reach. ext_url is still used above only for the og:image lookup.
 
         mirrored[tweet_id] = int(time.time())
         mirrored_count += 1
