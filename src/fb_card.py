@@ -27,6 +27,21 @@ NAVY = (10, 20, 40)        # #0a1428
 ORANGE = (255, 91, 53)     # #ff5b35
 WHITE = (245, 247, 250)
 
+# Emoji / pictograph / symbol codepoints the headline font can't render.
+_EMOJI_RE = re.compile(
+    "["
+    "\U0001F000-\U0001FAFF"   # symbols & pictographs, supplemental, extended-A
+    "\U00002600-\U000027BF"   # misc symbols + dingbats
+    "\U0001F1E6-\U0001F1FF"   # regional indicators (flags)
+    "\U00002190-\U000021FF"   # arrows
+    "\U00002B00-\U00002BFF"   # misc symbols & arrows
+    "\U0000FE00-\U0000FE0F"   # variation selectors
+    "\U00002000-\U0000200D"   # zero-width joiners / special spaces
+    "\U000024C2\U0000203C\U00002049\U000020E3"
+    "]+",
+    flags=re.UNICODE,
+)
+
 # Text box: upper-left region, leaving the bottom third for the accent bar.
 MARGIN_X = 70
 TEXT_TOP = 90
@@ -100,11 +115,28 @@ def generate(headline: str) -> str:
     # The drafter uses "—" as a normal sentence connector, so we must not cut
     # at the dash. Real attribution looks like "... per Reuters" or a trailing
     # "Source: <url>" / "(Reuters)"; remove just that tail.
-    headline = re.sub(
-        r"\s*[—-]?\s*(?:source\s*:.*|per\s+[A-Z][\w .&'-]{1,40}|\((?:via\s+)?[A-Z][\w .&'-]{1,40}\))\s*$",
+    # Remove a genuine trailing attribution (case-insensitive). If that empties
+    # the string, it WAS pure attribution ("Source: <url>") — do NOT restore
+    # it; return no card so the caller posts text-only instead of junk.
+    stripped = re.sub(
+        r"\s*[—-]?\s*(?:source\s*:.*|per\s+[A-Za-z][\w .&'-]{1,40}|\((?:via\s+)?[A-Za-z][\w .&'-]{1,40}\))\s*$",
         "",
         headline,
-    ).strip() or headline
+        flags=re.IGNORECASE,
+    ).strip()
+    headline = stripped if stripped else ""
+
+    # Archivo Black (and the DejaVu fallback) have no emoji/pictograph glyphs;
+    # Pillow renders them as blank boxes. Strip emoji, symbols, URLs, and other
+    # non-renderable noise — the FB post *body* still carries the original
+    # emoji/links; this only cleans the rendered image.
+    headline = _EMOJI_RE.sub("", headline)
+    headline = re.sub(r"https?://\S+", "", headline)
+    headline = re.sub(r"\s{2,}", " ", headline).strip(" -—–·|#@")
+    # Need real words, not just stray punctuation/URL remnants. Require some
+    # alphabetic content; otherwise bail so the caller goes text-only.
+    if len(re.sub(r"[^A-Za-z]", "", headline)) < 8:
+        return ""
 
     try:
         img = _base_canvas()

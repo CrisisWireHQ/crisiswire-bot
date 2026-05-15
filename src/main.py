@@ -102,7 +102,14 @@ def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_p
                 # Truncate if needed to stay under 280
                 if len(reply_text) > 280:
                     reply_text = source_url
-                x_poster.reply(reply_text, in_reply_to_tweet_id=result["id"])
+                reply_res = x_poster.reply(reply_text, in_reply_to_tweet_id=result["id"])
+                # Record the auto-reply's own tweet ID too, so x_self_mirror
+                # never mirrors the bot's "Source: ..." reply as a FB post.
+                try:
+                    if reply_res and reply_res.get("id"):
+                        state.record_bot_tweet(reply_res["id"])
+                except Exception as e:
+                    print(f"[post] record reply tweet failed (non-fatal): {e}")
                 reply_status = "📎 source replied"
             except Exception as e:
                 print(f"[post] auto-reply failed: {e}")

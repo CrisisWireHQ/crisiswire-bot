@@ -19,6 +19,7 @@ mechanism x_watcher uses. Quiet hours are NOT respected here — if the
 user manually tweets at 3am, we mirror at 3am.
 """
 import os
+import re
 import json
 import time
 from pathlib import Path
@@ -99,7 +100,8 @@ def run() -> int:
         resp = _client_v2().get_users_tweets(
             id=user_id,
             max_results=10,
-            tweet_fields=["created_at", "attachments", "entities", "referenced_tweets"],
+            tweet_fields=["created_at", "attachments", "entities",
+                          "referenced_tweets", "note_tweet", "in_reply_to_user_id"],
             media_fields=["url", "preview_image_url", "type"],
             expansions=["attachments.media_keys"],
             exclude=["replies", "retweets"],
@@ -136,11 +138,16 @@ def run() -> int:
         if int(tweet_id) > int(newest_id):
             newest_id = tweet_id
 
-        # Skip quote-tweets: they reference another tweet by ID and the FB
-        # mirror would lose that context. Easier to skip than render badly.
+        # Skip quote-tweets AND reply/thread-continuation tweets: only
+        # original standalone posts should mirror. exclude=["replies"] in the
+        # API call is unreliable for self-thread replies, so also gate on
+        # referenced_tweets (quoted/replied_to) and in_reply_to_user_id.
         refs = getattr(tw, "referenced_tweets", None) or []
-        if any(getattr(r, "type", "") == "quoted" for r in refs):
-            print(f"[x_self_mirror] skip quote-tweet {tweet_id}")
+        if any(getattr(r, "type", "") in ("quoted", "replied_to") for r in refs):
+            print(f"[x_self_mirror] skip quote/reply tweet {tweet_id}")
+            continue
+        if getattr(tw, "in_reply_to_user_id", None):
+            print(f"[x_self_mirror] skip reply tweet {tweet_id}")
             continue
 
         if state.is_bot_tweet(bot_tweets, tweet_id):
@@ -154,7 +161,22 @@ def run() -> int:
             print(f"[x_self_mirror] hit MAX_TWEETS_PER_RUN cap; remaining will be picked up next run")
             break
 
+        # X Premium long posts ("note tweets") truncate tw.text to 280 chars;
+        # the full body lives in note_tweet.text. Use it when present.
         text = tw.text or ""
+        note = getattr(tw, "note_tweet", None)
+        if note:
+            note_text = note.get("text") if isinstance(note, dict) else getattr(note, "text", None)
+            if note_text and len(note_text) > len(text):
+                text = note_text
+
+        # Defensive: never mirror a bare "Source: <url>" auto-reply or an
+        # empty/URL-only tweet (junk FB cards otherwise).
+        _probe = text.strip()
+        if not _probe or _probe.lower().startswith("source:") or re.fullmatch(r"https?://\S+", _probe):
+            print(f"[x_self_mirror] skip non-content tweet {tweet_id}: {_probe[:60]!r}")
+            continue
+
         # Strip the trailing t.co URL X auto-appends when there's an attached image.
         # FB doesn't need it and it looks ugly.
         text = _strip_trailing_tco(text)
