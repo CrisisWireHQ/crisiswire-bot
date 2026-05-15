@@ -163,5 +163,10 @@
     "key": "gaza--airstrike--hamas",
     "source": "GN: Strike Attack",
     "ts": 1778881260
+  },
+  {
+    "key": "trusted-full-video-english-subtitles",
+    "source": "X: @Osinttechnical",
+    "ts": 1778881361
   }
 ]
