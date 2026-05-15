@@ -73,5 +73,20 @@
     "key": "usa--dust-storm--north-dakota",
     "source": "GN: CNN",
     "ts": 1778884852
+  },
+  {
+    "key": "canada--fire--northwest-ontario",
+    "source": "GN: Wildfire",
+    "ts": 1778885447
+  },
+  {
+    "key": "usa--fire--armstrong-county",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778885449
+  },
+  {
+    "key": "usa--explosion--maine",
+    "source": "GN: Explosion",
+    "ts": 1778885449
   }
 ]
