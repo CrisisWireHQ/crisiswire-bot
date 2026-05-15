@@ -145,16 +145,6 @@
     "ts": 1778874650
   },
   {
-    "key": "gaza--airstrike--gaza-city",
-    "source": "GN: Strike Attack",
-    "ts": 1778874650
-  },
-  {
-    "key": "gaza--airstrike--gaza-city",
-    "source": "GN: Strike Attack",
-    "ts": 1778874650
-  },
-  {
     "key": "usa--crash--akron",
     "source": "GN: Plane Crash",
     "ts": 1778874650
@@ -165,8 +155,8 @@
     "ts": 1778874650
   },
   {
-    "key": "gaza--airstrike--gaza-city",
-    "source": "GN: Strike Attack",
-    "ts": 1778874650
+    "key": "trusted-via-httpstcoloj6imulzy-httpstcolhikoi6sl4",
+    "source": "X: @Osinttechnical",
+    "ts": 1778874648
   }
 ]
