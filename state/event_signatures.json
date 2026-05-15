@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--san-luis-obispo",
-    "source": "GN: Outbreak",
-    "ts": 1778884852
-  },
-  {
-    "key": "drc--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778884852
-  },
-  {
-    "key": "usa--crash--akron",
-    "source": "GN: Plane Crash",
-    "ts": 1778884852
-  },
-  {
-    "key": "usa--dust-storm--north-dakota",
-    "source": "GN: CNN",
-    "ts": 1778884852
-  },
-  {
     "key": "canada--fire--northwest-ontario",
     "source": "GN: Wildfire",
     "ts": 1778885447
