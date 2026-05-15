@@ -1,15 +1,5 @@
 [
   {
-    "key": "oman--attack--indian-ship",
-    "source": "GN: Terror Attack",
-    "ts": 1778808648
-  },
-  {
-    "key": "unknown--hantavirus--outbreak",
-    "source": "GN: Outbreak",
-    "ts": 1778808648
-  },
-  {
     "key": "papua-new-guinea--quake--lorengau",
     "source": "USGS Quakes M4.5+",
     "ts": 1778809251
@@ -73,5 +63,25 @@
     "key": "middle-east--flight-cancellations--regional",
     "source": "GN: Reuters",
     "ts": 1778811645
+  },
+  {
+    "key": "usa--outbreak--nevada-hantavirus",
+    "source": "GN: Outbreak",
+    "ts": 1778812248
+  },
+  {
+    "key": "bolivia--protest--miners-dynamite",
+    "source": "GN: AP News",
+    "ts": 1778812248
+  },
+  {
+    "key": "usa--shooting--albuquerque",
+    "source": "GN: Breaking News",
+    "ts": 1778812248
+  },
+  {
+    "key": "usa--fire--texas-panhandle-new-mexico",
+    "source": "GN: Wildfire",
+    "ts": 1778812248
   }
 ]
