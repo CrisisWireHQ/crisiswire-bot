@@ -95,11 +95,6 @@
     "ts": 1778878246
   },
   {
-    "key": "gaza--airstrike--central",
-    "source": "GN: Strike Attack",
-    "ts": 1778878246
-  },
-  {
     "key": "usa--hantavirus--cruise-ship",
     "source": "GN: Outbreak",
     "ts": 1778878874
@@ -107,16 +102,6 @@
   {
     "key": "palestine--airstrike--gaza",
     "source": "GN: Strike Attack",
-    "ts": 1778878874
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778878874
-  },
-  {
-    "key": "usa--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
     "ts": 1778878874
   },
   {
