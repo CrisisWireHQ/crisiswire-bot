@@ -120,11 +120,6 @@
     "ts": 1778868666
   },
   {
-    "key": "drc--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778868666
-  },
-  {
     "key": "ukraine--attack--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778868666
@@ -133,5 +128,25 @@
     "key": "usa--crash--akron",
     "source": "GN: Plane Crash",
     "ts": 1778868666
+  },
+  {
+    "key": "gaza--airstrike--gaza-city",
+    "source": "Jerusalem Post",
+    "ts": 1778869252
+  },
+  {
+    "key": "canada--fire--alberta",
+    "source": "GN: Wildfire",
+    "ts": 1778869252
+  },
+  {
+    "key": "usa--explosion--maine",
+    "source": "GN: Explosion",
+    "ts": 1778869252
+  },
+  {
+    "key": "gaza--airstrike--gaza-city",
+    "source": "GN: Strike Attack",
+    "ts": 1778869252
   }
 ]
