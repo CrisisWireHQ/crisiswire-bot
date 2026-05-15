@@ -1,40 +1,5 @@
 [
   {
-    "key": "ukraine--attack--kharkov-region",
-    "source": "TASS English",
-    "ts": 1778848260
-  },
-  {
-    "key": "uk--meningitis--berkshire",
-    "source": "GN: Outbreak",
-    "ts": 1778848260
-  },
-  {
-    "key": "palestine--shooting--west-bank",
-    "source": "Times of Israel",
-    "ts": 1778848263
-  },
-  {
-    "key": "japan--quake--northeastern",
-    "source": "GN: Earthquake",
-    "ts": 1778848266
-  },
-  {
-    "key": "usa--crash--akron",
-    "source": "GN: Plane Crash",
-    "ts": 1778848266
-  },
-  {
-    "key": "ukraine--strike--kyiv",
-    "source": "France 24 Intl",
-    "ts": 1778848266
-  },
-  {
-    "key": "ukraine--strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778848266
-  },
-  {
     "key": "russia--drone-attack--ryazan",
     "source": "TASS English",
     "ts": 1778848848
