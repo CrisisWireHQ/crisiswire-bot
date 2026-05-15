@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--outbreak--utah-measles",
-    "source": "GN: Outbreak",
-    "ts": 1778873455
-  },
-  {
-    "key": "ukraine--airstrike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778873455
-  },
-  {
-    "key": "gaza--airstrike--hamas-chief",
-    "source": "GN: Strike Attack",
-    "ts": 1778873456
-  },
-  {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1778873456
-  },
-  {
     "key": "usa--fire--castro-county-texas",
     "source": "NOAA NWS Extreme",
     "ts": 1778874060
@@ -143,5 +123,25 @@
     "key": "usa--explosion--maine",
     "source": "GN: Explosion",
     "ts": 1778876456
+  },
+  {
+    "key": "usa--crash--akron",
+    "source": "GN: Plane Crash",
+    "ts": 1778877059
+  },
+  {
+    "key": "usa--shooting--tennessee-courthouse",
+    "source": "GN: AP News",
+    "ts": 1778877059
+  },
+  {
+    "key": "palestine--airstrike--gaza-city",
+    "source": "GN: Strike Attack",
+    "ts": 1778877059
+  },
+  {
+    "key": "lebanon--conflict--israel-hezbollah",
+    "source": "GN: AP News",
+    "ts": 1778877059
   }
 ]
