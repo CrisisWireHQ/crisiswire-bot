@@ -1,40 +1,5 @@
 [
   {
-    "key": "usa--explosion--searsmont",
-    "source": "GN: Explosion",
-    "ts": 1778862053
-  },
-  {
-    "key": "drc--outbreak--ebola-east",
-    "source": "GN: Outbreak",
-    "ts": 1778862053
-  },
-  {
-    "key": "usa--explosion--searsmont",
-    "source": "GN: Breaking News",
-    "ts": 1778862053
-  },
-  {
-    "key": "haiti--gang-violence--port-au-prince",
-    "source": "France 24 Intl",
-    "ts": 1778862053
-  },
-  {
-    "key": "congo--ebola-outbreak--congo",
-    "source": "GN: Outbreak",
-    "ts": 1778862053
-  },
-  {
-    "key": "lebanon--airstrike--tebnine",
-    "source": "GN: Strike Attack",
-    "ts": 1778862055
-  },
-  {
-    "key": "japan--quake--northern",
-    "source": "GN: Earthquake",
-    "ts": 1778862055
-  },
-  {
     "key": "canada--fire--clearwater-county",
     "source": "GN: Wildfire",
     "ts": 1778862646
