@@ -1,20 +1,5 @@
 [
   {
-    "key": "russia--drone-strike--ryazan",
-    "source": "TASS English",
-    "ts": 1778831456
-  },
-  {
-    "key": "myanmar--quake--myanmar",
-    "source": "GN: Earthquake",
-    "ts": 1778831456
-  },
-  {
-    "key": "australia--hantavirus-quarantine--ship",
-    "source": "GN: AP News",
-    "ts": 1778831456
-  },
-  {
     "key": "ukraine--airstrike--sumy",
     "source": "TASS English",
     "ts": 1778832648
@@ -78,5 +63,30 @@
     "key": "ukraine--missile-strike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778834444
+  },
+  {
+    "key": "ukraine--airstrike--kyiv",
+    "source": "Guardian World",
+    "ts": 1778835059
+  },
+  {
+    "key": "russia-ukraine--prisoner-exchange--uae-mediated",
+    "source": "TASS English",
+    "ts": 1778835059
+  },
+  {
+    "key": "usa--quake--lake-county-california",
+    "source": "GN: Earthquake",
+    "ts": 1778835064
+  },
+  {
+    "key": "usa--explosion--los-angeles",
+    "source": "GN: Explosion",
+    "ts": 1778835064
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: AP News",
+    "ts": 1778835064
   }
 ]
