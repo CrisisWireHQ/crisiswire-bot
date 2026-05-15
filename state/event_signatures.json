@@ -1,25 +1,5 @@
 [
   {
-    "key": "italy--cave-diving-accident--genoa",
-    "source": "CBS News World",
-    "ts": 1778844050
-  },
-  {
-    "key": "russia--strike--oil-refinery",
-    "source": "Straits Times World",
-    "ts": 1778844053
-  },
-  {
-    "key": "drc--outbreak--ituri",
-    "source": "GN: Breaking News",
-    "ts": 1778844053
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778844053
-  },
-  {
     "key": "drc--ebola--eastern",
     "source": "GN: Outbreak",
     "ts": 1778844653
@@ -228,5 +208,40 @@
     "key": "drc--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1778847070
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778847662
+  },
+  {
+    "key": "japan--quake--northeastern",
+    "source": "GN: Earthquake",
+    "ts": 1778847662
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778847662
+  },
+  {
+    "key": "usa--fire--kansas",
+    "source": "GN: Wildfire",
+    "ts": 1778847662
+  },
+  {
+    "key": "usa--explosion--louisiana",
+    "source": "GN: Explosion",
+    "ts": 1778847662
+  },
+  {
+    "key": "japan--quake--general",
+    "source": "GN: Earthquake",
+    "ts": 1778847662
+  },
+  {
+    "key": "denmark--outbreak--salmonella",
+    "source": "GN: Outbreak",
+    "ts": 1778847662
   }
 ]
