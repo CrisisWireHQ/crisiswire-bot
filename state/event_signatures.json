@@ -113,5 +113,10 @@
     "key": "australia--outbreak--cruise-ship-hantavirus",
     "source": "GN: Reuters",
     "ts": 1778827253
+  },
+  {
+    "key": "trusted-general-emergency-alert-vaaratiedote-was",
+    "source": "TG: Faytuks Network",
+    "ts": 1778827416
   }
 ]
