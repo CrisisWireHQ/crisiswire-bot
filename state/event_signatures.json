@@ -1,45 +1,5 @@
 [
   {
-    "key": "usa--explosion--west-adams",
-    "source": "GN: Explosion",
-    "ts": 1778865185
-  },
-  {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1778865187
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778865190
-  },
-  {
-    "key": "usa--fire--canyon",
-    "source": "GN: Wildfire",
-    "ts": 1778865190
-  },
-  {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1778865190
-  },
-  {
-    "key": "drc--ebola-outbreak--congo",
-    "source": "Sky News",
-    "ts": 1778865190
-  },
-  {
-    "key": "atlantic--plane-crash--ocean",
-    "source": "GN: Plane Crash",
-    "ts": 1778865192
-  },
-  {
-    "key": "atlantic--plane-crash--rescue",
-    "source": "GN: Plane Crash",
-    "ts": 1778865192
-  },
-  {
     "key": "trusted-new-israel-says-carried-out",
     "source": "TG: Faytuks Network",
     "ts": 1778865639
