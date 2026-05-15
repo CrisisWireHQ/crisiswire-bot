@@ -1,10 +1,5 @@
 [
   {
-    "key": "pakistan--suicide-blast--afghan-border",
-    "source": "GN: Explosion",
-    "ts": 1778824856
-  },
-  {
     "key": "australia--hantavirus-qa--outbreak",
     "source": "GN: Outbreak",
     "ts": 1778824862
@@ -113,5 +108,15 @@
     "key": "usa--quake--nevada",
     "source": "GN: Earthquake",
     "ts": 1778827841
+  },
+  {
+    "key": "ukraine--airstrike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778828458
+  },
+  {
+    "key": "oman--attack--indian-ship",
+    "source": "GN: Terror Attack",
+    "ts": 1778828458
   }
 ]
