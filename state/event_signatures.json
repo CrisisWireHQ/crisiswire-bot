@@ -1,20 +1,5 @@
 [
   {
-    "key": "canada--fire--northwest-ontario",
-    "source": "GN: Wildfire",
-    "ts": 1778885447
-  },
-  {
-    "key": "usa--fire--armstrong-county",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778885449
-  },
-  {
-    "key": "usa--explosion--maine",
-    "source": "GN: Explosion",
-    "ts": 1778885449
-  },
-  {
     "key": "usa--fire--birmingham-alabama",
     "source": "GN: Breaking News",
     "ts": 1778886048
