@@ -1,50 +1,5 @@
 [
   {
-    "key": "japan--quake--ofunato",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778845247
-  },
-  {
-    "key": "japan--quake--iwate",
-    "source": "GN: Earthquake",
-    "ts": 1778845247
-  },
-  {
-    "key": "japan--quake--tohoku",
-    "source": "GN: Earthquake",
-    "ts": 1778845247
-  },
-  {
-    "key": "japan--quake--northern",
-    "source": "GN: Earthquake",
-    "ts": 1778845247
-  },
-  {
-    "key": "japan--quake--miyagi",
-    "source": "GN: Earthquake",
-    "ts": 1778845247
-  },
-  {
-    "key": "japan--quake--eastern",
-    "source": "GN: Earthquake",
-    "ts": 1778845247
-  },
-  {
-    "key": "japan--quake--northeastern",
-    "source": "GN: Earthquake",
-    "ts": 1778845247
-  },
-  {
-    "key": "japan--quake--northeastern",
-    "source": "GN: Breaking News",
-    "ts": 1778845247
-  },
-  {
-    "key": "drc--outbreak--ituri",
-    "source": "Guardian World",
-    "ts": 1778845247
-  },
-  {
     "key": "russia--missile-strike--belgorod",
     "source": "GN: Strike Attack",
     "ts": 1778845860
