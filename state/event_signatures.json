@@ -1,20 +1,5 @@
 [
   {
-    "key": "dr-congo--outbreak--bundibugyo",
-    "source": "France 24 Intl",
-    "ts": 1778944246
-  },
-  {
-    "key": "dr-congo--outbreak--bundibugyo",
-    "source": "GN: Outbreak",
-    "ts": 1778944250
-  },
-  {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1778944251
-  },
-  {
     "key": "antigua-barbuda--quake--codrington",
     "source": "USGS Quakes M4.5+",
     "ts": 1778944853
@@ -118,5 +103,25 @@
     "key": "usa--crash--dallas-plane",
     "source": "GN: Plane Crash",
     "ts": 1778947258
+  },
+  {
+    "key": "palestine--airstrike--gaza-city",
+    "source": "GN: Strike Attack",
+    "ts": 1778947851
+  },
+  {
+    "key": "antigua-and-barbuda--quake--regional",
+    "source": "GN: Earthquake",
+    "ts": 1778947851
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "Guardian World",
+    "ts": 1778947851
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778947851
   }
 ]
