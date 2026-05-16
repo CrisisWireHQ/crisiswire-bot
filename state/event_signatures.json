@@ -40,11 +40,6 @@
     "ts": 1778934650
   },
   {
-    "key": "ukraine--missile-strike--kryvyi-rih",
-    "source": "GN: Strike Attack",
-    "ts": 1778934650
-  },
-  {
     "key": "comoros--protest--anjouan",
     "source": "Straits Times World",
     "ts": 1778935246
@@ -57,11 +52,6 @@
   {
     "key": "thailand--crash--bangkok",
     "source": "Al Jazeera",
-    "ts": 1778935249
-  },
-  {
-    "key": "gaza--airstrike--hamas-commander",
-    "source": "GN: Strike Attack",
     "ts": 1778935249
   },
   {
@@ -96,11 +86,6 @@
   },
   {
     "key": "gaza--strike--hamas-commander",
-    "source": "GN: Strike Attack",
-    "ts": 1778935851
-  },
-  {
-    "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778935851
   },
@@ -168,5 +153,40 @@
     "key": "nepal--quake--western",
     "source": "GN: Earthquake",
     "ts": 1778937046
+  },
+  {
+    "key": "vanuatu--quake--port-vila",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778937653
+  },
+  {
+    "key": "drc--ebola--congo",
+    "source": "France 24 Intl",
+    "ts": 1778937653
+  },
+  {
+    "key": "gaza--airstrike--hamas-leader",
+    "source": "France 24 Intl",
+    "ts": 1778937656
+  },
+  {
+    "key": "gaza--airstrike--hamas-leader",
+    "source": "GN: Strike Attack",
+    "ts": 1778937656
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1778937656
+  },
+  {
+    "key": "canada--fire--northwestern-ontario",
+    "source": "GN: Wildfire",
+    "ts": 1778937656
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778937658
   }
 ]
