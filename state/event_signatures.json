@@ -1,20 +1,5 @@
 [
   {
-    "key": "none",
-    "source": "GN: AP News",
-    "ts": 1778971845
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778971845
-  },
-  {
-    "key": "canada--outbreak--hantavirus",
-    "source": "GN: Outbreak",
-    "ts": 1778971845
-  },
-  {
     "key": "usa--tornado--nebraska-buffalo-county",
     "source": "NOAA NWS Extreme",
     "ts": 1778972451
