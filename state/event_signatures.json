@@ -118,5 +118,25 @@
     "key": "australia--fire--forest",
     "source": "GDACS Disaster Alerts",
     "ts": 1778929847
+  },
+  {
+    "key": "argentina--quake--el-aguilar",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778930448
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778930450
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778930450
+  },
+  {
+    "key": "thailand--collision--train-bus",
+    "source": "GN: Reuters",
+    "ts": 1778930453
   }
 ]
