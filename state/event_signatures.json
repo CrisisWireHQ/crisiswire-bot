@@ -1,30 +1,5 @@
 [
   {
-    "key": "gaza--airstrike--hamas-leader",
-    "source": "GN: Strike Attack",
-    "ts": 1778893244
-  },
-  {
-    "key": "usa--crash--ohio",
-    "source": "GN: Plane Crash",
-    "ts": 1778893244
-  },
-  {
-    "key": "canada--evacuation--mine-centre",
-    "source": "GN: Wildfire",
-    "ts": 1778893244
-  },
-  {
-    "key": "usa--explosion--searsmont",
-    "source": "GN: Explosion",
-    "ts": 1778893244
-  },
-  {
-    "key": "usa--explosion--maine",
-    "source": "GN: Explosion",
-    "ts": 1778893244
-  },
-  {
     "key": "russia--attack--civilians-killed",
     "source": "TASS English",
     "ts": 1778893856
@@ -113,5 +88,20 @@
     "key": "usa--explosion--maine-lumber-mill",
     "source": "GN: Breaking News",
     "ts": 1778896255
+  },
+  {
+    "key": "usa--tornado--iowa-cerro-gordo",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778896849
+  },
+  {
+    "key": "usa--gastroenteritis--cruise-ships",
+    "source": "Straits Times World",
+    "ts": 1778896849
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778896853
   }
 ]
