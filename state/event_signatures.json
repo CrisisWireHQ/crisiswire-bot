@@ -1,15 +1,5 @@
 [
   {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778894452
-  },
-  {
-    "key": "japan--quake--multi-region",
-    "source": "GN: Earthquake",
-    "ts": 1778894452
-  },
-  {
     "key": "fiji--quake--levuka",
     "source": "USGS Quakes M4.5+",
     "ts": 1778895048
@@ -93,5 +83,25 @@
     "key": "usa--explosion--maine-lumber-mill",
     "source": "GN: Explosion",
     "ts": 1778896853
+  },
+  {
+    "key": "congo--outbreak--ituri",
+    "source": "Straits Times World",
+    "ts": 1778898054
+  },
+  {
+    "key": "chile--quake--ollag\u00fce",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778898054
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778898056
+  },
+  {
+    "key": "usa--shooting--wood-village",
+    "source": "GN: Breaking News",
+    "ts": 1778898059
   }
 ]
