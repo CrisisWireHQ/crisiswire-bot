@@ -1,45 +1,5 @@
 [
   {
-    "key": "india--quake--andaman",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778968859
-  },
-  {
-    "key": "colombia--attack--campaign-staffers",
-    "source": "Al Jazeera",
-    "ts": 1778968862
-  },
-  {
-    "key": "canada--hantavirus--cruise-ship",
-    "source": "GN: AP News",
-    "ts": 1778968865
-  },
-  {
-    "key": "usa--crash--akron-ohio",
-    "source": "GN: Plane Crash",
-    "ts": 1778968865
-  },
-  {
-    "key": "usa--fire--antelope-valley-california",
-    "source": "GN: Wildfire",
-    "ts": 1778968865
-  },
-  {
-    "key": "usa--explosion--searsmont-maine",
-    "source": "GN: Explosion",
-    "ts": 1778968865
-  },
-  {
-    "key": "iraq--attack--north-oil",
-    "source": "GN: Reuters",
-    "ts": 1778968865
-  },
-  {
-    "key": "usa--crash--dallas-texas",
-    "source": "GN: Plane Crash",
-    "ts": 1778968867
-  },
-  {
     "key": "usa--explosion--lumber-mill",
     "source": "GN: Explosion",
     "ts": 1778969438
@@ -143,5 +103,10 @@
     "key": "usa--explosion--maine-lumber-mill",
     "source": "GN: Explosion",
     "ts": 1778972451
+  },
+  {
+    "key": "trusted-bulgaria-has-won-eurovision-song",
+    "source": "TG: Faytuks Network",
+    "ts": 1778972497
   }
 ]
