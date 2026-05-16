@@ -93,5 +93,15 @@
     "key": "ukraine--missile-strike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778900443
+  },
+  {
+    "key": "usa--fire--northeast-minnesota",
+    "source": "GN: Wildfire",
+    "ts": 1778901045
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: CNN",
+    "ts": 1778901045
   }
 ]
