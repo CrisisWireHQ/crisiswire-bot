@@ -183,5 +183,25 @@
     "key": "trusted-video-that-incident-edycohen",
     "source": "TG: Faytuks Network",
     "ts": 1778964634
+  },
+  {
+    "key": "usa--fire--duluth",
+    "source": "GN: Wildfire",
+    "ts": 1778964640
+  },
+  {
+    "key": "palestine--airstrike--gaza-city",
+    "source": "GN: Strike Attack",
+    "ts": 1778964640
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778964640
+  },
+  {
+    "key": "italy--attack--modena",
+    "source": "Times of Israel",
+    "ts": 1778964640
   }
 ]
