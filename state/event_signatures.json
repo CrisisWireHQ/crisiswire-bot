@@ -108,5 +108,30 @@
     "key": "usa--shooting--cincinnati",
     "source": "GN: Breaking News",
     "ts": 1778949044
+  },
+  {
+    "key": "tonga--quake--neiafu",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778949643
+  },
+  {
+    "key": "antigua-barbuda--quake--regional",
+    "source": "GN: Earthquake",
+    "ts": 1778949646
+  },
+  {
+    "key": "usa--crash--forney-texas",
+    "source": "GN: Plane Crash",
+    "ts": 1778949646
+  },
+  {
+    "key": "israel--strike--hamas-leadership",
+    "source": "GN: Strike Attack",
+    "ts": 1778949648
+  },
+  {
+    "key": "india--hostage--nagaland",
+    "source": "GN: Hostage",
+    "ts": 1778949648
   }
 ]
