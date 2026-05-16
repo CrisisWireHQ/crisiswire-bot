@@ -48,5 +48,15 @@
     "key": "uk--meningitis--reading",
     "source": "Times of India World",
     "ts": 1778924448
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "Straits Times World",
+    "ts": 1778925042
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778925042
   }
 ]
