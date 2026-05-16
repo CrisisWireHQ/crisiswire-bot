@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--tornado--iowa-floyd-county",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778895644
-  },
-  {
-    "key": "unknown--ebola--cross-border",
-    "source": "GN: Outbreak",
-    "ts": 1778895647
-  },
-  {
     "key": "usa--explosion--maine-lumber-mill",
     "source": "GN: Explosion",
     "ts": 1778895650
@@ -108,5 +98,15 @@
     "key": "usa--fire--texas-panhandle",
     "source": "GN: Wildfire",
     "ts": 1778898653
+  },
+  {
+    "key": "usa--outbreak--king-county-hantavirus",
+    "source": "GN: Outbreak",
+    "ts": 1778899249
+  },
+  {
+    "key": "usa--attack--new-york-synagogue",
+    "source": "GN: Breaking News",
+    "ts": 1778899249
   }
 ]
