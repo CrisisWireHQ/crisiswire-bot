@@ -148,5 +148,20 @@
     "key": "congo--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1778943670
+  },
+  {
+    "key": "dr-congo--outbreak--bundibugyo",
+    "source": "France 24 Intl",
+    "ts": 1778944246
+  },
+  {
+    "key": "dr-congo--outbreak--bundibugyo",
+    "source": "GN: Outbreak",
+    "ts": 1778944250
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778944251
   }
 ]
