@@ -53,5 +53,20 @@
     "key": "palestine--airstrike--gaza",
     "source": "GN: Strike Attack",
     "ts": 1778925042
+  },
+  {
+    "key": "drc--ebola--ituri",
+    "source": "Times of India World",
+    "ts": 1778925643
+  },
+  {
+    "key": "japan--quake--offshore",
+    "source": "GN: Earthquake",
+    "ts": 1778925643
+  },
+  {
+    "key": "japan--quake--honshu",
+    "source": "GN: Earthquake",
+    "ts": 1778925643
   }
 ]
