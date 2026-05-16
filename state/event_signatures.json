@@ -1,15 +1,5 @@
 [
   {
-    "key": "canada--hantavirus--mv-hondius",
-    "source": "BBC World",
-    "ts": 1778964049
-  },
-  {
-    "key": "nigeria--attack--yobe",
-    "source": "GN: Terror Attack",
-    "ts": 1778964049
-  },
-  {
     "key": "trusted-trumps-new-post",
     "source": "TG: Faytuks Network",
     "ts": 1778964152
@@ -123,5 +113,35 @@
     "key": "lebanon--airstrike--south",
     "source": "TASS English",
     "ts": 1778967076
+  },
+  {
+    "key": "indonesia--quake--bugalaga",
+    "source": "GN: Earthquake",
+    "ts": 1778967648
+  },
+  {
+    "key": "kyrgyzstan--quake--chinese-border",
+    "source": "GN: Earthquake",
+    "ts": 1778967648
+  },
+  {
+    "key": "usa--tornado-warning--salem-missouri",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778967648
+  },
+  {
+    "key": "none",
+    "source": "GN: Mass Shooting",
+    "ts": 1778967650
+  },
+  {
+    "key": "usa--quake--loma-linda-california",
+    "source": "GN: Earthquake",
+    "ts": 1778967653
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778967653
   }
 ]
