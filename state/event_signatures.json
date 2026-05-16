@@ -1,25 +1,5 @@
 [
   {
-    "key": "fiji--quake--levuka",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778895048
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778895048
-  },
-  {
-    "key": "nigeria--airstrike--unspecified",
-    "source": "GN: Strike Attack",
-    "ts": 1778895048
-  },
-  {
-    "key": "usa--explosion--searsmont-maine",
-    "source": "GN: Breaking News",
-    "ts": 1778895048
-  },
-  {
     "key": "usa--tornado--iowa-floyd-county",
     "source": "NOAA NWS Extreme",
     "ts": 1778895644
