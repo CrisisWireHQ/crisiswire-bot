@@ -153,5 +153,10 @@
     "key": "iraq--terror-charges--europe",
     "source": "GN: Terror Attack",
     "ts": 1778954451
+  },
+  {
+    "key": "italy--attack--crowd",
+    "source": "GN: Breaking News",
+    "ts": 1778954704
   }
 ]
