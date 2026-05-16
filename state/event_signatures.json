@@ -140,18 +140,8 @@
     "ts": 1778943670
   },
   {
-    "key": "vanuatu--quake--port-vila",
-    "source": "GN: Earthquake",
-    "ts": 1778943670
-  },
-  {
     "key": "usa--explosion--searsmont",
     "source": "GN: Explosion",
-    "ts": 1778943670
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
     "ts": 1778943670
   },
   {
