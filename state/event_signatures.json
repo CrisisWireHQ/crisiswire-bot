@@ -1,20 +1,5 @@
 [
   {
-    "key": "ukraine--airstrike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778908244
-  },
-  {
-    "key": "lebanon--airstrike--tyre",
-    "source": "GN: Strike Attack",
-    "ts": 1778908244
-  },
-  {
-    "key": "gaza--strike--hamas-commander",
-    "source": "GN: Strike Attack",
-    "ts": 1778908244
-  },
-  {
     "key": "usa--tornado--wisconsin-lafayette",
     "source": "NOAA NWS Extreme",
     "ts": 1778908845
