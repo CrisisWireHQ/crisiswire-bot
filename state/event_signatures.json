@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--explosion--lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1778969438
-  },
-  {
     "key": "usa--evacuation--capitans-new-mexico",
     "source": "NOAA NWS Extreme",
     "ts": 1778970050
