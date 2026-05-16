@@ -157,11 +157,14 @@ def _upload_video(video_url: str) -> str | None:
         with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as tmp:
             tmp.write(content)
             tmp_path = tmp.name
-        media = api().media_upload(
+        # Call chunked_upload directly: its wait_for_processing=True default
+        # blocks until X finishes transcoding. (Passing wait_for_processing
+        # through media_upload(**kwargs) leaks it into the request payload —
+        # tweepy warns "Unexpected parameter" and does NOT actually wait.)
+        media = api().chunked_upload(
             filename=tmp_path,
-            chunked=True,
+            file_type="video/mp4",
             media_category="tweet_video",
-            wait_for_processing=True,
         )
         return str(media.media_id_string)
     except Exception as e:

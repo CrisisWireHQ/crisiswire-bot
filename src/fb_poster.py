@@ -36,7 +36,8 @@ def enabled() -> bool:
     return bool(os.environ.get("FB_PAGE_ID") and os.environ.get("FB_PAGE_TOKEN"))
 
 
-def post(text: str, image_url: str = "", image_path: str = "", link_url: str = "") -> dict:
+def post(text: str, image_url: str = "", image_path: str = "",
+         link_url: str = "", video_url: str = "") -> dict:
     """Post to the configured Page.
 
     - text-only: POST /{page_id}/feed with `message`
@@ -57,6 +58,27 @@ def post(text: str, image_url: str = "", image_path: str = "", link_url: str = "
     body = text.strip()
     if link_url and link_url not in body:
         body = f"{body}\n\n{link_url}"
+
+    # Video wins the post (matches X). Graph fetches the remote file itself
+    # via file_url on the /videos edge; processing finishes server-side.
+    # Any failure falls through to the image/text paths below.
+    if video_url:
+        try:
+            r = requests.post(
+                f"{GRAPH_BASE}/{pid}/videos",
+                data={"file_url": video_url, "description": body, "access_token": token},
+                timeout=60,
+            )
+            if r.status_code == 200:
+                data = r.json()
+                return {
+                    "id": data.get("post_id") or data.get("id", ""),
+                    "had_image": False,
+                    "had_video": True,
+                }
+            print(f"[fb_poster] video post failed ({r.status_code}): {r.text[:200]}; falling back to image/text")
+        except Exception as e:
+            print(f"[fb_poster] video post exception: {e}; falling back to image/text")
 
     if image_path and os.path.exists(image_path):
         # Local file (generated headline card) — multipart upload via `source`.

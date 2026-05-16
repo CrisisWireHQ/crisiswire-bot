@@ -157,8 +157,10 @@ def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_p
                 #   3. generated branded headline card (never bare text)
                 # Reuse x_image_url: it already carries the item media or the
                 # og:image scrape resolved above, so we never fetch twice.
-                fb_image_url = x_image_url
-                if not fb_image_url:
+                # Video (when present) is what FB posts — same as X. Only
+                # bother resolving an image/card when there's no video.
+                fb_image_url = "" if video_url else x_image_url
+                if not fb_image_url and not video_url:
                     fb_card_path = fb_card.generate(draft_text)
                     if fb_card_path:
                         print("[fb] no photo found; generated headline card")
@@ -171,10 +173,17 @@ def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_p
                     draft_text,
                     image_url=fb_image_url,
                     image_path=fb_card_path,
+                    video_url=video_url,
                     link_url="",
                 )
                 fb_post_id = fb_result.get("id", "")
-                fb_status = "📘 FB posted" + (" w/ img" if fb_result.get("had_image") else "")
+                if fb_result.get("had_video"):
+                    fb_extra = " w/ video"
+                elif fb_result.get("had_image"):
+                    fb_extra = " w/ img"
+                else:
+                    fb_extra = ""
+                fb_status = "📘 FB posted" + fb_extra
                 print(f"[fb] posted: {fb_poster.post_url(fb_post_id)}")
             except Exception as e:
                 print(f"[fb] post failed (non-fatal): {e}")
