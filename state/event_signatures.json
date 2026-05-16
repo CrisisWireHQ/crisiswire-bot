@@ -1,25 +1,5 @@
 [
   {
-    "key": "canada--hantavirus--british-columbia",
-    "source": "Guardian World",
-    "ts": 1778962842
-  },
-  {
-    "key": "nigeria--attack--yobe",
-    "source": "GN: Terror Attack",
-    "ts": 1778962842
-  },
-  {
-    "key": "lebanon--drone-strike--south",
-    "source": "Times of Israel",
-    "ts": 1778962842
-  },
-  {
-    "key": "usa--hostage--princeton-illinois",
-    "source": "GN: Hostage",
-    "ts": 1778962842
-  },
-  {
     "key": "trusted-n12-reports-the-large-explosion",
     "source": "TG: Faytuks Network",
     "ts": 1778963442
