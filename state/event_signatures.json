@@ -113,5 +113,40 @@
     "key": "ukraine--missile-strike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778908845
+  },
+  {
+    "key": "russia--offensive--ukraine-west",
+    "source": "TASS English",
+    "ts": 1778909458
+  },
+  {
+    "key": "lebanon--strike--paramedics",
+    "source": "GN: Strike Attack",
+    "ts": 1778909462
+  },
+  {
+    "key": "gaza--airstrike--hamas-leader",
+    "source": "NPR World",
+    "ts": 1778909462
+  },
+  {
+    "key": "gaza--airstrike--hamas-leader",
+    "source": "GN: Strike Attack",
+    "ts": 1778909462
+  },
+  {
+    "key": "drc--outbreak--ituri",
+    "source": "GN: Outbreak",
+    "ts": 1778909462
+  },
+  {
+    "key": "japan--quake--advisory",
+    "source": "GN: Earthquake",
+    "ts": 1778909464
+  },
+  {
+    "key": "australia--attack--rottnest-island",
+    "source": "GN: Breaking News",
+    "ts": 1778909464
   }
 ]
