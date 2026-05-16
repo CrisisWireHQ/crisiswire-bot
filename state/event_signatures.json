@@ -68,5 +68,15 @@
     "key": "usa--explosion--maine",
     "source": "GN: Explosion",
     "ts": 1778893244
+  },
+  {
+    "key": "russia--attack--civilians-killed",
+    "source": "TASS English",
+    "ts": 1778893856
+  },
+  {
+    "key": "iran--strike--bridge",
+    "source": "GN: CNN",
+    "ts": 1778893859
   }
 ]
