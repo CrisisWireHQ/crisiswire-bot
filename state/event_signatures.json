@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--explosion--belpre-ohio",
-    "source": "GN: Explosion",
-    "ts": 1778967068
-  },
-  {
-    "key": "usa--evacuation--wildfire",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778967068
-  },
-  {
-    "key": "israel--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778967071
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "TASS English",
-    "ts": 1778967076
-  },
-  {
     "key": "indonesia--quake--bugalaga",
     "source": "GN: Earthquake",
     "ts": 1778967648
