@@ -1,35 +1,5 @@
 [
   {
-    "key": "usa--tornado--wisconsin-lafayette",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778908845
-  },
-  {
-    "key": "usa--tornado--wisconsin-iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778908845
-  },
-  {
-    "key": "usa--tornado--wisconsin-mineral-point",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778908845
-  },
-  {
-    "key": "congo--outbreak--ebola-ituri",
-    "source": "GN: Outbreak",
-    "ts": 1778908845
-  },
-  {
-    "key": "congo--outbreak--ebola-ituri",
-    "source": "Al Jazeera",
-    "ts": 1778908845
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1778908845
-  },
-  {
     "key": "russia--offensive--ukraine-west",
     "source": "TASS English",
     "ts": 1778909458
