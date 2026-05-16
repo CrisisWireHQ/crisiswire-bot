@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1778895650
-  },
-  {
-    "key": "usa--crash--atlantic-ocean",
-    "source": "GN: Plane Crash",
-    "ts": 1778895650
-  },
-  {
     "key": "new-zealand--quake--kermadec-islands",
     "source": "USGS Quakes M4.5+",
     "ts": 1778896253
