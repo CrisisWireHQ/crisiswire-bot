@@ -68,5 +68,15 @@
     "key": "gaza--airstrike--hamas-leader",
     "source": "GN: Strike Attack",
     "ts": 1778915443
+  },
+  {
+    "key": "kermadec-islands--quake--south-pacific",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778916042
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778916044
   }
 ]
