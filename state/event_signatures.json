@@ -138,5 +138,30 @@
     "key": "usa--explosion--searsmont-maine",
     "source": "GN: Explosion",
     "ts": 1778939455
+  },
+  {
+    "key": "gaza--airstrike--haddad-killed",
+    "source": "Times of India World",
+    "ts": 1778940047
+  },
+  {
+    "key": "maldives--diving-death--cave-rescue",
+    "source": "GN: AP News",
+    "ts": 1778940047
+  },
+  {
+    "key": "gaza--airstrike--hamas-chief-killed",
+    "source": "GN: Strike Attack",
+    "ts": 1778940050
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1778940050
+  },
+  {
+    "key": "ukraine--missile-strike--kryvyi-rih",
+    "source": "GN: Strike Attack",
+    "ts": 1778940050
   }
 ]
