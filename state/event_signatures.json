@@ -1,20 +1,5 @@
 [
   {
-    "key": "france--hantavirus--cruise",
-    "source": "GN: Outbreak",
-    "ts": 1778954451
-  },
-  {
-    "key": "palestine--attack--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778954451
-  },
-  {
-    "key": "iraq--terror-charges--europe",
-    "source": "GN: Terror Attack",
-    "ts": 1778954451
-  },
-  {
     "key": "italy--attack--crowd",
     "source": "GN: Breaking News",
     "ts": 1778954704
@@ -188,5 +173,25 @@
     "key": "usa--fire--north-shore",
     "source": "GN: Wildfire",
     "ts": 1778957586
+  },
+  {
+    "key": "nigeria--attack--yobe",
+    "source": "GN: Terror Attack",
+    "ts": 1778958048
+  },
+  {
+    "key": "palestine--strike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778958048
+  },
+  {
+    "key": "uganda--outbreak--kampala",
+    "source": "GN: Outbreak",
+    "ts": 1778958050
+  },
+  {
+    "key": "palestine--strike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778958053
   }
 ]
