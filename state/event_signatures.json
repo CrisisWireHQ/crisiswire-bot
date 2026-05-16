@@ -1,35 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--tyre",
-    "source": "GN: Strike Attack",
-    "ts": 1778931047
-  },
-  {
-    "key": "usa--explosion--searsmont-maine",
-    "source": "GN: Explosion",
-    "ts": 1778931047
-  },
-  {
-    "key": "palestine--strike--hamas-military-chief",
-    "source": "GN: Strike Attack",
-    "ts": 1778931047
-  },
-  {
-    "key": "usa--hostage--jacksonville-florida",
-    "source": "GN: Hostage",
-    "ts": 1778931047
-  },
-  {
-    "key": "drc--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778931047
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778931050
-  },
-  {
     "key": "gaza--airstrike--hamas-commander",
     "source": "GN: Strike Attack",
     "ts": 1778931150
@@ -148,5 +118,15 @@
     "key": "nigeria--attack--plateau",
     "source": "GN: Terror Attack",
     "ts": 1778934064
+  },
+  {
+    "key": "ukraine--missile-strike--kryvyi-rih",
+    "source": "GN: Strike Attack",
+    "ts": 1778934650
+  },
+  {
+    "key": "ukraine--missile-strike--kryvyi-rih",
+    "source": "GN: Strike Attack",
+    "ts": 1778934650
   }
 ]
