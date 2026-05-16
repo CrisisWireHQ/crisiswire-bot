@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--explosion--searsmont-maine",
-    "source": "GN: Explosion",
-    "ts": 1778889053
-  },
-  {
     "key": "usa--attack--new-york-upper-west-side",
     "source": "GN: Breaking News",
     "ts": 1778889653
