@@ -163,5 +163,10 @@
     "key": "usa--crash--dallas-texas",
     "source": "GN: Plane Crash",
     "ts": 1778968867
+  },
+  {
+    "key": "usa--explosion--lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778969438
   }
 ]
