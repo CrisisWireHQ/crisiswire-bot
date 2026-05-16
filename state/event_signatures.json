@@ -38,5 +38,10 @@
     "key": "palestine--airstrike--gaza",
     "source": "GN: Strike Attack",
     "ts": 1778922182
+  },
+  {
+    "key": "usa--plane-crash--akron",
+    "source": "GN: Plane Crash",
+    "ts": 1778923247
   }
 ]
