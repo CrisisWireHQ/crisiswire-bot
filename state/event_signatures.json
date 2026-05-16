@@ -123,5 +123,25 @@
     "key": "philippines--quake--badak",
     "source": "USGS Quakes M4.5+",
     "ts": 1778932243
+  },
+  {
+    "key": "ukraine--drone-strike--zaporozhye-npp",
+    "source": "TASS English",
+    "ts": 1778932851
+  },
+  {
+    "key": "israel--airstrike--gaza-hamas-leader",
+    "source": "GN: Strike Attack",
+    "ts": 1778932851
+  },
+  {
+    "key": "thailand--crash--bangkok-train-bus",
+    "source": "GN: Breaking News",
+    "ts": 1778932851
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778932851
   }
 ]
