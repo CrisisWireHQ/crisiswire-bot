@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--attack--nyc-synagogue",
-    "source": "GN: Terror Attack",
-    "ts": 1778898647
-  },
-  {
-    "key": "israel--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778898647
-  },
-  {
-    "key": "nigeria--airstrike--military-op",
-    "source": "GN: Strike Attack",
-    "ts": 1778898647
-  },
-  {
     "key": "usa--fire--maine-lumber-mill",
     "source": "GN: Explosion",
     "ts": 1778898650
@@ -108,5 +93,20 @@
     "key": "usa--attack--manhattan-upper-west-side",
     "source": "GN: Breaking News",
     "ts": 1778901642
+  },
+  {
+    "key": "usa--explosion--lumber-facility",
+    "source": "GN: Explosion",
+    "ts": 1778902247
+  },
+  {
+    "key": "usa--explosion--nyc",
+    "source": "GN: Explosion",
+    "ts": 1778902247
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778902247
   }
 ]
