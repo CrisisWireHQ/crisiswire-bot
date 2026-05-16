@@ -143,5 +143,25 @@
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778931050
+  },
+  {
+    "key": "gaza--airstrike--hamas-commander",
+    "source": "GN: Strike Attack",
+    "ts": 1778931150
+  },
+  {
+    "key": "ukraine--missile-strike--kryvyi-rih",
+    "source": "GN: Strike Attack",
+    "ts": 1778931150
+  },
+  {
+    "key": "lebanon--airstrike--tebnine",
+    "source": "GN: Strike Attack",
+    "ts": 1778931150
+  },
+  {
+    "key": "gaza--airstrike--hamas-military-wing",
+    "source": "GN: Strike Attack",
+    "ts": 1778931150
   }
 ]
