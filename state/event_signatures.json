@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--explosion--lumber-facility",
-    "source": "GN: Explosion",
-    "ts": 1778902247
-  },
-  {
-    "key": "usa--explosion--nyc",
-    "source": "GN: Explosion",
-    "ts": 1778902247
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778902247
-  },
-  {
     "key": "trusted-president-trump-the-has-eliminated",
     "source": "TG: Faytuks Network",
     "ts": 1778902603
