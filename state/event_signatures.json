@@ -48,5 +48,20 @@
     "key": "tonga--quake--hihifo",
     "source": "USGS Quakes M4.5+",
     "ts": 1778914246
+  },
+  {
+    "key": "gaza--airstrike--hamas",
+    "source": "GN: Strike Attack",
+    "ts": 1778914842
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778914842
+  },
+  {
+    "key": "usa--fire--oklahoma",
+    "source": "GN: Wildfire",
+    "ts": 1778914842
   }
 ]
