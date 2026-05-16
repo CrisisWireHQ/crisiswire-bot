@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--outbreak--king-county-hantavirus",
-    "source": "GN: Outbreak",
-    "ts": 1778899249
-  },
-  {
-    "key": "usa--attack--new-york-synagogue",
-    "source": "GN: Breaking News",
-    "ts": 1778899249
-  },
-  {
     "key": "usa--quake--arizona",
     "source": "GN: Earthquake",
     "ts": 1778899843
