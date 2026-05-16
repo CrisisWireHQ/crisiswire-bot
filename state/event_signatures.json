@@ -1,45 +1,5 @@
 [
   {
-    "key": "ukraine--strike--",
-    "source": "GN: Strike Attack",
-    "ts": 1778960577
-  },
-  {
-    "key": "canada--outbreak--hantavirus",
-    "source": "GN: Outbreak",
-    "ts": 1778960582
-  },
-  {
-    "key": "usa--explosion--maine",
-    "source": "GN: Explosion",
-    "ts": 1778960582
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778960582
-  },
-  {
-    "key": "usa--crash--florida-coast",
-    "source": "GN: Plane Crash",
-    "ts": 1778960582
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778960582
-  },
-  {
-    "key": "gaza--airstrike--gaza-city",
-    "source": "GN: Strike Attack",
-    "ts": 1778960582
-  },
-  {
-    "key": "gaza--airstrike--west-gaza-city",
-    "source": "GN: Strike Attack",
-    "ts": 1778960582
-  },
-  {
     "key": "trusted-israel-may-preparing-move-beyond",
     "source": "TG: Faytuks Network",
     "ts": 1778960742
