@@ -103,5 +103,30 @@
     "key": "trusted-bulgaria-has-won-eurovision-song",
     "source": "TG: Faytuks Network",
     "ts": 1778972497
+  },
+  {
+    "key": "usa--tornado--nebraska-kearney",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778973046
+  },
+  {
+    "key": "russia--fire--forest",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778973046
+  },
+  {
+    "key": "colombia--crash--military-plane",
+    "source": "GN: Plane Crash",
+    "ts": 1778973048
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778973051
+  },
+  {
+    "key": "lebanon--drone-strike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778973051
   }
 ]
