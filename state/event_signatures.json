@@ -1,40 +1,5 @@
 [
   {
-    "key": "nigeria--attack--borno",
-    "source": "Straits Times World",
-    "ts": 1778940645
-  },
-  {
-    "key": "nigeria--attack--borno",
-    "source": "GN: Reuters",
-    "ts": 1778940645
-  },
-  {
-    "key": "gaza--airstrike--khan-yunis",
-    "source": "Times of Israel",
-    "ts": 1778940645
-  },
-  {
-    "key": "nigeria--attack--borno",
-    "source": "BBC World",
-    "ts": 1778940645
-  },
-  {
-    "key": "usa--explosion--searsmont",
-    "source": "GN: Explosion",
-    "ts": 1778940645
-  },
-  {
-    "key": "gaza--airstrike--khan-yunis",
-    "source": "GN: Breaking News",
-    "ts": 1778940645
-  },
-  {
-    "key": "usa--outbreak--mesa",
-    "source": "GN: Outbreak",
-    "ts": 1778940645
-  },
-  {
     "key": "pakistan--attack--turbat",
     "source": "GN: Terror Attack",
     "ts": 1778941248
