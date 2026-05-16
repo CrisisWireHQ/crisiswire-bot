@@ -113,5 +113,35 @@
     "key": "thailand--collision--train-bus",
     "source": "GN: Reuters",
     "ts": 1778930453
+  },
+  {
+    "key": "lebanon--airstrike--tyre",
+    "source": "GN: Strike Attack",
+    "ts": 1778931047
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1778931047
+  },
+  {
+    "key": "palestine--strike--hamas-military-chief",
+    "source": "GN: Strike Attack",
+    "ts": 1778931047
+  },
+  {
+    "key": "usa--hostage--jacksonville-florida",
+    "source": "GN: Hostage",
+    "ts": 1778931047
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778931047
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778931050
   }
 ]
