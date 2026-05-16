@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--explosion--searsmont-maine",
-    "source": "GN: Explosion",
-    "ts": 1778956247
-  },
-  {
-    "key": "antigua-and-barbuda--quake--offshore",
-    "source": "GN: Earthquake",
-    "ts": 1778956247
-  },
-  {
-    "key": "gaza--airstrike--hamas-leader",
-    "source": "GN: Strike Attack",
-    "ts": 1778956250
-  },
-  {
     "key": "trusted-graphic-man-drove-car-into",
     "source": "TG: Faytuks Network",
     "ts": 1778956552
@@ -168,5 +153,30 @@
     "key": "palestinian-territories--airstrike--gaza",
     "source": "GN: Strike Attack",
     "ts": 1778959244
+  },
+  {
+    "key": "nigeria--attack--yobe",
+    "source": "GN: Terror Attack",
+    "ts": 1778959853
+  },
+  {
+    "key": "usa--explosion--searsmont",
+    "source": "GN: Explosion",
+    "ts": 1778959853
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778959853
+  },
+  {
+    "key": "italy--attack--pedestrians",
+    "source": "BBC World",
+    "ts": 1778959853
+  },
+  {
+    "key": "canada--fire--alberta-west",
+    "source": "GN: Wildfire",
+    "ts": 1778959853
   }
 ]
