@@ -1,15 +1,5 @@
 [
   {
-    "key": "nigeria--attack--yobe",
-    "source": "GN: Terror Attack",
-    "ts": 1778952646
-  },
-  {
-    "key": "usa--fire--two-harbors-minnesota",
-    "source": "GN: Wildfire",
-    "ts": 1778952646
-  },
-  {
     "key": "lebanon--airstrike--south",
     "source": "Jerusalem Post",
     "ts": 1778953254
@@ -138,5 +128,30 @@
     "key": "congo--ebola--outbreak",
     "source": "GN: Outbreak",
     "ts": 1778955656
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1778956247
+  },
+  {
+    "key": "antigua-and-barbuda--quake--offshore",
+    "source": "GN: Earthquake",
+    "ts": 1778956247
+  },
+  {
+    "key": "antigua-and-barbuda--quake--offshore",
+    "source": "GN: Earthquake",
+    "ts": 1778956247
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1778956247
+  },
+  {
+    "key": "gaza--airstrike--hamas-leader",
+    "source": "GN: Strike Attack",
+    "ts": 1778956250
   }
 ]
