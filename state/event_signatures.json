@@ -103,5 +103,30 @@
     "key": "usa--shooting--wood-village",
     "source": "GN: Breaking News",
     "ts": 1778898059
+  },
+  {
+    "key": "usa--attack--nyc-synagogue",
+    "source": "GN: Terror Attack",
+    "ts": 1778898647
+  },
+  {
+    "key": "israel--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778898647
+  },
+  {
+    "key": "nigeria--airstrike--military-op",
+    "source": "GN: Strike Attack",
+    "ts": 1778898647
+  },
+  {
+    "key": "usa--fire--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778898650
+  },
+  {
+    "key": "usa--fire--texas-panhandle",
+    "source": "GN: Wildfire",
+    "ts": 1778898653
   }
 ]
