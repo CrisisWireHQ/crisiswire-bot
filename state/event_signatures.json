@@ -1,20 +1,5 @@
 [
   {
-    "key": "vanuatu--quake--port-vila",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778949044
-  },
-  {
-    "key": "antigua-and-barbuda--quake--caribbean",
-    "source": "GN: Earthquake",
-    "ts": 1778949044
-  },
-  {
-    "key": "usa--shooting--cincinnati",
-    "source": "GN: Breaking News",
-    "ts": 1778949044
-  },
-  {
     "key": "tonga--quake--neiafu",
     "source": "USGS Quakes M4.5+",
     "ts": 1778949643
