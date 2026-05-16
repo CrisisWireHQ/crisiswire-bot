@@ -63,5 +63,15 @@
     "key": "usa--fire--oklahoma",
     "source": "GN: Wildfire",
     "ts": 1778914842
+  },
+  {
+    "key": "australia--shark-attack--perth",
+    "source": "BBC World",
+    "ts": 1778915443
+  },
+  {
+    "key": "gaza--airstrike--hamas-leader",
+    "source": "GN: Strike Attack",
+    "ts": 1778915443
   }
 ]
