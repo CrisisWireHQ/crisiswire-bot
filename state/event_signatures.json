@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--tornado--wisconsin",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778907650
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778907650
-  },
-  {
-    "key": "nigeria--operation--isis-leader",
-    "source": "GN: Reuters",
-    "ts": 1778907650
-  },
-  {
     "key": "lebanon--airstrike--tyre",
     "source": "GN: Strike Attack",
     "ts": 1778907654
