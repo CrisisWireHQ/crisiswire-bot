@@ -133,5 +133,65 @@
     "key": "trusted-n12-reports-the-large-explosion",
     "source": "TG: Faytuks Network",
     "ts": 1778963442
+  },
+  {
+    "key": "usa--fire--crow-wing-county-minnesota",
+    "source": "GN: Wildfire",
+    "ts": 1778963588
+  },
+  {
+    "key": "cruise--outbreak--rat-virus",
+    "source": "GN: Outbreak",
+    "ts": 1778963588
+  },
+  {
+    "key": "usa--fire--antelope-valley-california",
+    "source": "GN: Wildfire",
+    "ts": 1778963594
+  },
+  {
+    "key": "usa--outbreak--salmonella-poultry",
+    "source": "GN: Outbreak",
+    "ts": 1778963594
+  },
+  {
+    "key": "usa--fire--corral-los-angeles-county",
+    "source": "GN: Wildfire",
+    "ts": 1778963597
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778963597
+  },
+  {
+    "key": "usa--crash--north-texas-dallas",
+    "source": "GN: Plane Crash",
+    "ts": 1778963598
+  },
+  {
+    "key": "nigeria--attack--yobe",
+    "source": "GN: Terror Attack",
+    "ts": 1778963598
+  },
+  {
+    "key": "italy--attack--modena",
+    "source": "GN: Terror Attack",
+    "ts": 1778963598
+  },
+  {
+    "key": "palestine--attack--hamas-leader",
+    "source": "GN: Strike Attack",
+    "ts": 1778963598
+  },
+  {
+    "key": "italy--attack--vehicle-stabbing",
+    "source": "GN: Breaking News",
+    "ts": 1778963598
+  },
+  {
+    "key": "lebanon--airstrike--paramedics",
+    "source": "GN: Strike Attack",
+    "ts": 1778963598
   }
 ]
