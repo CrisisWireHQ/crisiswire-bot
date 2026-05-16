@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--explosion--searsmont",
-    "source": "GN: Explosion",
-    "ts": 1778892648
-  },
-  {
     "key": "gaza--airstrike--hamas-leader",
     "source": "GN: Strike Attack",
     "ts": 1778893244
@@ -88,5 +83,35 @@
     "key": "usa--crash--atlantic-ocean",
     "source": "GN: Plane Crash",
     "ts": 1778895650
+  },
+  {
+    "key": "new-zealand--quake--kermadec-islands",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778896253
+  },
+  {
+    "key": "usa--hantavirus--ship",
+    "source": "Straits Times World",
+    "ts": 1778896255
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: CNN",
+    "ts": 1778896255
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778896255
+  },
+  {
+    "key": "palestine--airstrike--hamas-official",
+    "source": "GN: CNN",
+    "ts": 1778896255
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Breaking News",
+    "ts": 1778896255
   }
 ]
