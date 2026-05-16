@@ -1,20 +1,5 @@
 [
   {
-    "key": "cuba--power-outage--eastern-provinces",
-    "source": "GN: AP News",
-    "ts": 1778935848
-  },
-  {
-    "key": "gaza--strike--hamas-commander",
-    "source": "GN: Strike Attack",
-    "ts": 1778935851
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778935851
-  },
-  {
     "key": "philippines--quake--maguindanao-del-sur",
     "source": "GN: Earthquake",
     "ts": 1778936452
