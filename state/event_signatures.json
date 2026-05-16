@@ -1,30 +1,5 @@
 [
   {
-    "key": "trusted-pov-446371417-419355903",
-    "source": "X: @Osinttechnical",
-    "ts": 1778901637
-  },
-  {
-    "key": "usa--shooting--casper-wyoming",
-    "source": "GN: Breaking News",
-    "ts": 1778901642
-  },
-  {
-    "key": "usa--explosion--maine-lumber-facility",
-    "source": "GN: Explosion",
-    "ts": 1778901642
-  },
-  {
-    "key": "usa--hostage--florida-oklahoma-man",
-    "source": "GN: Hostage",
-    "ts": 1778901642
-  },
-  {
-    "key": "usa--attack--manhattan-upper-west-side",
-    "source": "GN: Breaking News",
-    "ts": 1778901642
-  },
-  {
     "key": "usa--explosion--lumber-facility",
     "source": "GN: Explosion",
     "ts": 1778902247
