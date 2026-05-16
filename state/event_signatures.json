@@ -2,31 +2,6 @@
   {
     "key": "vanuatu--quake--port-vila",
     "source": "USGS Quakes M4.5+",
-    "ts": 1778948446
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "CBS News World",
-    "ts": 1778948446
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778948446
-  },
-  {
-    "key": "palestine--attack--gaza",
-    "source": "Al Jazeera",
-    "ts": 1778948446
-  },
-  {
-    "key": "philippines--quake--mindanao",
-    "source": "GN: Earthquake",
-    "ts": 1778948446
-  },
-  {
-    "key": "vanuatu--quake--port-vila",
-    "source": "USGS Quakes M4.5+",
     "ts": 1778949044
   },
   {
@@ -148,5 +123,50 @@
     "key": "trusted-trump-administration-officials-are-encouraging",
     "source": "TG: Faytuks Network",
     "ts": 1778951628
+  },
+  {
+    "key": "nigeria--attack--yobe",
+    "source": "GN: Terror Attack",
+    "ts": 1778952047
+  },
+  {
+    "key": "usa--shooting--houston",
+    "source": "GN: Breaking News",
+    "ts": 1778952047
+  },
+  {
+    "key": "usa--fire--lake-county",
+    "source": "GN: Wildfire",
+    "ts": 1778952047
+  },
+  {
+    "key": "italy--attack--modena",
+    "source": "Guardian World",
+    "ts": 1778952047
+  },
+  {
+    "key": "antigua-barbuda--quake--magnitude-6",
+    "source": "GN: Earthquake",
+    "ts": 1778952051
+  },
+  {
+    "key": "antigua-barbuda--quake--magnitude-6",
+    "source": "GN: Earthquake",
+    "ts": 1778952051
+  },
+  {
+    "key": "italy--attack--modena",
+    "source": "GN: Reuters",
+    "ts": 1778952051
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778952051
+  },
+  {
+    "key": "usa--fire--sunland-park-western-playland",
+    "source": "GN: Wildfire",
+    "ts": 1778952052
   }
 ]
