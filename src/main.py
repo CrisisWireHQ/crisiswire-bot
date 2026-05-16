@@ -1,6 +1,7 @@
 import os
 import re
 import json
+import time
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -14,6 +15,12 @@ DRAFTS_PER_RUN = int(os.environ.get("DRAFTS_PER_RUN", "3"))
 #       Anything else does a full run.
 MODE = os.environ.get("MODE", "")
 TRUSTED_SOURCE_NAMES = {s["name"] for s in SOURCES if s.get("trusted")}
+# Google News RSS pubDate = when Google surfaced it, not when it was
+# written, so it re-surfaces stale stories with a fresh timestamp. After
+# resolving the real article we re-check its TRUE publish date and drop
+# anything older than this many hours. Generous so legit slightly-late
+# breaking still passes; tune via env.
+GN_STALE_MAX_HOURS = float(os.environ.get("GN_STALE_MAX_HOURS", "36"))
 
 
 def _trusted_event_key(title: str) -> str:
@@ -407,6 +414,20 @@ def poll_and_draft() -> int:
             if body and len(body) > len(item.get("summary", "")):
                 item["summary"] = body[:4000]
                 print(f"[enrich] {item['source_name']}: +{len(body)} chars from article body")
+
+            # Google News lies about freshness. Now that we have the real
+            # article, trust its own publish date over the RSS pubDate.
+            # Trusted/hantavirus bypass (editorially must not be dropped);
+            # only gate GN-sourced items where the bug actually originates.
+            pub_ts = enriched.get("published_ts")
+            if (pub_ts and not is_trusted and not is_hantavirus
+                    and item["source_name"].startswith("GN:")):
+                age_h = (time.time() - pub_ts) / 3600.0
+                if age_h > GN_STALE_MAX_HOURS:
+                    print(f"[stale] {item['source_name']}: true article age "
+                          f"{age_h:.0f}h > {GN_STALE_MAX_HOURS:.0f}h — skipping "
+                          f"{item['title'][:70]!r}")
+                    continue
         except Exception as e:
             print(f"[enrich] fetch failed: {e}")
 

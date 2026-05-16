@@ -3,9 +3,11 @@ redirect URLs to their actual destination so source-reply tweets cite the real
 outlet instead of a `news.google.com` link.
 """
 import base64
+import json
 import re
 import requests
 import trafilatura
+from datetime import datetime, timezone
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 
@@ -69,12 +71,99 @@ def resolve_url(url: str) -> str:
     return fallback or url
 
 
+def _parse_iso_ts(s: str) -> float | None:
+    """Best-effort parse of a date/datetime string to a UTC epoch."""
+    if not s or not isinstance(s, str):
+        return None
+    s = s.strip()
+    # Common ISO 8601 with optional 'Z'; also tolerate a bare date.
+    candidates = [s, s.replace("Z", "+00:00")]
+    for c in candidates:
+        try:
+            dt = datetime.fromisoformat(c)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.timestamp()
+        except ValueError:
+            pass
+    for fmt in ("%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%d %H:%M:%S",
+                "%Y-%m-%d", "%a, %d %b %Y %H:%M:%S %z", "%B %d, %Y"):
+        try:
+            dt = datetime.strptime(s, fmt)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.timestamp()
+        except ValueError:
+            continue
+    return None
+
+
+def _jsonld_dates(obj, out: list):
+    """Walk a JSON-LD structure collecting datePublished-like values."""
+    if isinstance(obj, dict):
+        for k in ("datePublished", "dateCreated", "uploadDate", "datePosted"):
+            v = obj.get(k)
+            if isinstance(v, str):
+                out.append(v)
+        for v in obj.values():
+            _jsonld_dates(v, out)
+    elif isinstance(obj, list):
+        for v in obj:
+            _jsonld_dates(v, out)
+
+
+def extract_publish_ts(html: str) -> float | None:
+    """True article publish time (UTC epoch) from page metadata, or None.
+
+    Google News RSS pubDate reflects when Google *surfaced* the article,
+    not when it was written, so an old re-surfaced story looks fresh. The
+    publisher's own page metadata is the only reliable age signal.
+    """
+    if not html:
+        return None
+    try:
+        soup = BeautifulSoup(html, "lxml")
+    except Exception:
+        return None
+
+    raw: list[str] = []
+    # 1. JSON-LD (most reliable, schema.org NewsArticle.datePublished)
+    for tag in soup.find_all("script", attrs={"type": "application/ld+json"}):
+        try:
+            _jsonld_dates(json.loads(tag.string or "{}"), raw)
+        except Exception:
+            continue
+    # 2. Meta tags used by major outlets
+    meta_props = ("article:published_time", "og:article:published_time")
+    meta_names = ("date", "pubdate", "publishdate", "publish-date",
+                  "parsely-pub-date", "sailthru.date", "dc.date",
+                  "dc.date.issued", "article.published")
+    for p in meta_props:
+        for t in soup.find_all("meta", attrs={"property": p}):
+            raw.append((t.get("content") or "").strip())
+    for n in meta_names:
+        for t in soup.find_all("meta", attrs={"name": n}):
+            raw.append((t.get("content") or "").strip())
+    for t in soup.find_all("meta", attrs={"itemprop": "datePublished"}):
+        raw.append((t.get("content") or "").strip())
+    # 3. First <time datetime=...>
+    tt = soup.find("time", attrs={"datetime": True})
+    if tt:
+        raw.append(tt.get("datetime", "").strip())
+
+    for s in raw:
+        ts = _parse_iso_ts(s)
+        if ts:
+            return ts
+    return None
+
+
 def fetch_article(url: str, max_chars: int = 4000) -> dict:
     """Fetch article body and resolve any Google News redirect.
 
-    Returns dict {'text': str, 'resolved_url': str}.
+    Returns dict {'text': str, 'resolved_url': str, 'published_ts': float|None}.
     """
-    result = {"text": "", "resolved_url": url}
+    result = {"text": "", "resolved_url": url, "published_ts": None}
     if not url or _is_telegram(url):
         return result
 
@@ -94,6 +183,12 @@ def fetch_article(url: str, max_chars: int = 4000) -> dict:
         )
         if text:
             result["text"] = re.sub(r"\n{3,}", "\n\n", text).strip()[:max_chars]
+        try:
+            result["published_ts"] = extract_publish_ts(
+                downloaded if isinstance(downloaded, str) else str(downloaded)
+            )
+        except Exception as e:
+            print(f"[article_fetcher] date parse failed for {target}: {e}")
     except Exception as e:
         print(f"[article_fetcher] extract failed for {target}: {e}")
 
