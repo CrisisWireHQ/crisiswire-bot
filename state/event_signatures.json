@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--explosion--lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1778961641
-  },
-  {
-    "key": "usa--crash--lincoln-county",
-    "source": "GN: Plane Crash",
-    "ts": 1778961641
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778961641
-  },
-  {
     "key": "italy--attack--car-and-stabbing",
     "source": "TG: Disclose.tv",
     "ts": 1778962243
