@@ -98,5 +98,20 @@
     "key": "gaza--airstrike--hamas-leader",
     "source": "GN: Strike Attack",
     "ts": 1778945453
+  },
+  {
+    "key": "antigua-and-barbuda--quake--regional",
+    "source": "GN: Earthquake",
+    "ts": 1778946055
+  },
+  {
+    "key": "solomon-islands--quake--auki",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778946055
+  },
+  {
+    "key": "palestine--shooting--jenin",
+    "source": "Al Jazeera",
+    "ts": 1778946057
   }
 ]
