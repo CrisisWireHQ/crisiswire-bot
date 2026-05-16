@@ -53,7 +53,9 @@ def process_approvals() -> tuple[int, int]:
         action = cb.get("data", "")
         msg = cb.get("message") or {}
         msg_text = msg.get("text") or msg.get("caption") or ""
-        is_photo = bool(msg.get("photo"))
+        # Photo AND video messages carry a caption (not text), so both must
+        # use editMessageCaption — hence is_photo covers video too.
+        is_photo = bool(msg.get("photo") or msg.get("video"))
         chat_id = (msg.get("chat") or {}).get("id")
         message_id = msg.get("message_id")
         callback_id = cb.get("id")
@@ -74,6 +76,7 @@ def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_p
     """Extract draft, post to X (image / quote-tweet if present), auto-reply with source, edit Telegram."""
     draft_text = telegram_io.extract_draft_from_message(msg_text)
     image_url = telegram_io.extract_image_url_from_message(msg_text)
+    video_url = telegram_io.extract_video_url_from_message(msg_text)
     # Quote-tweeting disabled (X API forbids it for accounts not in the conversation).
     # Any legacy 💬 lines in older Telegram drafts are ignored.
     quote_tweet_id = ""
@@ -104,8 +107,15 @@ def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_p
                 x_image_url = ""
         except Exception as e:
             print(f"[x_poster] og:image lookup failed (non-fatal): {e}")
+    # Video, when present, is the strongest media signal on X — pass it
+    # through; x_poster falls back to the image if the video upload fails.
     try:
-        result = x_poster.post(draft_text, image_url=x_image_url, quote_tweet_id=quote_tweet_id)
+        result = x_poster.post(
+            draft_text,
+            image_url=x_image_url,
+            video_url=video_url,
+            quote_tweet_id=quote_tweet_id,
+        )
         tweet_url = f"https://x.com/CrisisWireHQ/status/{result['id']}"
 
         # Record bot-posted tweet ID so x_self_mirror skips it (otherwise the
@@ -177,6 +187,7 @@ def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_p
                         pass
 
         tags = []
+        if result.get("had_video"): tags.append("🎬 video")
         if result.get("had_image"): tags.append("🖼 image")
         if result.get("had_quote"): tags.append("💬 quote")
         if reply_status: tags.append(reply_status)

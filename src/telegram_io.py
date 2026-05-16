@@ -9,8 +9,10 @@ API = f"https://api.telegram.org/bot{TOKEN}"
 
 DRAFT_SEP = "━━━━━━━━━━━━━━"
 IMG_LINE_PREFIX = "🖼 "
+VID_LINE_PREFIX = "🎬 "
 QT_LINE_PREFIX = "💬 Quote-tweeting: "
 _IMG_LINE_RE = re.compile(r"^🖼 (https?://\S+)", re.MULTILINE)
+_VID_LINE_RE = re.compile(r"^🎬 (https?://\S+)", re.MULTILINE)
 _QT_LINE_RE = re.compile(r"^💬 Quote-tweeting: (https?://\S+)", re.MULTILINE)
 _TWEET_ID_RE = re.compile(r"/status/(\d+)")
 
@@ -25,6 +27,7 @@ def _build_body(draft_text: str, item: dict, classification: dict) -> tuple[str,
     is_trusted = classification.get("is_trusted", False)
     confirming = classification.get("confirming_sources", [])
     image_url = (item.get("image_url") or "").strip()
+    video_url = (item.get("video_url") or "").strip()
     quote_url = (item.get("quote_tweet_url") or "").strip()
 
     if is_hantavirus:
@@ -71,6 +74,8 @@ def _build_body(draft_text: str, item: dict, classification: dict) -> tuple[str,
     )
     if image_url:
         body += f"\n{IMG_LINE_PREFIX}{image_url}"
+    if video_url:
+        body += f"\n{VID_LINE_PREFIX}{video_url}"
     if quote_url:
         body += f"\n{QT_LINE_PREFIX}{quote_url}"
     return body, image_url
@@ -95,12 +100,33 @@ def extract_source_url_from_message(message_text: str) -> str:
 
 def send_draft(draft_text: str, item: dict, classification: dict) -> dict:
     body, image_url = _build_body(draft_text, item, classification)
+    video_url = (item.get("video_url") or "").strip()
     keyboard = {
         "inline_keyboard": [[
             {"text": "✅ Approve & Post", "callback_data": "ok"},
             {"text": "❌ Reject", "callback_data": "no"},
         ]]
     }
+    # Prefer sending the actual video so the reviewer sees the clip before
+    # approving. Telegram fetches the CDN URL itself (URL sends cap ~20MB;
+    # Faytuks clips are short). Falls through to photo/text on any failure.
+    if video_url and len(body) <= 1024:
+        try:
+            r = requests.post(
+                f"{API}/sendVideo",
+                json={
+                    "chat_id": CHAT_ID,
+                    "video": video_url,
+                    "caption": body,
+                    "reply_markup": keyboard,
+                    "supports_streaming": True,
+                },
+                timeout=60,
+            )
+            r.raise_for_status()
+            return r.json()
+        except Exception as e:
+            print(f"[telegram] sendVideo failed ({e}); falling back to photo/text")
     # Telegram caption limit is 1024 chars; bail to text if we'd overflow.
     if image_url and len(body) <= 1024:
         try:
@@ -196,6 +222,11 @@ def extract_draft_from_message(message_text: str) -> str | None:
 
 def extract_image_url_from_message(message_text: str) -> str:
     m = _IMG_LINE_RE.search(message_text or "")
+    return m.group(1).strip() if m else ""
+
+
+def extract_video_url_from_message(message_text: str) -> str:
+    m = _VID_LINE_RE.search(message_text or "")
     return m.group(1).strip() if m else ""
 
 

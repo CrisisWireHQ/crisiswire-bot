@@ -165,6 +165,7 @@ def _from_tg(src: dict) -> list[dict]:
             "published": m["published"],
             "ts": ts,
             "image_url": m.get("image_url", ""),
+            "video_url": m.get("video_url", ""),
         }
         # Trusted firehose (e.g. Faytuks): we're competing with them, so don't
         # credit them in the post and don't link their telegram in the X reply.

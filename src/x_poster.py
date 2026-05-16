@@ -130,10 +130,70 @@ def _upload_image(image_url: str) -> str | None:
                 pass
 
 
-def post(text: str, image_url: str = "", quote_tweet_id: str = "") -> dict:
-    """Post a tweet, optionally with an attached image and/or as a quote-tweet."""
+MAX_VIDEO_BYTES = 200 * 1024 * 1024  # well under X's 512MB cap; bounds GH runner
+
+
+def _upload_video(video_url: str) -> str | None:
+    """Download a video and chunked-upload it to X. Returns media_id or None.
+
+    X requires async chunked upload (INIT/APPEND/FINALIZE) plus a STATUS
+    poll while it transcodes — tweepy's chunked media_upload with
+    wait_for_processing=True handles all of that and raises on failure."""
+    try:
+        r = requests.get(video_url, timeout=60, stream=True,
+                          headers={"User-Agent": _UA})
+        r.raise_for_status()
+        content = r.content
+    except Exception as e:
+        print(f"[x_poster] video download failed: {e}")
+        return None
+
+    if not (10_000 <= len(content) <= MAX_VIDEO_BYTES):
+        print(f"[x_poster] video size out of range ({len(content)} bytes), skipping")
+        return None
+
+    tmp_path = None
+    try:
+        with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as tmp:
+            tmp.write(content)
+            tmp_path = tmp.name
+        media = api().media_upload(
+            filename=tmp_path,
+            chunked=True,
+            media_category="tweet_video",
+            wait_for_processing=True,
+        )
+        return str(media.media_id_string)
+    except Exception as e:
+        print(f"[x_poster] X video upload failed: {e}")
+        return None
+    finally:
+        if tmp_path and os.path.exists(tmp_path):
+            try:
+                os.unlink(tmp_path)
+            except Exception:
+                pass
+
+
+def post(text: str, image_url: str = "", video_url: str = "",
+         quote_tweet_id: str = "") -> dict:
+    """Post a tweet, optionally with attached video/image and/or as a quote.
+
+    X allows only one media type per tweet; video is the stronger in-feed
+    signal, so it wins the slot. The image is the fallback if the video
+    upload fails (download/size/transcode)."""
     media_ids: list[str] = []
-    if image_url:
+    had_video = False
+    if video_url:
+        vid = _upload_video(video_url)
+        if vid:
+            media_ids.append(vid)
+            had_video = True
+            print(f"[x_poster] attached video media_id={vid}")
+        else:
+            print(f"[x_poster] video attachment failed; trying image fallback")
+
+    if not media_ids and image_url:
         mid = _upload_image(image_url)
         if mid:
             media_ids.append(mid)
@@ -152,7 +212,8 @@ def post(text: str, image_url: str = "", quote_tweet_id: str = "") -> dict:
     return {
         "id": resp.data["id"],
         "text": text,
-        "had_image": bool(media_ids),
+        "had_image": bool(media_ids) and not had_video,
+        "had_video": had_video,
         "had_quote": bool(quote_tweet_id),
     }
 
