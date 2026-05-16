@@ -1,10 +1,5 @@
 [
   {
-    "key": "philippines--quake--badak",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778932243
-  },
-  {
     "key": "ukraine--drone-strike--zaporozhye-npp",
     "source": "TASS English",
     "ts": 1778932851
@@ -133,5 +128,35 @@
     "key": "usa--crash--akron",
     "source": "GN: Plane Crash",
     "ts": 1778935250
+  },
+  {
+    "key": "palestine--attack--october-7-commander",
+    "source": "GN: Strike Attack",
+    "ts": 1778935845
+  },
+  {
+    "key": "maldives--rescue-death--cave-diving",
+    "source": "BBC World",
+    "ts": 1778935845
+  },
+  {
+    "key": "cuba--power-outage--eastern-provinces",
+    "source": "GN: AP News",
+    "ts": 1778935848
+  },
+  {
+    "key": "gaza--strike--hamas-commander",
+    "source": "GN: Strike Attack",
+    "ts": 1778935851
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778935851
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778935851
   }
 ]
