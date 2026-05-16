@@ -60,18 +60,8 @@
     "ts": 1778947258
   },
   {
-    "key": "usa--explosion--maine-mill",
-    "source": "GN: Explosion",
-    "ts": 1778947258
-  },
-  {
     "key": "usa--shooting--cincinnati-fairmount",
     "source": "GN: Breaking News",
-    "ts": 1778947258
-  },
-  {
-    "key": "usa--crash--dallas-plane",
-    "source": "GN: Plane Crash",
     "ts": 1778947258
   },
   {
@@ -115,16 +105,6 @@
     "ts": 1778948446
   },
   {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778948446
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778948446
-  },
-  {
     "key": "palestine--attack--gaza",
     "source": "Al Jazeera",
     "ts": 1778948446
@@ -135,8 +115,18 @@
     "ts": 1778948446
   },
   {
-    "key": "philippines--quake--mindanao",
+    "key": "vanuatu--quake--port-vila",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778949044
+  },
+  {
+    "key": "antigua-and-barbuda--quake--caribbean",
     "source": "GN: Earthquake",
-    "ts": 1778948446
+    "ts": 1778949044
+  },
+  {
+    "key": "usa--shooting--cincinnati",
+    "source": "GN: Breaking News",
+    "ts": 1778949044
   }
 ]
