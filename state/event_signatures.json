@@ -113,5 +113,20 @@
     "key": "trusted-via-httpstcotrhsqe4mbr",
     "source": "X: @Osinttechnical",
     "ts": 1778946639
+  },
+  {
+    "key": "solomon-islands--quake--main",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778946645
+  },
+  {
+    "key": "thailand--crash--bangkok",
+    "source": "Sky News",
+    "ts": 1778946645
+  },
+  {
+    "key": "usa--crash--forney",
+    "source": "GN: Plane Crash",
+    "ts": 1778946645
   }
 ]
