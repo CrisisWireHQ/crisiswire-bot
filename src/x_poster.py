@@ -3,11 +3,47 @@ import io
 import tempfile
 import requests
 import tweepy
+from PIL import Image
 
 _client_v2 = None
 _api_v1 = None
 MAX_IMAGE_BYTES = 5 * 1024 * 1024
 ALLOWED_IMAGE_TYPES = ("image/jpeg", "image/png", "image/gif", "image/webp")
+# Below this shorter-edge (px), the image visibly upscales/blurs in-feed.
+# Reject it so we either fall back to a better source or post clean text.
+MIN_IMAGE_EDGE = 480
+_UA = "Mozilla/5.0 (compatible; CrisisWireBot/1.0)"
+
+
+def _decoded_size(content: bytes) -> tuple[int, int]:
+    """(width, height) of image bytes, or (0, 0) if undecodable."""
+    try:
+        with Image.open(io.BytesIO(content)) as im:
+            return im.size
+    except Exception:
+        return (0, 0)
+
+
+def usable_image(image_url: str) -> bool:
+    """True if the URL resolves to an image whose shorter edge is large
+    enough to look sharp in-feed. Used to decide whether to fall back to a
+    higher-quality source before posting."""
+    if not image_url:
+        return False
+    try:
+        r = requests.get(image_url, timeout=15, headers={"User-Agent": _UA})
+        r.raise_for_status()
+    except Exception:
+        return False
+    if not (r.headers.get("content-type") or "").lower().startswith("image/"):
+        return False
+    content = r.content
+    if not (1000 <= len(content) <= MAX_IMAGE_BYTES):
+        return False
+    w, h = _decoded_size(content)
+    if w == 0:
+        return False
+    return min(w, h) >= MIN_IMAGE_EDGE
 
 
 def client() -> tweepy.Client:
@@ -60,6 +96,11 @@ def _upload_image(image_url: str) -> str | None:
         return None
     if len(content) < 1000:
         print(f"[x_poster] image suspiciously small ({len(content)} bytes), skipping")
+        return None
+
+    w, h = _decoded_size(content)
+    if w and min(w, h) < MIN_IMAGE_EDGE:
+        print(f"[x_poster] image too low-res ({w}x{h}, min edge < {MIN_IMAGE_EDGE}px), skipping")
         return None
 
     # Determine extension for tweepy

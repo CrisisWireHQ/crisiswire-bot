@@ -11,19 +11,44 @@ from . import tg_scraper, x_watcher
 _IMG_TAG_RE = re.compile(r'<img[^>]+src=["\']([^"\']+)["\']', re.IGNORECASE)
 
 
+# Feeds that ship one image at several resolutions list them as separate
+# media:content entries. Below this longest-edge (px) an image looks grainy
+# once X upscales it in-feed, so we treat it as a thumbnail-grade last resort.
+_MIN_GOOD_EDGE = 600
+
+
+def _img_area(m: dict) -> int:
+    """Declared pixel area of a media entry, or 0 if dimensions unknown."""
+    try:
+        w = int(float(m.get("width") or 0))
+        h = int(float(m.get("height") or 0))
+    except (TypeError, ValueError):
+        return 0
+    return w * h
+
+
+def _largest_edge(m: dict) -> int:
+    try:
+        return max(int(float(m.get("width") or 0)), int(float(m.get("height") or 0)))
+    except (TypeError, ValueError):
+        return 0
+
+
 def _extract_rss_image(entry) -> str:
-    media = entry.get("media_content")
+    # Among same-image-multiple-resolution media:content entries, take the
+    # biggest by declared area rather than the first (often the smallest).
+    media = [m for m in (entry.get("media_content") or []) if isinstance(m, dict) and m.get("url")]
     if media:
-        for m in media:
-            url = m.get("url") if isinstance(m, dict) else None
-            if url:
-                return url
-    thumb = entry.get("media_thumbnail")
-    if thumb:
-        for t in thumb:
-            url = t.get("url") if isinstance(t, dict) else None
-            if url:
-                return url
+        media.sort(key=_img_area, reverse=True)
+        best = media[0]
+        # If the best has known dimensions but is small, fall through to other
+        # sources first; only return it if nothing larger turns up.
+        if _img_area(best) == 0 or _largest_edge(best) >= _MIN_GOOD_EDGE:
+            return best["url"]
+        small_media_url = best["url"]
+    else:
+        small_media_url = ""
+
     enclosures = entry.get("enclosures") or []
     for e in enclosures:
         if not isinstance(e, dict):
@@ -32,12 +57,23 @@ def _extract_rss_image(entry) -> str:
             url = e.get("href") or e.get("url")
             if url:
                 return url
+
+    # media:thumbnail is explicitly a thumbnail — only worth it if we have
+    # nothing better at all.
+    thumb = entry.get("media_thumbnail")
+    if thumb:
+        for t in thumb:
+            url = t.get("url") if isinstance(t, dict) else None
+            if url:
+                return small_media_url or url
+
     summary = entry.get("summary", "") or entry.get("description", "")
     if summary:
         m = _IMG_TAG_RE.search(summary)
         if m:
-            return m.group(1)
-    return ""
+            return small_media_url or m.group(1)
+
+    return small_media_url
 
 PER_SOURCE_LIMIT = 15
 MAX_AGE_HOURS = float(os.environ.get("MAX_AGE_HOURS", "3"))

@@ -90,12 +90,18 @@ def _do_post_from_msg(msg_text: str, chat_id, message_id, callback_id=None, is_p
     # text tweet is the structural-sameness pattern the content classifier
     # down-ranks — a varied real photo is the only safe media boost on X.
     x_image_url = image_url
-    if not x_image_url and source_url:
+    # A grainy item image looks worse in-feed than the outlet's own story
+    # photo, so fall back to og:image when the primary is missing OR too
+    # low-res (not just when absent).
+    primary_ok = bool(image_url) and x_poster.usable_image(image_url)
+    if not primary_ok and source_url:
         try:
             og = article_fetcher.fetch_og_image(source_url)
-            if og:
+            if og and x_poster.usable_image(og):
                 x_image_url = og
                 print(f"[x_poster] using og:image fallback {og[:80]}")
+            elif not image_url:
+                x_image_url = ""
         except Exception as e:
             print(f"[x_poster] og:image lookup failed (non-fatal): {e}")
     try:
