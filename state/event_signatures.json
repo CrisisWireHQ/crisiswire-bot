@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--explosion--maine",
-    "source": "GN: Explosion",
-    "ts": 1778899845
-  },
-  {
-    "key": "bahamas--crash--ocean",
-    "source": "GN: Plane Crash",
-    "ts": 1778899845
-  },
-  {
     "key": "ukraine--missile-strike--kharkiv",
     "source": "GN: Strike Attack",
     "ts": 1778900443
