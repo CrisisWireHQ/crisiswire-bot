@@ -1,25 +1,5 @@
 [
   {
-    "key": "antigua-barbuda--quake--codrington",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778943667
-  },
-  {
-    "key": "vanuatu--quake--port-vila",
-    "source": "GN: Earthquake",
-    "ts": 1778943670
-  },
-  {
-    "key": "usa--explosion--searsmont",
-    "source": "GN: Explosion",
-    "ts": 1778943670
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778943670
-  },
-  {
     "key": "dr-congo--outbreak--bundibugyo",
     "source": "France 24 Intl",
     "ts": 1778944246
