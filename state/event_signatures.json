@@ -1,25 +1,5 @@
 [
   {
-    "key": "palestine--airstrike--gaza-city",
-    "source": "GN: Strike Attack",
-    "ts": 1778947851
-  },
-  {
-    "key": "antigua-and-barbuda--quake--regional",
-    "source": "GN: Earthquake",
-    "ts": 1778947851
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "Guardian World",
-    "ts": 1778947851
-  },
-  {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1778947851
-  },
-  {
     "key": "vanuatu--quake--port-vila",
     "source": "USGS Quakes M4.5+",
     "ts": 1778948446
@@ -133,5 +113,35 @@
     "key": "gaza--airstrike--gaza-city",
     "source": "GN: Strike Attack",
     "ts": 1778950856
+  },
+  {
+    "key": "romania--attack--southeast",
+    "source": "Straits Times World",
+    "ts": 1778951449
+  },
+  {
+    "key": "italy--attack--modena",
+    "source": "TASS English",
+    "ts": 1778951452
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778951452
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778951452
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778951452
+  },
+  {
+    "key": "lebanon--airstrike--ongoing",
+    "source": "GN: Strike Attack",
+    "ts": 1778951452
   }
 ]
