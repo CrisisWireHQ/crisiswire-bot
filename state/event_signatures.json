@@ -158,5 +158,20 @@
     "key": "ukraine--drone-strike--russia",
     "source": "TASS English",
     "ts": 1778938241
+  },
+  {
+    "key": "nigeria--airstrike--northeast",
+    "source": "GN: Strike Attack",
+    "ts": 1778938841
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778938841
+  },
+  {
+    "key": "philippines--fire--tinago",
+    "source": "GN: Breaking News",
+    "ts": 1778938841
   }
 ]
