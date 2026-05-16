@@ -173,5 +173,20 @@
     "key": "italy--attack--modena",
     "source": "Times of Israel",
     "ts": 1778964640
+  },
+  {
+    "key": "usa--tornado--clinton-county-illinois",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778965247
+  },
+  {
+    "key": "canada--hantavirus--mv-hondius",
+    "source": "TASS English",
+    "ts": 1778965247
+  },
+  {
+    "key": "usa--shooting--memphis-frayser",
+    "source": "GN: Mass Shooting",
+    "ts": 1778965247
   }
 ]
