@@ -123,5 +123,30 @@
     "key": "india--hostage-release--manipur",
     "source": "GN: Hostage",
     "ts": 1778950250
+  },
+  {
+    "key": "italy--attack--modena",
+    "source": "Straits Times World",
+    "ts": 1778950850
+  },
+  {
+    "key": "caribbean--quake--islands",
+    "source": "GN: Earthquake",
+    "ts": 1778950850
+  },
+  {
+    "key": "usa--threat--arkansas",
+    "source": "GN: Mass Shooting",
+    "ts": 1778950853
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778950856
+  },
+  {
+    "key": "gaza--airstrike--gaza-city",
+    "source": "GN: Strike Attack",
+    "ts": 1778950856
   }
 ]
