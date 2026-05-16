@@ -1,30 +1,5 @@
 [
   {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1778950247
-  },
-  {
-    "key": "none",
-    "source": "GN: Outbreak",
-    "ts": 1778950247
-  },
-  {
-    "key": "sudan--military-operation--blue-nile",
-    "source": "Al Jazeera",
-    "ts": 1778950247
-  },
-  {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1778950250
-  },
-  {
-    "key": "india--hostage-release--manipur",
-    "source": "GN: Hostage",
-    "ts": 1778950250
-  },
-  {
     "key": "italy--attack--modena",
     "source": "Straits Times World",
     "ts": 1778950850
@@ -168,5 +143,20 @@
     "key": "usa--quake--upstate",
     "source": "GN: Earthquake",
     "ts": 1778953254
+  },
+  {
+    "key": "france--hantavirus--cruise",
+    "source": "GN: Outbreak",
+    "ts": 1778953849
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778953852
+  },
+  {
+    "key": "france--hantavirus--cruise",
+    "source": "France 24 Intl",
+    "ts": 1778953855
   }
 ]
