@@ -1,40 +1,5 @@
 [
   {
-    "key": "canada--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778966463
-  },
-  {
-    "key": "usa--tornado--illinois-marion-county",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778966463
-  },
-  {
-    "key": "usa--food-poisoning--utah",
-    "source": "GN: Outbreak",
-    "ts": 1778966463
-  },
-  {
-    "key": "nigeria--attack--yobe",
-    "source": "GN: Terror Attack",
-    "ts": 1778966463
-  },
-  {
-    "key": "usa--crash--texas-forney",
-    "source": "GN: Plane Crash",
-    "ts": 1778966466
-  },
-  {
-    "key": "palestine--strike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778966466
-  },
-  {
-    "key": "nigeria--attack--isis-leader",
-    "source": "GN: Strike Attack",
-    "ts": 1778966466
-  },
-  {
     "key": "usa--explosion--belpre-ohio",
     "source": "GN: Explosion",
     "ts": 1778967068
