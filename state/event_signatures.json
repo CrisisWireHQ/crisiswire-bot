@@ -53,5 +53,25 @@
     "key": "japan--quake--honshu",
     "source": "GN: Earthquake",
     "ts": 1778925643
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778926254
+  },
+  {
+    "key": "palestine--strike--gaza",
+    "source": "GN: Reuters",
+    "ts": 1778926254
+  },
+  {
+    "key": "indonesia--quake--palu",
+    "source": "GN: Earthquake",
+    "ts": 1778926254
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778926256
   }
 ]
