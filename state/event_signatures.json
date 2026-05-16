@@ -33,5 +33,15 @@
     "key": "usa--plane-crash--akron",
     "source": "GN: Plane Crash",
     "ts": 1778923247
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778923850
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "Straits Times World",
+    "ts": 1778923850
   }
 ]
