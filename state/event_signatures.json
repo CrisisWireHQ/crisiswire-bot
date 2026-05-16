@@ -143,5 +143,20 @@
     "key": "usa--shooting--austin",
     "source": "GN: Mass Shooting",
     "ts": 1778974616
+  },
+  {
+    "key": "usa--tornado--sherman-county-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778974834
+  },
+  {
+    "key": "usa--fire--antelope-valley-california",
+    "source": "GN: Wildfire",
+    "ts": 1778974834
+  },
+  {
+    "key": "usa--fire--crow-wing-county-minnesota",
+    "source": "GN: Wildfire",
+    "ts": 1778974834
   }
 ]
