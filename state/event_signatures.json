@@ -1,30 +1,5 @@
 [
   {
-    "key": "gaza--airstrike--haddad-killed",
-    "source": "Times of India World",
-    "ts": 1778940047
-  },
-  {
-    "key": "maldives--diving-death--cave-rescue",
-    "source": "GN: AP News",
-    "ts": 1778940047
-  },
-  {
-    "key": "gaza--airstrike--hamas-chief-killed",
-    "source": "GN: Strike Attack",
-    "ts": 1778940050
-  },
-  {
-    "key": "usa--explosion--searsmont-maine",
-    "source": "GN: Explosion",
-    "ts": 1778940050
-  },
-  {
-    "key": "ukraine--missile-strike--kryvyi-rih",
-    "source": "GN: Strike Attack",
-    "ts": 1778940050
-  },
-  {
     "key": "nigeria--attack--borno",
     "source": "Straits Times World",
     "ts": 1778940645
@@ -153,5 +128,35 @@
     "key": "thailand--crash--freight-train-bus",
     "source": "GN: Reuters",
     "ts": 1778943042
+  },
+  {
+    "key": "antigua-barbuda--quake--codrington",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778943667
+  },
+  {
+    "key": "vanuatu--quake--port-vila",
+    "source": "GN: Earthquake",
+    "ts": 1778943670
+  },
+  {
+    "key": "vanuatu--quake--port-vila",
+    "source": "GN: Earthquake",
+    "ts": 1778943670
+  },
+  {
+    "key": "usa--explosion--searsmont",
+    "source": "GN: Explosion",
+    "ts": 1778943670
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778943670
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778943670
   }
 ]
