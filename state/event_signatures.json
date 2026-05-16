@@ -1,25 +1,5 @@
 [
   {
-    "key": "ukraine--drone-strike--zaporozhye-npp",
-    "source": "TASS English",
-    "ts": 1778932851
-  },
-  {
-    "key": "israel--airstrike--gaza-hamas-leader",
-    "source": "GN: Strike Attack",
-    "ts": 1778932851
-  },
-  {
-    "key": "thailand--crash--bangkok-train-bus",
-    "source": "GN: Breaking News",
-    "ts": 1778932851
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778932851
-  },
-  {
     "key": "israel--airstrike--gaza",
     "source": "GN: Strike Attack",
     "ts": 1778933585
@@ -158,5 +138,30 @@
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778935851
+  },
+  {
+    "key": "philippines--quake--maguindanao-del-sur",
+    "source": "GN: Earthquake",
+    "ts": 1778936452
+  },
+  {
+    "key": "usa--explosion--maine-mill",
+    "source": "GN: Explosion",
+    "ts": 1778936452
+  },
+  {
+    "key": "maldives--diving-incident--cave-drowning",
+    "source": "Times of India World",
+    "ts": 1778936452
+  },
+  {
+    "key": "philippines--quake--south-cotabato",
+    "source": "GN: Earthquake",
+    "ts": 1778936454
+  },
+  {
+    "key": "nigeria--isis-leader-killed--location-unspecified",
+    "source": "GN: Breaking News",
+    "ts": 1778936454
   }
 ]
