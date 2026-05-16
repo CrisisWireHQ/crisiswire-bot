@@ -163,5 +163,15 @@
     "key": "gaza--airstrike--hamas-military-wing",
     "source": "GN: Strike Attack",
     "ts": 1778931150
+  },
+  {
+    "key": "thailand--crash--bangkok",
+    "source": "BBC World",
+    "ts": 1778931640
+  },
+  {
+    "key": "israel--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778931640
   }
 ]
