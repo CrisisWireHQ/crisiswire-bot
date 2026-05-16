@@ -1,30 +1,5 @@
 [
   {
-    "key": "usa--evacuation--capitans-new-mexico",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778970050
-  },
-  {
-    "key": "usa--hantavirus--retrospective",
-    "source": "GN: Outbreak",
-    "ts": 1778970050
-  },
-  {
-    "key": "usa--tornado-watch--missouri",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778970050
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778970050
-  },
-  {
-    "key": "usa--fire--duluth-minnesota",
-    "source": "GN: Wildfire",
-    "ts": 1778970050
-  },
-  {
     "key": "usa--crash--akron",
     "source": "GN: Plane Crash",
     "ts": 1778970650
