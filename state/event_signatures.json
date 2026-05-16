@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--tornado--clinton-county-illinois",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778965247
-  },
-  {
-    "key": "canada--hantavirus--mv-hondius",
-    "source": "TASS English",
-    "ts": 1778965247
-  },
-  {
-    "key": "usa--shooting--memphis-frayser",
-    "source": "GN: Mass Shooting",
-    "ts": 1778965247
-  },
-  {
     "key": "usa--fire--arizona",
     "source": "GN: Wildfire",
     "ts": 1778965848
