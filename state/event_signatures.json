@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--fire--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1778898650
-  },
-  {
-    "key": "usa--fire--texas-panhandle",
-    "source": "GN: Wildfire",
-    "ts": 1778898653
-  },
-  {
     "key": "usa--outbreak--king-county-hantavirus",
     "source": "GN: Outbreak",
     "ts": 1778899249
