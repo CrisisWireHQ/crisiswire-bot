@@ -90,11 +90,6 @@
     "ts": 1778902845
   },
   {
-    "key": "usa--explosion--searsmont-maine",
-    "source": "GN: Explosion",
-    "ts": 1778902845
-  },
-  {
     "key": "usa--attack--nyc-synagogue",
     "source": "GN: Terror Attack",
     "ts": 1778902845
@@ -102,11 +97,6 @@
   {
     "key": "japan--quake--northern-japan",
     "source": "GN: Earthquake",
-    "ts": 1778903443
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
     "ts": 1778903443
   },
   {
