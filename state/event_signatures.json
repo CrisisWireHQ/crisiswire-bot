@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--tornado--iowa-cerro-gordo",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778896849
-  },
-  {
-    "key": "usa--gastroenteritis--cruise-ships",
-    "source": "Straits Times World",
-    "ts": 1778896849
-  },
-  {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1778896853
-  },
-  {
     "key": "congo--outbreak--ituri",
     "source": "Straits Times World",
     "ts": 1778898054
