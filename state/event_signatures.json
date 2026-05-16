@@ -1,35 +1,5 @@
 [
   {
-    "key": "indonesia--quake--bugalaga",
-    "source": "GN: Earthquake",
-    "ts": 1778967648
-  },
-  {
-    "key": "kyrgyzstan--quake--chinese-border",
-    "source": "GN: Earthquake",
-    "ts": 1778967648
-  },
-  {
-    "key": "usa--tornado-warning--salem-missouri",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778967648
-  },
-  {
-    "key": "none",
-    "source": "GN: Mass Shooting",
-    "ts": 1778967650
-  },
-  {
-    "key": "usa--quake--loma-linda-california",
-    "source": "GN: Earthquake",
-    "ts": 1778967653
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778967653
-  },
-  {
     "key": "usa--tornado--missouri-iowa",
     "source": "NOAA NWS Extreme",
     "ts": 1778968248
