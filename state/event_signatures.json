@@ -43,5 +43,10 @@
     "key": "usa--explosion--maine",
     "source": "GN: Explosion",
     "ts": 1778913652
+  },
+  {
+    "key": "tonga--quake--hihifo",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778914246
   }
 ]
