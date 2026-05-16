@@ -153,5 +153,15 @@
     "key": "palestine--airstrike--gaza",
     "source": "GN: Strike Attack",
     "ts": 1778937658
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1778938241
+  },
+  {
+    "key": "ukraine--drone-strike--russia",
+    "source": "TASS English",
+    "ts": 1778938241
   }
 ]
