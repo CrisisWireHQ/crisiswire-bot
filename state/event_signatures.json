@@ -1,15 +1,5 @@
 [
   {
-    "key": "palestine--airstrike--gaza-city",
-    "source": "Al Jazeera",
-    "ts": 1778904040
-  },
-  {
-    "key": "ukraine--attack--odesa",
-    "source": "GN: Terror Attack",
-    "ts": 1778904040
-  },
-  {
     "key": "nigeria--attack--isis-commander",
     "source": "GN: CNN",
     "ts": 1778905256
@@ -78,5 +68,30 @@
     "key": "usa--fire--minnesota-northeast",
     "source": "GN: Wildfire",
     "ts": 1778907040
+  },
+  {
+    "key": "usa--tornado--wisconsin",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778907650
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778907650
+  },
+  {
+    "key": "nigeria--operation--isis-leader",
+    "source": "GN: Reuters",
+    "ts": 1778907650
+  },
+  {
+    "key": "lebanon--airstrike--tyre",
+    "source": "GN: Strike Attack",
+    "ts": 1778907654
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778907654
   }
 ]
