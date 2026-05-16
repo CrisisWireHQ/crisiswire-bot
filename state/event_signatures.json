@@ -93,5 +93,15 @@
     "key": "india--hostage-kidnapping--bengaluru",
     "source": "GN: Hostage",
     "ts": 1778891446
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: CNN",
+    "ts": 1778892039
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778892039
   }
 ]
