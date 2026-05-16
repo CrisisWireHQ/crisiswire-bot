@@ -23,5 +23,10 @@
     "key": "nigeria--attack--isis-leader-killed",
     "source": "NPR World",
     "ts": 1778920274
+  },
+  {
+    "key": "usa--explosion--new-orleans",
+    "source": "GN: AP News",
+    "ts": 1778921578
   }
 ]
