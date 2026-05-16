@@ -143,5 +143,35 @@
     "key": "gaza--strike--civilian-vehicle",
     "source": "GN: Strike Attack",
     "ts": 1778970650
+  },
+  {
+    "key": "usa--plane-crash--dallas",
+    "source": "GN: Plane Crash",
+    "ts": 1778971242
+  },
+  {
+    "key": "usa--outbreak--california-mushroom",
+    "source": "GN: Outbreak",
+    "ts": 1778971242
+  },
+  {
+    "key": "ukraine--explosion--dnipropetrovsk",
+    "source": "TASS English",
+    "ts": 1778971242
+  },
+  {
+    "key": "israel--airstrike--hamas-chief",
+    "source": "GN: Strike Attack",
+    "ts": 1778971246
+  },
+  {
+    "key": "canada--outbreak--cruise-ship-hantavirus",
+    "source": "GN: Outbreak",
+    "ts": 1778971246
+  },
+  {
+    "key": "usa--shooting--iowa-city",
+    "source": "GN: Mass Shooting",
+    "ts": 1778971246
   }
 ]
