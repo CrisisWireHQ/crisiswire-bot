@@ -1,35 +1,5 @@
 [
   {
-    "key": "new-zealand--quake--kermadec-islands",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1778896253
-  },
-  {
-    "key": "usa--hantavirus--ship",
-    "source": "Straits Times World",
-    "ts": 1778896255
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: CNN",
-    "ts": 1778896255
-  },
-  {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1778896255
-  },
-  {
-    "key": "palestine--airstrike--hamas-official",
-    "source": "GN: CNN",
-    "ts": 1778896255
-  },
-  {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Breaking News",
-    "ts": 1778896255
-  },
-  {
     "key": "usa--tornado--iowa-cerro-gordo",
     "source": "NOAA NWS Extreme",
     "ts": 1778896849
