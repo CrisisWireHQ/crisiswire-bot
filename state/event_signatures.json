@@ -1,15 +1,5 @@
 [
   {
-    "key": "japan--quake--northern",
-    "source": "GN: Earthquake",
-    "ts": 1778907040
-  },
-  {
-    "key": "usa--fire--minnesota-northeast",
-    "source": "GN: Wildfire",
-    "ts": 1778907040
-  },
-  {
     "key": "usa--tornado--wisconsin",
     "source": "NOAA NWS Extreme",
     "ts": 1778907650
@@ -128,5 +118,15 @@
     "key": "usa--outbreak--hantavirus-cruise",
     "source": "GN: Outbreak",
     "ts": 1778910043
+  },
+  {
+    "key": "usa--strike--long-island-rail-road",
+    "source": "GN: CNN",
+    "ts": 1778910640
+  },
+  {
+    "key": "nigeria--attack--isis-commander",
+    "source": "GN: CNN",
+    "ts": 1778910640
   }
 ]
