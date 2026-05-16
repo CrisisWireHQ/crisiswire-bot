@@ -163,5 +163,40 @@
     "key": "nigeria--isis-leader-killed--location-unspecified",
     "source": "GN: Breaking News",
     "ts": 1778936454
+  },
+  {
+    "key": "russia--explosion--pyatigorsk",
+    "source": "GN: Explosion",
+    "ts": 1778937045
+  },
+  {
+    "key": "gaza--airstrike--hamas-commander",
+    "source": "GN: Strike Attack",
+    "ts": 1778937045
+  },
+  {
+    "key": "maldives--drowning-rescue--italian-divers",
+    "source": "GN: Breaking News",
+    "ts": 1778937045
+  },
+  {
+    "key": "gaza--airstrike--hamas-commander",
+    "source": "France 24 Intl",
+    "ts": 1778937045
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778937045
+  },
+  {
+    "key": "lebanon--airstrike--tyre",
+    "source": "GN: Strike Attack",
+    "ts": 1778937045
+  },
+  {
+    "key": "nepal--quake--western",
+    "source": "GN: Earthquake",
+    "ts": 1778937046
   }
 ]
