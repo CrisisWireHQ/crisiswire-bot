@@ -1,35 +1,5 @@
 [
   {
-    "key": "italy--attack--car-and-stabbing",
-    "source": "TG: Disclose.tv",
-    "ts": 1778962243
-  },
-  {
-    "key": "gaza--airstrike--hamas-commander",
-    "source": "GN: Strike Attack",
-    "ts": 1778962243
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778962243
-  },
-  {
-    "key": "canada--fire--sundre",
-    "source": "GN: Wildfire",
-    "ts": 1778962243
-  },
-  {
-    "key": "italy--attack--modena",
-    "source": "GN: Breaking News",
-    "ts": 1778962243
-  },
-  {
-    "key": "gaza--airstrike--al-haddad",
-    "source": "GN: Strike Attack",
-    "ts": 1778962243
-  },
-  {
     "key": "trusted-residents-near-israels-beit-shemesh",
     "source": "TG: Faytuks Network",
     "ts": 1778962719
@@ -188,5 +158,20 @@
     "key": "usa--shooting--memphis-frayser",
     "source": "GN: Mass Shooting",
     "ts": 1778965247
+  },
+  {
+    "key": "usa--fire--arizona",
+    "source": "GN: Wildfire",
+    "ts": 1778965848
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778965848
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778965848
   }
 ]
