@@ -163,5 +163,35 @@
     "key": "trusted-italian-authorities-identified-the-driver",
     "source": "TG: Faytuks Network",
     "ts": 1778959003
+  },
+  {
+    "key": "usa--fire--two-harbors-minnesota",
+    "source": "GN: Wildfire",
+    "ts": 1778959241
+  },
+  {
+    "key": "italy--attack--modena",
+    "source": "GN: Terror Attack",
+    "ts": 1778959241
+  },
+  {
+    "key": "thailand--crash--bangkok",
+    "source": "Al Jazeera",
+    "ts": 1778959241
+  },
+  {
+    "key": "italy--attack--vehicle-crowd",
+    "source": "GN: CNN",
+    "ts": 1778959241
+  },
+  {
+    "key": "palestinian-territories--airstrike--gaza-city",
+    "source": "GN: Strike Attack",
+    "ts": 1778959241
+  },
+  {
+    "key": "palestinian-territories--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778959244
   }
 ]
