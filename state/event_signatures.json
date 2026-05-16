@@ -63,5 +63,20 @@
     "key": "ukraine--strike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1778911841
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "France 24 Intl",
+    "ts": 1778913047
+  },
+  {
+    "key": "vanuatu--quake--port-vila",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778913047
+  },
+  {
+    "key": "nigeria--airstrike--islamic-state-leader",
+    "source": "GN: AP News",
+    "ts": 1778913050
   }
 ]
