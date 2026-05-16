@@ -78,5 +78,25 @@
     "key": "bahamas--crash--aircraft",
     "source": "GN: Plane Crash",
     "ts": 1778905846
+  },
+  {
+    "key": "usa--tornado--grant-county-wisconsin",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778906450
+  },
+  {
+    "key": "gaza--airstrike--hamas-leader",
+    "source": "GN: Strike Attack",
+    "ts": 1778906450
+  },
+  {
+    "key": "gaza--airstrike--hamas-military-wing",
+    "source": "GN: Strike Attack",
+    "ts": 1778906450
+  },
+  {
+    "key": "lebanon--strike--paramedics",
+    "source": "GN: Strike Attack",
+    "ts": 1778906450
   }
 ]
