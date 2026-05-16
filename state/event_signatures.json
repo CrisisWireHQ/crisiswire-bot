@@ -133,5 +133,25 @@
     "key": "philippines--fire--tinago",
     "source": "GN: Breaking News",
     "ts": 1778938841
+  },
+  {
+    "key": "usa--fire--two-harbors-minnesota",
+    "source": "GN: Wildfire",
+    "ts": 1778939451
+  },
+  {
+    "key": "greece--drone-attack--island",
+    "source": "GN: AP News",
+    "ts": 1778939451
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Breaking News",
+    "ts": 1778939455
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1778939455
   }
 ]
