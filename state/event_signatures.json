@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1778905846
-  },
-  {
-    "key": "usa--quake--arizona",
-    "source": "GN: Earthquake",
-    "ts": 1778905846
-  },
-  {
-    "key": "bahamas--crash--aircraft",
-    "source": "GN: Plane Crash",
-    "ts": 1778905846
-  },
-  {
     "key": "usa--tornado--grant-county-wisconsin",
     "source": "NOAA NWS Extreme",
     "ts": 1778906450
