@@ -58,5 +58,30 @@
     "key": "ukraine--attack--odesa",
     "source": "GN: Terror Attack",
     "ts": 1778904040
+  },
+  {
+    "key": "nigeria--attack--isis-commander",
+    "source": "GN: CNN",
+    "ts": 1778905256
+  },
+  {
+    "key": "japan--quake--northern",
+    "source": "GN: Earthquake",
+    "ts": 1778905256
+  },
+  {
+    "key": "usa--outbreak--hantavirus",
+    "source": "Straits Times World",
+    "ts": 1778905256
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1778905256
+  },
+  {
+    "key": "congo--ebola-outbreak--drc",
+    "source": "GN: Outbreak",
+    "ts": 1778905256
   }
 ]
