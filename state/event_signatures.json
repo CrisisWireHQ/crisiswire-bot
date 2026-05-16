@@ -68,5 +68,25 @@
     "key": "usa--explosion--searsmont-maine",
     "source": "GN: Breaking News",
     "ts": 1778895048
+  },
+  {
+    "key": "usa--tornado--iowa-floyd-county",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778895644
+  },
+  {
+    "key": "unknown--ebola--cross-border",
+    "source": "GN: Outbreak",
+    "ts": 1778895647
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778895650
+  },
+  {
+    "key": "usa--crash--atlantic-ocean",
+    "source": "GN: Plane Crash",
+    "ts": 1778895650
   }
 ]
