@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--fire--birmingham-alabama",
-    "source": "GN: Breaking News",
-    "ts": 1778886048
-  },
-  {
-    "key": "usa--quake--the-geysers-california",
-    "source": "GN: Earthquake",
-    "ts": 1778886048
-  },
-  {
-    "key": "usa--explosion--searsmont-maine",
-    "source": "GN: Explosion",
-    "ts": 1778886048
-  },
-  {
     "key": "palestine--airstrike--gaza",
     "source": "GN: Strike Attack",
     "ts": 1778886650
@@ -118,5 +103,15 @@
     "key": "usa--explosion--searsmont-maine",
     "source": "GN: Explosion",
     "ts": 1778889053
+  },
+  {
+    "key": "usa--attack--new-york-upper-west-side",
+    "source": "GN: Breaking News",
+    "ts": 1778889653
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778889653
   }
 ]
