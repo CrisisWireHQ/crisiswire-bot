@@ -1,40 +1,5 @@
 [
   {
-    "key": "usa--fire--st-louis-county",
-    "source": "GN: Wildfire",
-    "ts": 1778942448
-  },
-  {
-    "key": "drc--outbreak--ebola",
-    "source": "CBS News World",
-    "ts": 1778942448
-  },
-  {
-    "key": "usa--quake--upstate",
-    "source": "GN: Earthquake",
-    "ts": 1778942448
-  },
-  {
-    "key": "thailand--crash--bangkok",
-    "source": "Guardian World",
-    "ts": 1778942448
-  },
-  {
-    "key": "usa--explosion--searsmont-maine",
-    "source": "GN: Explosion",
-    "ts": 1778942448
-  },
-  {
-    "key": "israel--strike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778942448
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778942448
-  },
-  {
     "key": "usa--fire--loveland-colorado",
     "source": "GN: Wildfire",
     "ts": 1778942735
