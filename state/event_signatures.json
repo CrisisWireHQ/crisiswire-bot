@@ -153,5 +153,30 @@
     "key": "gaza--airstrike--hamas",
     "source": "GN: Strike Attack",
     "ts": 1778955196
+  },
+  {
+    "key": "antigua-and-barbuda--quake--caribbean",
+    "source": "GN: Earthquake",
+    "ts": 1778955651
+  },
+  {
+    "key": "italy--attack--crowd",
+    "source": "GN: CNN",
+    "ts": 1778955651
+  },
+  {
+    "key": "usa--quake--california",
+    "source": "GN: Earthquake",
+    "ts": 1778955651
+  },
+  {
+    "key": "cruise-ship--hantavirus--outbreak",
+    "source": "GN: Outbreak",
+    "ts": 1778955653
+  },
+  {
+    "key": "congo--ebola--outbreak",
+    "source": "GN: Outbreak",
+    "ts": 1778955656
   }
 ]
