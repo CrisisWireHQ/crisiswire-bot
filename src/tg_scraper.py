@@ -69,7 +69,14 @@ def fetch_channel(channel: str, max_messages: int = 15) -> list[dict]:
 
         date_a = block.select_one("a.tgme_widget_message_date")
         link = date_a.get("href", "").strip() if date_a else ""
-        time_el = block.select_one("time")
+        # Prefer the message date link's <time datetime>; some posts (esp.
+        # video / grouped media) put an unrelated <time> first, so fall back
+        # to any timestamped <time> before the bare first one.
+        time_el = (
+            block.select_one("a.tgme_widget_message_date time[datetime]")
+            or block.select_one("time[datetime]")
+            or block.select_one("time")
+        )
         published = time_el.get("datetime", "") if time_el else ""
         image_url = _extract_image(block)
 

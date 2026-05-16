@@ -145,6 +145,14 @@ def _from_tg(src: dict) -> list[dict]:
     kept = 0
     for m in msgs:
         ts = _to_epoch_iso(m["published"])
+        if ts is None and src.get("trusted"):
+            # Trusted firehose: an unparseable/missing scrape timestamp must
+            # NOT silently drop the item (this is what swallowed Faytuks
+            # video posts). The t.me/s/ preview only renders the most recent
+            # messages, so it's recent by construction; seen.json still
+            # prevents re-drafting. Non-trusted keeps the conservative drop.
+            print(f"[poller] {src['name']}: no ts for {m.get('link','')} — trusted, keeping")
+            ts = time.time()
         if not _is_fresh(ts):
             continue
         item = {
