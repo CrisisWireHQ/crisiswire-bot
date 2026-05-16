@@ -143,5 +143,20 @@
     "key": "usa--shooting--iowa-city",
     "source": "GN: Mass Shooting",
     "ts": 1778971246
+  },
+  {
+    "key": "none",
+    "source": "GN: AP News",
+    "ts": 1778971845
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778971845
+  },
+  {
+    "key": "canada--outbreak--hantavirus",
+    "source": "GN: Outbreak",
+    "ts": 1778971845
   }
 ]
