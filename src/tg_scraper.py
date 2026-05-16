@@ -32,12 +32,28 @@ def _extract_image(block) -> str:
         m = _BG_IMG_RE.search(photo["style"])
         if m:
             return m.group(1).strip()
-    # Video preview thumbnail
-    video = block.select_one("a.tgme_widget_message_video_thumb")
+    # Video poster thumbnail. NOTE: Telegram renders this as an <i> (and
+    # historically <a>), so match the class on ANY tag — the old
+    # `a.tgme_widget_message_video_thumb` selector silently missed every
+    # video post, sending them out as bare text.
+    video = block.select_one(".tgme_widget_message_video_thumb")
     if video and video.get("style"):
         m = _BG_IMG_RE.search(video["style"])
         if m:
             return m.group(1).strip()
+    return ""
+
+
+def _extract_video_url(block) -> str:
+    """Direct CDN .mp4 URL for a video message, or '' if none.
+
+    t.me/s/ serves a playable <video src> for most clips (it's the preview
+    encode, not the original, but fine for reposting)."""
+    v = block.select_one("video.tgme_widget_message_video[src], video[src]")
+    if v:
+        src = (v.get("src") or "").strip()
+        if src.startswith(("http://", "https://")):
+            return src
     return ""
 
 
@@ -79,6 +95,7 @@ def fetch_channel(channel: str, max_messages: int = 15) -> list[dict]:
         )
         published = time_el.get("datetime", "") if time_el else ""
         image_url = _extract_image(block)
+        video_url = _extract_video_url(block)
 
         title = text.split("\n")[0][:200]
         out.append({
@@ -87,6 +104,7 @@ def fetch_channel(channel: str, max_messages: int = 15) -> list[dict]:
             "link": link,
             "published": published,
             "image_url": image_url,
+            "video_url": video_url,
             "external_url": external_url,
         })
     if channel.lower() in ("faytuks_network", "outbreakupdates"):
