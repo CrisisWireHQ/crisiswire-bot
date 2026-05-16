@@ -173,7 +173,12 @@ def _from_tg(src: dict) -> list[dict]:
 
 
 def _from_x(src: dict) -> list[dict]:
-    raw = x_watcher.fetch_user_tweets(src["username"])
+    # Trusted firehose runs 24/7 — overnight breaking news must not be
+    # silenced by quiet hours. The 5-min self-rate-limit still caps cost.
+    raw = x_watcher.fetch_user_tweets(
+        src["username"],
+        respect_quiet_hours=not src.get("trusted", False),
+    )
     out = []
     for r in raw:
         if not _is_fresh(r.get("ts")):

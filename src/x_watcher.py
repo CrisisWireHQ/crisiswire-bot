@@ -164,9 +164,17 @@ def _resolve_user_id(username: str) -> str | None:
     return None
 
 
-def fetch_user_tweets(username: str, poll_interval_sec: int = DEFAULT_POLL_INTERVAL_SEC) -> list[dict]:
-    """Return new tweets from `@username` since the last poll. Self-rate-limited."""
-    if _is_quiet_hours():
+def fetch_user_tweets(
+    username: str,
+    poll_interval_sec: int = DEFAULT_POLL_INTERVAL_SEC,
+    respect_quiet_hours: bool = True,
+) -> list[dict]:
+    """Return new tweets from `@username` since the last poll. Self-rate-limited.
+
+    Trusted-firehose accounts pass respect_quiet_hours=False: breaking news
+    happens overnight too, and the 5-min rate limit already bounds cost.
+    """
+    if respect_quiet_hours and _is_quiet_hours():
         print(f"[x_watcher] in quiet hours; skipping @{username}")
         return []
 
