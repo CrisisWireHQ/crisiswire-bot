@@ -1,35 +1,5 @@
 [
   {
-    "key": "comoros--protest--anjouan",
-    "source": "Straits Times World",
-    "ts": 1778935246
-  },
-  {
-    "key": "gaza--airstrike--hamas-commander",
-    "source": "GN: Strike Attack",
-    "ts": 1778935249
-  },
-  {
-    "key": "thailand--crash--bangkok",
-    "source": "Al Jazeera",
-    "ts": 1778935249
-  },
-  {
-    "key": "usa--quake--inland-empire",
-    "source": "GN: Earthquake",
-    "ts": 1778935249
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778935250
-  },
-  {
-    "key": "usa--crash--akron",
-    "source": "GN: Plane Crash",
-    "ts": 1778935250
-  },
-  {
     "key": "palestine--attack--october-7-commander",
     "source": "GN: Strike Attack",
     "ts": 1778935845
