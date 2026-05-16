@@ -1,20 +1,5 @@
 [
   {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778886650
-  },
-  {
-    "key": "usa--fire--united-states",
-    "source": "GDACS Disaster Alerts",
-    "ts": 1778886650
-  },
-  {
-    "key": "usa--fire--texas-oklahoma",
-    "source": "GN: Wildfire",
-    "ts": 1778886650
-  },
-  {
     "key": "usa--shooting--hostage-situation",
     "source": "GN: Hostage",
     "ts": 1778887256
@@ -123,5 +108,15 @@
     "key": "usa--explosion--maine-lumber-mill",
     "source": "GN: Explosion",
     "ts": 1778889937
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778890255
+  },
+  {
+    "key": "usa--quake--san-bernardino-county",
+    "source": "GN: Earthquake",
+    "ts": 1778890255
   }
 ]
