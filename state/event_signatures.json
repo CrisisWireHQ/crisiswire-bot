@@ -113,5 +113,40 @@
     "key": "usa--fire--crow-wing-county-minnesota",
     "source": "GN: Wildfire",
     "ts": 1778974834
+  },
+  {
+    "key": "usa--tornado--iowa-mount-ayr",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778975450
+  },
+  {
+    "key": "usa--tornado--missouri-chillicothe",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778975450
+  },
+  {
+    "key": "usa--tornado--kansas-goodland",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778975450
+  },
+  {
+    "key": "usa--fire--antelope-valley",
+    "source": "GN: Wildfire",
+    "ts": 1778975450
+  },
+  {
+    "key": "russia--drone-shot-down--moscow",
+    "source": "TASS English",
+    "ts": 1778975450
+  },
+  {
+    "key": "bolivia--crackdown--la-paz",
+    "source": "Al Jazeera",
+    "ts": 1778975453
+  },
+  {
+    "key": "usa--hantavirus--outbreak",
+    "source": "GN: Outbreak",
+    "ts": 1778975456
   }
 ]
