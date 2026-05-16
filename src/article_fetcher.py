@@ -49,6 +49,63 @@ def _decode_gnews_base64(url: str) -> str:
     return best
 
 
+_GN_BATCH_URL = "https://news.google.com/_/DotsSplashUi/data/batchexecute"
+
+
+def _resolve_gnews_batchexecute(url: str) -> str:
+    """Resolve the modern `CBMi…` Google News format.
+
+    Google stopped embedding the target URL in the base64 payload. The
+    article page now carries a signature (`data-n-a-sg`) + timestamp
+    (`data-n-a-ts`); POSTing those plus the article id to the internal
+    DotsSplashUi batchexecute RPC returns the real outlet URL.
+    """
+    m = _GN_ARTICLE_RE.search(url)
+    if not m:
+        return ""
+    art_id = m.group(1)
+    try:
+        r = requests.get(url, headers={"User-Agent": UA}, timeout=15)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "lxml")
+        div = soup.select_one("c-wiz > div")
+        if div is None:
+            return ""
+        sig = div.get("data-n-a-sg")
+        ts = div.get("data-n-a-ts")
+        if not sig or not ts:
+            return ""
+
+        inner = json.dumps([
+            "garturlreq",
+            [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1,
+              None, None, None, None, None, 0, 1],
+             "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0],
+            art_id, int(ts), sig,
+        ])
+        f_req = json.dumps([[["Fbv4je", inner, None, "generic"]]])
+
+        pr = requests.post(
+            _GN_BATCH_URL,
+            data={"f.req": f_req},
+            headers={
+                "User-Agent": UA,
+                "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+            },
+            timeout=15,
+        )
+        pr.raise_for_status()
+        # Response is XSSI-guarded; the useful chunk is the 2nd block.
+        part = pr.text.split("\n\n")[1]
+        arr = json.loads(part)
+        real = json.loads(arr[0][2])[1]
+        if real and "news.google.com" not in real:
+            return real
+    except Exception as e:
+        print(f"[article_fetcher] batchexecute resolve failed: {e}")
+    return ""
+
+
 def _resolve_gnews_http(url: str) -> str:
     """Fallback: hit the Google News URL and see if it HTTP-redirects to the real source."""
     try:
@@ -64,9 +121,14 @@ def resolve_url(url: str) -> str:
     """Return the real destination URL. Falls back to input on failure."""
     if not url or not _is_google_news(url):
         return url
+    # Legacy base64 payload (older CAIi… links still carry the URL inline).
     decoded = _decode_gnews_base64(url)
     if decoded:
         return decoded
+    # Modern CBMi… links: resolve via the batchexecute RPC.
+    be = _resolve_gnews_batchexecute(url)
+    if be:
+        return be
     fallback = _resolve_gnews_http(url)
     return fallback or url
 
