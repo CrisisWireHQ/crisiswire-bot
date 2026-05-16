@@ -95,11 +95,6 @@
     "ts": 1778940645
   },
   {
-    "key": "usa--explosion--searsmont",
-    "source": "GN: Explosion",
-    "ts": 1778940645
-  },
-  {
     "key": "gaza--airstrike--khan-yunis",
     "source": "GN: Breaking News",
     "ts": 1778940645
@@ -128,5 +123,25 @@
     "key": "usa--explosion--searsmont-maine",
     "source": "GN: Explosion",
     "ts": 1778941252
+  },
+  {
+    "key": "vanuatu--quake--port-vila",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778941847
+  },
+  {
+    "key": "israel--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778941847
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Breaking News",
+    "ts": 1778941847
+  },
+  {
+    "key": "philippines--quake--maguindanao-del-sur",
+    "source": "GN: Earthquake",
+    "ts": 1778941847
   }
 ]
