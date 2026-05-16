@@ -158,5 +158,10 @@
     "key": "france--hantavirus--cruise",
     "source": "France 24 Intl",
     "ts": 1778953855
+  },
+  {
+    "key": "trusted-trump-tells-the-french-channel",
+    "source": "TG: Faytuks Network",
+    "ts": 1778954375
   }
 ]
