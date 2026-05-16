@@ -113,5 +113,40 @@
     "key": "trusted-irans-parliamentary-national-security-chief",
     "source": "TG: Faytuks Network",
     "ts": 1778929719
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "TASS English",
+    "ts": 1778929843
+  },
+  {
+    "key": "na",
+    "source": "GN: Outbreak",
+    "ts": 1778929843
+  },
+  {
+    "key": "russia--fire--federation",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778929844
+  },
+  {
+    "key": "australia--fire--nationwide",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778929844
+  },
+  {
+    "key": "australia--fire--nationwide",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778929846
+  },
+  {
+    "key": "russia--fire--forest",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778929847
+  },
+  {
+    "key": "australia--fire--forest",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1778929847
   }
 ]
