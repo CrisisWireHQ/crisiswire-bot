@@ -1,15 +1,5 @@
 [
   {
-    "key": "russia--fire--forest",
-    "source": "GDACS Disaster Alerts",
-    "ts": 1778929847
-  },
-  {
-    "key": "australia--fire--forest",
-    "source": "GDACS Disaster Alerts",
-    "ts": 1778929847
-  },
-  {
     "key": "argentina--quake--el-aguilar",
     "source": "USGS Quakes M4.5+",
     "ts": 1778930448
