@@ -128,5 +128,35 @@
     "key": "italy--attack--crowd",
     "source": "GN: Breaking News",
     "ts": 1778954704
+  },
+  {
+    "key": "congo--ebola-outbreak--kasai",
+    "source": "GN: Outbreak",
+    "ts": 1778955195
+  },
+  {
+    "key": "usa--explosion--maine",
+    "source": "GN: Explosion",
+    "ts": 1778955196
+  },
+  {
+    "key": "italy--attack--modena",
+    "source": "Times of India World",
+    "ts": 1778955196
+  },
+  {
+    "key": "italy--attack--modena",
+    "source": "GN: Breaking News",
+    "ts": 1778955196
+  },
+  {
+    "key": "canada--fire--northwest-ontario",
+    "source": "GN: Wildfire",
+    "ts": 1778955196
+  },
+  {
+    "key": "gaza--airstrike--hamas",
+    "source": "GN: Strike Attack",
+    "ts": 1778955196
   }
 ]
