@@ -1,15 +1,5 @@
 [
   {
-    "key": "yemen--flood--nationwide",
-    "source": "GDACS Disaster Alerts",
-    "ts": 1778913645
-  },
-  {
-    "key": "thailand--flood--nationwide",
-    "source": "GDACS Disaster Alerts",
-    "ts": 1778913650
-  },
-  {
     "key": "usa--strike--isis-leader",
     "source": "BBC World",
     "ts": 1778913651
