@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--fire--arizona",
-    "source": "GN: Wildfire",
-    "ts": 1778965848
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778965848
-  },
-  {
     "key": "canada--hantavirus--cruise-ship",
     "source": "GN: Outbreak",
     "ts": 1778966463
