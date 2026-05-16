@@ -103,5 +103,10 @@
     "key": "iran--quake--tehran",
     "source": "GN: Earthquake",
     "ts": 1778928055
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "Al Jazeera",
+    "ts": 1778928643
   }
 ]
