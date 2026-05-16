@@ -118,5 +118,15 @@
     "key": "usa--quake--san-bernardino-county",
     "source": "GN: Earthquake",
     "ts": 1778890255
+  },
+  {
+    "key": "usa--explosion--maine",
+    "source": "GN: Explosion",
+    "ts": 1778890848
+  },
+  {
+    "key": "usa--hostage--jacksonville",
+    "source": "GN: Hostage",
+    "ts": 1778890848
   }
 ]
