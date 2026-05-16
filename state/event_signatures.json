@@ -128,5 +128,20 @@
     "key": "canada--outbreak--hantavirus",
     "source": "GN: Outbreak",
     "ts": 1778971845
+  },
+  {
+    "key": "usa--tornado--nebraska-buffalo-county",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778972451
+  },
+  {
+    "key": "usa--tornado--iowa-taylor-county",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778972451
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1778972451
   }
 ]
