@@ -118,5 +118,15 @@
     "key": "usa--explosion--maine-lumber-mill",
     "source": "GN: Explosion",
     "ts": 1778903443
+  },
+  {
+    "key": "palestine--airstrike--gaza-city",
+    "source": "Al Jazeera",
+    "ts": 1778904040
+  },
+  {
+    "key": "ukraine--attack--odesa",
+    "source": "GN: Terror Attack",
+    "ts": 1778904040
   }
 ]
