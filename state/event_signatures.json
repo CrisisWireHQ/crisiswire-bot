@@ -1,15 +1,5 @@
 [
   {
-    "key": "israel--attack--hamas-commander",
-    "source": "GN: Strike Attack",
-    "ts": 1778920274
-  },
-  {
-    "key": "nigeria--attack--isis-leader-killed",
-    "source": "NPR World",
-    "ts": 1778920274
-  },
-  {
     "key": "usa--explosion--new-orleans",
     "source": "GN: AP News",
     "ts": 1778921578
@@ -43,5 +33,10 @@
     "key": "lebanon--airstrike--south",
     "source": "Straits Times World",
     "ts": 1778923850
+  },
+  {
+    "key": "trusted-via-httpstco4rbidf0j6y-httpstcopxfeqec7dr",
+    "source": "X: @Osinttechnical",
+    "ts": 1778923970
   }
 ]
