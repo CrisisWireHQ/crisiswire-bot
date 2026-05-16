@@ -1,35 +1,5 @@
 [
   {
-    "key": "usa--tornado--missouri-iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778968248
-  },
-  {
-    "key": "usa--tornado-watch--iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778968248
-  },
-  {
-    "key": "usa--tornado-watch--iowa-nebraska-missouri",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778968251
-  },
-  {
-    "key": "usa--tornado-watch--missouri-iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778968251
-  },
-  {
-    "key": "gaza--airstrike--hamas-leader",
-    "source": "GN: Strike Attack",
-    "ts": 1778968251
-  },
-  {
-    "key": "oman--attack--indian-vessel",
-    "source": "GN: Terror Attack",
-    "ts": 1778968251
-  },
-  {
     "key": "india--quake--andaman",
     "source": "USGS Quakes M4.5+",
     "ts": 1778968859
