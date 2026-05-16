@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--crash--akron",
-    "source": "GN: Plane Crash",
-    "ts": 1778945448
-  },
-  {
-    "key": "usa--explosion--searsmont",
-    "source": "GN: Explosion",
-    "ts": 1778945448
-  },
-  {
-    "key": "antigua-and-barbuda--quake--",
-    "source": "GDACS Disaster Alerts",
-    "ts": 1778945448
-  },
-  {
-    "key": "gaza--airstrike--hamas-leader",
-    "source": "GN: Strike Attack",
-    "ts": 1778945453
-  },
-  {
     "key": "antigua-and-barbuda--quake--regional",
     "source": "GN: Earthquake",
     "ts": 1778946055
