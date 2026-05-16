@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--explosion--maine-mill",
-    "source": "GN: Explosion",
-    "ts": 1778947258
-  },
-  {
-    "key": "usa--shooting--cincinnati-fairmount",
-    "source": "GN: Breaking News",
-    "ts": 1778947258
-  },
-  {
-    "key": "usa--crash--dallas-plane",
-    "source": "GN: Plane Crash",
-    "ts": 1778947258
-  },
-  {
     "key": "palestine--airstrike--gaza-city",
     "source": "GN: Strike Attack",
     "ts": 1778947851
