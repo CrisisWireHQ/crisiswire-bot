@@ -158,5 +158,25 @@
     "key": "trusted-israeli-prime-minister-netanyahu-said",
     "source": "TG: Faytuks Network",
     "ts": 1779018875
+  },
+  {
+    "key": "drc--outbreak--ebola-bundibugyo",
+    "source": "TG: Disclose.tv",
+    "ts": 1779019247
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1779019250
+  },
+  {
+    "key": "ukraine--airstrike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1779019250
+  },
+  {
+    "key": "usa--shooting--north-carolina",
+    "source": "GN: Mass Shooting",
+    "ts": 1779019250
   }
 ]
