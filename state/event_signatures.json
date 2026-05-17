@@ -163,5 +163,35 @@
     "key": "usa--tornado--nebraska-colfax",
     "source": "NOAA NWS Extreme",
     "ts": 1779061245
+  },
+  {
+    "key": "usa--tornado--hebron-nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779061840
+  },
+  {
+    "key": "usa--tornado--brewster-south-dakota",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779061840
+  },
+  {
+    "key": "usa--tornado--wallace-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779061840
+  },
+  {
+    "key": "usa--tornado-watch--kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779061840
+  },
+  {
+    "key": "usa--tornado-watch--kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779061840
+  },
+  {
+    "key": "usa--tornado--thayer-nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779061840
   }
 ]
