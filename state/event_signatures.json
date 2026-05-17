@@ -128,5 +128,35 @@
     "key": "thailand--crash--bangkok-rail",
     "source": "Sky News",
     "ts": 1779034851
+  },
+  {
+    "key": "uae--attack--barakah-power-plant",
+    "source": "GN: Terror Attack",
+    "ts": 1779035453
+  },
+  {
+    "key": "usa--tornado-warning--wisconsin",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779035453
+  },
+  {
+    "key": "uae--attack--barakah-power-plant",
+    "source": "GN: Terror Attack",
+    "ts": 1779035453
+  },
+  {
+    "key": "usa--crash--phoenix",
+    "source": "GN: Breaking News",
+    "ts": 1779035453
+  },
+  {
+    "key": "palestinian-territories--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1779035453
+  },
+  {
+    "key": "caribbean--quake--eastern",
+    "source": "GN: Earthquake",
+    "ts": 1779035453
   }
 ]
