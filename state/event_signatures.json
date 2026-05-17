@@ -158,5 +158,15 @@
     "key": "canada--hantavirus--cruise-ship",
     "source": "GN: Outbreak",
     "ts": 1779047449
+  },
+  {
+    "key": "usa--tornado-warning--south-dakota",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779047720
+  },
+  {
+    "key": "canada--fire--alberta",
+    "source": "GN: Wildfire",
+    "ts": 1779047720
   }
 ]
