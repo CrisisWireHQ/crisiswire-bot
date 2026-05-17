@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--quake--calhoun-falls",
-    "source": "GN: Earthquake",
-    "ts": 1778989238
-  },
-  {
-    "key": "ebola--outbreak--international",
-    "source": "GN: CNN",
-    "ts": 1778989238
-  },
-  {
-    "key": "uk--quake--silverdale",
-    "source": "GN: Earthquake",
-    "ts": 1778989241
-  },
-  {
-    "key": "south-korea--quake--jeju-island",
-    "source": "GN: Earthquake",
-    "ts": 1778989241
-  },
-  {
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778989843
@@ -93,5 +73,10 @@
     "key": "usa--crash--maine",
     "source": "GN: Plane Crash",
     "ts": 1778991652
+  },
+  {
+    "key": "israel--strike--hamas-leader",
+    "source": "GN: Strike Attack",
+    "ts": 1778992841
   }
 ]
