@@ -163,5 +163,45 @@
     "key": "lebanon--explosion--south",
     "source": "GN: Explosion",
     "ts": 1779057651
+  },
+  {
+    "key": "usa--tornado--michigan-sanilac",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779058254
+  },
+  {
+    "key": "china--quake--guangxi",
+    "source": "GN: Earthquake",
+    "ts": 1779058254
+  },
+  {
+    "key": "usa--tornado--nebraska-fullerton",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779058254
+  },
+  {
+    "key": "usa--fire--maine-searsmont",
+    "source": "GN: Explosion",
+    "ts": 1779058254
+  },
+  {
+    "key": "usa--tornado--south-dakota-adrian",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779058254
+  },
+  {
+    "key": "usa--shooting--austin-texas",
+    "source": "GN: Breaking News",
+    "ts": 1779058254
+  },
+  {
+    "key": "gaza--airstrike--gaza-strip",
+    "source": "GN: Strike Attack",
+    "ts": 1779058254
+  },
+  {
+    "key": "usa--crash--gunfighters-airshow",
+    "source": "GN: Breaking News",
+    "ts": 1779058254
   }
 ]
