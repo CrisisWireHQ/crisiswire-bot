@@ -1,25 +1,5 @@
 [
   {
-    "key": "drc--outbreak--ebola-bundibugyo",
-    "source": "TG: Disclose.tv",
-    "ts": 1779019247
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1779019250
-  },
-  {
-    "key": "ukraine--airstrike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1779019250
-  },
-  {
-    "key": "usa--shooting--north-carolina",
-    "source": "GN: Mass Shooting",
-    "ts": 1779019250
-  },
-  {
     "key": "nigeria--attack--yobe",
     "source": "Straits Times World",
     "ts": 1779019847
@@ -78,5 +58,20 @@
     "key": "oman--attack--vessel-indian-flagged",
     "source": "GN: Terror Attack",
     "ts": 1779022242
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "TASS English",
+    "ts": 1779022857
+  },
+  {
+    "key": "israel--explosion--beit-shemesh",
+    "source": "GN: Explosion",
+    "ts": 1779022861
+  },
+  {
+    "key": "india--hostage--manipur",
+    "source": "GN: Hostage",
+    "ts": 1779022861
   }
 ]
