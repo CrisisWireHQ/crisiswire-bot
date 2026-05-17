@@ -1,10 +1,5 @@
 [
   {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778983247
-  },
-  {
     "key": "usa--tornado--nebraska-gage-county",
     "source": "NOAA NWS Extreme",
     "ts": 1778983851
