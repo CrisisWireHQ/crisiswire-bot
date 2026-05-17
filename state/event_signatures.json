@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--fire--crow-wing-county-minnesota",
-    "source": "GN: Wildfire",
-    "ts": 1778999445
-  },
-  {
-    "key": "gaza--attack--hamas-chief-killed",
-    "source": "GN: Strike Attack",
-    "ts": 1778999445
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778999445
-  },
-  {
-    "key": "taiwan--quake--central",
-    "source": "GN: Earthquake",
-    "ts": 1778999445
-  },
-  {
     "key": "israel--explosion--beit-shemesh",
     "source": "GN: Explosion",
     "ts": 1779000049
