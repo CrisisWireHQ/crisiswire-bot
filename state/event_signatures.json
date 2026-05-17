@@ -105,11 +105,6 @@
     "ts": 1778983854
   },
   {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778983854
-  },
-  {
     "key": "lebanon--attack--rashaf",
     "source": "TASS English",
     "ts": 1778983854
@@ -128,5 +123,15 @@
     "key": "trusted-sanctioned-the-and-european-union",
     "source": "TG: Faytuks Network",
     "ts": 1778984380
+  },
+  {
+    "key": "usa--tornado--beatrice-nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778984449
+  },
+  {
+    "key": "usa--quake--upstate",
+    "source": "GN: Earthquake",
+    "ts": 1778984449
   }
 ]
