@@ -1,30 +1,5 @@
 [
   {
-    "key": "atlantic--quake--east-coast",
-    "source": "GN: Earthquake",
-    "ts": 1778976054
-  },
-  {
-    "key": "usa--tornado--goodland-kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778976058
-  },
-  {
-    "key": "usa--fire--antelope-valley",
-    "source": "GN: Wildfire",
-    "ts": 1778976058
-  },
-  {
-    "key": "canada--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778976058
-  },
-  {
-    "key": "italy--attack--modena",
-    "source": "GN: Reuters",
-    "ts": 1778976058
-  },
-  {
     "key": "canada--hantavirus--national",
     "source": "Straits Times World",
     "ts": 1778976647
