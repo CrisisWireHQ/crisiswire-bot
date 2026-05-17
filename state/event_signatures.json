@@ -108,5 +108,15 @@
     "key": "usa--mass-shooting--california",
     "source": "GN: Mass Shooting",
     "ts": 1778977974
+  },
+  {
+    "key": "japan--quake--miyako",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778978439
+  },
+  {
+    "key": "congo-uganda--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778978442
   }
 ]
