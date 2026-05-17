@@ -1,20 +1,5 @@
 [
   {
-    "key": "nigeria--attack--yobe",
-    "source": "GN: Terror Attack",
-    "ts": 1779009048
-  },
-  {
-    "key": "russia--drone-strike--ukraine-attack",
-    "source": "TG: WarMonitors",
-    "ts": 1779009048
-  },
-  {
-    "key": "papua-new-guinea--quake--lorengau",
-    "source": "GN: Earthquake",
-    "ts": 1779009048
-  },
-  {
     "key": "philippines--quake--maguindanao-del-sur",
     "source": "GN: Earthquake",
     "ts": 1779009648
