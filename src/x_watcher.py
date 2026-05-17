@@ -168,6 +168,31 @@ def _is_quiet_hours() -> bool:
     return h >= QUIET_START_HOUR or h < QUIET_END_HOUR
 
 
+def _fmt_x_err(e: Exception) -> str:
+    """Verbose one-liner for a tweepy/HTTP error: status + raw body + codes.
+
+    A bare '401 Unauthorized' / '403 Forbidden' doesn't say WHY. X puts the
+    real reason (e.g. 'client-not-enrolled', 'Unsupported Authentication',
+    product/tier message) in the response body — surface it so we can tell
+    a tier problem from a credential problem without guessing.
+    """
+    parts = [type(e).__name__, str(e)]
+    resp = getattr(e, "response", None)
+    if resp is not None:
+        try:
+            parts.append(f"http={resp.status_code}")
+            body = (resp.text or "")[:400].replace("\n", " ")
+            if body:
+                parts.append(f"body={body}")
+        except Exception:
+            pass
+    for attr in ("api_codes", "api_messages"):
+        v = getattr(e, attr, None)
+        if v:
+            parts.append(f"{attr}={v}")
+    return " | ".join(p for p in parts if p)
+
+
 def _resolve_user_id(username: str) -> str | None:
     try:
         resp = _client_v2().get_user(username=username)
@@ -175,7 +200,7 @@ def _resolve_user_id(username: str) -> str | None:
             print(f"[x_watcher] resolved @{username} → id {resp.data.id}")
             return str(resp.data.id)
     except Exception as e:
-        print(f"[x_watcher] user lookup failed for @{username}: {e}")
+        print(f"[x_watcher] user lookup (get_user) failed for @{username}: {_fmt_x_err(e)}")
     return None
 
 
@@ -221,7 +246,8 @@ def fetch_user_tweets(
             since_id=since_id,
         )
     except Exception as e:
-        print(f"[x_watcher] @{username} fetch error: {e}")
+        print(f"[x_watcher] @{username} get_users_tweets (user_id={user_id}) "
+              f"failed: {_fmt_x_err(e)}")
         rec["last_poll_ts"] = int(time.time())
         state[username] = rec
         _save_state(state)
