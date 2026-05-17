@@ -1,35 +1,5 @@
 [
   {
-    "key": "usa--tornado--stephenson-county-illinois",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779033048
-  },
-  {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1779033048
-  },
-  {
-    "key": "usa--fire--crosslake-minnesota",
-    "source": "GN: Wildfire",
-    "ts": 1779033048
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1779033048
-  },
-  {
-    "key": "italy--attack--modena",
-    "source": "Sky News",
-    "ts": 1779033048
-  },
-  {
-    "key": "usa--fire--route-287-edison",
-    "source": "GN: Breaking News",
-    "ts": 1779033048
-  },
-  {
     "key": "usa--tornado--green-county-wisconsin",
     "source": "NOAA NWS Extreme",
     "ts": 1779033658
@@ -173,5 +143,15 @@
     "key": "trusted-onboard-footage-from-ukrainian-fp2",
     "source": "X: @Osinttechnical",
     "ts": 1779036590
+  },
+  {
+    "key": "gaza--attack--gaza",
+    "source": "Al Jazeera",
+    "ts": 1779036648
+  },
+  {
+    "key": "gaza--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1779036648
   }
 ]
