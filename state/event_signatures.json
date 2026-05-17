@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--tornado--sherman-county-kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778974834
-  },
-  {
-    "key": "usa--fire--antelope-valley-california",
-    "source": "GN: Wildfire",
-    "ts": 1778974834
-  },
-  {
-    "key": "usa--fire--crow-wing-county-minnesota",
-    "source": "GN: Wildfire",
-    "ts": 1778974834
-  },
-  {
     "key": "usa--tornado--iowa-mount-ayr",
     "source": "NOAA NWS Extreme",
     "ts": 1778975450
