@@ -1,15 +1,5 @@
 [
   {
-    "key": "congo--outbreak--ebola",
-    "source": "France 24 Intl",
-    "ts": 1779007242
-  },
-  {
-    "key": "russia--quake--undisclosed",
-    "source": "GDACS Disaster Alerts",
-    "ts": 1779007242
-  },
-  {
     "key": "who--ebola-emergency--global",
     "source": "GN: Outbreak",
     "ts": 1779007850
