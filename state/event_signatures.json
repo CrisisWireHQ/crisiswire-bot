@@ -128,5 +128,30 @@
     "key": "taiwan--quake--central",
     "source": "GN: Earthquake",
     "ts": 1778985644
+  },
+  {
+    "key": "congo-uganda--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778986255
+  },
+  {
+    "key": "colombia--attack--campaign",
+    "source": "GN: Reuters",
+    "ts": 1778986255
+  },
+  {
+    "key": "usa--shooting--trump-event",
+    "source": "GN: Breaking News",
+    "ts": 1778986262
+  },
+  {
+    "key": "drc-uganda--outbreak--ebola-bundibugyo",
+    "source": "GN: Outbreak",
+    "ts": 1778986265
+  },
+  {
+    "key": "nigeria--attack--yobe",
+    "source": "GN: Terror Attack",
+    "ts": 1778986269
   }
 ]
