@@ -138,5 +138,30 @@
     "key": "usa--shooting--edmond",
     "source": "GN: Mass Shooting",
     "ts": 1779016845
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "Straits Times World",
+    "ts": 1779017450
+  },
+  {
+    "key": "usa--shooting--homestead",
+    "source": "GN: Breaking News",
+    "ts": 1779017450
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779017450
+  },
+  {
+    "key": "lebanon--airstrike--zibqin",
+    "source": "GN: Strike Attack",
+    "ts": 1779017450
+  },
+  {
+    "key": "lebanon--airstrike--tayr-debba",
+    "source": "GN: Strike Attack",
+    "ts": 1779017450
   }
 ]
