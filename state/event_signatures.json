@@ -148,5 +148,10 @@
     "key": "lebanon--airstrike--south-and-east",
     "source": "Al Jazeera",
     "ts": 1779051048
+  },
+  {
+    "key": "uae--drone-strike--barakah",
+    "source": "France 24 Intl",
+    "ts": 1779051646
   }
 ]
