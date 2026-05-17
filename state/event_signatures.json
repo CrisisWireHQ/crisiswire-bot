@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--protest--new-york-transit",
-    "source": "GN: AP News",
-    "ts": 1779040257
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1779040261
-  },
-  {
-    "key": "ukraine--missile-strike--nationwide",
-    "source": "GN: Strike Attack",
-    "ts": 1779040261
-  },
-  {
     "key": "sudan--advance--blue-nile",
     "source": "Al Jazeera",
     "ts": 1779040855
