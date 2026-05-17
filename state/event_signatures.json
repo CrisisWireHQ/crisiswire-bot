@@ -183,5 +183,30 @@
     "key": "mexico--shooting--puebla",
     "source": "Sky News",
     "ts": 1779059448
+  },
+  {
+    "key": "usa--tornado--michigan",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779059712
+  },
+  {
+    "key": "papua-new-guinea--quake--finschhafen",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1779059712
+  },
+  {
+    "key": "usa--fire--flanders-crow-wing",
+    "source": "GN: Wildfire",
+    "ts": 1779059712
+  },
+  {
+    "key": "italy--attack--vehicle-ramming",
+    "source": "GN: CNN",
+    "ts": 1779059712
+  },
+  {
+    "key": "usa--crash--mountain-home-air-force-base",
+    "source": "GN: Breaking News",
+    "ts": 1779059712
   }
 ]
