@@ -1,15 +1,5 @@
 [
   {
-    "key": "ukraine--quake--poltava",
-    "source": "GN: Earthquake",
-    "ts": 1779024047
-  },
-  {
-    "key": "palestine--raid--burqa",
-    "source": "Al Jazeera",
-    "ts": 1779024050
-  },
-  {
     "key": "drc--outbreak--ebola",
     "source": "Al Jazeera",
     "ts": 1779024053
@@ -173,5 +163,10 @@
     "key": "drc--outbreak--ebola",
     "source": "BBC World",
     "ts": 1779027052
+  },
+  {
+    "key": "nigeria--attack--military-school",
+    "source": "GN: Reuters",
+    "ts": 1779027652
   }
 ]
