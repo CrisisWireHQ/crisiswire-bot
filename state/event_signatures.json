@@ -153,5 +153,10 @@
     "key": "gaza--airstrike--gaza",
     "source": "GN: Strike Attack",
     "ts": 1779036648
+  },
+  {
+    "key": "trusted-additional-footage-russian-forces-started",
+    "source": "X: @Osinttechnical",
+    "ts": 1779036936
   }
 ]
