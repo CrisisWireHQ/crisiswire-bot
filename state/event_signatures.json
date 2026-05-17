@@ -1,10 +1,5 @@
 [
   {
-    "key": "israel--explosion--beit-shemesh",
-    "source": "GN: Explosion",
-    "ts": 1779000049
-  },
-  {
     "key": "usa--quake--hollister",
     "source": "GN: Earthquake",
     "ts": 1779000651
