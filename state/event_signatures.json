@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--tornado--grand-island-nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779054646
-  },
-  {
-    "key": "usa--tornado--sioux-falls-south-dakota",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779054646
-  },
-  {
-    "key": "usa--tornado--nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779054646
-  },
-  {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1779054646
-  },
-  {
     "key": "usa--tornado--nebraska-grand-island",
     "source": "NOAA NWS Extreme",
     "ts": 1779055254
