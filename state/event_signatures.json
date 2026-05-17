@@ -155,11 +155,6 @@
     "ts": 1779050443
   },
   {
-    "key": "usa--tornado--south-dakota",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779050443
-  },
-  {
     "key": "nigeria--attack--zamfara",
     "source": "GN: Terror Attack",
     "ts": 1779050443
@@ -175,13 +170,23 @@
     "ts": 1779050443
   },
   {
-    "key": "usa--explosion--maine",
-    "source": "GN: Explosion",
-    "ts": 1779050443
-  },
-  {
     "key": "usa--crash--mountain-home-idaho",
     "source": "GN: Reuters",
     "ts": 1779050443
+  },
+  {
+    "key": "usa--tornado--south-dakota",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779051048
+  },
+  {
+    "key": "usa--crash--idaho",
+    "source": "GN: Breaking News",
+    "ts": 1779051048
+  },
+  {
+    "key": "lebanon--airstrike--south-and-east",
+    "source": "Al Jazeera",
+    "ts": 1779051048
   }
 ]
