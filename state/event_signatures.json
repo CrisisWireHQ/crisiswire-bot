@@ -1,40 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1779042045
-  },
-  {
-    "key": "ukraine--drone-attack--zaporizhzhia",
-    "source": "TASS English",
-    "ts": 1779042045
-  },
-  {
-    "key": "ukraine--ground-operations--konstantinovka",
-    "source": "TASS English",
-    "ts": 1779042045
-  },
-  {
-    "key": "usa--explosion--searsmont-maine",
-    "source": "GN: Explosion",
-    "ts": 1779042049
-  },
-  {
-    "key": "global--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779042049
-  },
-  {
-    "key": "mexico--armed-attack--puebla",
-    "source": "GN: Reuters",
-    "ts": 1779042049
-  },
-  {
-    "key": "canada--hantavirus--cruise-ship",
-    "source": "GN: Breaking News",
-    "ts": 1779042051
-  },
-  {
     "key": "uae--drone-attack--barakah",
     "source": "GN: Terror Attack",
     "ts": 1779042643
@@ -153,5 +118,25 @@
     "key": "trusted-pair-ea18g-growlers-suffered-midair",
     "source": "TG: Faytuks Network",
     "ts": 1779045398
+  },
+  {
+    "key": "usa--collision--mountain-home-idaho",
+    "source": "TG: Disclose.tv",
+    "ts": 1779045646
+  },
+  {
+    "key": "usa--quake--rio-dell-california",
+    "source": "GN: Earthquake",
+    "ts": 1779045649
+  },
+  {
+    "key": "gaza--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1779045649
+  },
+  {
+    "key": "usa--fire--crow-wing-county-minnesota",
+    "source": "GN: Wildfire",
+    "ts": 1779045654
   }
 ]
