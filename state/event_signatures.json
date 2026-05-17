@@ -1,25 +1,5 @@
 [
   {
-    "key": "ukraine--attack--dpr",
-    "source": "TASS English",
-    "ts": 1779048050
-  },
-  {
-    "key": "russia--drone-strike--multiple-regions",
-    "source": "TASS English",
-    "ts": 1779048050
-  },
-  {
-    "key": "usa--mass-shooting--austin",
-    "source": "GN: Mass Shooting",
-    "ts": 1779048050
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1779048050
-  },
-  {
     "key": "usa--tornado--south-dakota",
     "source": "NOAA NWS Extreme",
     "ts": 1779048641
