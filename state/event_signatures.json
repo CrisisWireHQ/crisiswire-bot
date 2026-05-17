@@ -1,30 +1,5 @@
 [
   {
-    "key": "uae--drone-attack--barakah",
-    "source": "GN: Terror Attack",
-    "ts": 1779042643
-  },
-  {
-    "key": "israel--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1779042643
-  },
-  {
-    "key": "global--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779042643
-  },
-  {
-    "key": "usa--fire--rowlee-california",
-    "source": "GN: Wildfire",
-    "ts": 1779042643
-  },
-  {
-    "key": "usa--fire--northern-minnesota",
-    "source": "GN: Wildfire",
-    "ts": 1779042643
-  },
-  {
     "key": "global--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1779043250
@@ -138,5 +113,10 @@
     "key": "usa--fire--crow-wing-county-minnesota",
     "source": "GN: Wildfire",
     "ts": 1779045654
+  },
+  {
+    "key": "usa--tornado--moffat-rio-blanco-colorado",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779046244
   }
 ]
