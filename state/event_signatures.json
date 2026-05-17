@@ -1,25 +1,5 @@
 [
   {
-    "key": "nigeria--attack--yobe",
-    "source": "GN: Terror Attack",
-    "ts": 1779002446
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779002446
-  },
-  {
-    "key": "russia--attack--moscow",
-    "source": "GN: CNN",
-    "ts": 1779002446
-  },
-  {
-    "key": "gaza--strike--hamas",
-    "source": "GN: Strike Attack",
-    "ts": 1779002446
-  },
-  {
     "key": "trusted-httpstcom5dfonmkec-httpstcox6yqnkh8no",
     "source": "X: @Osinttechnical",
     "ts": 1779002983
