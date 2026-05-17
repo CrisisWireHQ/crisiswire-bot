@@ -83,5 +83,30 @@
     "key": "usa--explosion--maine-mill",
     "source": "GN: Explosion",
     "ts": 1778993443
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778994050
+  },
+  {
+    "key": "russia--drone-attack--moscow-region",
+    "source": "GN: Reuters",
+    "ts": 1778994050
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778994050
+  },
+  {
+    "key": "dr-congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778994050
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778994050
   }
 ]
