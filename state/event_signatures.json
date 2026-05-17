@@ -1,25 +1,5 @@
 [
   {
-    "key": "canada--hantavirus--national",
-    "source": "Straits Times World",
-    "ts": 1778976647
-  },
-  {
-    "key": "usa--threat--arkansas",
-    "source": "GN: Mass Shooting",
-    "ts": 1778976647
-  },
-  {
-    "key": "nigeria--attack--yobe",
-    "source": "GN: Terror Attack",
-    "ts": 1778976650
-  },
-  {
-    "key": "drc--ebola--national",
-    "source": "GN: Outbreak",
-    "ts": 1778976650
-  },
-  {
     "key": "congo--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1778977242
@@ -88,5 +68,25 @@
     "key": "congo--outbreak--ebola",
     "source": "Straits Times World",
     "ts": 1778979643
+  },
+  {
+    "key": "africa--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778980245
+  },
+  {
+    "key": "usa--tornado--sheridan-county-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778980248
+  },
+  {
+    "key": "israel--explosion--beit-shemesh",
+    "source": "GN: Explosion",
+    "ts": 1778980248
+  },
+  {
+    "key": "israel--strike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778980251
   }
 ]
