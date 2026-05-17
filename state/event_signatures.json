@@ -123,5 +123,25 @@
     "key": "south-korea--quake--jeju-island",
     "source": "GN: Earthquake",
     "ts": 1778989241
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778989843
+  },
+  {
+    "key": "russia--drone-attack--moscow",
+    "source": "TASS English",
+    "ts": 1778989843
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1778989843
+  },
+  {
+    "key": "africa--outbreak--ebola",
+    "source": "TASS English",
+    "ts": 1778989843
   }
 ]
