@@ -128,5 +128,25 @@
     "key": "usa--crash--idaho-air-show",
     "source": "Sky News",
     "ts": 1779052244
+  },
+  {
+    "key": "papua-new-guinea--quake--kimbe",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1779052850
+  },
+  {
+    "key": "thailand--crash--bangkok",
+    "source": "GN: CNN",
+    "ts": 1779052850
+  },
+  {
+    "key": "usa--crash--mount-airy",
+    "source": "GN: Breaking News",
+    "ts": 1779052850
+  },
+  {
+    "key": "usa--fire--texas",
+    "source": "GN: Wildfire",
+    "ts": 1779052850
   }
 ]
