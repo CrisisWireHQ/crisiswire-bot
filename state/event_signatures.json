@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1779039648
-  },
-  {
-    "key": "china--quake--guangxi",
-    "source": "GN: Earthquake",
-    "ts": 1779039648
-  },
-  {
-    "key": "usa--explosion--lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1779039648
-  },
-  {
-    "key": "gaza--airstrike--operations-commander",
-    "source": "GN: Strike Attack",
-    "ts": 1779039648
-  },
-  {
     "key": "usa--protest--new-york-transit",
     "source": "GN: AP News",
     "ts": 1779040257
@@ -133,5 +113,20 @@
     "key": "usa--fire--northern-minnesota",
     "source": "GN: Wildfire",
     "ts": 1779042643
+  },
+  {
+    "key": "global--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779043250
+  },
+  {
+    "key": "usa--shooting--fort-worth",
+    "source": "GN: Breaking News",
+    "ts": 1779043250
+  },
+  {
+    "key": "canada--hantavirus--mv-hondius",
+    "source": "GN: Outbreak",
+    "ts": 1779043250
   }
 ]
