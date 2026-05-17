@@ -68,5 +68,20 @@
     "key": "ukraine--missile-strike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1779030049
+  },
+  {
+    "key": "uae--drone-strike--barakah",
+    "source": "TASS English",
+    "ts": 1779030650
+  },
+  {
+    "key": "uae--drone-strike--barakah",
+    "source": "France 24 Intl",
+    "ts": 1779030650
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "France 24 Intl",
+    "ts": 1779030650
   }
 ]
