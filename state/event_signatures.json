@@ -1,10 +1,5 @@
 [
   {
-    "key": "uae--drone-strike--barakah",
-    "source": "France 24 Intl",
-    "ts": 1779051646
-  },
-  {
     "key": "usa--crash--mountain-home-air-force-base",
     "source": "GN: Plane Crash",
     "ts": 1779052244
@@ -128,5 +123,25 @@
     "key": "usa--explosion--maine-lumber-mill",
     "source": "GN: Explosion",
     "ts": 1779054646
+  },
+  {
+    "key": "usa--tornado--nebraska-grand-island",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779055254
+  },
+  {
+    "key": "usa--tornado--iowa-minnesota",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779055254
+  },
+  {
+    "key": "nigeria--terror-attack--yobe",
+    "source": "GN: Terror Attack",
+    "ts": 1779055254
+  },
+  {
+    "key": "usa--fire--two-harbors",
+    "source": "GN: Wildfire",
+    "ts": 1779055258
   }
 ]
