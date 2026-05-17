@@ -1,45 +1,5 @@
 [
   {
-    "key": "usa--tornado-watch--nebraska-iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779056452
-  },
-  {
-    "key": "usa--tornado-watch--nebraska-iowa-southwest",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779056455
-  },
-  {
-    "key": "usa--tornado--grand-island-nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779056455
-  },
-  {
-    "key": "usa--tornado--akron-michigan",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779056455
-  },
-  {
-    "key": "ukraine--strike--odesa",
-    "source": "GN: Strike Attack",
-    "ts": 1779056455
-  },
-  {
-    "key": "usa--fire--crow-wing-county-minnesota",
-    "source": "GN: Wildfire",
-    "ts": 1779056460
-  },
-  {
-    "key": "usa--fire--amarillo",
-    "source": "GN: Wildfire",
-    "ts": 1779056460
-  },
-  {
-    "key": "lebanon--airstrike--east",
-    "source": "GN: Strike Attack",
-    "ts": 1779056460
-  },
-  {
     "key": "usa--tornado-warning--kansas",
     "source": "NOAA NWS Extreme",
     "ts": 1779057044
