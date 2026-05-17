@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--tornado-watch--kansas-nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779049254
-  },
-  {
-    "key": "uk--hantavirus--contacts",
-    "source": "Sky News",
-    "ts": 1779049254
-  },
-  {
-    "key": "nigeria--attack--schools",
-    "source": "GN: AP News",
-    "ts": 1779049257
-  },
-  {
     "key": "usa--explosion--searsmont-mill",
     "source": "GN: Explosion",
     "ts": 1779049852
