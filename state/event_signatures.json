@@ -1,25 +1,5 @@
 [
   {
-    "key": "russia--drone-strike--moscow-belgorod",
-    "source": "Al Jazeera",
-    "ts": 1779010261
-  },
-  {
-    "key": "italy--attack--modena",
-    "source": "GN: Reuters",
-    "ts": 1779010261
-  },
-  {
-    "key": "gaza--airstrike--hamas",
-    "source": "GN: Strike Attack",
-    "ts": 1779010261
-  },
-  {
-    "key": "russia--drone-strike--moscow",
-    "source": "GN: AP News",
-    "ts": 1779010261
-  },
-  {
     "key": "china--flood--guangxi",
     "source": "GN: Reuters",
     "ts": 1779010844
