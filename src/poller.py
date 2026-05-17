@@ -198,18 +198,27 @@ def _from_x(src: dict) -> list[dict]:
         # watched account links to BBC, we credit BBC, not the watched account.
         # If no outlet resolved, display_source = "" → drafter writes without
         # attribution and source reply is skipped.
-        out.append({
+        item = {
             "source_name": src["name"],
             "display_source": (r.get("outlet") or "").strip(),
             "tier": src["tier"],
             "category": src["category"],
             "title": r["title"],
             "summary": r["summary"],
-            "link": r["link"],
+            # Dedup/seen key = the tweet permalink (unique per tweet).
+            # r["link"] is the external outlet URL and is "" for link-less
+            # tweets, which would collide every one of them on "".
+            "link": r.get("tweet_url") or r["link"],
             "published": r["published"],
             "ts": r["ts"],
             "image_url": r.get("image_url", ""),
-        })
+        }
+        if src.get("trusted"):
+            # Mirror trusted-TG: don't credit the watched account; cite the
+            # underlying outlet only if the tweet linked one (else no source
+            # reply). Explicit "" => telegram_io suppresses the link line.
+            item["source_url"] = r.get("link", "")
+        out.append(item)
     return out
 
 

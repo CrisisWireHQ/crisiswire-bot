@@ -297,6 +297,10 @@ def fetch_user_tweets(
             "title": text.split("\n")[0][:200] if text else f"tweet {tweet_id}",
             "summary": text[:1500],
             "link": ext_url,   # actual outlet URL when present; "" if not
+            # Stable per-tweet permalink — the ONLY reliable dedup key.
+            # ext_url is "" for link-less tweets, so keying seen.json on it
+            # collides every link-less tweet onto "".
+            "tweet_url": f"https://x.com/{username}/status/{tweet_id}",
             "outlet": outlet,  # clean outlet name, e.g. "BBC" — empty if not resolved
             "published": created_at.isoformat() if created_at else "",
             "ts": ts,
