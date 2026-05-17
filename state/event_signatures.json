@@ -1,30 +1,5 @@
 [
   {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778981456
-  },
-  {
-    "key": "usa--tornado--kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778981456
-  },
-  {
-    "key": "usa--tornado--nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778981456
-  },
-  {
-    "key": "russia--drone-attack--moscow",
-    "source": "TASS English",
-    "ts": 1778981456
-  },
-  {
-    "key": "ukraine--attack--donetsk-region",
-    "source": "TASS English",
-    "ts": 1778981456
-  },
-  {
     "key": "lebanon--drone-strike--north",
     "source": "Times of Israel",
     "ts": 1778982041
