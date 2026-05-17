@@ -120,24 +120,26 @@ QUIET_END_HOUR = 6                    # 6am local
 
 
 def _client_v2() -> tweepy.Client:
-    """User-context client built from the SAME credentials x_poster uses.
+    """App-only (Bearer) client — the correct auth for reading ANOTHER
+    user's timeline (GET /2/users/:id/tweets).
 
-    Those keys are on the paid Basic app (posting works), whereas a bare
-    X_BEARER_TOKEN may be a stale/Free-tier project token — timeline reads
-    on Free return 403 Forbidden. Using user-context auth keeps reads on
-    the entitled app. Falls back to bearer only if user keys are absent.
+    History: that endpoint is an app-only endpoint. OAuth 1.0a user-context
+    (the keys x_poster uses to POST) returns 401 Unauthorized here, and a
+    stale bearer returned 403. So this MUST use a valid OAuth 2.0 Bearer
+    token. If X_BEARER_TOKEN is missing/blank we fail loudly rather than
+    silently degrade to user-context (which cannot work for this call).
     """
     global _client
     if _client is None:
-        try:
-            _client = tweepy.Client(
-                consumer_key=os.environ["X_API_KEY"],
-                consumer_secret=os.environ["X_API_SECRET"],
-                access_token=os.environ["X_ACCESS_TOKEN"],
-                access_token_secret=os.environ["X_ACCESS_TOKEN_SECRET"],
+        bearer = (os.environ.get("X_BEARER_TOKEN") or "").strip()
+        if not bearer:
+            raise RuntimeError(
+                "X_BEARER_TOKEN is not set — reading another user's timeline "
+                "requires an OAuth 2.0 App-only Bearer token. Generate one in "
+                "the X developer console (Apps → Keys & tokens → Bearer Token) "
+                "and set it as the X_BEARER_TOKEN secret."
             )
-        except KeyError:
-            _client = tweepy.Client(bearer_token=os.environ["X_BEARER_TOKEN"])
+        _client = tweepy.Client(bearer_token=bearer)
     return _client
 
 
