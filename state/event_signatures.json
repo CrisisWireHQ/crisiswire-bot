@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1779030049
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1779030049
-  },
-  {
     "key": "uae--drone-strike--barakah",
     "source": "TASS English",
     "ts": 1779030650
@@ -123,5 +113,15 @@
     "key": "usa--fire--route-287-edison",
     "source": "GN: Breaking News",
     "ts": 1779033048
+  },
+  {
+    "key": "usa--tornado--green-county-wisconsin",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779033658
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1779033658
   }
 ]
