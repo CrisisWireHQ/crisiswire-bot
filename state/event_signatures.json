@@ -148,5 +148,10 @@
     "key": "taiwan--quake--nantou",
     "source": "GN: Earthquake",
     "ts": 1779005453
+  },
+  {
+    "key": "israel--explosion--beit-shemesh",
+    "source": "GN: Explosion",
+    "ts": 1779006049
   }
 ]
