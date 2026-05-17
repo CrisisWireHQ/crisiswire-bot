@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--crash--oakland",
-    "source": "GN: AP News",
-    "ts": 1779022242
-  },
-  {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1779022242
-  },
-  {
-    "key": "oman--attack--vessel-indian-flagged",
-    "source": "GN: Terror Attack",
-    "ts": 1779022242
-  },
-  {
     "key": "drc--outbreak--ebola",
     "source": "TASS English",
     "ts": 1779022857
@@ -178,5 +163,30 @@
     "key": "china--bridge-collapse--southern",
     "source": "GN: AP News",
     "ts": 1779025267
+  },
+  {
+    "key": "argentina--quake--san-antonio-de-los-cobres",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1779025846
+  },
+  {
+    "key": "uganda--outbreak--bundibugyo-ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779025849
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "Al Jazeera",
+    "ts": 1779025849
+  },
+  {
+    "key": "uae--drone-strike--nuclear-plant",
+    "source": "GN: Breaking News",
+    "ts": 1779025849
+  },
+  {
+    "key": "palestine--airstrike--khan-younis",
+    "source": "GN: Strike Attack",
+    "ts": 1779025849
   }
 ]
