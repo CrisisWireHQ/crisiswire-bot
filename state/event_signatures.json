@@ -128,5 +128,15 @@
     "key": "usa--hostage--port-st-lucie",
     "source": "GN: Hostage",
     "ts": 1778977244
+  },
+  {
+    "key": "gaza--strike--hamas-leader",
+    "source": "GN: Strike Attack",
+    "ts": 1778977974
+  },
+  {
+    "key": "usa--mass-shooting--california",
+    "source": "GN: Mass Shooting",
+    "ts": 1778977974
   }
 ]
