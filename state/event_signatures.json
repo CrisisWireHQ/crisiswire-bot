@@ -83,5 +83,20 @@
     "key": "russia--quake--undisclosed",
     "source": "GDACS Disaster Alerts",
     "ts": 1779007242
+  },
+  {
+    "key": "who--ebola-emergency--global",
+    "source": "GN: Outbreak",
+    "ts": 1779007850
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "France 24 Intl",
+    "ts": 1779007853
+  },
+  {
+    "key": "maldives--coup--thuraakuno",
+    "source": "GN: Coup",
+    "ts": 1779007853
   }
 ]
