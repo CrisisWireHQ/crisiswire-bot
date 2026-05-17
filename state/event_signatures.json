@@ -128,5 +128,10 @@
     "key": "congo--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1779005023
+  },
+  {
+    "key": "trusted-geolocation-ukrainian-drone-strike-the",
+    "source": "TG: Faytuks Network",
+    "ts": 1779005134
   }
 ]
