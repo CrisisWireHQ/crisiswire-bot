@@ -118,5 +118,20 @@
     "key": "unknown--ebola--global",
     "source": "GN: Outbreak",
     "ts": 1779028245
+  },
+  {
+    "key": "lebanon--explosion--south",
+    "source": "GN: Explosion",
+    "ts": 1779028846
+  },
+  {
+    "key": "russia--drone-strike--moscow",
+    "source": "France 24 Intl",
+    "ts": 1779028846
+  },
+  {
+    "key": "uae--drone-strike--barakah",
+    "source": "Al Jazeera",
+    "ts": 1779028846
   }
 ]
