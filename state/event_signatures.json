@@ -1,25 +1,5 @@
 [
   {
-    "key": "canada--hantavirus--cruise-ship",
-    "source": "GN: CNN",
-    "ts": 1779031855
-  },
-  {
-    "key": "uk--vehicle-attack--birmingham",
-    "source": "Times of India World",
-    "ts": 1779031855
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1779031855
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1779031855
-  },
-  {
     "key": "ukraine--airstrike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1779032445
