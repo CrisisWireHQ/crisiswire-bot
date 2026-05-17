@@ -1,15 +1,5 @@
 [
   {
-    "key": "canada--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1779044449
-  },
-  {
-    "key": "usa--fire--flanders",
-    "source": "GN: Wildfire",
-    "ts": 1779044457
-  },
-  {
     "key": "trusted-via-httpstcoiywpfexhhs-httpstcohy0o99ix8n",
     "source": "X: @Osinttechnical",
     "ts": 1779044735
