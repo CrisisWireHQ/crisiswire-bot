@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--tornado--nebraska-buffalo-county",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778972451
-  },
-  {
-    "key": "usa--tornado--iowa-taylor-county",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778972451
-  },
-  {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1778972451
-  },
-  {
     "key": "trusted-bulgaria-has-won-eurovision-song",
     "source": "TG: Faytuks Network",
     "ts": 1778972497
@@ -148,5 +133,30 @@
     "key": "usa--hantavirus--outbreak",
     "source": "GN: Outbreak",
     "ts": 1778975456
+  },
+  {
+    "key": "atlantic--quake--east-coast",
+    "source": "GN: Earthquake",
+    "ts": 1778976054
+  },
+  {
+    "key": "usa--tornado--goodland-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778976058
+  },
+  {
+    "key": "usa--fire--antelope-valley",
+    "source": "GN: Wildfire",
+    "ts": 1778976058
+  },
+  {
+    "key": "canada--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1778976058
+  },
+  {
+    "key": "italy--attack--modena",
+    "source": "GN: Reuters",
+    "ts": 1778976058
   }
 ]
