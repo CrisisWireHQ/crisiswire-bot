@@ -1,15 +1,5 @@
 [
   {
-    "key": "ukraine--airstrike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1779032445
-  },
-  {
-    "key": "iran--quake--tehran",
-    "source": "GN: Earthquake",
-    "ts": 1779032445
-  },
-  {
     "key": "usa--fire--lincoln-county",
     "source": "GN: Wildfire",
     "ts": 1779032565
@@ -133,5 +123,40 @@
     "key": "caribbean--quake--eastern",
     "source": "GN: Earthquake",
     "ts": 1779035453
+  },
+  {
+    "key": "lebanon--drone-strike--jebchit",
+    "source": "TG: WarMonitors",
+    "ts": 1779036049
+  },
+  {
+    "key": "china--quake--liuzhou",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1779036049
+  },
+  {
+    "key": "usa--tornado--wisconsin",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779036052
+  },
+  {
+    "key": "mexico--attack--puebla",
+    "source": "GN: Breaking News",
+    "ts": 1779036052
+  },
+  {
+    "key": "bolivia--protest--lapaz",
+    "source": "France 24 Intl",
+    "ts": 1779036055
+  },
+  {
+    "key": "usa--quake--hollister",
+    "source": "GN: Earthquake",
+    "ts": 1779036056
+  },
+  {
+    "key": "drc--ebola--northeast",
+    "source": "Al Jazeera",
+    "ts": 1779036056
   }
 ]
