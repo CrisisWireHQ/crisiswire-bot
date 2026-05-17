@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--tornado--michigan-tuscola",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779055862
-  },
-  {
-    "key": "usa--tornado--nebraska-nance",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779055862
-  },
-  {
-    "key": "usa--tornado--nebraska-grand-island",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779055862
-  },
-  {
-    "key": "usa--fire--campo",
-    "source": "GN: Wildfire",
-    "ts": 1779055862
-  },
-  {
     "key": "usa--tornado-watch--nebraska-iowa",
     "source": "NOAA NWS Extreme",
     "ts": 1779056452
