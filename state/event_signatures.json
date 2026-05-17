@@ -1,20 +1,5 @@
 [
   {
-    "key": "israel--explosion--beit-shemesh",
-    "source": "GN: Explosion",
-    "ts": 1778997054
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778997054
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: AP News",
-    "ts": 1778997054
-  },
-  {
     "key": "congo--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1778997646
@@ -68,5 +53,25 @@
     "key": "israel--explosion--beit-shemesh",
     "source": "GN: Explosion",
     "ts": 1779000049
+  },
+  {
+    "key": "usa--quake--hollister",
+    "source": "GN: Earthquake",
+    "ts": 1779000651
+  },
+  {
+    "key": "south-africa--shooting--cape-town",
+    "source": "GN: Mass Shooting",
+    "ts": 1779000651
+  },
+  {
+    "key": "congo--ebola--outbreak",
+    "source": "GN: Outbreak",
+    "ts": 1779000654
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779000660
   }
 ]
