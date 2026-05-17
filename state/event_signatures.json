@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--tornado--iowa-ringgold",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778973641
-  },
-  {
     "key": "usa--tornado--iowa",
     "source": "NOAA NWS Extreme",
     "ts": 1778974243
