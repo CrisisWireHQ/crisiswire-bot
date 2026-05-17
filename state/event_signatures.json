@@ -1,10 +1,5 @@
 [
   {
-    "key": "ukraine--airstrike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1779021045
-  },
-  {
     "key": "usa--crash--tournament-team",
     "source": "GN: Plane Crash",
     "ts": 1779021644
@@ -108,5 +103,40 @@
     "key": "usa--crash--lincoln-county",
     "source": "GN: Plane Crash",
     "ts": 1779024053
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779024650
+  },
+  {
+    "key": "usa--fire--stewart-trail-two-harbors",
+    "source": "GN: Wildfire",
+    "ts": 1779024650
+  },
+  {
+    "key": "usa--quake--south-carolina",
+    "source": "GN: Earthquake",
+    "ts": 1779024650
+  },
+  {
+    "key": "usa--crash--forney-dallas",
+    "source": "GN: Plane Crash",
+    "ts": 1779024650
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779024650
+  },
+  {
+    "key": "thailand--crash--train",
+    "source": "GN: Reuters",
+    "ts": 1779024650
+  },
+  {
+    "key": "usa--outbreak--hantavirus",
+    "source": "GN: Outbreak",
+    "ts": 1779024652
   }
 ]
