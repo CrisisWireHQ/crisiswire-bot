@@ -83,5 +83,45 @@
     "key": "drc--ebola-outbreak--congo-uganda",
     "source": "GN: Outbreak",
     "ts": 1778982041
+  },
+  {
+    "key": "chile--quake--san-pedro-de-atacama",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778982654
+  },
+  {
+    "key": "usa--fire--crow-wing-county",
+    "source": "GN: Wildfire",
+    "ts": 1778982654
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778982654
+  },
+  {
+    "key": "usa--explosion--searsmont",
+    "source": "GN: Explosion",
+    "ts": 1778982654
+  },
+  {
+    "key": "taiwan--quake--central",
+    "source": "GN: Earthquake",
+    "ts": 1778982654
+  },
+  {
+    "key": "venezuela--deportation--maduro-ally",
+    "source": "GN: Coup",
+    "ts": 1778982658
+  },
+  {
+    "key": "usa--fire--capitan-mountains",
+    "source": "GN: Wildfire",
+    "ts": 1778982659
+  },
+  {
+    "key": "venezuela--deportation--maduro-ally",
+    "source": "GN: Coup",
+    "ts": 1778982659
   }
 ]
