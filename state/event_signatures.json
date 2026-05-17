@@ -1,35 +1,5 @@
 [
   {
-    "key": "south-africa--shooting--western-cape",
-    "source": "GN: Mass Shooting",
-    "ts": 1779034253
-  },
-  {
-    "key": "indonesia--quake--pelabuhanratu",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1779034253
-  },
-  {
-    "key": "uae--drone-strike--nuclear-site",
-    "source": "GN: Terror Attack",
-    "ts": 1779034256
-  },
-  {
-    "key": "unknown--hantavirus--cruise-ship",
-    "source": "GN: AP News",
-    "ts": 1779034256
-  },
-  {
-    "key": "uae--drone-strike--abu-dhabi",
-    "source": "BBC World",
-    "ts": 1779034259
-  },
-  {
-    "key": "usa--plane-crash--nascar",
-    "source": "GN: Plane Crash",
-    "ts": 1779034259
-  },
-  {
     "key": "usa--tornado--wisconsin-dane-county",
     "source": "NOAA NWS Extreme",
     "ts": 1779034849
