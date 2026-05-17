@@ -173,5 +173,10 @@
     "key": "gaza--airstrike--unspecified",
     "source": "GN: Reuters",
     "ts": 1779037850
+  },
+  {
+    "key": "trusted-trump-expected-hold-situation-room",
+    "source": "TG: Faytuks Network",
+    "ts": 1779038382
   }
 ]
