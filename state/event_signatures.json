@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--tornado--nebraska-harlan",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778985644
-  },
-  {
-    "key": "usa--tornado--nebraska-lawrence",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778985644
-  },
-  {
-    "key": "usa--tornado--nebraska-beatrice",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778985644
-  },
-  {
-    "key": "taiwan--quake--central",
-    "source": "GN: Earthquake",
-    "ts": 1778985644
-  },
-  {
     "key": "congo-uganda--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1778986255
