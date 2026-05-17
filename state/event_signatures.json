@@ -90,11 +90,6 @@
     "ts": 1779012048
   },
   {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779012048
-  },
-  {
     "key": "malaysia--flood--nationwide",
     "source": "GDACS Disaster Alerts",
     "ts": 1779012048
@@ -123,5 +118,35 @@
     "key": "ukraine--airstrike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1779012647
+  },
+  {
+    "key": "canada--hantavirus--vancouver",
+    "source": "Avian Flu Diary",
+    "ts": 1779013247
+  },
+  {
+    "key": "congo--ebola-outbreak",
+    "source": "GN: Outbreak",
+    "ts": 1779013247
+  },
+  {
+    "key": "usa--quake--upstate",
+    "source": "GN: Earthquake",
+    "ts": 1779013250
+  },
+  {
+    "key": "usa--explosion--pennsylvania",
+    "source": "GN: Explosion",
+    "ts": 1779013250
+  },
+  {
+    "key": "israel--explosion--beit-shemesh",
+    "source": "GN: Explosion",
+    "ts": 1779013250
+  },
+  {
+    "key": "iran--airstrike--khamenei-diplomat",
+    "source": "GN: Strike Attack",
+    "ts": 1779013250
   }
 ]
