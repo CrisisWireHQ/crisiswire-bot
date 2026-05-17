@@ -1,30 +1,5 @@
 [
   {
-    "key": "lebanon--attack--south",
-    "source": "GN: Strike Attack",
-    "ts": 1779031254
-  },
-  {
-    "key": "lebanon--attack--south",
-    "source": "Times of Israel",
-    "ts": 1779031254
-  },
-  {
-    "key": "central-africa--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779031254
-  },
-  {
-    "key": "central-africa--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779031258
-  },
-  {
-    "key": "egypt--explosion--motorcycle-fuel-tank",
-    "source": "GN: Breaking News",
-    "ts": 1779031260
-  },
-  {
     "key": "canada--hantavirus--cruise-ship",
     "source": "GN: CNN",
     "ts": 1779031855
