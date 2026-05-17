@@ -123,5 +123,25 @@
     "key": "usa--fire--crow-wing-county",
     "source": "GN: Wildfire",
     "ts": 1778988642
+  },
+  {
+    "key": "usa--quake--calhoun-falls",
+    "source": "GN: Earthquake",
+    "ts": 1778989238
+  },
+  {
+    "key": "ebola--outbreak--international",
+    "source": "GN: CNN",
+    "ts": 1778989238
+  },
+  {
+    "key": "uk--quake--silverdale",
+    "source": "GN: Earthquake",
+    "ts": 1778989241
+  },
+  {
+    "key": "south-korea--quake--jeju-island",
+    "source": "GN: Earthquake",
+    "ts": 1778989241
   }
 ]
