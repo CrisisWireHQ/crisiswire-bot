@@ -1,20 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1779001250
-  },
-  {
-    "key": "democratic-republic-congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779001250
-  },
-  {
-    "key": "democratic-republic-congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779001253
-  },
-  {
     "key": "drcongo--outbreak--ebola",
     "source": "Al Jazeera",
     "ts": 1779001846
