@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--tornado-warning--kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779057044
-  },
-  {
-    "key": "ukraine--strike--odesa",
-    "source": "GN: Strike Attack",
-    "ts": 1779057047
-  },
-  {
-    "key": "usa--tornado-warning--michigan",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779057047
-  },
-  {
-    "key": "usa--tornado-warning--nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779057050
-  },
-  {
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1779057647
