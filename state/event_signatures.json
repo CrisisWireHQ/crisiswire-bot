@@ -133,5 +133,20 @@
     "key": "nigeria--attack--military-school",
     "source": "GN: Reuters",
     "ts": 1779027652
+  },
+  {
+    "key": "usa--crash--florida-coast",
+    "source": "GN: Plane Crash",
+    "ts": 1779028245
+  },
+  {
+    "key": "usa--fire--brainerd-minnesota",
+    "source": "GN: Wildfire",
+    "ts": 1779028245
+  },
+  {
+    "key": "unknown--ebola--global",
+    "source": "GN: Outbreak",
+    "ts": 1779028245
   }
 ]
