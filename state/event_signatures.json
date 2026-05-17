@@ -1,35 +1,5 @@
 [
   {
-    "key": "russia--drone-strike--moscow",
-    "source": "CBS News World",
-    "ts": 1779015663
-  },
-  {
-    "key": "unknown--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779015663
-  },
-  {
-    "key": "usa--explosion--louisiana-chalmette",
-    "source": "GN: Explosion",
-    "ts": 1779015666
-  },
-  {
-    "key": "lebanon--airstrike--tyre-tayr-debba",
-    "source": "GN: Strike Attack",
-    "ts": 1779015666
-  },
-  {
-    "key": "gaza--airstrike--general",
-    "source": "GN: Strike Attack",
-    "ts": 1779015666
-  },
-  {
-    "key": "usa--quake--bear-lake",
-    "source": "GN: Earthquake",
-    "ts": 1779015666
-  },
-  {
     "key": "trusted-netanyahu-said-israel-intensifying-efforts",
     "source": "TG: Faytuks Network",
     "ts": 1779015761
