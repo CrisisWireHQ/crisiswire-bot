@@ -1,20 +1,5 @@
 [
   {
-    "key": "trusted-sanctioned-the-and-european-union",
-    "source": "TG: Faytuks Network",
-    "ts": 1778984380
-  },
-  {
-    "key": "usa--tornado--beatrice-nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778984449
-  },
-  {
-    "key": "usa--quake--upstate",
-    "source": "GN: Earthquake",
-    "ts": 1778984449
-  },
-  {
     "key": "usa--tornado--nebraska-kansas",
     "source": "NOAA NWS Extreme",
     "ts": 1778985051
@@ -133,5 +118,10 @@
     "key": "canada--hantavirus--cruise-ship",
     "source": "GN: Outbreak",
     "ts": 1778987443
+  },
+  {
+    "key": "trusted-pov-559849987-373405713",
+    "source": "X: @Osinttechnical",
+    "ts": 1778988049
   }
 ]
