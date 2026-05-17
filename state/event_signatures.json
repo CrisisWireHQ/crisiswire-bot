@@ -1,30 +1,5 @@
 [
   {
-    "key": "palestine--attack--gaza",
-    "source": "Jerusalem Post",
-    "ts": 1779015063
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1779015063
-  },
-  {
-    "key": "uae--drone-strike--abu-dhabi",
-    "source": "TG: WarMonitors",
-    "ts": 1779015063
-  },
-  {
-    "key": "lebanon--airstrike--tyre",
-    "source": "GN: Strike Attack",
-    "ts": 1779015065
-  },
-  {
-    "key": "africa--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779015065
-  },
-  {
     "key": "russia--drone-strike--moscow",
     "source": "CBS News World",
     "ts": 1779015663
