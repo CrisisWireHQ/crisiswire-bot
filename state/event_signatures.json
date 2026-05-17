@@ -68,5 +68,20 @@
     "key": "ukraine--airstrike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1779021647
+  },
+  {
+    "key": "usa--crash--oakland",
+    "source": "GN: AP News",
+    "ts": 1779022242
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1779022242
+  },
+  {
+    "key": "oman--attack--vessel-indian-flagged",
+    "source": "GN: Terror Attack",
+    "ts": 1779022242
   }
 ]
