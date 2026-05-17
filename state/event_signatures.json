@@ -1,25 +1,5 @@
 [
   {
-    "key": "gaza--airstrike--deir-al-balah",
-    "source": "GN: Strike Attack",
-    "ts": 1779023443
-  },
-  {
-    "key": "drc--outbreak--ebola",
-    "source": "Straits Times World",
-    "ts": 1779023443
-  },
-  {
-    "key": "drc--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779023443
-  },
-  {
-    "key": "russia--drone-strike--location-unspecified",
-    "source": "GN: Breaking News",
-    "ts": 1779023443
-  },
-  {
     "key": "ukraine--quake--poltava",
     "source": "GN: Earthquake",
     "ts": 1779024047
@@ -188,5 +168,10 @@
     "key": "lebanon--explosion--south",
     "source": "GN: Explosion",
     "ts": 1779026446
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "BBC World",
+    "ts": 1779027052
   }
 ]
