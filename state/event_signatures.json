@@ -183,5 +183,25 @@
     "key": "usa--crash--gunfighters-airshow",
     "source": "GN: Breaking News",
     "ts": 1779058254
+  },
+  {
+    "key": "usa--tornado--ubly-michigan",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779058849
+  },
+  {
+    "key": "usa--tornado--wilmont-south-dakota",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779058849
+  },
+  {
+    "key": "usa--fire--campo-colorado",
+    "source": "GN: Wildfire",
+    "ts": 1779058849
+  },
+  {
+    "key": "thailand--crash--bangkok-freight-train",
+    "source": "GN: CNN",
+    "ts": 1779058849
   }
 ]
