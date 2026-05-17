@@ -73,5 +73,15 @@
     "key": "none",
     "source": "GN: Outbreak",
     "ts": 1778990454
+  },
+  {
+    "key": "unknown--ebola--international",
+    "source": "GN: Outbreak",
+    "ts": 1778991052
+  },
+  {
+    "key": "usa--explosion--new-york",
+    "source": "GN: Explosion",
+    "ts": 1778991057
   }
 ]
