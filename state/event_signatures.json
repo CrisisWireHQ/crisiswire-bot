@@ -1,55 +1,5 @@
 [
   {
-    "key": "south-africa--shooting--wesbank",
-    "source": "GN: Mass Shooting",
-    "ts": 1779025259
-  },
-  {
-    "key": "tonga--quake--neiafu",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1779025259
-  },
-  {
-    "key": "uae--drone-strike--nuclear-plant",
-    "source": "Straits Times World",
-    "ts": 1779025259
-  },
-  {
-    "key": "usa--fire--crow-wing-county",
-    "source": "GN: Wildfire",
-    "ts": 1779025259
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779025259
-  },
-  {
-    "key": "usa--crash--charlotte-lee-county",
-    "source": "GN: Breaking News",
-    "ts": 1779025264
-  },
-  {
-    "key": "pakistan--explosion--bazaar",
-    "source": "GN: Explosion",
-    "ts": 1779025264
-  },
-  {
-    "key": "usa--explosion--maine-lumber-mill",
-    "source": "GN: Explosion",
-    "ts": 1779025267
-  },
-  {
-    "key": "ukraine--airstrike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1779025267
-  },
-  {
-    "key": "china--bridge-collapse--southern",
-    "source": "GN: AP News",
-    "ts": 1779025267
-  },
-  {
     "key": "argentina--quake--san-antonio-de-los-cobres",
     "source": "USGS Quakes M4.5+",
     "ts": 1779025846
