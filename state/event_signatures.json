@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--fire--lincoln-county",
-    "source": "GN: Wildfire",
-    "ts": 1779032565
-  },
-  {
-    "key": "gaza--attack--hamas-military-chief",
-    "source": "GN: Strike Attack",
-    "ts": 1779032565
-  },
-  {
     "key": "usa--tornado--stephenson-county-illinois",
     "source": "NOAA NWS Extreme",
     "ts": 1779033048
