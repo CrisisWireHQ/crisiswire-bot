@@ -158,5 +158,10 @@
     "key": "usa--hostage--port-st-lucie",
     "source": "GN: Hostage",
     "ts": 1778977244
+  },
+  {
+    "key": "usa--tornado--iowa-ringgold",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778973641
   }
 ]
