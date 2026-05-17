@@ -100,16 +100,6 @@
     "ts": 1779043845
   },
   {
-    "key": "usa--tornado-watch--nebraska-iowa-minnesota",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779043845
-  },
-  {
-    "key": "usa--tornado-watch--nebraska-iowa-minnesota",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779043845
-  },
-  {
     "key": "trusted-httpstco1yk1sczruq",
     "source": "X: @Osinttechnical",
     "ts": 1779044018
@@ -148,5 +138,30 @@
     "key": "trusted-airframes-involved-httpstcoxpu7y7obnw",
     "source": "X: @Osinttechnical",
     "ts": 1779045037
+  },
+  {
+    "key": "lithuania--drone-crash--unspecified",
+    "source": "Straits Times World",
+    "ts": 1779045057
+  },
+  {
+    "key": "usa--explosion--cleveland-tennessee",
+    "source": "GN: Explosion",
+    "ts": 1779045060
+  },
+  {
+    "key": "canada--fire--north-shore",
+    "source": "GN: Wildfire",
+    "ts": 1779045060
+  },
+  {
+    "key": "canada--hantavirus--unspecified",
+    "source": "GN: AP News",
+    "ts": 1779045063
+  },
+  {
+    "key": "global--outbreak--ebola",
+    "source": "GN: CNN",
+    "ts": 1779045063
   }
 ]
