@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--fire--kansas",
-    "source": "GN: Wildfire",
-    "ts": 1779057651
-  },
-  {
-    "key": "lebanon--explosion--south",
-    "source": "GN: Explosion",
-    "ts": 1779057651
-  },
-  {
     "key": "usa--tornado--michigan-sanilac",
     "source": "NOAA NWS Extreme",
     "ts": 1779058254
