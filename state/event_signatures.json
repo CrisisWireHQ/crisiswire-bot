@@ -110,11 +110,6 @@
     "ts": 1779037850
   },
   {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779037850
-  },
-  {
     "key": "usa--quake--nevada",
     "source": "GN: Earthquake",
     "ts": 1779037850
@@ -180,11 +175,6 @@
     "ts": 1779039051
   },
   {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1779039051
-  },
-  {
     "key": "usa--crash--medical-plane",
     "source": "GN: Plane Crash",
     "ts": 1779039051
@@ -193,5 +183,25 @@
     "key": "usa--quake--hollister",
     "source": "GN: Earthquake",
     "ts": 1779039053
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1779039648
+  },
+  {
+    "key": "china--quake--guangxi",
+    "source": "GN: Earthquake",
+    "ts": 1779039648
+  },
+  {
+    "key": "usa--explosion--lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1779039648
+  },
+  {
+    "key": "gaza--airstrike--operations-commander",
+    "source": "GN: Strike Attack",
+    "ts": 1779039648
   }
 ]
