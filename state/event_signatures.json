@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--tornado--iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778980841
-  },
-  {
-    "key": "usa--tornado--nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778980841
-  },
-  {
-    "key": "usa--fire--antelope-valley",
-    "source": "GN: Wildfire",
-    "ts": 1778980841
-  },
-  {
     "key": "congo--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1778981456
