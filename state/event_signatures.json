@@ -93,5 +93,15 @@
     "key": "africa--outbreak--ebola",
     "source": "TASS English",
     "ts": 1778989843
+  },
+  {
+    "key": "new-zealand--quake--wainui",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1778990451
+  },
+  {
+    "key": "none",
+    "source": "GN: Outbreak",
+    "ts": 1778990454
   }
 ]
