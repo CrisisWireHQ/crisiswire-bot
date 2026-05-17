@@ -135,16 +135,6 @@
     "ts": 1779049254
   },
   {
-    "key": "usa--tornado-watch--kansas-nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779049254
-  },
-  {
-    "key": "usa--tornado-watch--kansas-nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779049254
-  },
-  {
     "key": "uk--hantavirus--contacts",
     "source": "Sky News",
     "ts": 1779049254
@@ -161,11 +151,6 @@
   },
   {
     "key": "usa--tornado-warning--south-dakota",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779049852
-  },
-  {
-    "key": "usa--tornado-watch--iowa-nebraska",
     "source": "NOAA NWS Extreme",
     "ts": 1779049852
   },
