@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--tornado--nemaha-marshall-kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778995843
-  },
-  {
-    "key": "russia--drone-attack--moscow",
-    "source": "TASS English",
-    "ts": 1778995843
-  },
-  {
-    "key": "congo-uganda--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778995843
-  },
-  {
     "key": "usa--tornado--kansas-baileyville",
     "source": "NOAA NWS Extreme",
     "ts": 1778996455
@@ -88,5 +73,25 @@
     "key": "congo--outbreak--ebola",
     "source": "GN: Breaking News",
     "ts": 1778998840
+  },
+  {
+    "key": "usa--fire--crow-wing-county-minnesota",
+    "source": "GN: Wildfire",
+    "ts": 1778999445
+  },
+  {
+    "key": "gaza--attack--hamas-chief-killed",
+    "source": "GN: Strike Attack",
+    "ts": 1778999445
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778999445
+  },
+  {
+    "key": "taiwan--quake--central",
+    "source": "GN: Earthquake",
+    "ts": 1778999445
   }
 ]
