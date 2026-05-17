@@ -1,15 +1,5 @@
 [
   {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779016845
-  },
-  {
-    "key": "usa--shooting--edmond",
-    "source": "GN: Mass Shooting",
-    "ts": 1779016845
-  },
-  {
     "key": "palestine--airstrike--gaza",
     "source": "Straits Times World",
     "ts": 1779017450
