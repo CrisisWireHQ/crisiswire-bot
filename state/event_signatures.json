@@ -93,5 +93,20 @@
     "key": "congo--outbreak--ebola",
     "source": "Times of Israel",
     "ts": 1778998244
+  },
+  {
+    "key": "usa--fire--crow-wing-county",
+    "source": "GN: Wildfire",
+    "ts": 1778998840
+  },
+  {
+    "key": "vanuatu--quake--port-vila",
+    "source": "GN: Earthquake",
+    "ts": 1778998840
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Breaking News",
+    "ts": 1778998840
   }
 ]
