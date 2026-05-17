@@ -1,25 +1,5 @@
 [
   {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778977242
-  },
-  {
-    "key": "iran--escalation--strait-of-hormuz",
-    "source": "Al Jazeera",
-    "ts": 1778977242
-  },
-  {
-    "key": "usa--crash--capitan-mountains",
-    "source": "GN: Plane Crash",
-    "ts": 1778977244
-  },
-  {
-    "key": "usa--hostage--port-st-lucie",
-    "source": "GN: Hostage",
-    "ts": 1778977244
-  },
-  {
     "key": "gaza--strike--hamas-leader",
     "source": "GN: Strike Attack",
     "ts": 1778977974
