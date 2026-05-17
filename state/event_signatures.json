@@ -1,35 +1,5 @@
 [
   {
-    "key": "usa--fire--flanders-brainerd",
-    "source": "GN: Wildfire",
-    "ts": 1779038444
-  },
-  {
-    "key": "usa--fire--minnesota",
-    "source": "GN: Wildfire",
-    "ts": 1779038444
-  },
-  {
-    "key": "uae--drone-strike--barakah-npp",
-    "source": "TASS English",
-    "ts": 1779038444
-  },
-  {
-    "key": "ukraine--attack--zaporozhye-npp",
-    "source": "TASS English",
-    "ts": 1779038444
-  },
-  {
-    "key": "drc--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779038444
-  },
-  {
-    "key": "taiwan--quake--nantou",
-    "source": "GN: Earthquake",
-    "ts": 1779038444
-  },
-  {
     "key": "russia--drone-attack--moscow",
     "source": "GN: Strike Attack",
     "ts": 1779039046
@@ -128,5 +98,40 @@
     "key": "canada--hantavirus--mv-hondius",
     "source": "GN: Outbreak",
     "ts": 1779041451
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1779042045
+  },
+  {
+    "key": "ukraine--drone-attack--zaporizhzhia",
+    "source": "TASS English",
+    "ts": 1779042045
+  },
+  {
+    "key": "ukraine--ground-operations--konstantinovka",
+    "source": "TASS English",
+    "ts": 1779042045
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1779042049
+  },
+  {
+    "key": "global--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779042049
+  },
+  {
+    "key": "mexico--armed-attack--puebla",
+    "source": "GN: Reuters",
+    "ts": 1779042049
+  },
+  {
+    "key": "canada--hantavirus--cruise-ship",
+    "source": "GN: Breaking News",
+    "ts": 1779042051
   }
 ]
