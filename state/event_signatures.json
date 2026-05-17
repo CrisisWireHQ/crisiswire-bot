@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--tornado--nebraska-grand-island",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779055254
-  },
-  {
-    "key": "usa--tornado--iowa-minnesota",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779055254
-  },
-  {
-    "key": "nigeria--terror-attack--yobe",
-    "source": "GN: Terror Attack",
-    "ts": 1779055254
-  },
-  {
-    "key": "usa--fire--two-harbors",
-    "source": "GN: Wildfire",
-    "ts": 1779055258
-  },
-  {
     "key": "usa--tornado--michigan-tuscola",
     "source": "NOAA NWS Extreme",
     "ts": 1779055862
