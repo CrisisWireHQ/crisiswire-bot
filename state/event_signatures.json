@@ -83,5 +83,35 @@
     "key": "usa--fire--antelope-valley",
     "source": "GN: Wildfire",
     "ts": 1778980841
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778981456
+  },
+  {
+    "key": "usa--tornado--kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778981456
+  },
+  {
+    "key": "usa--tornado--nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778981456
+  },
+  {
+    "key": "russia--drone-attack--moscow",
+    "source": "TASS English",
+    "ts": 1778981456
+  },
+  {
+    "key": "russia--drone-attack--moscow",
+    "source": "TASS English",
+    "ts": 1778981456
+  },
+  {
+    "key": "ukraine--attack--donetsk-region",
+    "source": "TASS English",
+    "ts": 1778981456
   }
 ]
