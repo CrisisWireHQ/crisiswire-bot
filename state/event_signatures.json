@@ -85,18 +85,8 @@
     "ts": 1779002446
   },
   {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779002446
-  },
-  {
     "key": "gaza--strike--hamas",
     "source": "GN: Strike Attack",
-    "ts": 1779002446
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
     "ts": 1779002446
   },
   {
@@ -108,5 +98,40 @@
     "key": "trusted-ukrainian-attack-drone-involved-this",
     "source": "X: @Osinttechnical",
     "ts": 1779002985
+  },
+  {
+    "key": "ukraine--drone-attack--donbass",
+    "source": "TASS English",
+    "ts": 1779003060
+  },
+  {
+    "key": "world--ebola-outbreak--declared",
+    "source": "GN: Outbreak",
+    "ts": 1779003060
+  },
+  {
+    "key": "south-africa--mass-shooting--western-cape",
+    "source": "GN: Mass Shooting",
+    "ts": 1779003064
+  },
+  {
+    "key": "lebanon--airstrike--israel",
+    "source": "GN: Strike Attack",
+    "ts": 1779003064
+  },
+  {
+    "key": "world--ebola-outbreak--declared",
+    "source": "GN: Outbreak",
+    "ts": 1779003064
+  },
+  {
+    "key": "usa--trafficking-deaths--texas",
+    "source": "GN: AP News",
+    "ts": 1779003066
+  },
+  {
+    "key": "usa--shooting--prom-party",
+    "source": "GN: Mass Shooting",
+    "ts": 1779003067
   }
 ]
