@@ -1,41 +1,6 @@
 [
   {
     "key": "drc--outbreak--ebola",
-    "source": "Al Jazeera",
-    "ts": 1779024053
-  },
-  {
-    "key": "ukraine--airstrike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1779024053
-  },
-  {
-    "key": "usa--shooting--paterson",
-    "source": "GN: Mass Shooting",
-    "ts": 1779024053
-  },
-  {
-    "key": "usa--fire--minnesota",
-    "source": "GN: Wildfire",
-    "ts": 1779024053
-  },
-  {
-    "key": "usa--shooting--iowa",
-    "source": "GN: Mass Shooting",
-    "ts": 1779024053
-  },
-  {
-    "key": "uae--drone-strike--nuclear-facility",
-    "source": "GN: Wildfire",
-    "ts": 1779024053
-  },
-  {
-    "key": "usa--crash--lincoln-county",
-    "source": "GN: Plane Crash",
-    "ts": 1779024053
-  },
-  {
-    "key": "drc--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1779024650
   },
