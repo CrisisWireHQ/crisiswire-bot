@@ -1,35 +1,5 @@
 [
   {
-    "key": "usa--tornado--iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778974243
-  },
-  {
-    "key": "usa--tornado--missouri",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778974243
-  },
-  {
-    "key": "nigeria--attack--yobe",
-    "source": "GN: Terror Attack",
-    "ts": 1778974243
-  },
-  {
-    "key": "usa--fire--minnesota",
-    "source": "GN: Wildfire",
-    "ts": 1778974243
-  },
-  {
-    "key": "ukraine--drone-strike--sevastopol",
-    "source": "TASS English",
-    "ts": 1778974243
-  },
-  {
-    "key": "usa--fire--crow-wing-county-minnesota",
-    "source": "GN: Wildfire",
-    "ts": 1778974243
-  },
-  {
     "key": "usa--tornado--missouri",
     "source": "NOAA NWS Extreme",
     "ts": 1778974616
