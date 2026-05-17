@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--quake--upstate",
-    "source": "GN: Earthquake",
-    "ts": 1778988053
-  },
-  {
     "key": "usa--fire--crow-wing-county",
     "source": "GN: Wildfire",
     "ts": 1778988642
