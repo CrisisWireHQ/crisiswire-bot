@@ -1,40 +1,5 @@
 [
   {
-    "key": "russia--drone-attack--moscow",
-    "source": "TASS English",
-    "ts": 1778991645
-  },
-  {
-    "key": "russia--drone-attack--moscow-region",
-    "source": "TASS English",
-    "ts": 1778991645
-  },
-  {
-    "key": "west-africa--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778991645
-  },
-  {
-    "key": "russia--drone-attack--moscow",
-    "source": "TASS English",
-    "ts": 1778991649
-  },
-  {
-    "key": "eastern-caribbean--quake--magnitude-6",
-    "source": "GN: Earthquake",
-    "ts": 1778991649
-  },
-  {
-    "key": "usa--explosion--searsmont-maine",
-    "source": "GN: Explosion",
-    "ts": 1778991652
-  },
-  {
-    "key": "usa--crash--maine",
-    "source": "GN: Plane Crash",
-    "ts": 1778991652
-  },
-  {
     "key": "israel--strike--hamas-leader",
     "source": "GN: Strike Attack",
     "ts": 1778992841
