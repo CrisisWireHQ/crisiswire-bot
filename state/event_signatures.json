@@ -1,50 +1,5 @@
 [
   {
-    "key": "usa--explosion--searsmont-mill",
-    "source": "GN: Explosion",
-    "ts": 1779049852
-  },
-  {
-    "key": "usa--tornado-warning--south-dakota",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779049852
-  },
-  {
-    "key": "usa--tornado-watch--iowa-nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779049852
-  },
-  {
-    "key": "china--quake--guangxi",
-    "source": "GN: Earthquake",
-    "ts": 1779049852
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1779049852
-  },
-  {
-    "key": "drc--ebola-outbreak",
-    "source": "GN: Outbreak",
-    "ts": 1779049852
-  },
-  {
-    "key": "usa--midair-collision--idaho",
-    "source": "GN: Breaking News",
-    "ts": 1779049852
-  },
-  {
-    "key": "usa--midair-collision--idaho",
-    "source": "GN: Breaking News",
-    "ts": 1779049855
-  },
-  {
-    "key": "usa--hantavirus--colorado",
-    "source": "GN: Outbreak",
-    "ts": 1779049858
-  },
-  {
     "key": "usa--tornado--south-dakota",
     "source": "NOAA NWS Extreme",
     "ts": 1779050443
