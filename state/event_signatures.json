@@ -183,5 +183,25 @@
     "key": "thailand--crash--bangkok-freight-train",
     "source": "GN: CNN",
     "ts": 1779058849
+  },
+  {
+    "key": "usa--tornado-watch--kansas-nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779059448
+  },
+  {
+    "key": "usa--tornado-watch--iowa-minnesota",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779059448
+  },
+  {
+    "key": "usa--fire--oklahoma-colorado-border",
+    "source": "GN: Wildfire",
+    "ts": 1779059448
+  },
+  {
+    "key": "mexico--shooting--puebla",
+    "source": "Sky News",
+    "ts": 1779059448
   }
 ]
