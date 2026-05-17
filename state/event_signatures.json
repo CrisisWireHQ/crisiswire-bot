@@ -118,5 +118,10 @@
     "key": "venezuela--deportation--maduro-ally",
     "source": "GN: Coup",
     "ts": 1778982659
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778983247
   }
 ]
