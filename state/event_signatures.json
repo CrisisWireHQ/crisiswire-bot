@@ -98,5 +98,10 @@
     "key": "maldives--coup--thuraakuno",
     "source": "GN: Coup",
     "ts": 1779007853
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779008463
   }
 ]
