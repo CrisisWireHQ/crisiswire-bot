@@ -90,13 +90,28 @@
     "ts": 1778981456
   },
   {
-    "key": "russia--drone-attack--moscow",
+    "key": "ukraine--attack--donetsk-region",
     "source": "TASS English",
     "ts": 1778981456
   },
   {
-    "key": "ukraine--attack--donetsk-region",
-    "source": "TASS English",
-    "ts": 1778981456
+    "key": "lebanon--drone-strike--north",
+    "source": "Times of Israel",
+    "ts": 1778982041
+  },
+  {
+    "key": "usa--tornado-warning--beatrice-nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778982041
+  },
+  {
+    "key": "usa--tornado-warning--haddam-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778982041
+  },
+  {
+    "key": "drc--ebola-outbreak--congo-uganda",
+    "source": "GN: Outbreak",
+    "ts": 1778982041
   }
 ]
