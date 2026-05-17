@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--tornado--nebraska-kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778985051
-  },
-  {
-    "key": "usa--tornado--nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778985051
-  },
-  {
-    "key": "usa--tornado--nebraska-gage",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778985051
-  },
-  {
-    "key": "lebanon--airstrike--tyre",
-    "source": "GN: Strike Attack",
-    "ts": 1778985051
-  },
-  {
     "key": "usa--tornado--nebraska-harlan",
     "source": "NOAA NWS Extreme",
     "ts": 1778985644
