@@ -70,16 +70,6 @@
     "ts": 1778994648
   },
   {
-    "key": "congo-uganda--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778994648
-  },
-  {
-    "key": "congo-uganda--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778994648
-  },
-  {
     "key": "global--outbreak--hantavirus",
     "source": "GN: Outbreak",
     "ts": 1778994648
@@ -110,11 +100,6 @@
     "ts": 1778995242
   },
   {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778995242
-  },
-  {
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778995242
@@ -128,5 +113,20 @@
     "key": "usa--explosion--maine-mill",
     "source": "GN: Explosion",
     "ts": 1778995242
+  },
+  {
+    "key": "usa--tornado--nemaha-marshall-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778995843
+  },
+  {
+    "key": "russia--drone-attack--moscow",
+    "source": "TASS English",
+    "ts": 1778995843
+  },
+  {
+    "key": "congo-uganda--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778995843
   }
 ]
