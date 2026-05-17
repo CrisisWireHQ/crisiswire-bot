@@ -1,15 +1,5 @@
 [
   {
-    "key": "unknown--ebola--international",
-    "source": "GN: Outbreak",
-    "ts": 1778991052
-  },
-  {
-    "key": "usa--explosion--new-york",
-    "source": "GN: Explosion",
-    "ts": 1778991057
-  },
-  {
     "key": "russia--drone-attack--moscow",
     "source": "TASS English",
     "ts": 1778991645
