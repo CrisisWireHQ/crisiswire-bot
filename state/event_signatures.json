@@ -133,5 +133,15 @@
     "key": "congo--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1778997646
+  },
+  {
+    "key": "russia--drone-attack--moscow-region",
+    "source": "France 24 Intl",
+    "ts": 1778998244
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "Times of Israel",
+    "ts": 1778998244
   }
 ]
