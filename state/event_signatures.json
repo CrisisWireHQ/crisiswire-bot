@@ -93,5 +93,60 @@
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1778994050
+  },
+  {
+    "key": "italy--attack--modena",
+    "source": "Jerusalem Post",
+    "ts": 1778994648
+  },
+  {
+    "key": "russia--drone-strike--moscow-region",
+    "source": "Straits Times World",
+    "ts": 1778994648
+  },
+  {
+    "key": "israel--explosion--defence-facility",
+    "source": "GN: Strike Attack",
+    "ts": 1778994648
+  },
+  {
+    "key": "congo-uganda--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778994648
+  },
+  {
+    "key": "congo-uganda--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778994648
+  },
+  {
+    "key": "congo-uganda--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778994648
+  },
+  {
+    "key": "global--outbreak--hantavirus",
+    "source": "GN: Outbreak",
+    "ts": 1778994648
+  },
+  {
+    "key": "palestine--airstrike--hamas-commander",
+    "source": "GN: Strike Attack",
+    "ts": 1778994651
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778994651
+  },
+  {
+    "key": "gaza--strike--hamas-leader",
+    "source": "GN: Strike Attack",
+    "ts": 1778994651
+  },
+  {
+    "key": "usa--fire--crow-wing-county",
+    "source": "GN: Wildfire",
+    "ts": 1778994651
   }
 ]
