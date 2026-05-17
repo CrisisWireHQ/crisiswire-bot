@@ -1,15 +1,5 @@
 [
   {
-    "key": "drcongo--outbreak--ebola",
-    "source": "Al Jazeera",
-    "ts": 1779001846
-  },
-  {
-    "key": "drcongo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779001849
-  },
-  {
     "key": "nigeria--attack--yobe",
     "source": "GN: Terror Attack",
     "ts": 1779002446
@@ -143,5 +133,20 @@
     "key": "trusted-ukrainian-bars-low-cost-cruise",
     "source": "X: @Osinttechnical",
     "ts": 1779005276
+  },
+  {
+    "key": "papua-new-guinea--quake--lorengau",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1779005450
+  },
+  {
+    "key": "lebanon--airstrike--tyre",
+    "source": "GN: Strike Attack",
+    "ts": 1779005453
+  },
+  {
+    "key": "taiwan--quake--nantou",
+    "source": "GN: Earthquake",
+    "ts": 1779005453
   }
 ]
