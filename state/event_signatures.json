@@ -143,5 +143,20 @@
     "key": "trusted-abu-dhabi-confirms-drone-strike",
     "source": "TG: Faytuks Network",
     "ts": 1779013423
+  },
+  {
+    "key": "usa--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1779013845
+  },
+  {
+    "key": "russia--drone-attack--ukraine-barrage",
+    "source": "GN: Breaking News",
+    "ts": 1779013845
+  },
+  {
+    "key": "ukraine--explosion--sumy",
+    "source": "GN: Explosion",
+    "ts": 1779013845
   }
 ]
