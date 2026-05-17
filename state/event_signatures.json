@@ -1,25 +1,5 @@
 [
   {
-    "key": "lebanon--drone-strike--north",
-    "source": "Times of Israel",
-    "ts": 1778982041
-  },
-  {
-    "key": "usa--tornado-warning--beatrice-nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778982041
-  },
-  {
-    "key": "usa--tornado-warning--haddam-kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778982041
-  },
-  {
-    "key": "drc--ebola-outbreak--congo-uganda",
-    "source": "GN: Outbreak",
-    "ts": 1778982041
-  },
-  {
     "key": "chile--quake--san-pedro-de-atacama",
     "source": "USGS Quakes M4.5+",
     "ts": 1778982654
@@ -128,5 +108,25 @@
     "key": "lebanon--airstrike--tyre",
     "source": "GN: Strike Attack",
     "ts": 1778985051
+  },
+  {
+    "key": "usa--tornado--nebraska-harlan",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778985644
+  },
+  {
+    "key": "usa--tornado--nebraska-lawrence",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778985644
+  },
+  {
+    "key": "usa--tornado--nebraska-beatrice",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778985644
+  },
+  {
+    "key": "taiwan--quake--central",
+    "source": "GN: Earthquake",
+    "ts": 1778985644
   }
 ]
