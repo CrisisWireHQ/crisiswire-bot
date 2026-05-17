@@ -173,5 +173,35 @@
     "key": "gaza--airstrike--hamas-commander",
     "source": "GN: Strike Attack",
     "ts": 1779037259
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779037850
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1779037850
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779037850
+  },
+  {
+    "key": "usa--quake--nevada",
+    "source": "GN: Earthquake",
+    "ts": 1779037850
+  },
+  {
+    "key": "lebanon--explosion--south",
+    "source": "GN: Explosion",
+    "ts": 1779037850
+  },
+  {
+    "key": "gaza--airstrike--unspecified",
+    "source": "GN: Reuters",
+    "ts": 1779037850
   }
 ]
