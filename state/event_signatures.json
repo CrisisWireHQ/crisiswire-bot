@@ -1,15 +1,5 @@
 [
   {
-    "key": "gaza--strike--hamas-leader",
-    "source": "GN: Strike Attack",
-    "ts": 1778977974
-  },
-  {
-    "key": "usa--mass-shooting--california",
-    "source": "GN: Mass Shooting",
-    "ts": 1778977974
-  },
-  {
     "key": "japan--quake--miyako",
     "source": "USGS Quakes M4.5+",
     "ts": 1778978439
