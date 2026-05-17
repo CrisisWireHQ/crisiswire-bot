@@ -88,5 +88,15 @@
     "key": "none",
     "source": "GN: Outbreak",
     "ts": 1779019847
+  },
+  {
+    "key": "russia--drone-attack--moscow",
+    "source": "Jerusalem Post",
+    "ts": 1779020449
+  },
+  {
+    "key": "uae--drone-strike--barakah-nuclear",
+    "source": "Jerusalem Post",
+    "ts": 1779020449
   }
 ]
