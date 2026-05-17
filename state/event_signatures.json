@@ -1,10 +1,5 @@
 [
   {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779008463
-  },
-  {
     "key": "nigeria--attack--yobe",
     "source": "GN: Terror Attack",
     "ts": 1779009048
