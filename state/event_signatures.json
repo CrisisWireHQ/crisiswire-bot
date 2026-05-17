@@ -178,5 +178,15 @@
     "key": "russia--drone-strike--moscow",
     "source": "Sky News",
     "ts": 1779016265
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779016845
+  },
+  {
+    "key": "usa--shooting--edmond",
+    "source": "GN: Mass Shooting",
+    "ts": 1779016845
   }
 ]
