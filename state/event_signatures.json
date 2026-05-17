@@ -1,35 +1,5 @@
 [
   {
-    "key": "usa--tornado--nebraska-gage-county",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778983851
-  },
-  {
-    "key": "usa--tornado--kansas-washington-county",
-    "source": "NOAA NWS Extreme",
-    "ts": 1778983854
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778983854
-  },
-  {
-    "key": "lebanon--attack--rashaf",
-    "source": "TASS English",
-    "ts": 1778983854
-  },
-  {
-    "key": "russia--drone-attack--moscow",
-    "source": "TASS English",
-    "ts": 1778983854
-  },
-  {
-    "key": "venezuela--extradition--maduro-ally",
-    "source": "GN: Coup",
-    "ts": 1778983854
-  },
-  {
     "key": "trusted-sanctioned-the-and-european-union",
     "source": "TG: Faytuks Network",
     "ts": 1778984380
