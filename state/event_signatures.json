@@ -78,5 +78,15 @@
     "key": "russia--drone-strike--moscow",
     "source": "GN: Breaking News",
     "ts": 1779029452
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1779030049
+  },
+  {
+    "key": "ukraine--missile-strike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1779030049
   }
 ]
