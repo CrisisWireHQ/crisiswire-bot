@@ -123,5 +123,35 @@
     "key": "congo-uganda--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1778995843
+  },
+  {
+    "key": "usa--tornado--kansas-baileyville",
+    "source": "NOAA NWS Extreme",
+    "ts": 1778996455
+  },
+  {
+    "key": "israel--explosion--beit-shemesh",
+    "source": "GN: Explosion",
+    "ts": 1778996455
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1778996455
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778996455
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "BBC World",
+    "ts": 1778996455
+  },
+  {
+    "key": "indonesia--quake--regional",
+    "source": "GN: Earthquake",
+    "ts": 1778996455
   }
 ]
