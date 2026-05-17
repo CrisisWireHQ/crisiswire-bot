@@ -158,5 +158,30 @@
     "key": "palestine--airstrike--gaza",
     "source": "GN: Strike Attack",
     "ts": 1779048050
+  },
+  {
+    "key": "usa--tornado--south-dakota",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779048641
+  },
+  {
+    "key": "palestine--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1779048641
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "Al Jazeera",
+    "ts": 1779048641
+  },
+  {
+    "key": "usa--explosion--tennessee",
+    "source": "GN: Explosion",
+    "ts": 1779048641
+  },
+  {
+    "key": "usa--explosion--maine",
+    "source": "GN: Explosion",
+    "ts": 1779048641
   }
 ]
