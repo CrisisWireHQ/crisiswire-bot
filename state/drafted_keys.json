@@ -60,6 +60,7 @@
   "ukraine--conflict--ongoing": 1779012053,
   "ukraine--explosion--dnipropetrovsk": 1778971246,
   "ukraine--quake--poltava": 1779024050,
+  "ukraine--strike--odesa": 1779056460,
   "unknown--outbreak--ebola": 1779046987,
   "usa--attack--oakland-california": 1779018444,
   "usa--collision--mountain-home-idaho": 1779045649,
@@ -74,5 +75,6 @@
   "usa--shooting--trump-event": 1778986265,
   "usa--threat--arkansas": 1778976650,
   "usa--tornado--nebraska-gage-county": 1778983854,
+  "usa--tornado-watch--nebraska-iowa": 1779056455,
   "who--ebola-emergency--global": 1779007853
 }

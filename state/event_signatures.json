@@ -1,25 +1,5 @@
 [
   {
-    "key": "papua-new-guinea--quake--kimbe",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1779052850
-  },
-  {
-    "key": "thailand--crash--bangkok",
-    "source": "GN: CNN",
-    "ts": 1779052850
-  },
-  {
-    "key": "usa--crash--mount-airy",
-    "source": "GN: Breaking News",
-    "ts": 1779052850
-  },
-  {
-    "key": "usa--fire--texas",
-    "source": "GN: Wildfire",
-    "ts": 1779052850
-  },
-  {
     "key": "usa--crash--idaho-airshow",
     "source": "TG: WarMonitors",
     "ts": 1779053445
@@ -143,5 +123,45 @@
     "key": "usa--fire--campo",
     "source": "GN: Wildfire",
     "ts": 1779055862
+  },
+  {
+    "key": "usa--tornado-watch--nebraska-iowa",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779056452
+  },
+  {
+    "key": "usa--tornado-watch--nebraska-iowa-southwest",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779056455
+  },
+  {
+    "key": "usa--tornado--grand-island-nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779056455
+  },
+  {
+    "key": "usa--tornado--akron-michigan",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779056455
+  },
+  {
+    "key": "ukraine--strike--odesa",
+    "source": "GN: Strike Attack",
+    "ts": 1779056455
+  },
+  {
+    "key": "usa--fire--crow-wing-county-minnesota",
+    "source": "GN: Wildfire",
+    "ts": 1779056460
+  },
+  {
+    "key": "usa--fire--amarillo",
+    "source": "GN: Wildfire",
+    "ts": 1779056460
+  },
+  {
+    "key": "lebanon--airstrike--east",
+    "source": "GN: Strike Attack",
+    "ts": 1779056460
   }
 ]
