@@ -1,20 +1,5 @@
 [
   {
-    "key": "global--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779043250
-  },
-  {
-    "key": "usa--shooting--fort-worth",
-    "source": "GN: Breaking News",
-    "ts": 1779043250
-  },
-  {
-    "key": "canada--hantavirus--mv-hondius",
-    "source": "GN: Outbreak",
-    "ts": 1779043250
-  },
-  {
     "key": "canada--hantavirus--cruise-ship",
     "source": "GN: Outbreak",
     "ts": 1779043845
