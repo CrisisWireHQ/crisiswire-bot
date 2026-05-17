@@ -123,5 +123,40 @@
     "key": "canada--hantavirus--cruise-ship",
     "source": "GN: Breaking News",
     "ts": 1779042051
+  },
+  {
+    "key": "russia--drone-attack--moscow",
+    "source": "GN: Strike Attack",
+    "ts": 1779039046
+  },
+  {
+    "key": "usa--fire--california-rowlee",
+    "source": "GN: Wildfire",
+    "ts": 1779039046
+  },
+  {
+    "key": "uae--drone-attack--barakah",
+    "source": "GN: Terror Attack",
+    "ts": 1779042643
+  },
+  {
+    "key": "israel--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1779042643
+  },
+  {
+    "key": "global--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779042643
+  },
+  {
+    "key": "usa--fire--rowlee-california",
+    "source": "GN: Wildfire",
+    "ts": 1779042643
+  },
+  {
+    "key": "usa--fire--northern-minnesota",
+    "source": "GN: Wildfire",
+    "ts": 1779042643
   }
 ]
