@@ -1,30 +1,5 @@
 [
   {
-    "key": "israel--explosion--beit-shemesh",
-    "source": "GN: Explosion",
-    "ts": 1779006651
-  },
-  {
-    "key": "russia--quake--severo-kurilsk",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1779006651
-  },
-  {
-    "key": "ukraine--airstrike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1779006655
-  },
-  {
-    "key": "usa--hantavirus--cruise",
-    "source": "GN: Outbreak",
-    "ts": 1779006655
-  },
-  {
-    "key": "congo--ebola--regional",
-    "source": "GN: Outbreak",
-    "ts": 1779006655
-  },
-  {
     "key": "congo--outbreak--ebola",
     "source": "France 24 Intl",
     "ts": 1779007242
@@ -78,5 +53,25 @@
     "key": "usa--mass-shooting--iowa-city",
     "source": "GN: Mass Shooting",
     "ts": 1779009648
+  },
+  {
+    "key": "russia--drone-strike--moscow-belgorod",
+    "source": "Al Jazeera",
+    "ts": 1779010261
+  },
+  {
+    "key": "italy--attack--modena",
+    "source": "GN: Reuters",
+    "ts": 1779010261
+  },
+  {
+    "key": "gaza--airstrike--hamas",
+    "source": "GN: Strike Attack",
+    "ts": 1779010261
+  },
+  {
+    "key": "russia--drone-strike--moscow",
+    "source": "GN: AP News",
+    "ts": 1779010261
   }
 ]
