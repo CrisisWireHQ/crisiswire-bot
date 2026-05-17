@@ -123,5 +123,30 @@
     "key": "israel--explosion--beit-shemesh",
     "source": "GN: Explosion",
     "ts": 1779006049
+  },
+  {
+    "key": "israel--explosion--beit-shemesh",
+    "source": "GN: Explosion",
+    "ts": 1779006651
+  },
+  {
+    "key": "russia--quake--severo-kurilsk",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1779006651
+  },
+  {
+    "key": "ukraine--airstrike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1779006655
+  },
+  {
+    "key": "usa--hantavirus--cruise",
+    "source": "GN: Outbreak",
+    "ts": 1779006655
+  },
+  {
+    "key": "congo--ebola--regional",
+    "source": "GN: Outbreak",
+    "ts": 1779006655
   }
 ]
