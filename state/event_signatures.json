@@ -1,30 +1,5 @@
 [
   {
-    "key": "gaza--airstrike--hamas-chief",
-    "source": "GN: Strike Attack",
-    "ts": 1778993443
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778993443
-  },
-  {
-    "key": "russia--drone-shot-down--moscow",
-    "source": "TASS English",
-    "ts": 1778993443
-  },
-  {
-    "key": "usa--fire--minnesota-crow-wing",
-    "source": "GN: Wildfire",
-    "ts": 1778993443
-  },
-  {
-    "key": "usa--explosion--maine-mill",
-    "source": "GN: Explosion",
-    "ts": 1778993443
-  },
-  {
     "key": "congo--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1778994050
@@ -153,5 +128,20 @@
     "key": "indonesia--quake--regional",
     "source": "GN: Earthquake",
     "ts": 1778996455
+  },
+  {
+    "key": "israel--explosion--beit-shemesh",
+    "source": "GN: Explosion",
+    "ts": 1778997054
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778997054
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: AP News",
+    "ts": 1778997054
   }
 ]
