@@ -1,10 +1,5 @@
 [
   {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778997646
-  },
-  {
     "key": "russia--drone-attack--moscow-region",
     "source": "France 24 Intl",
     "ts": 1778998244
@@ -73,5 +68,20 @@
     "key": "congo--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1779000660
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1779001250
+  },
+  {
+    "key": "democratic-republic-congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779001250
+  },
+  {
+    "key": "democratic-republic-congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779001253
   }
 ]
