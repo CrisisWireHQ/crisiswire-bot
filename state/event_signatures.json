@@ -178,5 +178,35 @@
     "key": "trusted-trump-expected-hold-situation-room",
     "source": "TG: Faytuks Network",
     "ts": 1779038382
+  },
+  {
+    "key": "usa--fire--flanders-brainerd",
+    "source": "GN: Wildfire",
+    "ts": 1779038444
+  },
+  {
+    "key": "usa--fire--minnesota",
+    "source": "GN: Wildfire",
+    "ts": 1779038444
+  },
+  {
+    "key": "uae--drone-strike--barakah-npp",
+    "source": "TASS English",
+    "ts": 1779038444
+  },
+  {
+    "key": "ukraine--attack--zaporozhye-npp",
+    "source": "TASS English",
+    "ts": 1779038444
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779038444
+  },
+  {
+    "key": "taiwan--quake--nantou",
+    "source": "GN: Earthquake",
+    "ts": 1779038444
   }
 ]
