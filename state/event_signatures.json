@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--tornado--nebraska-merrick",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779054039
-  },
-  {
-    "key": "unknown--ebola-outbreak--regional",
-    "source": "Straits Times World",
-    "ts": 1779054039
-  },
-  {
-    "key": "usa--shooting--austin",
-    "source": "GN: Mass Shooting",
-    "ts": 1779054042
-  },
-  {
-    "key": "saudi-arabia--drone-interception--iraqi-airspace",
-    "source": "GN: Reuters",
-    "ts": 1779054042
-  },
-  {
     "key": "usa--tornado--grand-island-nebraska",
     "source": "NOAA NWS Extreme",
     "ts": 1779054646
@@ -138,5 +118,50 @@
     "key": "usa--tornado-warning--nebraska",
     "source": "NOAA NWS Extreme",
     "ts": 1779057050
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1779057647
+  },
+  {
+    "key": "usa--mass-shooting--kansas",
+    "source": "GN: Mass Shooting",
+    "ts": 1779057647
+  },
+  {
+    "key": "usa--tornado--nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779057647
+  },
+  {
+    "key": "usa--tornado--colorado",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779057647
+  },
+  {
+    "key": "usa--tornado--minnesota",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779057647
+  },
+  {
+    "key": "usa--fire--colorado",
+    "source": "GN: Wildfire",
+    "ts": 1779057647
+  },
+  {
+    "key": "usa--outbreak--buckingham",
+    "source": "GN: Outbreak",
+    "ts": 1779057647
+  },
+  {
+    "key": "usa--fire--kansas",
+    "source": "GN: Wildfire",
+    "ts": 1779057651
+  },
+  {
+    "key": "lebanon--explosion--south",
+    "source": "GN: Explosion",
+    "ts": 1779057651
   }
 ]
