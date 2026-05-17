@@ -158,5 +158,30 @@
     "key": "trusted-additional-footage-russian-forces-started",
     "source": "X: @Osinttechnical",
     "ts": 1779036936
+  },
+  {
+    "key": "global--ebola--emergency-declaration",
+    "source": "GN: CNN",
+    "ts": 1779037254
+  },
+  {
+    "key": "global--ebola--emergency-declaration",
+    "source": "GN: Outbreak",
+    "ts": 1779037257
+  },
+  {
+    "key": "lebanon--airstrike--nationwide",
+    "source": "GN: Strike Attack",
+    "ts": 1779037259
+  },
+  {
+    "key": "canada--hantavirus--cruise-ship",
+    "source": "GN: CNN",
+    "ts": 1779037259
+  },
+  {
+    "key": "gaza--airstrike--hamas-commander",
+    "source": "GN: Strike Attack",
+    "ts": 1779037259
   }
 ]
