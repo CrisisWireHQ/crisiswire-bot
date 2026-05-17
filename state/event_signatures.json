@@ -108,5 +108,10 @@
     "key": "usa--crash--florida-coast",
     "source": "GN: Plane Crash",
     "ts": 1778979047
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "Straits Times World",
+    "ts": 1778979643
   }
 ]
