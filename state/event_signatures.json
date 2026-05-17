@@ -138,5 +138,15 @@
     "key": "lebanon--rocket-attack--hadatha",
     "source": "GN: Strike Attack",
     "ts": 1779003659
+  },
+  {
+    "key": "indonesia--outbreak--surabaya",
+    "source": "Channel News Asia",
+    "ts": 1779004242
+  },
+  {
+    "key": "iran--conflict--hormuz",
+    "source": "Al Jazeera",
+    "ts": 1779004244
   }
 ]
