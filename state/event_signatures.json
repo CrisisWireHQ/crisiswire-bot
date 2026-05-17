@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--tornado--south-dakota",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779051048
-  },
-  {
-    "key": "usa--crash--idaho",
-    "source": "GN: Breaking News",
-    "ts": 1779051048
-  },
-  {
-    "key": "lebanon--airstrike--south-and-east",
-    "source": "Al Jazeera",
-    "ts": 1779051048
-  },
-  {
     "key": "uae--drone-strike--barakah",
     "source": "France 24 Intl",
     "ts": 1779051646
