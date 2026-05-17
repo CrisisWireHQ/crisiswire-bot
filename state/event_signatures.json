@@ -100,11 +100,6 @@
     "ts": 1779024650
   },
   {
-    "key": "drc--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779024650
-  },
-  {
     "key": "thailand--crash--train",
     "source": "GN: Reuters",
     "ts": 1779024650
@@ -188,5 +183,25 @@
     "key": "palestine--airstrike--khan-younis",
     "source": "GN: Strike Attack",
     "ts": 1779025849
+  },
+  {
+    "key": "usa--plane-crash--police",
+    "source": "GN: Plane Crash",
+    "ts": 1779026446
+  },
+  {
+    "key": "india--hostage--manipur",
+    "source": "GN: Hostage",
+    "ts": 1779026446
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779026446
+  },
+  {
+    "key": "lebanon--explosion--south",
+    "source": "GN: Explosion",
+    "ts": 1779026446
   }
 ]
