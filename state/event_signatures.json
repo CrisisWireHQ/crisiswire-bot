@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1779013845
-  },
-  {
-    "key": "russia--drone-attack--ukraine-barrage",
-    "source": "GN: Breaking News",
-    "ts": 1779013845
-  },
-  {
-    "key": "ukraine--explosion--sumy",
-    "source": "GN: Explosion",
-    "ts": 1779013845
-  },
-  {
     "key": "ukraine--drone-strike--black-sea",
     "source": "TASS English",
     "ts": 1779014445
