@@ -1,25 +1,5 @@
 [
   {
-    "key": "trusted-watermark",
-    "source": "X: @Osinttechnical",
-    "ts": 1778987375
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1778987443
-  },
-  {
-    "key": "russia--drone-attack--moscow",
-    "source": "TASS English",
-    "ts": 1778987443
-  },
-  {
-    "key": "canada--hantavirus--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1778987443
-  },
-  {
     "key": "trusted-pov-559849987-373405713",
     "source": "X: @Osinttechnical",
     "ts": 1778988049
