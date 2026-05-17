@@ -73,5 +73,15 @@
     "key": "democratic-republic-congo--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1779001253
+  },
+  {
+    "key": "drcongo--outbreak--ebola",
+    "source": "Al Jazeera",
+    "ts": 1779001846
+  },
+  {
+    "key": "drcongo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779001849
   }
 ]
