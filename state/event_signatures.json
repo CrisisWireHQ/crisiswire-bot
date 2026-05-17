@@ -1,50 +1,5 @@
 [
   {
-    "key": "usa--crash--mountain-home",
-    "source": "GN: Plane Crash",
-    "ts": 1779046977
-  },
-  {
-    "key": "usa--explosion--robbins-lumber",
-    "source": "GN: Explosion",
-    "ts": 1779046977
-  },
-  {
-    "key": "mexico--shooting--tehuitzingo",
-    "source": "Al Jazeera",
-    "ts": 1779046977
-  },
-  {
-    "key": "gaza--airstrike--aid-kitchen",
-    "source": "Al Jazeera",
-    "ts": 1779046981
-  },
-  {
-    "key": "usa--crash--mountain-home",
-    "source": "GN: Plane Crash",
-    "ts": 1779046981
-  },
-  {
-    "key": "usa--shooting--fort-worth",
-    "source": "GN: Breaking News",
-    "ts": 1779046981
-  },
-  {
-    "key": "canada--outbreak--hantavirus",
-    "source": "GN: Outbreak",
-    "ts": 1779046981
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1779046981
-  },
-  {
-    "key": "unknown--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779046983
-  },
-  {
     "key": "usa--crash--mountain-home-afb",
     "source": "TG: WarMonitors",
     "ts": 1779047449
