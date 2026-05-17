@@ -1,25 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1778989843
-  },
-  {
-    "key": "russia--drone-attack--moscow",
-    "source": "TASS English",
-    "ts": 1778989843
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1778989843
-  },
-  {
-    "key": "africa--outbreak--ebola",
-    "source": "TASS English",
-    "ts": 1778989843
-  },
-  {
     "key": "new-zealand--quake--wainui",
     "source": "USGS Quakes M4.5+",
     "ts": 1778990451
@@ -78,5 +58,30 @@
     "key": "israel--strike--hamas-leader",
     "source": "GN: Strike Attack",
     "ts": 1778992841
+  },
+  {
+    "key": "gaza--airstrike--hamas-chief",
+    "source": "GN: Strike Attack",
+    "ts": 1778993443
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778993443
+  },
+  {
+    "key": "russia--drone-shot-down--moscow",
+    "source": "TASS English",
+    "ts": 1778993443
+  },
+  {
+    "key": "usa--fire--minnesota-crow-wing",
+    "source": "GN: Wildfire",
+    "ts": 1778993443
+  },
+  {
+    "key": "usa--explosion--maine-mill",
+    "source": "GN: Explosion",
+    "ts": 1778993443
   }
 ]
