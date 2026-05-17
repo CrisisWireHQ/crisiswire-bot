@@ -1,20 +1,5 @@
 [
   {
-    "key": "trusted-pov-559849987-373405713",
-    "source": "X: @Osinttechnical",
-    "ts": 1778988049
-  },
-  {
-    "key": "gaza--airstrike--hamas-commander",
-    "source": "GN: Strike Attack",
-    "ts": 1778988050
-  },
-  {
-    "key": "usa--foiled-attack--los-angeles",
-    "source": "GN: Terror Attack",
-    "ts": 1778988050
-  },
-  {
     "key": "usa--quake--upstate",
     "source": "GN: Earthquake",
     "ts": 1778988053
@@ -83,5 +68,40 @@
     "key": "usa--explosion--new-york",
     "source": "GN: Explosion",
     "ts": 1778991057
+  },
+  {
+    "key": "russia--drone-attack--moscow",
+    "source": "TASS English",
+    "ts": 1778991645
+  },
+  {
+    "key": "russia--drone-attack--moscow-region",
+    "source": "TASS English",
+    "ts": 1778991645
+  },
+  {
+    "key": "west-africa--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1778991645
+  },
+  {
+    "key": "russia--drone-attack--moscow",
+    "source": "TASS English",
+    "ts": 1778991649
+  },
+  {
+    "key": "eastern-caribbean--quake--magnitude-6",
+    "source": "GN: Earthquake",
+    "ts": 1778991649
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1778991652
+  },
+  {
+    "key": "usa--crash--maine",
+    "source": "GN: Plane Crash",
+    "ts": 1778991652
   }
 ]
