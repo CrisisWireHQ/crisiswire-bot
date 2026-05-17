@@ -1,25 +1,5 @@
 [
   {
-    "key": "russia--drone-strike--moscow",
-    "source": "NPR World",
-    "ts": 1779029452
-  },
-  {
-    "key": "usa--fire--tonto-national-forest",
-    "source": "GN: Wildfire",
-    "ts": 1779029452
-  },
-  {
-    "key": "lebanon--airstrike--nationwide",
-    "source": "TASS English",
-    "ts": 1779029452
-  },
-  {
-    "key": "russia--drone-strike--moscow",
-    "source": "GN: Breaking News",
-    "ts": 1779029452
-  },
-  {
     "key": "usa--explosion--maine-lumber-mill",
     "source": "GN: Explosion",
     "ts": 1779030049
