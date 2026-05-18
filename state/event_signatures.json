@@ -1,35 +1,5 @@
 [
   {
-    "key": "usa--tornado-watch--iowa-minnesota",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779079848
-  },
-  {
-    "key": "china--quake--southwest",
-    "source": "GN: Earthquake",
-    "ts": 1779079848
-  },
-  {
-    "key": "philippines--volcano--mayon",
-    "source": "ReliefWeb Updates",
-    "ts": 1779079848
-  },
-  {
-    "key": "ukraine--airstrike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1779079850
-  },
-  {
-    "key": "usa--fire--flanders",
-    "source": "GN: Wildfire",
-    "ts": 1779079850
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1779079850
-  },
-  {
     "key": "china--quake--southern",
     "source": "TASS English",
     "ts": 1779080448
@@ -138,5 +108,40 @@
     "key": "china--quake--liuzhou",
     "source": "GN: Earthquake",
     "ts": 1779082848
+  },
+  {
+    "key": "usa--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779083440
+  },
+  {
+    "key": "usa--threat--walmart",
+    "source": "GN: Mass Shooting",
+    "ts": 1779083442
+  },
+  {
+    "key": "usa--threat--walmart",
+    "source": "GN: Outbreak",
+    "ts": 1779083445
+  },
+  {
+    "key": "nigeria--attack--zamfara",
+    "source": "GN: Terror Attack",
+    "ts": 1779083448
+  },
+  {
+    "key": "uae--drone-strike--nuclear-plant",
+    "source": "NPR World",
+    "ts": 1779083451
+  },
+  {
+    "key": "ukraine--attack--overnight",
+    "source": "GN: Reuters",
+    "ts": 1779083451
+  },
+  {
+    "key": "china--quake--guangxi",
+    "source": "GN: Earthquake",
+    "ts": 1779083451
   }
 ]
