@@ -348,5 +348,40 @@
     "key": "usa--shooting--california-mosque",
     "source": "GN: Mass Shooting",
     "ts": 1779145264
+  },
+  {
+    "key": "usa--shooting--san-diego",
+    "source": "France 24 Intl",
+    "ts": 1779145850
+  },
+  {
+    "key": "usa--tornado--kansas-missouri",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779145850
+  },
+  {
+    "key": "usa--tornado--kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779145850
+  },
+  {
+    "key": "usa--tornado--nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779145850
+  },
+  {
+    "key": "mexico--fire--forest",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1779145850
+  },
+  {
+    "key": "usa--fire--collier-county",
+    "source": "GN: Breaking News",
+    "ts": 1779145852
+  },
+  {
+    "key": "usa--shooting--san-diego",
+    "source": "France 24 Intl",
+    "ts": 1779145852
   }
 ]
