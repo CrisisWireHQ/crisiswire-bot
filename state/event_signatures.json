@@ -1,40 +1,5 @@
 [
   {
-    "key": "drc--ebola--outbreak",
-    "source": "Guardian World",
-    "ts": 1779114061
-  },
-  {
-    "key": "usa--crash--elko-county-nevada",
-    "source": "GN: Plane Crash",
-    "ts": 1779114065
-  },
-  {
-    "key": "other--other--pandemic-preparedness",
-    "source": "GN: Outbreak",
-    "ts": 1779114065
-  },
-  {
-    "key": "lebanon--airstrike--deir-seryan",
-    "source": "GN: Strike Attack",
-    "ts": 1779114068
-  },
-  {
-    "key": "usa--fire--baca-county-colorado",
-    "source": "GN: Wildfire",
-    "ts": 1779114068
-  },
-  {
-    "key": "drc--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779114068
-  },
-  {
-    "key": "lebanon--airstrike--eastern",
-    "source": "GN: Strike Attack",
-    "ts": 1779114068
-  },
-  {
     "key": "trusted-httpstcofav5p1trzc",
     "source": "X: @Osinttechnical",
     "ts": 1779114526
