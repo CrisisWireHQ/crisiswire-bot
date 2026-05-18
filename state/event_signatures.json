@@ -1,40 +1,5 @@
 [
   {
-    "key": "iran--strike--school",
-    "source": "GN: Strike Attack",
-    "ts": 1779105051
-  },
-  {
-    "key": "maldives--diving-accident--cave",
-    "source": "Straits Times World",
-    "ts": 1779105054
-  },
-  {
-    "key": "unspecified--ebola-outbreak--global",
-    "source": "NPR World",
-    "ts": 1779105058
-  },
-  {
-    "key": "usa--tornado-warning--illinois-missouri",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779105060
-  },
-  {
-    "key": "usa--explosion--chicago",
-    "source": "GN: Explosion",
-    "ts": 1779105060
-  },
-  {
-    "key": "usa--salmonella-outbreak--georgia",
-    "source": "GN: Outbreak",
-    "ts": 1779105060
-  },
-  {
-    "key": "pakistan--military-deployment--saudi-arabia",
-    "source": "GN: Reuters",
-    "ts": 1779105060
-  },
-  {
     "key": "trusted-the-united-states-and-israel",
     "source": "TG: Faytuks Network",
     "ts": 1779105459
