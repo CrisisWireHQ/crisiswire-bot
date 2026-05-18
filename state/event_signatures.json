@@ -1,20 +1,5 @@
 [
   {
-    "key": "china--quake--south",
-    "source": "GN: Earthquake",
-    "ts": 1779088857
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1779088857
-  },
-  {
-    "key": "china--quake--south",
-    "source": "Al Jazeera",
-    "ts": 1779088857
-  },
-  {
     "key": "trusted-cuban-foreign-minister-bruno-rodriguez",
     "source": "TG: Faytuks Network",
     "ts": 1779088958
@@ -133,5 +118,30 @@
     "key": "usa--threat--arkansas",
     "source": "GN: Mass Shooting",
     "ts": 1779091866
+  },
+  {
+    "key": "israel--shooting--jadeidi-makr",
+    "source": "Times of Israel",
+    "ts": 1779092450
+  },
+  {
+    "key": "usa--tornado--unknown",
+    "source": "GN: CNN",
+    "ts": 1779092450
+  },
+  {
+    "key": "mali--airstrike--wedding",
+    "source": "Al Jazeera",
+    "ts": 1779092450
+  },
+  {
+    "key": "china--quake--southwest",
+    "source": "GN: Earthquake",
+    "ts": 1779092454
+  },
+  {
+    "key": "netherlands--hantavirus-evacuation--cruise-ship",
+    "source": "GN: AP News",
+    "ts": 1779092458
   }
 ]
