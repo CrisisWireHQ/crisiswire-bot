@@ -198,5 +198,25 @@
     "key": "india--fire--sasaram-patna-train",
     "source": "GN: Breaking News",
     "ts": 1779078056
+  },
+  {
+    "key": "usa--fire--clark-county",
+    "source": "GN: Wildfire",
+    "ts": 1779078647
+  },
+  {
+    "key": "usa--fire--morris-heights",
+    "source": "GN: Explosion",
+    "ts": 1779078647
+  },
+  {
+    "key": "china--quake--yunnan",
+    "source": "GN: Earthquake",
+    "ts": 1779078647
+  },
+  {
+    "key": "china--quake--guangxi",
+    "source": "Channel News Asia",
+    "ts": 1779078647
   }
 ]
