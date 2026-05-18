@@ -218,5 +218,20 @@
     "key": "palestine--strike--gaza-hamas-leader",
     "source": "GN: Strike Attack",
     "ts": 1779122449
+  },
+  {
+    "key": "turkey--shooting--unknown",
+    "source": "GN: Mass Shooting",
+    "ts": 1779123053
+  },
+  {
+    "key": "usa--hantavirus--colorado",
+    "source": "GN: Outbreak",
+    "ts": 1779123053
+  },
+  {
+    "key": "lebanon--airstrike--kfar-tebnit",
+    "source": "GN: Strike Attack",
+    "ts": 1779123053
   }
 ]
