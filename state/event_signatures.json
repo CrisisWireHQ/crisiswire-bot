@@ -1,30 +1,5 @@
 [
   {
-    "key": "israel--shooting--jadeidi-makr",
-    "source": "Times of Israel",
-    "ts": 1779092450
-  },
-  {
-    "key": "usa--tornado--unknown",
-    "source": "GN: CNN",
-    "ts": 1779092450
-  },
-  {
-    "key": "mali--airstrike--wedding",
-    "source": "Al Jazeera",
-    "ts": 1779092450
-  },
-  {
-    "key": "china--quake--southwest",
-    "source": "GN: Earthquake",
-    "ts": 1779092454
-  },
-  {
-    "key": "netherlands--hantavirus-evacuation--cruise-ship",
-    "source": "GN: AP News",
-    "ts": 1779092458
-  },
-  {
     "key": "nigeria--airstrike--northeast",
     "source": "Times of India World",
     "ts": 1779093048
@@ -128,5 +103,25 @@
     "key": "usa--fire--pennsylvania",
     "source": "GN: Breaking News",
     "ts": 1779095446
+  },
+  {
+    "key": "chile--quake--la-tirana",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1779096056
+  },
+  {
+    "key": "tonga--outbreak--dengue",
+    "source": "ReliefWeb Updates",
+    "ts": 1779096056
+  },
+  {
+    "key": "mozambique--outbreak--cholera",
+    "source": "ReliefWeb Updates",
+    "ts": 1779096060
+  },
+  {
+    "key": "usa--shooting--paterson-nj",
+    "source": "GN: Mass Shooting",
+    "ts": 1779096061
   }
 ]
