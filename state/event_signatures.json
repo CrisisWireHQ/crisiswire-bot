@@ -1,30 +1,5 @@
 [
   {
-    "key": "usa--tornado--steele-city-nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779135056
-  },
-  {
-    "key": "usa--tornado--fairbury-nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779135056
-  },
-  {
-    "key": "usa--tornado--odell-nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779135056
-  },
-  {
-    "key": "usa--shooting--san-diego-islamic-center",
-    "source": "GN: Breaking News",
-    "ts": 1779135056
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Breaking News",
-    "ts": 1779135062
-  },
-  {
     "key": "usa--tornado--kansas-hollenberg",
     "source": "NOAA NWS Extreme",
     "ts": 1779135653
