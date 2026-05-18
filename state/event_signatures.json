@@ -213,5 +213,35 @@
     "key": "ukraine--missile-strike--dnipro",
     "source": "GN: Strike Attack",
     "ts": 1779069046
+  },
+  {
+    "key": "usa--tornado--iowa-clay-county",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779069647
+  },
+  {
+    "key": "usa--tornado--iowa-emmet-county",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779069647
+  },
+  {
+    "key": "usa--tornado--nebraska-plattsmouth",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779069647
+  },
+  {
+    "key": "usa--fire--colorado",
+    "source": "GN: Wildfire",
+    "ts": 1779069647
+  },
+  {
+    "key": "usa--tornado--iowa-dickinson-county",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779069647
+  },
+  {
+    "key": "usa--tornado--iowa-sac-county",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779069647
   }
 ]
