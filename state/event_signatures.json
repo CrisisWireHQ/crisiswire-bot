@@ -1,20 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--hezbollah",
-    "source": "GN: Strike Attack",
-    "ts": 1779087657
-  },
-  {
-    "key": "usa--threat--arkansas",
-    "source": "GN: Mass Shooting",
-    "ts": 1779087657
-  },
-  {
-    "key": "china--quake--southwest",
-    "source": "GN: Earthquake",
-    "ts": 1779087660
-  },
-  {
     "key": "lebanon--airstrike--building-damage",
     "source": "GN: Strike Attack",
     "ts": 1779088257
