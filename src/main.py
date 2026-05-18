@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from . import state, poller, classifier, drafter, telegram_io, x_poster, fb_poster, fb_card, x_self_mirror, quote_finder, article_fetcher
+from . import state, poller, classifier, drafter, telegram_io, x_poster, fb_poster, fb_card, quote_finder, article_fetcher
 from .sources import SOURCES
 
 DRAFTS_PER_RUN = int(os.environ.get("DRAFTS_PER_RUN", "3"))
@@ -530,16 +530,9 @@ def main():
         drafted = poll_and_draft()
         print(f"[main] new drafts sent: {drafted}")
 
-        # Mirror any manually-posted X tweets to Facebook. Runs after
-        # poll_and_draft so the bot's own approved drafts are recorded in
-        # bot_tweets.json before the mirror checks for skip-IDs. Safe to fail.
-        if MODE != "trusted-only" and MODE != "force-trusted":
-            try:
-                mirrored = x_self_mirror.run()
-                if mirrored:
-                    print(f"[main] manual X → FB mirror: {mirrored} tweet(s)")
-            except Exception as e:
-                print(f"[main] x_self_mirror error (non-fatal): {e}")
+        # Manual X → Facebook auto-mirror is intentionally DISABLED. Only
+        # posts approved in the Telegram approvals channel are mirrored to
+        # Facebook (handled inline in _do_post_from_msg on approval).
 
     print("[main] === run end ===")
 
