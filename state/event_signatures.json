@@ -1,60 +1,5 @@
 [
   {
-    "key": "israel--shooting--jadeidi-makr",
-    "source": "Jerusalem Post",
-    "ts": 1779063049
-  },
-  {
-    "key": "usa--tornado--nebraska-jefferson",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779063055
-  },
-  {
-    "key": "japan--quake--ishigaki",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1779063055
-  },
-  {
-    "key": "netherlands--hantavirus--mv-hondius",
-    "source": "Straits Times World",
-    "ts": 1779063055
-  },
-  {
-    "key": "usa--tornado--nebraska-saline",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779063057
-  },
-  {
-    "key": "usa--tornado--kansas-goodland",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779063057
-  },
-  {
-    "key": "usa--fire--colorado",
-    "source": "GN: Wildfire",
-    "ts": 1779063057
-  },
-  {
-    "key": "lebanon--airstrike--east-lebanon",
-    "source": "GN: Strike Attack",
-    "ts": 1779063057
-  },
-  {
-    "key": "italy--attack--pedestrians",
-    "source": "GN: CNN",
-    "ts": 1779063057
-  },
-  {
-    "key": "usa--shooting--shreveport",
-    "source": "GN: Hostage",
-    "ts": 1779063057
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1779063057
-  },
-  {
     "key": "usa--tornado--minnesota-fairmont",
     "source": "NOAA NWS Extreme",
     "ts": 1779063650
@@ -283,5 +228,65 @@
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1779066064
+  },
+  {
+    "key": "usa--tornado--kansas-missouri",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779066655
+  },
+  {
+    "key": "usa--tornado--nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779066655
+  },
+  {
+    "key": "usa--tornado--south-dakota",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779066655
+  },
+  {
+    "key": "usa--tornado--iowa",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779066655
+  },
+  {
+    "key": "usa--tornado--iowa-north",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779066655
+  },
+  {
+    "key": "usa--tornado--kansas-northeast",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779066655
+  },
+  {
+    "key": "usa--tornado--kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779066655
+  },
+  {
+    "key": "usa--tornado--iowa-nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779066655
+  },
+  {
+    "key": "usa--shooting--austin",
+    "source": "GN: Breaking News",
+    "ts": 1779066655
+  },
+  {
+    "key": "usa--tornado--south-dakota",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779066655
+  },
+  {
+    "key": "usa--explosion--maine",
+    "source": "GN: Explosion",
+    "ts": 1779066655
+  },
+  {
+    "key": "colorado--fire--estes-park",
+    "source": "GN: Wildfire",
+    "ts": 1779066655
   }
 ]
