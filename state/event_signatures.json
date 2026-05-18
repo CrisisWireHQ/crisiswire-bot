@@ -113,5 +113,25 @@
     "key": "trusted-according-iranian-state-media-fars",
     "source": "TG: Faytuks Network",
     "ts": 1779112544
+  },
+  {
+    "key": "nigeria--airstrike--militants",
+    "source": "GN: Strike Attack",
+    "ts": 1779112863
+  },
+  {
+    "key": "usa--fire--california-national-park",
+    "source": "GN: Wildfire",
+    "ts": 1779112863
+  },
+  {
+    "key": "international--outbreak--cruise-ship-hantavirus",
+    "source": "GN: Outbreak",
+    "ts": 1779112863
+  },
+  {
+    "key": "congo--outbreak--ebola-ituri",
+    "source": "GN: AP News",
+    "ts": 1779112863
   }
 ]
