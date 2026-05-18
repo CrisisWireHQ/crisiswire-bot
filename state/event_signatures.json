@@ -1,35 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--deir-seryan",
-    "source": "GN: Strike Attack",
-    "ts": 1779109257
-  },
-  {
-    "key": "usa--plane-crash--east-humboldt-mountains",
-    "source": "GN: Plane Crash",
-    "ts": 1779109257
-  },
-  {
-    "key": "netherlands--hantavirus--mv-hondius",
-    "source": "France 24 Intl",
-    "ts": 1779109257
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "France 24 Intl",
-    "ts": 1779109257
-  },
-  {
-    "key": "gaza--airstrike--central",
-    "source": "GN: Strike Attack",
-    "ts": 1779109257
-  },
-  {
-    "key": "maldives--maritime-incident--divers",
-    "source": "GN: Breaking News",
-    "ts": 1779109257
-  },
-  {
     "key": "maldives--diving-incident--maldives",
     "source": "CBS News World",
     "ts": 1779109862
