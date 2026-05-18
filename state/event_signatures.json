@@ -1,15 +1,5 @@
 [
   {
-    "key": "china--quake--southwest",
-    "source": "GN: Earthquake",
-    "ts": 1779087653
-  },
-  {
-    "key": "who--assembly--meeting",
-    "source": "Straits Times World",
-    "ts": 1779087653
-  },
-  {
     "key": "lebanon--airstrike--hezbollah",
     "source": "GN: Strike Attack",
     "ts": 1779087657
@@ -128,5 +118,10 @@
     "key": "usa--fire--county-evacuation",
     "source": "GN: Wildfire",
     "ts": 1779090666
+  },
+  {
+    "key": "trusted-pakistan-shared-revised-iranian-proposal",
+    "source": "TG: Faytuks Network",
+    "ts": 1779091251
   }
 ]
