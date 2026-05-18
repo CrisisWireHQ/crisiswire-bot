@@ -1,40 +1,5 @@
 [
   {
-    "key": "ukraine--missile-strike--dnipro",
-    "source": "GN: Strike Attack",
-    "ts": 1779094263
-  },
-  {
-    "key": "china--quake--southwest",
-    "source": "GN: Earthquake",
-    "ts": 1779094263
-  },
-  {
-    "key": "israel--interception--gaza-aid-flotilla",
-    "source": "Al Jazeera",
-    "ts": 1779094263
-  },
-  {
-    "key": "drc--outbreak--ebola",
-    "source": "GN: CNN",
-    "ts": 1779094267
-  },
-  {
-    "key": "netherlands--outbreak--hantavirus-cruise",
-    "source": "GN: Outbreak",
-    "ts": 1779094267
-  },
-  {
-    "key": "drc--outbreak--ebola-rare-strain",
-    "source": "ReliefWeb Updates",
-    "ts": 1779094267
-  },
-  {
-    "key": "china--quake--south",
-    "source": "GN: Earthquake",
-    "ts": 1779094267
-  },
-  {
     "key": "ukraine--drone-strike--donetsk",
     "source": "TASS English",
     "ts": 1779094857
