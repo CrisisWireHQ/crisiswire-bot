@@ -1,55 +1,5 @@
 [
   {
-    "key": "usa--tornado--iowa-wisconsin",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779076854
-  },
-  {
-    "key": "usa--tornado--iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779076854
-  },
-  {
-    "key": "russia--airstrike--moscow",
-    "source": "GN: Strike Attack",
-    "ts": 1779076854
-  },
-  {
-    "key": "usa--explosion--wonder-lake-illinois",
-    "source": "GN: Explosion",
-    "ts": 1779076858
-  },
-  {
-    "key": "usa--fire--colorado",
-    "source": "GN: CNN",
-    "ts": 1779076858
-  },
-  {
-    "key": "uganda--outbreak--ebola",
-    "source": "ReliefWeb Updates",
-    "ts": 1779076858
-  },
-  {
-    "key": "timor-leste--flood--nationwide",
-    "source": "ReliefWeb Updates",
-    "ts": 1779076864
-  },
-  {
-    "key": "usa--shooting--durham",
-    "source": "GN: Breaking News",
-    "ts": 1779076865
-  },
-  {
-    "key": "china--quake--guangxi",
-    "source": "GN: Earthquake",
-    "ts": 1779076865
-  },
-  {
-    "key": "lebanon--airstrike--nationwide",
-    "source": "GN: Strike Attack",
-    "ts": 1779076865
-  },
-  {
     "key": "usa--tornado-watch--iowa",
     "source": "NOAA NWS Extreme",
     "ts": 1779077459
