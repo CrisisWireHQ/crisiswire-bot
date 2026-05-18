@@ -1,45 +1,5 @@
 [
   {
-    "key": "usa--tornado--nebraska-kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779133249
-  },
-  {
-    "key": "usa--crash--new-mexico",
-    "source": "GN: Plane Crash",
-    "ts": 1779133249
-  },
-  {
-    "key": "usa--tornado--kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779133249
-  },
-  {
-    "key": "usa--tornado--kansas-ada",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779133249
-  },
-  {
-    "key": "usa--fire--simi-valley",
-    "source": "GN: Breaking News",
-    "ts": 1779133249
-  },
-  {
-    "key": "usa--fire--southern-california",
-    "source": "GN: Wildfire",
-    "ts": 1779133249
-  },
-  {
-    "key": "drc--outbreak--ebola",
-    "source": "GN: Reuters",
-    "ts": 1779133249
-  },
-  {
-    "key": "africa--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779133249
-  },
-  {
     "key": "usa--tornado--kansas-ottawa-cloud",
     "source": "NOAA NWS Extreme",
     "ts": 1779133852
