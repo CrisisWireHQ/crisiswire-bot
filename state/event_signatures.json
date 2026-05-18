@@ -123,5 +123,30 @@
     "key": "ukraine--airstrike--dnipro",
     "source": "GN: Strike Attack",
     "ts": 1779102046
+  },
+  {
+    "key": "mexico--shooting--location-unknown",
+    "source": "CBS News World",
+    "ts": 1779102783
+  },
+  {
+    "key": "russia--fire--",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1779102783
+  },
+  {
+    "key": "lebanon--airstrike--tyre",
+    "source": "GN: Strike Attack",
+    "ts": 1779102783
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1779102783
+  },
+  {
+    "key": "canada--wildfire--sundre-alberta",
+    "source": "GN: Wildfire",
+    "ts": 1779102783
   }
 ]
