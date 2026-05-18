@@ -250,16 +250,6 @@
     "ts": 1779142267
   },
   {
-    "key": "usa--tornado--kansas-iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779142267
-  },
-  {
-    "key": "usa--tornado--kansas-iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779142267
-  },
-  {
     "key": "usa--tornado--nebraska-iowa",
     "source": "NOAA NWS Extreme",
     "ts": 1779142267
@@ -288,5 +278,10 @@
     "key": "usa--shooting--san-diego-islamic-center",
     "source": "GN: Breaking News",
     "ts": 1779142272
+  },
+  {
+    "key": "trusted-the-suspects-behind-the-shooting",
+    "source": "TG: Faytuks Network",
+    "ts": 1779142300
   }
 ]
