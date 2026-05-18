@@ -1,40 +1,5 @@
 [
   {
-    "key": "usa--tornado-watch--iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779081048
-  },
-  {
-    "key": "myanmar--quake--bangkok",
-    "source": "GN: Earthquake",
-    "ts": 1779081048
-  },
-  {
-    "key": "uae--drone-strike--barakah",
-    "source": "GN: Terror Attack",
-    "ts": 1779081048
-  },
-  {
-    "key": "ukraine--airstrike--dnipro",
-    "source": "GN: Strike Attack",
-    "ts": 1779081048
-  },
-  {
-    "key": "china--quake--southwest",
-    "source": "GN: Earthquake",
-    "ts": 1779081048
-  },
-  {
-    "key": "gaza--airstrike--unknown",
-    "source": "GN: Strike Attack",
-    "ts": 1779081048
-  },
-  {
-    "key": "africa--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779081048
-  },
-  {
     "key": "ukraine--missile-strike--dnipro",
     "source": "GN: Strike Attack",
     "ts": 1779081656
