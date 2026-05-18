@@ -1,15 +1,5 @@
 [
   {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779104457
-  },
-  {
-    "key": "ukraine--attack--black-sea",
-    "source": "GN: Strike Attack",
-    "ts": 1779104457
-  },
-  {
     "key": "iran--strike--school",
     "source": "GN: Strike Attack",
     "ts": 1779105051
