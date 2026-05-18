@@ -1,55 +1,5 @@
 [
   {
-    "key": "usa--tornado--minnesota",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779065444
-  },
-  {
-    "key": "usa--tornado--nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779065444
-  },
-  {
-    "key": "usa--tornado--iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779065444
-  },
-  {
-    "key": "usa--tornado--nebraska-omaha",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779065444
-  },
-  {
-    "key": "usa--tornado--minnesota-jackson",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779065444
-  },
-  {
-    "key": "china--quake--guangxi",
-    "source": "GN: Earthquake",
-    "ts": 1779065444
-  },
-  {
-    "key": "usa--tornado--kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779065444
-  },
-  {
-    "key": "usa--tornado--kansas-watch",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779065444
-  },
-  {
-    "key": "congo--ebola--drc-uganda",
-    "source": "CBS News World",
-    "ts": 1779065444
-  },
-  {
-    "key": "israel--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1779065444
-  },
-  {
     "key": "usa--tornado--moville-iowa",
     "source": "NOAA NWS Extreme",
     "ts": 1779066056
