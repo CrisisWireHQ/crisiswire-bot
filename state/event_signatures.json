@@ -1,75 +1,5 @@
 [
   {
-    "key": "usa--tornado--kansas-missouri",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779144050
-  },
-  {
-    "key": "usa--tornado--kansas-wakefield",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779144050
-  },
-  {
-    "key": "usa--tornado--missouri-tarkio",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779144050
-  },
-  {
-    "key": "usa--crash--rhode-island",
-    "source": "GN: Plane Crash",
-    "ts": 1779144050
-  },
-  {
-    "key": "usa--tornado--kansas-blue-rapids",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779144050
-  },
-  {
-    "key": "usa--tornado--nebraska-summerfield",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779144050
-  },
-  {
-    "key": "usa--tornado--nebraska-shubert",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779144050
-  },
-  {
-    "key": "usa--tornado--iowa-clarinda",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779144050
-  },
-  {
-    "key": "usa--shooting--san-diego",
-    "source": "GN: Mass Shooting",
-    "ts": 1779144050
-  },
-  {
-    "key": "usa--shooting--san-diego",
-    "source": "GN: Mass Shooting",
-    "ts": 1779144053
-  },
-  {
-    "key": "china--quake--southwest",
-    "source": "GN: Earthquake",
-    "ts": 1779144053
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1779144053
-  },
-  {
-    "key": "drc--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779144055
-  },
-  {
-    "key": "usa--shooting--california-mosque",
-    "source": "GN: Mass Shooting",
-    "ts": 1779144055
-  },
-  {
     "key": "usa--explosion--searsmont-maine",
     "source": "GN: Explosion",
     "ts": 1779144109
@@ -313,5 +243,15 @@
     "key": "usa--shooting--san-diego-islamic-center",
     "source": "GN: Mass Shooting",
     "ts": 1779147052
+  },
+  {
+    "key": "usa--shooting--san-diego",
+    "source": "GN: Mass Shooting",
+    "ts": 1779147656
+  },
+  {
+    "key": "usa--fire--southern-california",
+    "source": "GN: Wildfire",
+    "ts": 1779147656
   }
 ]
