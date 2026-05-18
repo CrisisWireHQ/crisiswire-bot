@@ -1,20 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--south",
-    "source": "TASS English",
-    "ts": 1779089446
-  },
-  {
-    "key": "china--quake--south",
-    "source": "GN: Earthquake",
-    "ts": 1779089446
-  },
-  {
-    "key": "usa--fire--wildfire",
-    "source": "GN: Wildfire",
-    "ts": 1779089446
-  },
-  {
     "key": "gaza--airstrike--general",
     "source": "GN: Strike Attack",
     "ts": 1779090047
