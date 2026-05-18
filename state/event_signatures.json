@@ -203,5 +203,25 @@
     "key": "nigeria--airstrike--northeast",
     "source": "GN: Reuters",
     "ts": 1779108054
+  },
+  {
+    "key": "usa--fire--new-mexico",
+    "source": "GN: Wildfire",
+    "ts": 1779108591
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1779108591
+  },
+  {
+    "key": "lebanon--airstrike--eastern",
+    "source": "GN: Strike Attack",
+    "ts": 1779108591
+  },
+  {
+    "key": "usa--explosion--wonder-lake-illinois",
+    "source": "GN: Explosion",
+    "ts": 1779108591
   }
 ]
