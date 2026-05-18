@@ -1,15 +1,5 @@
 [
   {
-    "key": "ukraine--drone-strike--russia",
-    "source": "NPR World",
-    "ts": 1779094255
-  },
-  {
-    "key": "usa--outbreak--ebola",
-    "source": "GN: CNN",
-    "ts": 1779094255
-  },
-  {
     "key": "ukraine--missile-strike--dnipro",
     "source": "GN: Strike Attack",
     "ts": 1779094263
@@ -133,5 +123,25 @@
     "key": "usa--crash--akron-ohio",
     "source": "GN: Plane Crash",
     "ts": 1779097259
+  },
+  {
+    "key": "china--quake--guangxi",
+    "source": "GN: Earthquake",
+    "ts": 1779097854
+  },
+  {
+    "key": "international--hantavirus--cruise-ship",
+    "source": "CBS News World",
+    "ts": 1779097854
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1779097857
+  },
+  {
+    "key": "china--quake--guangxi",
+    "source": "GN: Earthquake",
+    "ts": 1779097857
   }
 ]
