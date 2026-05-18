@@ -273,5 +273,50 @@
     "key": "trusted-another-major-ukrainian-drone-raid",
     "source": "X: @Osinttechnical",
     "ts": 1779137086
+  },
+  {
+    "key": "usa--tornado--nebraska-iowa",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779137454
+  },
+  {
+    "key": "usa--tornado--iowa",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779137454
+  },
+  {
+    "key": "usa--fire--california-san-diego",
+    "source": "GN: Wildfire",
+    "ts": 1779137454
+  },
+  {
+    "key": "usa--blizzard--wyoming",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779137454
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779137454
+  },
+  {
+    "key": "usa--plane-crash--new-mexico",
+    "source": "GN: Plane Crash",
+    "ts": 1779137454
+  },
+  {
+    "key": "usa--fire--southern-california",
+    "source": "GN: Wildfire",
+    "ts": 1779137454
+  },
+  {
+    "key": "usa--shooting--san-diego",
+    "source": "GN: Reuters",
+    "ts": 1779137454
+  },
+  {
+    "key": "congo--ebola--usa-case",
+    "source": "GN: Outbreak",
+    "ts": 1779137454
   }
 ]
