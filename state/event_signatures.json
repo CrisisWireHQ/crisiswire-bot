@@ -1,20 +1,5 @@
 [
   {
-    "key": "nigeria--hostage--oyo-state",
-    "source": "Straits Times World",
-    "ts": 1779124851
-  },
-  {
-    "key": "china--quake--magnitude-5-1",
-    "source": "GN: Earthquake",
-    "ts": 1779124851
-  },
-  {
-    "key": "somalia--hostage--pirates-ransom",
-    "source": "GN: Hostage",
-    "ts": 1779124855
-  },
-  {
     "key": "lebanon--airstrike--israel-attacks",
     "source": "TASS English",
     "ts": 1779124859
@@ -163,5 +148,25 @@
     "key": "trusted-judge-dismissed-all-elon-musks",
     "source": "TG: Faytuks Network",
     "ts": 1779127960
+  },
+  {
+    "key": "unknown--outbreak--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1779128457
+  },
+  {
+    "key": "usa--fire--simi-valley",
+    "source": "GN: Wildfire",
+    "ts": 1779128457
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779128457
+  },
+  {
+    "key": "uae--drone-strike--nuclear-facility",
+    "source": "GN: CNN",
+    "ts": 1779128457
   }
 ]
