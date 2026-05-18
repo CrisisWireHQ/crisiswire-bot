@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--fire--colorado",
-    "source": "GN: Wildfire",
-    "ts": 1779106872
-  },
-  {
-    "key": "myanmar--quake--southern",
-    "source": "ReliefWeb Updates",
-    "ts": 1779106872
-  },
-  {
-    "key": "malaysia--flood--peninsular",
-    "source": "ReliefWeb Updates",
-    "ts": 1779106872
-  },
-  {
-    "key": "india--severe-weather--countrywide",
-    "source": "ReliefWeb Updates",
-    "ts": 1779106876
-  },
-  {
     "key": "nigeria--attack--oyo",
     "source": "GN: Hostage",
     "ts": 1779107454
