@@ -158,5 +158,15 @@
     "key": "israel--blockade-enforcement--gaza",
     "source": "GN: AP News",
     "ts": 1779101452
+  },
+  {
+    "key": "usa--explosion--chicago-suburb",
+    "source": "GN: Explosion",
+    "ts": 1779102046
+  },
+  {
+    "key": "ukraine--airstrike--dnipro",
+    "source": "GN: Strike Attack",
+    "ts": 1779102046
   }
 ]
