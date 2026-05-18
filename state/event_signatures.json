@@ -233,5 +233,60 @@
     "key": "africa--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1779133249
+  },
+  {
+    "key": "usa--tornado--kansas-ottawa-cloud",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779133852
+  },
+  {
+    "key": "usa--tornado--nebraska-diller",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779133852
+  },
+  {
+    "key": "usa--tornado--kansas-cuba",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779133852
+  },
+  {
+    "key": "usa--tornado--kansas-minneapolis",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779133852
+  },
+  {
+    "key": "usa--shooting--san-diego-islamic-center",
+    "source": "GN: AP News",
+    "ts": 1779133852
+  },
+  {
+    "key": "usa--shooting--san-diego-islamic-center",
+    "source": "GN: Mass Shooting",
+    "ts": 1779133852
+  },
+  {
+    "key": "usa--shooting--san-diego-islamic-center",
+    "source": "GN: CNN",
+    "ts": 1779133852
+  },
+  {
+    "key": "usa--shooting--san-diego-islamic-center",
+    "source": "GN: Breaking News",
+    "ts": 1779133852
+  },
+  {
+    "key": "kenya--protest--fuel-price",
+    "source": "Al Jazeera",
+    "ts": 1779133855
+  },
+  {
+    "key": "nigeria--airstrike--market",
+    "source": "GN: Strike Attack",
+    "ts": 1779133855
+  },
+  {
+    "key": "usa--fire--simi-valley",
+    "source": "GN: Wildfire",
+    "ts": 1779133855
   }
 ]
