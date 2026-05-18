@@ -1,40 +1,5 @@
 [
   {
-    "key": "china--quake--southwest",
-    "source": "GN: Earthquake",
-    "ts": 1779073295
-  },
-  {
-    "key": "usa--tornado--iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779073295
-  },
-  {
-    "key": "usa--tornado--iowa-minnesota",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779073295
-  },
-  {
-    "key": "usa--tornado--minnesota",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779073295
-  },
-  {
-    "key": "usa--explosion--wonder-lake-illinois",
-    "source": "GN: Explosion",
-    "ts": 1779073295
-  },
-  {
-    "key": "china--quake--guangxi",
-    "source": "GN: Earthquake",
-    "ts": 1779073295
-  },
-  {
-    "key": "myanmar--quake--myitkyina",
-    "source": "GDACS Disaster Alerts",
-    "ts": 1779073295
-  },
-  {
     "key": "spain--arrest--isis-terrorist",
     "source": "Jerusalem Post",
     "ts": 1779073852
