@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--tornado--nebraska-iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779070854
-  },
-  {
     "key": "usa--collision--idaho",
     "source": "GN: CNN",
     "ts": 1779070857
@@ -253,5 +248,45 @@
     "key": "usa--explosion--maine",
     "source": "GN: Explosion",
     "ts": 1779073856
+  },
+  {
+    "key": "usa--tornado--minnesota-iowa",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779074455
+  },
+  {
+    "key": "usa--tornado--iowa",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779074455
+  },
+  {
+    "key": "usa--tornado--iowa-minnesota",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779074455
+  },
+  {
+    "key": "usa--tornado--iowa-webster",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779074455
+  },
+  {
+    "key": "usa--tornado--iowa-clarion",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779074455
+  },
+  {
+    "key": "lebanon--airstrike--bnaafoul",
+    "source": "GN: Strike Attack",
+    "ts": 1779074455
+  },
+  {
+    "key": "china--quake--southwest",
+    "source": "GN: Earthquake",
+    "ts": 1779074455
+  },
+  {
+    "key": "netherlands--hantavirus--cruise-ship",
+    "source": "GN: Reuters",
+    "ts": 1779074455
   }
 ]
