@@ -133,5 +133,35 @@
     "key": "trusted-the-united-states-and-israel",
     "source": "TG: Faytuks Network",
     "ts": 1779105459
+  },
+  {
+    "key": "usa--tornado--barry-missouri",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779105663
+  },
+  {
+    "key": "netherlands--hantavirus--cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1779105663
+  },
+  {
+    "key": "usa--crash--pasco-county-florida",
+    "source": "GN: Plane Crash",
+    "ts": 1779105663
+  },
+  {
+    "key": "china--quake--yunnan",
+    "source": "GN: Earthquake",
+    "ts": 1779105663
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1779105663
+  },
+  {
+    "key": "israel--interception--gaza-aid-flotilla",
+    "source": "GN: Reuters",
+    "ts": 1779105663
   }
 ]
