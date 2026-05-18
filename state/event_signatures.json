@@ -143,5 +143,35 @@
     "key": "uae--drone-strike--nuclear-facility",
     "source": "GN: CNN",
     "ts": 1779128457
+  },
+  {
+    "key": "usa--fire--simi-valley",
+    "source": "GN: Wildfire",
+    "ts": 1779129071
+  },
+  {
+    "key": "usa--shooting--luling",
+    "source": "GN: Mass Shooting",
+    "ts": 1779129077
+  },
+  {
+    "key": "usa--fire--simi-valley",
+    "source": "GN: Wildfire",
+    "ts": 1779129077
+  },
+  {
+    "key": "canada--crash--smiths-falls",
+    "source": "GN: Plane Crash",
+    "ts": 1779129077
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1779129081
+  },
+  {
+    "key": "lebanon--airstrike--hezbollah",
+    "source": "GN: Strike Attack",
+    "ts": 1779129084
   }
 ]
