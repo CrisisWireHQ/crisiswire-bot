@@ -1,35 +1,5 @@
 [
   {
-    "key": "spain--arrest--isis-terrorist",
-    "source": "Jerusalem Post",
-    "ts": 1779073852
-  },
-  {
-    "key": "usa--tornado--iowa-nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779073856
-  },
-  {
-    "key": "usa--tornado--forest-city-iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779073856
-  },
-  {
-    "key": "usa--tornado--winnebago-minnesota",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779073856
-  },
-  {
-    "key": "china--quake--southwest",
-    "source": "GN: Earthquake",
-    "ts": 1779073856
-  },
-  {
-    "key": "usa--explosion--maine",
-    "source": "GN: Explosion",
-    "ts": 1779073856
-  },
-  {
     "key": "usa--tornado--minnesota-iowa",
     "source": "NOAA NWS Extreme",
     "ts": 1779074455
@@ -183,5 +153,50 @@
     "key": "lebanon--airstrike--nationwide",
     "source": "GN: Strike Attack",
     "ts": 1779076865
+  },
+  {
+    "key": "usa--tornado-watch--iowa",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779077459
+  },
+  {
+    "key": "usa--tornado-watch--iowa-central",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779077459
+  },
+  {
+    "key": "usa--tornado-warning--iowa-wisconsin-squall",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779077459
+  },
+  {
+    "key": "china--quake--magnitude-5.2",
+    "source": "GN: Earthquake",
+    "ts": 1779077459
+  },
+  {
+    "key": "usa--aircraft-collision--idaho",
+    "source": "Times of Israel",
+    "ts": 1779077459
+  },
+  {
+    "key": "drc--outbreak--ebola-bundibugyo",
+    "source": "ReliefWeb Updates",
+    "ts": 1779077459
+  },
+  {
+    "key": "china--quake--guangxi",
+    "source": "GN: Earthquake",
+    "ts": 1779077459
+  },
+  {
+    "key": "antigua-and-barbuda--quake--caribbean",
+    "source": "ReliefWeb Updates",
+    "ts": 1779077459
+  },
+  {
+    "key": "democratic-republic-of-congo--outbreak--mungbwalu",
+    "source": "ReliefWeb Updates",
+    "ts": 1779077464
   }
 ]
