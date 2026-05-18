@@ -163,5 +163,20 @@
     "key": "lebanon--assassination--eastern",
     "source": "GN: Strike Attack",
     "ts": 1779120663
+  },
+  {
+    "key": "world--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779121254
+  },
+  {
+    "key": "ukraine--airstrike--druzhkivka",
+    "source": "GN: Strike Attack",
+    "ts": 1779121258
+  },
+  {
+    "key": "usa--crash--elko-county-nevada",
+    "source": "GN: Plane Crash",
+    "ts": 1779121258
   }
 ]
