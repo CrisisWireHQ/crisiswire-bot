@@ -1,25 +1,5 @@
 [
   {
-    "key": "unknown--outbreak--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1779128457
-  },
-  {
-    "key": "usa--fire--simi-valley",
-    "source": "GN: Wildfire",
-    "ts": 1779128457
-  },
-  {
-    "key": "drc--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779128457
-  },
-  {
-    "key": "uae--drone-strike--nuclear-facility",
-    "source": "GN: CNN",
-    "ts": 1779128457
-  },
-  {
     "key": "usa--fire--simi-valley",
     "source": "GN: Wildfire",
     "ts": 1779129071
