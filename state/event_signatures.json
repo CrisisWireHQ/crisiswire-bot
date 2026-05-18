@@ -1,35 +1,5 @@
 [
   {
-    "key": "turkey--shooting--mersin",
-    "source": "GN: Mass Shooting",
-    "ts": 1779129664
-  },
-  {
-    "key": "congo--ebola--american-doctor",
-    "source": "CBS News World",
-    "ts": 1779129664
-  },
-  {
-    "key": "usa--fire--simi-valley",
-    "source": "GN: Wildfire",
-    "ts": 1779129667
-  },
-  {
-    "key": "maldives--maritime-disaster--divers",
-    "source": "GN: Breaking News",
-    "ts": 1779129667
-  },
-  {
-    "key": "usa--fire--simi-valley",
-    "source": "GN: Wildfire",
-    "ts": 1779129671
-  },
-  {
-    "key": "usa--crash--elko",
-    "source": "GN: Plane Crash",
-    "ts": 1779129671
-  },
-  {
     "key": "trusted-europe-was-hooked-russian-gas",
     "source": "TG: Faytuks Network",
     "ts": 1779129775
