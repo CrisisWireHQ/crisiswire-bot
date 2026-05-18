@@ -14,6 +14,30 @@ import requests
 GRAPH_VERSION = "v21.0"
 GRAPH_BASE = f"https://graph.facebook.com/{GRAPH_VERSION}"
 TIMEOUT = 20
+VIDEO_TIMEOUT = 120
+MAX_VIDEO_BYTES = 200 * 1024 * 1024
+_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+
+
+def _download_video(video_url: str) -> bytes | None:
+    """Fetch the video bytes ourselves while the CDN token is still valid.
+
+    Facebook's /videos file_url path fetches server-side and async, by
+    which time Telegram's telesco.pe token has expired / blocks FB's
+    fetcher — the post then shows only a cover frame. Downloading here
+    (same as x_poster) and uploading via multipart `source` avoids that.
+    """
+    try:
+        r = requests.get(video_url, timeout=60, headers={"User-Agent": _UA})
+        r.raise_for_status()
+        content = r.content
+    except Exception as e:
+        print(f"[fb_poster] video download failed: {e}")
+        return None
+    if not (10_000 <= len(content) <= MAX_VIDEO_BYTES):
+        print(f"[fb_poster] video size out of range ({len(content)} bytes)")
+        return None
+    return content
 
 
 def _page_id() -> str:
@@ -59,15 +83,37 @@ def post(text: str, image_url: str = "", image_path: str = "",
     if link_url and link_url not in body:
         body = f"{body}\n\n{link_url}"
 
-    # Video wins the post (matches X). Graph fetches the remote file itself
-    # via file_url on the /videos edge; processing finishes server-side.
-    # Any failure falls through to the image/text paths below.
+    # Video wins the post (matches X). Upload the bytes via multipart
+    # `source` (download them here while the CDN token is valid) rather
+    # than handing FB a file_url it fetches later and fails on. file_url
+    # is kept only as a secondary attempt. Any failure falls through to
+    # the image/text paths below.
     if video_url:
+        content = _download_video(video_url)
+        if content is not None:
+            try:
+                r = requests.post(
+                    f"{GRAPH_BASE}/{pid}/videos",
+                    data={"description": body, "access_token": token},
+                    files={"source": ("video.mp4", content, "video/mp4")},
+                    timeout=VIDEO_TIMEOUT,
+                )
+                if r.status_code == 200:
+                    data = r.json()
+                    return {
+                        "id": data.get("post_id") or data.get("id", ""),
+                        "had_image": False,
+                        "had_video": True,
+                    }
+                print(f"[fb_poster] video source upload failed ({r.status_code}): {r.text[:200]}; trying file_url")
+            except Exception as e:
+                print(f"[fb_poster] video source upload exception: {e}; trying file_url")
+        # Secondary attempt: let Graph fetch the URL itself.
         try:
             r = requests.post(
                 f"{GRAPH_BASE}/{pid}/videos",
                 data={"file_url": video_url, "description": body, "access_token": token},
-                timeout=60,
+                timeout=VIDEO_TIMEOUT,
             )
             if r.status_code == 200:
                 data = r.json()
@@ -76,9 +122,9 @@ def post(text: str, image_url: str = "", image_path: str = "",
                     "had_image": False,
                     "had_video": True,
                 }
-            print(f"[fb_poster] video post failed ({r.status_code}): {r.text[:200]}; falling back to image/text")
+            print(f"[fb_poster] video file_url failed ({r.status_code}): {r.text[:200]}; falling back to image/text")
         except Exception as e:
-            print(f"[fb_poster] video post exception: {e}; falling back to image/text")
+            print(f"[fb_poster] video file_url exception: {e}; falling back to image/text")
 
     if image_path and os.path.exists(image_path):
         # Local file (generated headline card) — multipart upload via `source`.
