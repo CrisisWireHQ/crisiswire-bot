@@ -1,30 +1,5 @@
 [
   {
-    "key": "lebanon--airstrike--israel-attacks",
-    "source": "TASS English",
-    "ts": 1779124859
-  },
-  {
-    "key": "ukraine--drone-strike--road",
-    "source": "GN: CNN",
-    "ts": 1779124859
-  },
-  {
-    "key": "usa--hantavirus--colorado",
-    "source": "GN: Reuters",
-    "ts": 1779124859
-  },
-  {
-    "key": "china--quake--southwest",
-    "source": "GN: Earthquake",
-    "ts": 1779124859
-  },
-  {
-    "key": "usa--hantavirus--colorado",
-    "source": "GN: Outbreak",
-    "ts": 1779124859
-  },
-  {
     "key": "usa--fire--seven-cabins",
     "source": "GN: Plane Crash",
     "ts": 1779125462
