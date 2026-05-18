@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--hantavirus--threat",
-    "source": "GN: Outbreak",
-    "ts": 1779084061
-  },
-  {
-    "key": "india--hostage--manipur",
-    "source": "GN: Hostage",
-    "ts": 1779084065
-  },
-  {
     "key": "china--quake--southwest",
     "source": "GN: Earthquake",
     "ts": 1779085886
