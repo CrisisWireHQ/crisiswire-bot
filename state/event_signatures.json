@@ -1,20 +1,5 @@
 [
   {
-    "key": "china--quake--liuzhou",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1779113478
-  },
-  {
-    "key": "maldives--diving-incident--underwater-cave",
-    "source": "Guardian World",
-    "ts": 1779113478
-  },
-  {
-    "key": "usa--crash--elko-nevada",
-    "source": "GN: Plane Crash",
-    "ts": 1779113478
-  },
-  {
     "key": "drc--ebola--outbreak",
     "source": "Guardian World",
     "ts": 1779114061
