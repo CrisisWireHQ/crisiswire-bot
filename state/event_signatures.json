@@ -143,5 +143,70 @@
     "key": "ukraine--airstrike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1779063650
+  },
+  {
+    "key": "usa--tornado-watch--kansas-rice",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779064252
+  },
+  {
+    "key": "argentina--quake--abra-pampa",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1779064252
+  },
+  {
+    "key": "usa--tornado-warning--nebraska-fairbury",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779064252
+  },
+  {
+    "key": "usa--tornado-warning--iowa-woodbury",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779064252
+  },
+  {
+    "key": "usa--tornado-warning--minnesota-fairmont",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779064252
+  },
+  {
+    "key": "usa--tornado-warning--minnesota-jackson",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779064252
+  },
+  {
+    "key": "usa--tornado-warning--nebraska-thurston",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779064252
+  },
+  {
+    "key": "usa--tornado-warning--kansas-lincoln",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779064252
+  },
+  {
+    "key": "usa--aircraft-collision--air-show",
+    "source": "BBC World",
+    "ts": 1779064252
+  },
+  {
+    "key": "usa--crash--empire-nevada",
+    "source": "GN: Plane Crash",
+    "ts": 1779064255
+  },
+  {
+    "key": "usa--fire--crow-wing-county-minnesota",
+    "source": "GN: Wildfire",
+    "ts": 1779064255
+  },
+  {
+    "key": "usa--fire--meade-county-south-dakota",
+    "source": "GN: Wildfire",
+    "ts": 1779064255
+  },
+  {
+    "key": "lebanon--airstrike--east",
+    "source": "GN: Strike Attack",
+    "ts": 1779064255
   }
 ]
