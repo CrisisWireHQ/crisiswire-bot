@@ -193,5 +193,35 @@
     "key": "trusted-new-president-trump-said-halted",
     "source": "TG: Faytuks Network",
     "ts": 1779131102
+  },
+  {
+    "key": "usa--tornado--lincoln-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779131457
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Breaking News",
+    "ts": 1779131457
+  },
+  {
+    "key": "usa--explosion--lake-lanier",
+    "source": "GN: Explosion",
+    "ts": 1779131457
+  },
+  {
+    "key": "usa--fire--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1779131457
+  },
+  {
+    "key": "iran--internet-blackout--nationwide",
+    "source": "TASS English",
+    "ts": 1779131457
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779131459
   }
 ]
