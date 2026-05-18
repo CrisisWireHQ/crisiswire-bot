@@ -203,5 +203,75 @@
     "key": "trusted-president-trump-says-has-once",
     "source": "X: @Osinttechnical",
     "ts": 1779132458
+  },
+  {
+    "key": "usa--tornado--kansas-agenda",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779132656
+  },
+  {
+    "key": "usa--tornado--kansas-washington",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779132656
+  },
+  {
+    "key": "turkey--mass-shooting--unspecified",
+    "source": "CBS News World",
+    "ts": 1779132656
+  },
+  {
+    "key": "usa--tornado--nebraska-jefferson",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779132656
+  },
+  {
+    "key": "usa--tornado--kansas-beverly",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779132656
+  },
+  {
+    "key": "usa--crash--rhode-island-airport",
+    "source": "GN: Breaking News",
+    "ts": 1779132656
+  },
+  {
+    "key": "philippines--quake--mati",
+    "source": "GN: Earthquake",
+    "ts": 1779132659
+  },
+  {
+    "key": "usa--tornado-warning--kansas-lincoln",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779132659
+  },
+  {
+    "key": "usa--fire--ventura-county-sandy",
+    "source": "GN: Wildfire",
+    "ts": 1779132659
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1779132659
+  },
+  {
+    "key": "usa--shooting--san-diego-islamic-center",
+    "source": "GN: Breaking News",
+    "ts": 1779132663
+  },
+  {
+    "key": "usa--shooting--san-diego-islamic-center",
+    "source": "GN: Breaking News",
+    "ts": 1779132663
+  },
+  {
+    "key": "usa--fire--simi-valley-california",
+    "source": "GN: Wildfire",
+    "ts": 1779132663
+  },
+  {
+    "key": "usa--fire--simi-valley-california",
+    "source": "GN: Wildfire",
+    "ts": 1779132663
   }
 ]
