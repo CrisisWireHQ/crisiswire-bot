@@ -310,11 +310,6 @@
     "ts": 1779144665
   },
   {
-    "key": "usa--explosion--searsmont-maine",
-    "source": "GN: Explosion",
-    "ts": 1779144665
-  },
-  {
     "key": "usa--wildfire--southern-california",
     "source": "GN: Wildfire",
     "ts": 1779144665
@@ -332,11 +327,6 @@
   {
     "key": "usa--shooting--san-diego",
     "source": "GN: Mass Shooting",
-    "ts": 1779144665
-  },
-  {
-    "key": "usa--explosion--searsmont-maine",
-    "source": "GN: Explosion",
     "ts": 1779144665
   },
   {
