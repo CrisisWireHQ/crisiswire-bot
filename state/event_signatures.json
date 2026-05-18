@@ -123,5 +123,20 @@
     "key": "trusted-pakistan-shared-revised-iranian-proposal",
     "source": "TG: Faytuks Network",
     "ts": 1779091251
+  },
+  {
+    "key": "indian-ocean--quake--mid-indian-ridge",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1779091257
+  },
+  {
+    "key": "nigeria--abduction--schoolchildren",
+    "source": "GN: Strike Attack",
+    "ts": 1779091260
+  },
+  {
+    "key": "uganda--ebola-outbreak--nationwide",
+    "source": "GN: Outbreak",
+    "ts": 1779091267
   }
 ]
