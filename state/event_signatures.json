@@ -1,35 +1,5 @@
 [
   {
-    "key": "russia--attack--belgorod",
-    "source": "TASS English",
-    "ts": 1779100859
-  },
-  {
-    "key": "cruise--hantavirus--rotterdam",
-    "source": "GN: Outbreak",
-    "ts": 1779100859
-  },
-  {
-    "key": "usa--explosion--illinois",
-    "source": "GN: Explosion",
-    "ts": 1779100862
-  },
-  {
-    "key": "netherlands--hantavirus-outbreak--cruise-ship",
-    "source": "GN: Outbreak",
-    "ts": 1779100862
-  },
-  {
-    "key": "ukraine--missile-strike--multi-region",
-    "source": "GN: Strike Attack",
-    "ts": 1779100862
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779100862
-  },
-  {
     "key": "ukraine--missile-strike--dnipro",
     "source": "France 24 Intl",
     "ts": 1779101448
