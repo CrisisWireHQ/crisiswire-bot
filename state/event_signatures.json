@@ -213,5 +213,15 @@
     "key": "usa--explosion--maine-lumber-yard",
     "source": "GN: Explosion",
     "ts": 1779075659
+  },
+  {
+    "key": "ukraine--airstrike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1779076248
+  },
+  {
+    "key": "china--quake--southwest",
+    "source": "GN: Earthquake",
+    "ts": 1779076248
   }
 ]
