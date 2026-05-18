@@ -253,5 +253,65 @@
     "key": "usa--shooting--san-diego-islamic-center",
     "source": "GN: Breaking News",
     "ts": 1779139260
+  },
+  {
+    "key": "drc--outbreak--ebola-eastern",
+    "source": "France 24 Intl",
+    "ts": 1779139862
+  },
+  {
+    "key": "usa--tornado--nebraska-pawnee",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779139862
+  },
+  {
+    "key": "usa--fire--southern-california",
+    "source": "GN: Wildfire",
+    "ts": 1779139862
+  },
+  {
+    "key": "kenya--protest--nationwide-fuel",
+    "source": "France 24 Intl",
+    "ts": 1779139862
+  },
+  {
+    "key": "usa--fire--amarillo-texas",
+    "source": "GN: Wildfire",
+    "ts": 1779139862
+  },
+  {
+    "key": "usa--quake--walsenburg-colorado",
+    "source": "GN: Earthquake",
+    "ts": 1779139862
+  },
+  {
+    "key": "china--quake--yunnan-region",
+    "source": "GN: Earthquake",
+    "ts": 1779139862
+  },
+  {
+    "key": "usa--shooting--san-diego-islamic-center",
+    "source": "GN: Mass Shooting",
+    "ts": 1779139862
+  },
+  {
+    "key": "argentina--protest--buenos-aires",
+    "source": "GN: AP News",
+    "ts": 1779139862
+  },
+  {
+    "key": "usa--fire--simi-valley",
+    "source": "GN: Wildfire",
+    "ts": 1779139863
+  },
+  {
+    "key": "usa--shooting--san-diego-mosque",
+    "source": "GN: Breaking News",
+    "ts": 1779139863
+  },
+  {
+    "key": "usa--shooting--san-diego-mosque",
+    "source": "GN: Breaking News",
+    "ts": 1779139863
   }
 ]
