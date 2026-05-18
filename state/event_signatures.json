@@ -1,40 +1,5 @@
 [
   {
-    "key": "usa--fire--texas-panhandle",
-    "source": "GN: Wildfire",
-    "ts": 1779127861
-  },
-  {
-    "key": "usa--fire--simi-valley",
-    "source": "GN: Wildfire",
-    "ts": 1779127861
-  },
-  {
-    "key": "global--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779127861
-  },
-  {
-    "key": "usa--fire--simi-valley",
-    "source": "GN: Wildfire",
-    "ts": 1779127866
-  },
-  {
-    "key": "usa--shooting--austin",
-    "source": "GN: Mass Shooting",
-    "ts": 1779127866
-  },
-  {
-    "key": "usa--explosion--searsmont",
-    "source": "GN: Explosion",
-    "ts": 1779127866
-  },
-  {
-    "key": "china--quake--yunnan",
-    "source": "GN: Earthquake",
-    "ts": 1779127869
-  },
-  {
     "key": "trusted-judge-dismissed-all-elon-musks",
     "source": "TG: Faytuks Network",
     "ts": 1779127960
