@@ -323,5 +323,25 @@
     "key": "usa--shooting--texas-apartment",
     "source": "GN: Mass Shooting",
     "ts": 1779067254
+  },
+  {
+    "key": "usa--tornado--iowa-nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779067846
+  },
+  {
+    "key": "usa--tornado--kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779067846
+  },
+  {
+    "key": "usa--tornado--nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779067846
+  },
+  {
+    "key": "usa--tornado--iowa-south-dakota",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779067846
   }
 ]
