@@ -318,5 +318,10 @@
     "key": "usa--shooting--california-mosque",
     "source": "GN: Mass Shooting",
     "ts": 1779144055
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1779144109
   }
 ]
