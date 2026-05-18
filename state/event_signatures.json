@@ -1,65 +1,5 @@
 [
   {
-    "key": "alaska--quake--atka",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1779141065
-  },
-  {
-    "key": "usa--tornado--manchester-kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779141067
-  },
-  {
-    "key": "usa--tornado--pawnee-city-nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779141067
-  },
-  {
-    "key": "usa--tornado--tarkio-missouri",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779141067
-  },
-  {
-    "key": "china--quake--southwest",
-    "source": "GN: Earthquake",
-    "ts": 1779141067
-  },
-  {
-    "key": "usa--shooting--san-diego-mosque",
-    "source": "GN: Mass Shooting",
-    "ts": 1779141067
-  },
-  {
-    "key": "usa--fire--simi-valley-ventura",
-    "source": "GN: Wildfire",
-    "ts": 1779141067
-  },
-  {
-    "key": "usa--crash--new-mexico",
-    "source": "GN: Plane Crash",
-    "ts": 1779141067
-  },
-  {
-    "key": "usa--crash--westerly",
-    "source": "GN: Plane Crash",
-    "ts": 1779141067
-  },
-  {
-    "key": "drcongo--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779141067
-  },
-  {
-    "key": "usa--fire--southern-california",
-    "source": "GN: Wildfire",
-    "ts": 1779141072
-  },
-  {
-    "key": "usa--shooting--san-diego",
-    "source": "GN: Breaking News",
-    "ts": 1779141072
-  },
-  {
     "key": "usa--shooting--san-diego",
     "source": "Straits Times World",
     "ts": 1779141656
@@ -333,5 +273,80 @@
     "key": "trusted-trump-reportedly-paused-additional-strikes",
     "source": "TG: Faytuks Network",
     "ts": 1779144218
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1779144665
+  },
+  {
+    "key": "usa--tornado--frankfort-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779144665
+  },
+  {
+    "key": "usa--tornado--braddyville-iowa",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779144665
+  },
+  {
+    "key": "usa--tornado--pawnee-city-nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779144665
+  },
+  {
+    "key": "usa--tornado--fairfax-missouri",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779144665
+  },
+  {
+    "key": "usa--tornado--riley-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779144665
+  },
+  {
+    "key": "usa--tornado--holt-county-missouri",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779144665
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1779144665
+  },
+  {
+    "key": "usa--wildfire--southern-california",
+    "source": "GN: Wildfire",
+    "ts": 1779144665
+  },
+  {
+    "key": "usa--explosion--searsmont",
+    "source": "GN: Explosion",
+    "ts": 1779144665
+  },
+  {
+    "key": "usa--explosion--spring-branch",
+    "source": "GN: Explosion",
+    "ts": 1779144665
+  },
+  {
+    "key": "usa--shooting--san-diego",
+    "source": "GN: Mass Shooting",
+    "ts": 1779144665
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1779144665
+  },
+  {
+    "key": "lebanon--airstrike--nationwide",
+    "source": "GN: Strike Attack",
+    "ts": 1779144665
+  },
+  {
+    "key": "usa--hostage--sumter-county-south-carolina",
+    "source": "GN: Hostage",
+    "ts": 1779144669
   }
 ]
