@@ -1,15 +1,5 @@
 [
   {
-    "key": "congo--outbreak--ituri",
-    "source": "France 24 Intl",
-    "ts": 1779118851
-  },
-  {
-    "key": "usa--hantavirus--colorado",
-    "source": "GN: Outbreak",
-    "ts": 1779118851
-  },
-  {
     "key": "usa--explosion--wonder-lake",
     "source": "GN: Explosion",
     "ts": 1779119458
