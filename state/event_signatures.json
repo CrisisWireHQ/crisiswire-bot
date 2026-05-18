@@ -1,50 +1,5 @@
 [
   {
-    "key": "drc--outbreak--ebola-eastern",
-    "source": "France 24 Intl",
-    "ts": 1779139862
-  },
-  {
-    "key": "usa--tornado--nebraska-pawnee",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779139862
-  },
-  {
-    "key": "usa--fire--southern-california",
-    "source": "GN: Wildfire",
-    "ts": 1779139862
-  },
-  {
-    "key": "kenya--protest--nationwide-fuel",
-    "source": "France 24 Intl",
-    "ts": 1779139862
-  },
-  {
-    "key": "usa--fire--amarillo-texas",
-    "source": "GN: Wildfire",
-    "ts": 1779139862
-  },
-  {
-    "key": "usa--quake--walsenburg-colorado",
-    "source": "GN: Earthquake",
-    "ts": 1779139862
-  },
-  {
-    "key": "china--quake--yunnan-region",
-    "source": "GN: Earthquake",
-    "ts": 1779139862
-  },
-  {
-    "key": "usa--shooting--san-diego-islamic-center",
-    "source": "GN: Mass Shooting",
-    "ts": 1779139862
-  },
-  {
-    "key": "argentina--protest--buenos-aires",
-    "source": "GN: AP News",
-    "ts": 1779139862
-  },
-  {
     "key": "usa--fire--simi-valley",
     "source": "GN: Wildfire",
     "ts": 1779139863
@@ -313,5 +268,50 @@
     "key": "lebanon--airstrike--israel-hezbollah",
     "source": "GN: AP News",
     "ts": 1779142860
+  },
+  {
+    "key": "usa--tornado--wakefield-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779143462
+  },
+  {
+    "key": "usa--tornado--blue-rapids-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779143462
+  },
+  {
+    "key": "usa--tornado--barada-missouri",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779143462
+  },
+  {
+    "key": "usa--tornado--pawnee-county-nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779143462
+  },
+  {
+    "key": "usa--tornado--stella-nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779143462
+  },
+  {
+    "key": "usa--fire--southern-california",
+    "source": "GN: Wildfire",
+    "ts": 1779143462
+  },
+  {
+    "key": "usa--shooting--san-diego",
+    "source": "GN: Mass Shooting",
+    "ts": 1779143462
+  },
+  {
+    "key": "usa--shooting--san-diego",
+    "source": "GN: Mass Shooting",
+    "ts": 1779143462
+  },
+  {
+    "key": "usa--fire--simi-valley",
+    "source": "GN: CNN",
+    "ts": 1779143462
   }
 ]
