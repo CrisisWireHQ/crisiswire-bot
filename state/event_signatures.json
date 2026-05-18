@@ -275,11 +275,6 @@
     "ts": 1779066655
   },
   {
-    "key": "usa--tornado--south-dakota",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779066655
-  },
-  {
     "key": "usa--explosion--maine",
     "source": "GN: Explosion",
     "ts": 1779066655
