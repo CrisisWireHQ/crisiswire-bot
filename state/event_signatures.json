@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--explosion--chicago-suburb",
-    "source": "GN: Explosion",
-    "ts": 1779102046
-  },
-  {
-    "key": "ukraine--airstrike--dnipro",
-    "source": "GN: Strike Attack",
-    "ts": 1779102046
-  },
-  {
     "key": "mexico--shooting--location-unknown",
     "source": "CBS News World",
     "ts": 1779102783
