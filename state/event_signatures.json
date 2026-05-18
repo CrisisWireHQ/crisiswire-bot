@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--tornado-warning--kansas-green",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779141780
-  },
-  {
-    "key": "usa--tornado--nebraska-richardson",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779141780
-  },
-  {
-    "key": "usa--shooting--san-diego",
-    "source": "GN: Mass Shooting",
-    "ts": 1779141780
-  },
-  {
     "key": "usa--tornado--kansas-iowa",
     "source": "NOAA NWS Extreme",
     "ts": 1779142267
