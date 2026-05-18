@@ -1,30 +1,5 @@
 [
   {
-    "key": "usa--tornado--hebron-nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779061840
-  },
-  {
-    "key": "usa--tornado--brewster-south-dakota",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779061840
-  },
-  {
-    "key": "usa--tornado--wallace-kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779061840
-  },
-  {
-    "key": "usa--tornado-watch--kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779061840
-  },
-  {
-    "key": "usa--tornado--thayer-nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779061840
-  },
-  {
     "key": "usa--tornado--minnesota",
     "source": "NOAA NWS Extreme",
     "ts": 1779062445
@@ -243,5 +218,60 @@
     "key": "united-arab-emirates--drone-strike--abu-dhabi",
     "source": "Times of Israel",
     "ts": 1779064857
+  },
+  {
+    "key": "usa--tornado--minnesota",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779065444
+  },
+  {
+    "key": "usa--tornado--nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779065444
+  },
+  {
+    "key": "usa--tornado--iowa",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779065444
+  },
+  {
+    "key": "usa--tornado--nebraska-omaha",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779065444
+  },
+  {
+    "key": "usa--tornado--minnesota-jackson",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779065444
+  },
+  {
+    "key": "china--quake--guangxi",
+    "source": "GN: Earthquake",
+    "ts": 1779065444
+  },
+  {
+    "key": "usa--tornado--kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779065444
+  },
+  {
+    "key": "usa--tornado--kansas-watch",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779065444
+  },
+  {
+    "key": "congo--ebola--drc-uganda",
+    "source": "CBS News World",
+    "ts": 1779065444
+  },
+  {
+    "key": "usa--tornado--minnesota",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779065444
+  },
+  {
+    "key": "israel--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1779065444
   }
 ]
