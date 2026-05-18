@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779083440
-  },
-  {
     "key": "usa--threat--walmart",
     "source": "GN: Mass Shooting",
     "ts": 1779083442
