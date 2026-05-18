@@ -203,5 +203,60 @@
     "key": "usa--tornado--iowa-sac-county",
     "source": "NOAA NWS Extreme",
     "ts": 1779069647
+  },
+  {
+    "key": "usa--tornado--iowa-pocahontas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779070251
+  },
+  {
+    "key": "usa--tornado--iowa-hastings",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779070251
+  },
+  {
+    "key": "usa--tornado--iowa-mills",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779070251
+  },
+  {
+    "key": "usa--tornado--iowa-webster",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779070251
+  },
+  {
+    "key": "china--quake--guangxi",
+    "source": "GN: Earthquake",
+    "ts": 1779070251
+  },
+  {
+    "key": "africa--outbreak--ebola-multiregion",
+    "source": "CBS News World",
+    "ts": 1779070251
+  },
+  {
+    "key": "china--quake--guangxi",
+    "source": "GN: Earthquake",
+    "ts": 1779070252
+  },
+  {
+    "key": "ukraine--missile-strike--dnipro",
+    "source": "GN: Strike Attack",
+    "ts": 1779070252
+  },
+  {
+    "key": "global--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779070252
+  },
+  {
+    "key": "gaza--airstrike--gaza",
+    "source": "GN: Strike Attack",
+    "ts": 1779070252
+  },
+  {
+    "key": "ukraine--airstrike--sumy",
+    "source": "GN: Strike Attack",
+    "ts": 1779070252
   }
 ]
