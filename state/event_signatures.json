@@ -158,5 +158,25 @@
     "key": "ukraine--missile-strike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1779063057
+  },
+  {
+    "key": "usa--tornado--minnesota-fairmont",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779063650
+  },
+  {
+    "key": "usa--tornado--nebraska-fairbury",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779063650
+  },
+  {
+    "key": "usa--tornado--south-dakota-jackson",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779063650
+  },
+  {
+    "key": "ukraine--airstrike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1779063650
   }
 ]
