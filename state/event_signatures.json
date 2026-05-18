@@ -1,50 +1,5 @@
 [
   {
-    "key": "china--quake--southwest",
-    "source": "GN: Earthquake",
-    "ts": 1779085886
-  },
-  {
-    "key": "usa--shooting--austin",
-    "source": "GN: CNN",
-    "ts": 1779085886
-  },
-  {
-    "key": "china--quake--south",
-    "source": "GN: Earthquake",
-    "ts": 1779085886
-  },
-  {
-    "key": "uae--strike--abu-dhabi-nuclear",
-    "source": "GN: Strike Attack",
-    "ts": 1779085886
-  },
-  {
-    "key": "china--quake--kyauktan",
-    "source": "GN: Earthquake",
-    "ts": 1779085886
-  },
-  {
-    "key": "myanmar--quake--kyauktan",
-    "source": "GN: Earthquake",
-    "ts": 1779085886
-  },
-  {
-    "key": "who--hantavirus-assessment",
-    "source": "GN: Strike Attack",
-    "ts": 1779085886
-  },
-  {
-    "key": "thailand--crash--bangkok",
-    "source": "Channel News Asia",
-    "ts": 1779085891
-  },
-  {
-    "key": "ukraine--missile-strike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1779085891
-  },
-  {
     "key": "pakistan--explosion--northwest",
     "source": "GN: Explosion",
     "ts": 1779086450
