@@ -1,35 +1,5 @@
 [
   {
-    "key": "drc--outbreak--ebola",
-    "source": "France 24 Intl",
-    "ts": 1779098459
-  },
-  {
-    "key": "ukraine--drone-attack--odesa-dnipro",
-    "source": "France 24 Intl",
-    "ts": 1779098459
-  },
-  {
-    "key": "ukraine--drone-strike--black-sea-odesa",
-    "source": "France 24 Intl",
-    "ts": 1779098459
-  },
-  {
-    "key": "nigeria--airstrike--isil",
-    "source": "Al Jazeera",
-    "ts": 1779098459
-  },
-  {
-    "key": "china--quake--southwest",
-    "source": "GN: Earthquake",
-    "ts": 1779098459
-  },
-  {
-    "key": "lebanon--airstrike--baalbek",
-    "source": "GN: Strike Attack",
-    "ts": 1779098459
-  },
-  {
     "key": "usa--shooting--high-school",
     "source": "GN: Mass Shooting",
     "ts": 1779099070
