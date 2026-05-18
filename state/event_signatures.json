@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--tornado-watch--nebraska-southeast",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779130860
-  },
-  {
-    "key": "usa--fire--simi-valley-ventura",
-    "source": "GN: Wildfire",
-    "ts": 1779130860
-  },
-  {
-    "key": "usa--tornado-warning--kansas-lincoln",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779130860
-  },
-  {
-    "key": "congo--ebola-case--american-doctor",
-    "source": "GN: Breaking News",
-    "ts": 1779130860
-  },
-  {
     "key": "trusted-trump-says-the-leaders-qatar",
     "source": "TG: Faytuks Network",
     "ts": 1779131097
