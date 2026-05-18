@@ -198,5 +198,25 @@
     "key": "lebanon--airstrike--south",
     "source": "GN: Strike Attack",
     "ts": 1779079850
+  },
+  {
+    "key": "china--quake--southern",
+    "source": "TASS English",
+    "ts": 1779080448
+  },
+  {
+    "key": "unknown--outbreak--ebola",
+    "source": "GN: CNN",
+    "ts": 1779080448
+  },
+  {
+    "key": "india--fire--patna-passenger-train",
+    "source": "GN: Breaking News",
+    "ts": 1779080448
+  },
+  {
+    "key": "india--crash--ahmedabad",
+    "source": "GN: Plane Crash",
+    "ts": 1779080448
   }
 ]
