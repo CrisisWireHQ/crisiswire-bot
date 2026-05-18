@@ -163,5 +163,40 @@
     "key": "israel--interception--gaza-aid-flotilla",
     "source": "GN: Reuters",
     "ts": 1779105663
+  },
+  {
+    "key": "usa--explosion--wonder-lake-illinois",
+    "source": "GN: Explosion",
+    "ts": 1779106249
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1779106249
+  },
+  {
+    "key": "nigeria--airstrike--northeast",
+    "source": "France 24 Intl",
+    "ts": 1779106249
+  },
+  {
+    "key": "china--quake--south",
+    "source": "GN: Earthquake",
+    "ts": 1779106249
+  },
+  {
+    "key": "ukraine--airstrike--ukraine",
+    "source": "GN: Strike Attack",
+    "ts": 1779106249
+  },
+  {
+    "key": "china--quake--guangxi",
+    "source": "GN: Earthquake",
+    "ts": 1779106249
+  },
+  {
+    "key": "maldives--deaths--italian-divers",
+    "source": "GN: Breaking News",
+    "ts": 1779106249
   }
 ]
