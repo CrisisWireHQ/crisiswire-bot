@@ -193,5 +193,25 @@
     "key": "trusted-president-trump-said-not-open",
     "source": "TG: Faytuks Network",
     "ts": 1779124127
+  },
+  {
+    "key": "ukraine--airstrike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1779124270
+  },
+  {
+    "key": "usa--fire--oklahoma",
+    "source": "GN: Wildfire",
+    "ts": 1779124273
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1779124273
+  },
+  {
+    "key": "usa--fire--bronx",
+    "source": "GN: Breaking News",
+    "ts": 1779124273
   }
 ]
