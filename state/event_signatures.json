@@ -1,45 +1,5 @@
 [
   {
-    "key": "usa--shooting--san-diego",
-    "source": "Jerusalem Post",
-    "ts": 1779136267
-  },
-  {
-    "key": "usa--fire--new-mexico",
-    "source": "GN: Plane Crash",
-    "ts": 1779136267
-  },
-  {
-    "key": "global--ebola-outbreak--confirmed",
-    "source": "GN: Outbreak",
-    "ts": 1779136267
-  },
-  {
-    "key": "usa--tornado--nebraska-kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779136274
-  },
-  {
-    "key": "usa--tornado--kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779136274
-  },
-  {
-    "key": "usa--shooting--san-diego",
-    "source": "GN: Breaking News",
-    "ts": 1779136274
-  },
-  {
-    "key": "usa--shooting--san-diego",
-    "source": "Times of India World",
-    "ts": 1779136274
-  },
-  {
-    "key": "usa--shooting--san-diego",
-    "source": "GN: CNN",
-    "ts": 1779136274
-  },
-  {
     "key": "usa--tornado--nebraska-johnson-county",
     "source": "NOAA NWS Extreme",
     "ts": 1779136869
