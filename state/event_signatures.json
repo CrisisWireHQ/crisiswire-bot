@@ -188,5 +188,60 @@
     "key": "lebanon--airstrike--east",
     "source": "GN: Strike Attack",
     "ts": 1779064255
+  },
+  {
+    "key": "usa--tornado--kansas-lincoln",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779064857
+  },
+  {
+    "key": "usa--tornado--minnesota-fairmont",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779064857
+  },
+  {
+    "key": "usa--tornado--kansas-ottawa",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779064857
+  },
+  {
+    "key": "netherlands--hantavirus--cruise-ship",
+    "source": "France 24 Intl",
+    "ts": 1779064857
+  },
+  {
+    "key": "usa--tornado--iowa-sioux-city",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779064857
+  },
+  {
+    "key": "usa--tornado--minnesota-truman",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779064857
+  },
+  {
+    "key": "usa--tornado--nebraska-lancaster",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779064857
+  },
+  {
+    "key": "usa--tornado-watch--nebraska-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779064857
+  },
+  {
+    "key": "usa--tornado--minnesota-jackson",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779064857
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "GN: Strike Attack",
+    "ts": 1779064857
+  },
+  {
+    "key": "united-arab-emirates--drone-strike--abu-dhabi",
+    "source": "Times of Israel",
+    "ts": 1779064857
   }
 ]
