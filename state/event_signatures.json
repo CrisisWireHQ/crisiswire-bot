@@ -118,5 +118,30 @@
     "key": "china--quake--unspecified",
     "source": "GN: Earthquake",
     "ts": 1779099672
+  },
+  {
+    "key": "ukraine--drone-strike--black-sea",
+    "source": "Straits Times World",
+    "ts": 1779100267
+  },
+  {
+    "key": "china--quake--guangxi",
+    "source": "GN: Earthquake",
+    "ts": 1779100267
+  },
+  {
+    "key": "usa--quake--upstate",
+    "source": "GN: Earthquake",
+    "ts": 1779100267
+  },
+  {
+    "key": "rotterdam--hantavirus--cruise-ship",
+    "source": "Sky News",
+    "ts": 1779100267
+  },
+  {
+    "key": "nigeria--airstrike--northeast",
+    "source": "GN: Strike Attack",
+    "ts": 1779100270
   }
 ]
