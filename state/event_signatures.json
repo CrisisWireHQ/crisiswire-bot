@@ -1,25 +1,5 @@
 [
   {
-    "key": "ukraine--airstrike--kyiv",
-    "source": "GN: Strike Attack",
-    "ts": 1779124270
-  },
-  {
-    "key": "usa--fire--oklahoma",
-    "source": "GN: Wildfire",
-    "ts": 1779124273
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1779124273
-  },
-  {
-    "key": "usa--fire--bronx",
-    "source": "GN: Breaking News",
-    "ts": 1779124273
-  },
-  {
     "key": "nigeria--hostage--oyo-state",
     "source": "Straits Times World",
     "ts": 1779124851
@@ -178,5 +158,10 @@
     "key": "china--quake--yunnan",
     "source": "GN: Earthquake",
     "ts": 1779127869
+  },
+  {
+    "key": "trusted-judge-dismissed-all-elon-musks",
+    "source": "TG: Faytuks Network",
+    "ts": 1779127960
   }
 ]
