@@ -1,25 +1,5 @@
 [
   {
-    "key": "china--quake--guangxi",
-    "source": "GN: Earthquake",
-    "ts": 1779097854
-  },
-  {
-    "key": "international--hantavirus--cruise-ship",
-    "source": "CBS News World",
-    "ts": 1779097854
-  },
-  {
-    "key": "lebanon--airstrike--south",
-    "source": "GN: Strike Attack",
-    "ts": 1779097857
-  },
-  {
-    "key": "china--quake--guangxi",
-    "source": "GN: Earthquake",
-    "ts": 1779097857
-  },
-  {
     "key": "drc--outbreak--ebola",
     "source": "France 24 Intl",
     "ts": 1779098459
