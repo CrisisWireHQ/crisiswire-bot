@@ -183,5 +183,15 @@
     "key": "drc--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1779131459
+  },
+  {
+    "key": "antarctic--quake--bouvet-island",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1779131683
+  },
+  {
+    "key": "usa--fire--county-evacuation",
+    "source": "GN: Wildfire",
+    "ts": 1779131685
   }
 ]
