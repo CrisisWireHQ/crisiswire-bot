@@ -333,5 +333,25 @@
     "key": "usa--plane-crash--new-mexico",
     "source": "GN: Plane Crash",
     "ts": 1779146447
+  },
+  {
+    "key": "usa--tornado--missouri-kansas-iowa-nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779147052
+  },
+  {
+    "key": "ukraine--attack--dpr",
+    "source": "TASS English",
+    "ts": 1779147052
+  },
+  {
+    "key": "china--quake--magnitude-5.2",
+    "source": "GN: Earthquake",
+    "ts": 1779147052
+  },
+  {
+    "key": "usa--shooting--san-diego-islamic-center",
+    "source": "GN: Mass Shooting",
+    "ts": 1779147052
   }
 ]
