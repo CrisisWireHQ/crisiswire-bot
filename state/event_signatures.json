@@ -1,30 +1,5 @@
 [
   {
-    "key": "nigeria--airstrike--militants",
-    "source": "GN: Strike Attack",
-    "ts": 1779112863
-  },
-  {
-    "key": "usa--fire--california-national-park",
-    "source": "GN: Wildfire",
-    "ts": 1779112863
-  },
-  {
-    "key": "international--outbreak--cruise-ship-hantavirus",
-    "source": "GN: Outbreak",
-    "ts": 1779112863
-  },
-  {
-    "key": "congo--outbreak--ebola-ituri",
-    "source": "GN: AP News",
-    "ts": 1779112863
-  },
-  {
-    "key": "trusted-trump-planning-build-permanent-helipad",
-    "source": "TG: Faytuks Network",
-    "ts": 1779112972
-  },
-  {
     "key": "china--quake--liuzhou",
     "source": "USGS Quakes M4.5+",
     "ts": 1779113478
