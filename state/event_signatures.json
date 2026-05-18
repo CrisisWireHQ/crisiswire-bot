@@ -1,20 +1,5 @@
 [
   {
-    "key": "netherlands--outbreak--rotterdam",
-    "source": "GN: Outbreak",
-    "ts": 1779096649
-  },
-  {
-    "key": "gaza--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1779096649
-  },
-  {
-    "key": "china--quake--south",
-    "source": "GN: Earthquake",
-    "ts": 1779096649
-  },
-  {
     "key": "usa--explosion--wonder-lake-illinois",
     "source": "GN: Explosion",
     "ts": 1779097259
