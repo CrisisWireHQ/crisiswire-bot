@@ -173,5 +173,35 @@
     "key": "trusted-europe-was-hooked-russian-gas",
     "source": "TG: Faytuks Network",
     "ts": 1779129820
+  },
+  {
+    "key": "uganda--outbreak--bundibugyo",
+    "source": "GN: Outbreak",
+    "ts": 1779130251
+  },
+  {
+    "key": "somalia--hostage--pirates",
+    "source": "GN: Hostage",
+    "ts": 1779130251
+  },
+  {
+    "key": "lebanon--airstrike--south",
+    "source": "Times of Israel",
+    "ts": 1779130251
+  },
+  {
+    "key": "usa--fire--simi-valley",
+    "source": "GN: Wildfire",
+    "ts": 1779130251
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "Guardian World",
+    "ts": 1779130251
+  },
+  {
+    "key": "usa--fire--ventura-county",
+    "source": "GN: Wildfire",
+    "ts": 1779130251
   }
 ]
