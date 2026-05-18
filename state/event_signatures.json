@@ -138,5 +138,20 @@
     "key": "usa--fire--colorado",
     "source": "GN: CNN",
     "ts": 1779082251
+  },
+  {
+    "key": "argentina--hantavirus--tierra-del-fuego",
+    "source": "Straits Times World",
+    "ts": 1779082844
+  },
+  {
+    "key": "usa--collision--idaho-air-show",
+    "source": "GN: Breaking News",
+    "ts": 1779082848
+  },
+  {
+    "key": "china--quake--liuzhou",
+    "source": "GN: Earthquake",
+    "ts": 1779082848
   }
 ]
