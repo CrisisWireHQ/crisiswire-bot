@@ -203,5 +203,20 @@
     "key": "trusted-police-responding-reports-active-shooter",
     "source": "TG: Faytuks Network",
     "ts": 1779131853
+  },
+  {
+    "key": "usa--fire--simi-valley",
+    "source": "GN: Wildfire",
+    "ts": 1779132056
+  },
+  {
+    "key": "usa--tornado--ottawa-county-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779132056
+  },
+  {
+    "key": "usa--shooting--san-diego",
+    "source": "GN: Breaking News",
+    "ts": 1779132056
   }
 ]
