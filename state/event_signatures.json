@@ -268,5 +268,65 @@
     "key": "usa--shooting--san-diego-mosque",
     "source": "GN: Breaking News",
     "ts": 1779139863
+  },
+  {
+    "key": "usa--explosion--searsmont-maine",
+    "source": "GN: Explosion",
+    "ts": 1779140452
+  },
+  {
+    "key": "usa--tornado-warning--atchison-county-missouri",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779140452
+  },
+  {
+    "key": "usa--tornado-warning--morganville-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779140452
+  },
+  {
+    "key": "usa--tornado-warning--dickinson-county-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779140452
+  },
+  {
+    "key": "usa--tornado-warning--peru-nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779140452
+  },
+  {
+    "key": "usa--tornado-warning--riley-county-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779140452
+  },
+  {
+    "key": "usa--shooting--san-diego-islamic-center",
+    "source": "GN: Mass Shooting",
+    "ts": 1779140452
+  },
+  {
+    "key": "usa--shooting--san-diego-islamic-center",
+    "source": "GN: Mass Shooting",
+    "ts": 1779140452
+  },
+  {
+    "key": "usa--shooting--san-diego-islamic-center",
+    "source": "GN: Mass Shooting",
+    "ts": 1779140452
+  },
+  {
+    "key": "bolivia--protest--la-paz",
+    "source": "Al Jazeera",
+    "ts": 1779140452
+  },
+  {
+    "key": "usa--fire--simi-valley",
+    "source": "GN: Wildfire",
+    "ts": 1779140455
+  },
+  {
+    "key": "usa--shooting--san-diego-islamic-center",
+    "source": "GN: Mass Shooting",
+    "ts": 1779140455
   }
 ]
