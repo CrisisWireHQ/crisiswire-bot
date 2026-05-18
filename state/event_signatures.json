@@ -248,5 +248,30 @@
     "key": "netherlands--hantavirus--cruise-ship",
     "source": "GN: Reuters",
     "ts": 1779074455
+  },
+  {
+    "key": "usa--tornado--mason-city-iowa",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779075052
+  },
+  {
+    "key": "usa--tornado--northwood-iowa",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779075052
+  },
+  {
+    "key": "usa--tornado--mitchell-county-iowa",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779075052
+  },
+  {
+    "key": "usa--wildfire--campo-oklahoma-colorado",
+    "source": "GN: Wildfire",
+    "ts": 1779075052
+  },
+  {
+    "key": "myanmar--quake--yangon",
+    "source": "GN: Earthquake",
+    "ts": 1779075056
   }
 ]
