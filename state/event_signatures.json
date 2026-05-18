@@ -118,5 +118,40 @@
     "key": "trusted-israels-government-has-formed-team",
     "source": "TG: Faytuks Network",
     "ts": 1779099103
+  },
+  {
+    "key": "ukraine--drone-strike--odesa",
+    "source": "Straits Times World",
+    "ts": 1779099664
+  },
+  {
+    "key": "congo--ebola-exposure--americans",
+    "source": "BBC World",
+    "ts": 1779099664
+  },
+  {
+    "key": "uae--drone-strike--abu-dhabi",
+    "source": "France 24 Intl",
+    "ts": 1779099668
+  },
+  {
+    "key": "israel--boarding--gaza-flotilla",
+    "source": "Times of Israel",
+    "ts": 1779099668
+  },
+  {
+    "key": "netherlands--outbreak--rotterdam",
+    "source": "Al Jazeera",
+    "ts": 1779099672
+  },
+  {
+    "key": "ukraine--missile-strike--black-sea",
+    "source": "GN: Strike Attack",
+    "ts": 1779099672
+  },
+  {
+    "key": "china--quake--unspecified",
+    "source": "GN: Earthquake",
+    "ts": 1779099672
   }
 ]
