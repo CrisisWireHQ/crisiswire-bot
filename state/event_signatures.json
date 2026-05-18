@@ -1,35 +1,5 @@
 [
   {
-    "key": "usa--tornado--south-dakota-minnesota-iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779060042
-  },
-  {
-    "key": "usa--tornado--iowa-minnesota",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779060042
-  },
-  {
-    "key": "usa--fire--crow-wing-county-minnesota",
-    "source": "GN: Wildfire",
-    "ts": 1779060042
-  },
-  {
-    "key": "china--quake--southern-china",
-    "source": "GN: Earthquake",
-    "ts": 1779060042
-  },
-  {
-    "key": "usa--fire--southeastern-colorado",
-    "source": "GN: Wildfire",
-    "ts": 1779060042
-  },
-  {
-    "key": "congo-uganda--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779060042
-  },
-  {
     "key": "usa--tornado--nebraska-colfax-platte-stanton",
     "source": "NOAA NWS Extreme",
     "ts": 1779060637
