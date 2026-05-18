@@ -1,10 +1,5 @@
 [
   {
-    "key": "usa--tornado--nebraska-colfax-platte-stanton",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779060637
-  },
-  {
     "key": "usa--fire--county-evacuation",
     "source": "GN: Wildfire",
     "ts": 1779061245
