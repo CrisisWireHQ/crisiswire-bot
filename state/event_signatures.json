@@ -130,23 +130,8 @@
     "ts": 1779073856
   },
   {
-    "key": "usa--tornado--forest-city-iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779073856
-  },
-  {
     "key": "usa--tornado--winnebago-minnesota",
     "source": "NOAA NWS Extreme",
-    "ts": 1779073856
-  },
-  {
-    "key": "china--quake--southwest",
-    "source": "GN: Earthquake",
-    "ts": 1779073856
-  },
-  {
-    "key": "china--quake--southwest",
-    "source": "GN: Earthquake",
     "ts": 1779073856
   },
   {
@@ -233,5 +218,25 @@
     "key": "trusted-massive-fleet-swedish-navy-cb90",
     "source": "X: @Osinttechnical",
     "ts": 1779075591
+  },
+  {
+    "key": "usa--tornado--iowa-minnesota",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779075656
+  },
+  {
+    "key": "myanmar--quake--general",
+    "source": "GN: Earthquake",
+    "ts": 1779075656
+  },
+  {
+    "key": "usa--shooting--austin-texas",
+    "source": "GN: Reuters",
+    "ts": 1779075656
+  },
+  {
+    "key": "usa--explosion--maine-lumber-yard",
+    "source": "GN: Explosion",
+    "ts": 1779075659
   }
 ]
