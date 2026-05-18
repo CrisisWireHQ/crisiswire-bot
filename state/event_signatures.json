@@ -1,15 +1,5 @@
 [
   {
-    "key": "trusted-pakistan-shared-revised-iranian-proposal",
-    "source": "TG: Faytuks Network",
-    "ts": 1779091251
-  },
-  {
-    "key": "indian-ocean--quake--mid-indian-ridge",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1779091257
-  },
-  {
     "key": "nigeria--abduction--schoolchildren",
     "source": "GN: Strike Attack",
     "ts": 1779091260
@@ -153,5 +143,25 @@
     "key": "china--quake--south",
     "source": "GN: Earthquake",
     "ts": 1779094267
+  },
+  {
+    "key": "ukraine--drone-strike--donetsk",
+    "source": "TASS English",
+    "ts": 1779094857
+  },
+  {
+    "key": "china--quake--southern",
+    "source": "GN: Earthquake",
+    "ts": 1779094857
+  },
+  {
+    "key": "usa--shooting--durham",
+    "source": "GN: Breaking News",
+    "ts": 1779094857
+  },
+  {
+    "key": "china--quake--south",
+    "source": "GN: Earthquake",
+    "ts": 1779094857
   }
 ]
