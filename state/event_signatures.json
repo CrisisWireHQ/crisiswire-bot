@@ -1,15 +1,5 @@
 [
   {
-    "key": "antarctic--quake--bouvet-island",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1779131683
-  },
-  {
-    "key": "usa--fire--county-evacuation",
-    "source": "GN: Wildfire",
-    "ts": 1779131685
-  },
-  {
     "key": "trusted-breaking-police-report-active-shooter",
     "source": "TG: Faytuks Network",
     "ts": 1779131798
