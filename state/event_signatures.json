@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--tornado--iowa-nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779069046
-  },
-  {
-    "key": "ukraine--missile-strike--dnipro",
-    "source": "GN: Strike Attack",
-    "ts": 1779069046
-  },
-  {
     "key": "usa--tornado--iowa-clay-county",
     "source": "NOAA NWS Extreme",
     "ts": 1779069647
