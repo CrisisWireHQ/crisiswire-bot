@@ -1,45 +1,5 @@
 [
   {
-    "key": "usa--tornado--wakefield-kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779143462
-  },
-  {
-    "key": "usa--tornado--blue-rapids-kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779143462
-  },
-  {
-    "key": "usa--tornado--barada-missouri",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779143462
-  },
-  {
-    "key": "usa--tornado--pawnee-county-nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779143462
-  },
-  {
-    "key": "usa--tornado--stella-nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779143462
-  },
-  {
-    "key": "usa--fire--southern-california",
-    "source": "GN: Wildfire",
-    "ts": 1779143462
-  },
-  {
-    "key": "usa--shooting--san-diego",
-    "source": "GN: Mass Shooting",
-    "ts": 1779143462
-  },
-  {
-    "key": "usa--fire--simi-valley",
-    "source": "GN: CNN",
-    "ts": 1779143462
-  },
-  {
     "key": "usa--tornado--kansas-missouri",
     "source": "NOAA NWS Extreme",
     "ts": 1779144050
