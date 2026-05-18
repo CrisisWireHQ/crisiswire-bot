@@ -1,35 +1,5 @@
 [
   {
-    "key": "usa--threat--walmart",
-    "source": "GN: Mass Shooting",
-    "ts": 1779083442
-  },
-  {
-    "key": "usa--threat--walmart",
-    "source": "GN: Outbreak",
-    "ts": 1779083445
-  },
-  {
-    "key": "nigeria--attack--zamfara",
-    "source": "GN: Terror Attack",
-    "ts": 1779083448
-  },
-  {
-    "key": "uae--drone-strike--nuclear-plant",
-    "source": "NPR World",
-    "ts": 1779083451
-  },
-  {
-    "key": "ukraine--attack--overnight",
-    "source": "GN: Reuters",
-    "ts": 1779083451
-  },
-  {
-    "key": "china--quake--guangxi",
-    "source": "GN: Earthquake",
-    "ts": 1779083451
-  },
-  {
     "key": "china--quake--southwest",
     "source": "GN: Earthquake",
     "ts": 1779084058
