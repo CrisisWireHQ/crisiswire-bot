@@ -270,16 +270,6 @@
     "ts": 1779142860
   },
   {
-    "key": "usa--tornado--kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779142860
-  },
-  {
-    "key": "usa--tornado--missouri",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779142860
-  },
-  {
     "key": "usa--tornado--kansas-nebraska",
     "source": "NOAA NWS Extreme",
     "ts": 1779142860
