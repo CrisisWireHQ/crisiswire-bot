@@ -1,35 +1,5 @@
 [
   {
-    "key": "usa--tornado--lincoln-kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779131457
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "GN: Breaking News",
-    "ts": 1779131457
-  },
-  {
-    "key": "usa--explosion--lake-lanier",
-    "source": "GN: Explosion",
-    "ts": 1779131457
-  },
-  {
-    "key": "usa--fire--searsmont-maine",
-    "source": "GN: Explosion",
-    "ts": 1779131457
-  },
-  {
-    "key": "iran--internet-blackout--nationwide",
-    "source": "TASS English",
-    "ts": 1779131457
-  },
-  {
-    "key": "drc--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779131459
-  },
-  {
     "key": "antarctic--quake--bouvet-island",
     "source": "USGS Quakes M4.5+",
     "ts": 1779131683
@@ -263,5 +233,45 @@
     "key": "usa--shooting--san-diego",
     "source": "GN: Breaking News",
     "ts": 1779134451
+  },
+  {
+    "key": "usa--tornado--miltonvale-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779135054
+  },
+  {
+    "key": "usa--tornado--morrowville-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779135054
+  },
+  {
+    "key": "japan--quake--miyako",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1779135054
+  },
+  {
+    "key": "usa--tornado--steele-city-nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779135056
+  },
+  {
+    "key": "usa--tornado--fairbury-nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779135056
+  },
+  {
+    "key": "usa--tornado--odell-nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779135056
+  },
+  {
+    "key": "usa--shooting--san-diego-islamic-center",
+    "source": "GN: Breaking News",
+    "ts": 1779135056
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Breaking News",
+    "ts": 1779135062
   }
 ]
