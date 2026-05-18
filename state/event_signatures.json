@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--fire--simi-valley",
-    "source": "GN: Wildfire",
-    "ts": 1779132056
-  },
-  {
-    "key": "usa--tornado--ottawa-county-kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779132056
-  },
-  {
-    "key": "usa--shooting--san-diego",
-    "source": "GN: Breaking News",
-    "ts": 1779132056
-  },
-  {
     "key": "trusted-president-trump-says-has-once",
     "source": "X: @Osinttechnical",
     "ts": 1779132458
@@ -243,5 +228,50 @@
     "key": "congo--outbreak--ebola",
     "source": "GN: Breaking News",
     "ts": 1779135062
+  },
+  {
+    "key": "usa--tornado--kansas-hollenberg",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779135653
+  },
+  {
+    "key": "usa--tornado--nebraska-beatrice",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779135653
+  },
+  {
+    "key": "usa--explosion--maine-searsmont",
+    "source": "GN: Explosion",
+    "ts": 1779135653
+  },
+  {
+    "key": "usa--tornado--nebraska-blue-springs",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779135653
+  },
+  {
+    "key": "philippines--quake--pondaguitan",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1779135653
+  },
+  {
+    "key": "usa--crash--rhode-island-airport",
+    "source": "GN: Plane Crash",
+    "ts": 1779135656
+  },
+  {
+    "key": "usa--tornado--kansas-miltonvale",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779135660
+  },
+  {
+    "key": "usa--shooting--san-diego-islamic-center",
+    "source": "TASS English",
+    "ts": 1779135660
+  },
+  {
+    "key": "iran--drone-strike--qeshm",
+    "source": "TASS English",
+    "ts": 1779135660
   }
 ]
