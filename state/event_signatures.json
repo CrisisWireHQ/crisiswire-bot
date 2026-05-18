@@ -158,5 +158,35 @@
     "key": "trusted-elon-musk-canceled-planned-visit",
     "source": "TG: Faytuks Network",
     "ts": 1779116080
+  },
+  {
+    "key": "lebanon--airstrike--kfar-tebnit",
+    "source": "GN: Strike Attack",
+    "ts": 1779116463
+  },
+  {
+    "key": "usa--tornado--iowa-sergeant-bluff",
+    "source": "GN: Explosion",
+    "ts": 1779116463
+  },
+  {
+    "key": "usa--crash--elko",
+    "source": "GN: Plane Crash",
+    "ts": 1779116463
+  },
+  {
+    "key": "usa--fire--canyon",
+    "source": "GN: Wildfire",
+    "ts": 1779116463
+  },
+  {
+    "key": "usa--fire--california",
+    "source": "GN: Wildfire",
+    "ts": 1779116463
+  },
+  {
+    "key": "usa--crash--bahamas",
+    "source": "GN: Plane Crash",
+    "ts": 1779116463
   }
 ]
