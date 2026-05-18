@@ -178,5 +178,40 @@
     "key": "usa--explosion--searsmont",
     "source": "GN: Explosion",
     "ts": 1779107460
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1779108054
+  },
+  {
+    "key": "usa--crash--lebanon-county-pennsylvania",
+    "source": "GN: Breaking News",
+    "ts": 1779108054
+  },
+  {
+    "key": "usa--fire--crow-wing-county-minnesota",
+    "source": "GN: Wildfire",
+    "ts": 1779108054
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779108054
+  },
+  {
+    "key": "unknown--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779108054
+  },
+  {
+    "key": "china--quake--guandong",
+    "source": "ReliefWeb Updates",
+    "ts": 1779108054
+  },
+  {
+    "key": "nigeria--airstrike--northeast",
+    "source": "GN: Reuters",
+    "ts": 1779108054
   }
 ]
