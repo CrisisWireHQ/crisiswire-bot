@@ -148,5 +148,15 @@
     "key": "usa--shooting--austin",
     "source": "GN: AP News",
     "ts": 1779103863
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779104457
+  },
+  {
+    "key": "ukraine--attack--black-sea",
+    "source": "GN: Strike Attack",
+    "ts": 1779104457
   }
 ]
