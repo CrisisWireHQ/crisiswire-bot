@@ -1,40 +1,5 @@
 [
   {
-    "key": "usa--tornado--kansas-iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779142267
-  },
-  {
-    "key": "usa--tornado--nebraska-iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779142267
-  },
-  {
-    "key": "usa--fire--southern-california",
-    "source": "GN: Wildfire",
-    "ts": 1779142267
-  },
-  {
-    "key": "ukraine--combat-clashes--pokrovsk",
-    "source": "GN: Strike Attack",
-    "ts": 1779142267
-  },
-  {
-    "key": "drc--outbreak--bundibugyo-ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779142272
-  },
-  {
-    "key": "usa--crash--westerly-airport",
-    "source": "GN: Plane Crash",
-    "ts": 1779142272
-  },
-  {
-    "key": "usa--shooting--san-diego-islamic-center",
-    "source": "GN: Breaking News",
-    "ts": 1779142272
-  },
-  {
     "key": "trusted-the-suspects-behind-the-shooting",
     "source": "TG: Faytuks Network",
     "ts": 1779142300
