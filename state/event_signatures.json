@@ -130,11 +130,6 @@
     "ts": 1779127275
   },
   {
-    "key": "usa--tornado-watch--kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779127275
-  },
-  {
     "key": "usa--tornado-watch--nebraska-kansas",
     "source": "NOAA NWS Extreme",
     "ts": 1779127275
