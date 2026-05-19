@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-international-health-experts-meet-search",
-    "source": "GN: Reuters",
-    "ts": 1779183057
-  },
-  {
     "key": "trusted-who-regarding-the-ebola-outbreak",
     "source": "TG: Faytuks Network",
     "ts": 1779183457
@@ -73,5 +68,10 @@
     "key": "trusted-least-131-dead-congo-ebola",
     "source": "France 24 Intl",
     "ts": 1779186655
+  },
+  {
+    "key": "trusted-israeli-finance-minister-smotrich-responded",
+    "source": "TG: Faytuks Network",
+    "ts": 1779186760
   }
 ]
