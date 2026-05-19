@@ -1,15 +1,5 @@
 [
   {
-    "key": "trusted-trump-concerned-about-ebola-outbreak",
-    "source": "GN: Outbreak",
-    "ts": 1779197448
-  },
-  {
-    "key": "trusted-congo-lunicef-intensifie-ses-efforts",
-    "source": "ReliefWeb Updates",
-    "ts": 1779197451
-  },
-  {
     "key": "trusted-ebola-outbreak-deeply-concerning-who",
     "source": "GN: Outbreak",
     "ts": 1779198649
@@ -48,5 +38,10 @@
     "key": "trusted-deadly-ebola-outbreak-triggers-new",
     "source": "GN: Outbreak",
     "ts": 1779200443
+  },
+  {
+    "key": "trusted-president-trump-showing-the-press",
+    "source": "TG: Faytuks Network",
+    "ts": 1779201098
   }
 ]
