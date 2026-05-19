@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--explosion--lake-lanier",
-    "source": "GN: Explosion",
-    "ts": 1779145264
-  },
-  {
-    "key": "usa--fire--simi-valley",
-    "source": "GN: Wildfire",
-    "ts": 1779145264
-  },
-  {
-    "key": "usa--shooting--california-mosque",
-    "source": "GN: Mass Shooting",
-    "ts": 1779145264
-  },
-  {
     "key": "usa--shooting--san-diego",
     "source": "France 24 Intl",
     "ts": 1779145850
