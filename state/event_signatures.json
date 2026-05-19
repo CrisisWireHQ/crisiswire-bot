@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-congo-sounds-alarm-over-ebola",
-    "source": "France 24 Intl",
-    "ts": 1779187244
-  },
-  {
     "key": "trusted-who-hold-emergency-committee-meeting",
     "source": "Al Jazeera",
     "ts": 1779187248
@@ -48,5 +43,10 @@
     "key": "trusted-critical-window-stop-hantavirus-opening",
     "source": "GN: CNN",
     "ts": 1779189641
+  },
+  {
+    "key": "trusted-congo-paho-reinforces-preparedness-measures",
+    "source": "ReliefWeb Updates",
+    "ts": 1779190842
   }
 ]
