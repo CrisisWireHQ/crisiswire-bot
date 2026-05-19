@@ -1,40 +1,5 @@
 [
   {
-    "key": "usa--tornado--chillicothe-missouri",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779162060
-  },
-  {
-    "key": "fiji--quake--levuka",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1779162060
-  },
-  {
-    "key": "usa--quake--adak-alaska",
-    "source": "GN: Earthquake",
-    "ts": 1779162064
-  },
-  {
-    "key": "usa--quake--skwentna-alaska",
-    "source": "GN: Earthquake",
-    "ts": 1779162064
-  },
-  {
-    "key": "usa--fire--california-island",
-    "source": "GN: Wildfire",
-    "ts": 1779162064
-  },
-  {
-    "key": "lebanon--airstrike--israel-hezbollah",
-    "source": "GN: Strike Attack",
-    "ts": 1779162068
-  },
-  {
-    "key": "usa--attack--san-diego-mosque",
-    "source": "GN: Breaking News",
-    "ts": 1779162068
-  },
-  {
     "key": "ukraine--airstrike--izmail",
     "source": "Straits Times World",
     "ts": 1779162645
