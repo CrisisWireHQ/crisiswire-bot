@@ -43,5 +43,10 @@
     "key": "trusted-this-event-ends-one-hour",
     "source": "TG: Faytuks Network",
     "ts": 1779217846
+  },
+  {
+    "key": "trusted-drc-prepares-ebola-treatment-centres",
+    "source": "Al Jazeera",
+    "ts": 1779217858
   }
 ]
