@@ -24,6 +24,7 @@ def _build_body(draft_text: str, item: dict, classification: dict) -> tuple[str,
     severity_icon = {"critical": "🔴", "major": "🟠", "minor": "🟡"}.get(classification.get("severity", ""), "⚪")
     is_breaking = classification.get("is_breaking", False)
     is_hantavirus = classification.get("is_hantavirus", False)
+    is_ebola = classification.get("is_ebola", False)
     is_trusted = classification.get("is_trusted", False)
     confirming = classification.get("confirming_sources", [])
     image_url = (item.get("image_url") or "").strip()
@@ -32,6 +33,8 @@ def _build_body(draft_text: str, item: dict, classification: dict) -> tuple[str,
 
     if is_hantavirus:
         header = "🦠🦠🦠 HANTAVIRUS ALERT 🦠🦠🦠"
+    elif is_ebola:
+        header = "🦠🦠🦠 EBOLA ALERT 🦠🦠🦠"
     elif is_trusted:
         header = "🔥🔥🔥 TRUSTED FIREHOSE 🔥🔥🔥"
     elif is_breaking:

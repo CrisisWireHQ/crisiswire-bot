@@ -76,7 +76,8 @@ USE "reportedly" / "unconfirmed reports" ONLY when the source itself hedges (e.g
 OUTPUT: only the post text, or the single token SKIP. No quotes, no preamble, no commentary."""
 
 
-def draft(item: dict, is_breaking: bool = False, is_hantavirus: bool = False, is_trusted: bool = False) -> str:
+def draft(item: dict, is_breaking: bool = False, is_hantavirus: bool = False,
+          is_ebola: bool = False, is_trusted: bool = False) -> str:
     notes = []
     if is_breaking:
         notes.append(
@@ -90,6 +91,14 @@ def draft(item: dict, is_breaking: bool = False, is_hantavirus: bool = False, is
             "extract the most concrete factual angle available (e.g. passenger count, "
             "vessel name, location, response action) and write a declarative post about "
             "THAT angle. Use 🦠 as the lead emoji."
+        )
+    if is_ebola:
+        notes.append(
+            "NOTE: This is an EBOLA item — a topic of explicit editorial interest. "
+            "DO NOT output SKIP. Even if the article is framed as analysis/reaction, "
+            "extract the most concrete factual angle available (e.g. case count, "
+            "location, strain, fatalities, response action) and write a declarative "
+            "post about THAT angle. Use 🦠 as the lead emoji."
         )
     if is_trusted:
         notes.append(

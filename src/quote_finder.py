@@ -19,6 +19,12 @@ HANTAVIRUS_RE = re.compile(
     re.IGNORECASE,
 )
 
+EBOLA_RE = re.compile(
+    r"\b(ebola|ebolavirus|EVD|filovirus|hemorrhagic\s+fever|"
+    r"(zaire|sudan|bundibugyo|ta[iï]\s*forest|reston)\s+ebola)\b",
+    re.IGNORECASE,
+)
+
 
 def client() -> tweepy.Client:
     global _client
@@ -65,3 +71,7 @@ def find_hantavirus_tweet(max_age_hours: int = 48) -> tuple[str, str, str] | Non
 
 def text_mentions_hantavirus(text: str) -> bool:
     return bool(HANTAVIRUS_RE.search(text or ""))
+
+
+def text_mentions_ebola(text: str) -> bool:
+    return bool(EBOLA_RE.search(text or ""))

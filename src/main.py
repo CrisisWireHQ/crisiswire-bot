@@ -303,14 +303,22 @@ def poll_and_draft() -> int:
     needs_classify_idx: list[int] = []
     item_cls: dict[int, dict] = {}
     item_is_hantavirus: dict[int, bool] = {}
+    item_is_ebola: dict[int, bool] = {}
 
+    # Operation deliberately narrowed: the bot ONLY produces drafts for
+    #   1. trusted-firehose sources, and
+    #   2. Ebola / Hantavirus news (cheap keyword match).
+    # The Claude (Haiku) classifier is NOT run for anything else — every
+    # other item is dropped here, so there is zero classifier cost.
     for idx, item in enumerate(items):
         if state.is_seen(seen, item["link"]):
             continue
         is_trusted_src = item["source_name"] in TRUSTED_SOURCE_NAMES
         full_text = f"{item.get('title','')} {item.get('summary','')}"
         is_hantavirus = quote_finder.text_mentions_hantavirus(full_text)
+        is_ebola = quote_finder.text_mentions_ebola(full_text)
         item_is_hantavirus[idx] = is_hantavirus
+        item_is_ebola[idx] = is_ebola
 
         if is_trusted_src:
             item_cls[idx] = {
@@ -322,14 +330,21 @@ def poll_and_draft() -> int:
             }
             continue
 
-        if not is_hantavirus and classifier.cheap_prefilter_reject(item):
-            print(f"[prefilter] reject {item['source_name']}: {item['title'][:80]!r}")
-            state.mark_seen(seen, item["link"])
-            item_cls[idx] = None  # sentinel: skip
+        if is_hantavirus or is_ebola:
+            # Editorial-interest disease: synthesize a relevant classification
+            # (same shape the classifier would return) — no Claude call.
+            item_cls[idx] = {
+                "relevant": True,
+                "severity": "major",
+                "category": "outbreak",
+                "event_key": _trusted_event_key(item.get("title", "")),
+                "is_trusted": False,
+            }
             continue
 
-        needs_classify.append(item)
-        needs_classify_idx.append(idx)
+        # Out of scope — drop without classifying.
+        state.mark_seen(seen, item["link"])
+        item_cls[idx] = None  # sentinel: skip
 
     if needs_classify:
         try:
@@ -364,17 +379,22 @@ def poll_and_draft() -> int:
             # Prefilter-rejected (already marked seen) OR batch failed (leave unseen).
             continue
         is_hantavirus = item_is_hantavirus.get(idx, False)
+        is_ebola = item_is_ebola.get(idx, False)
+        is_priority = is_hantavirus or is_ebola
 
         # Classifier (or trusted bypass) succeeded — safe to mark seen now.
         state.mark_seen(seen, item["link"])
 
         cls["is_hantavirus"] = is_hantavirus
+        cls["is_ebola"] = is_ebola
 
-        if not cls.get("relevant") and not is_hantavirus and not is_trusted:
+        if not cls.get("relevant") and not is_priority and not is_trusted:
             continue
 
         if is_hantavirus:
             print(f"[hantavirus] match in {item['source_name']}: {item['title'][:80]!r}")
+        if is_ebola:
+            print(f"[ebola] match in {item['source_name']}: {item['title'][:80]!r}")
             # Quote-tweeting CDC/WHO disabled: X requires the quoting account
             # to be mentioned or part of the conversation thread, which we are not.
             # The HANTAVIRUS ALERT badge in Telegram still signals priority.
@@ -398,7 +418,7 @@ def poll_and_draft() -> int:
         if (cls.get("severity") == "minor"
                 and item.get("tier", 3) > 1
                 and not is_breaking
-                and not is_hantavirus
+                and not is_priority
                 and not is_trusted):
             continue
 
@@ -436,6 +456,7 @@ def poll_and_draft() -> int:
                 item,
                 is_breaking=is_breaking or is_trusted,
                 is_hantavirus=is_hantavirus,
+                is_ebola=is_ebola,
                 is_trusted=is_trusted,
             )
         except Exception as e:
