@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--tornado--kansas-wabaunsee",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779152545
-  },
-  {
-    "key": "usa--attack--san-diego",
-    "source": "BBC World",
-    "ts": 1779152545
-  },
-  {
-    "key": "usa--tornado--missouri-maryville",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779152545
-  },
-  {
-    "key": "usa--tornado--iowa-pleasant-hill",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779152545
-  },
-  {
     "key": "usa--tornado--kansas-shawnee",
     "source": "NOAA NWS Extreme",
     "ts": 1779153065
