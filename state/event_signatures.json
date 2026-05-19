@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-who-head-deeply-concerned-ebola",
-    "source": "Guardian World",
-    "ts": 1779181971
-  },
-  {
     "key": "trusted-who-chief-deeply-concerned-speed",
     "source": "GN: Outbreak",
     "ts": 1779182455
@@ -58,5 +53,10 @@
     "key": "trusted-ebola-may-spreading-faster-than",
     "source": "GN: Outbreak",
     "ts": 1779185444
+  },
+  {
+    "key": "trusted-the-israeli-army-has-issued",
+    "source": "TG: Faytuks Network",
+    "ts": 1779185615
   }
 ]
