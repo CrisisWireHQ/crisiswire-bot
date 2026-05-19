@@ -1,15 +1,5 @@
 [
   {
-    "key": "trusted-ebola-may-spreading-faster-than",
-    "source": "BBC World",
-    "ts": 1779183648
-  },
-  {
-    "key": "trusted-who-awaits-six-tons-ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779183655
-  },
-  {
     "key": "trusted-outbreak-rare-ebola-strain-with",
     "source": "GN: Breaking News",
     "ts": 1779184238
@@ -68,5 +58,20 @@
     "key": "trusted-israeli-finance-minister-smotrich-responded",
     "source": "TG: Faytuks Network",
     "ts": 1779186760
+  },
+  {
+    "key": "trusted-congo-sounds-alarm-over-ebola",
+    "source": "France 24 Intl",
+    "ts": 1779187244
+  },
+  {
+    "key": "trusted-who-hold-emergency-committee-meeting",
+    "source": "Al Jazeera",
+    "ts": 1779187248
+  },
+  {
+    "key": "trusted-congo-health-ministry-reports-131",
+    "source": "GN: AP News",
+    "ts": 1779187251
   }
 ]
