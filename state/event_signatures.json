@@ -1,15 +1,5 @@
 [
   {
-    "key": "trusted-cdc-statement-the-use-public",
-    "source": "Avian Flu Diary",
-    "ts": 1779189046
-  },
-  {
-    "key": "trusted-ebola-outbreak-drc-cases-reported",
-    "source": "GN: Outbreak",
-    "ts": 1779189051
-  },
-  {
     "key": "trusted-ebola-deaths-eastern-congo-rise",
     "source": "Straits Times World",
     "ts": 1779189641
