@@ -1,30 +1,5 @@
 [
   {
-    "key": "usa--tornado--missouri",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779156057
-  },
-  {
-    "key": "congo--ebola--healthcare-worker",
-    "source": "GN: Strike Attack",
-    "ts": 1779156057
-  },
-  {
-    "key": "usa--crash--sabine-pass",
-    "source": "GN: Breaking News",
-    "ts": 1779156057
-  },
-  {
-    "key": "drc--ebola--case",
-    "source": "GN: Outbreak",
-    "ts": 1779156057
-  },
-  {
-    "key": "usa--shooting--minnesota",
-    "source": "GN: Reuters",
-    "ts": 1779156057
-  },
-  {
     "key": "usa--tornado--kansas-missouri",
     "source": "NOAA NWS Extreme",
     "ts": 1779156653
