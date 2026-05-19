@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--shooting--san-diego",
-    "source": "GN: Mass Shooting",
-    "ts": 1779162651
-  },
-  {
-    "key": "china--quake--magnitude-5.2",
-    "source": "GN: Earthquake",
-    "ts": 1779162655
-  },
-  {
-    "key": "drc--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779162655
-  },
-  {
-    "key": "vanuatu--quake--magnitude-6",
-    "source": "GN: Earthquake",
-    "ts": 1779162655
-  },
-  {
     "key": "trusted-trump-says-ebola-remains-confined",
     "source": "GN: Reuters",
     "ts": 1779165052
