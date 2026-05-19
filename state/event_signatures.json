@@ -1,30 +1,5 @@
 [
   {
-    "key": "usa--tornado--missouri-iowa-kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779151251
-  },
-  {
-    "key": "usa--hantavirus--cruise-ship",
-    "source": "Straits Times World",
-    "ts": 1779151251
-  },
-  {
-    "key": "china--quake--guangxi",
-    "source": "GN: Earthquake",
-    "ts": 1779151251
-  },
-  {
-    "key": "usa--shooting--location-unknown",
-    "source": "GN: Breaking News",
-    "ts": 1779151251
-  },
-  {
-    "key": "global--ebola--outbreak",
-    "source": "GN: Outbreak",
-    "ts": 1779151251
-  },
-  {
     "key": "usa--tornado-watch--iowa-south-central",
     "source": "NOAA NWS Extreme",
     "ts": 1779151842
@@ -168,5 +143,25 @@
     "key": "usa--fire--southern-california",
     "source": "GN: Wildfire",
     "ts": 1779154249
+  },
+  {
+    "key": "usa--tornado-warning--missouri",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779154860
+  },
+  {
+    "key": "china--quake--south",
+    "source": "GN: Earthquake",
+    "ts": 1779154860
+  },
+  {
+    "key": "usa--shooting--san-diego",
+    "source": "GN: Mass Shooting",
+    "ts": 1779154860
+  },
+  {
+    "key": "usa--fire--simi-valley",
+    "source": "GN: Wildfire",
+    "ts": 1779154860
   }
 ]
