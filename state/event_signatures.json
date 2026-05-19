@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--shooting--san-diego-mosque",
-    "source": "GN: Breaking News",
-    "ts": 1779155459
-  },
-  {
-    "key": "global--quake--magnitude-6-4",
-    "source": "GN: Earthquake",
-    "ts": 1779155459
-  },
-  {
-    "key": "lebanon--airstrike--baalbek",
-    "source": "GN: Strike Attack",
-    "ts": 1779155460
-  },
-  {
-    "key": "china--quake--south",
-    "source": "GN: Earthquake",
-    "ts": 1779155460
-  },
-  {
     "key": "usa--tornado--missouri",
     "source": "NOAA NWS Extreme",
     "ts": 1779156057
