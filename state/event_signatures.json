@@ -1,40 +1,5 @@
 [
   {
-    "key": "usa--shooting--san-diego",
-    "source": "France 24 Intl",
-    "ts": 1779145850
-  },
-  {
-    "key": "usa--tornado--kansas-missouri",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779145850
-  },
-  {
-    "key": "usa--tornado--kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779145850
-  },
-  {
-    "key": "usa--tornado--nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779145850
-  },
-  {
-    "key": "mexico--fire--forest",
-    "source": "GDACS Disaster Alerts",
-    "ts": 1779145850
-  },
-  {
-    "key": "usa--fire--collier-county",
-    "source": "GN: Breaking News",
-    "ts": 1779145852
-  },
-  {
-    "key": "usa--shooting--san-diego",
-    "source": "France 24 Intl",
-    "ts": 1779145852
-  },
-  {
     "key": "usa--tornado--baileyville-kansas",
     "source": "NOAA NWS Extreme",
     "ts": 1779146447
@@ -228,5 +193,25 @@
     "key": "usa--mass-shooting--san-diego",
     "source": "GN: Mass Shooting",
     "ts": 1779148860
+  },
+  {
+    "key": "usa--tornado--tarkio-missouri",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779149452
+  },
+  {
+    "key": "usa--tornado--mount-ayr-iowa",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779149452
+  },
+  {
+    "key": "usa--tornado--falls-city-nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779149452
+  },
+  {
+    "key": "usa--shooting--san-diego-mosque",
+    "source": "GN: CNN",
+    "ts": 1779149452
   }
 ]
