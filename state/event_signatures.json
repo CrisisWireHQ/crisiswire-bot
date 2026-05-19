@@ -248,5 +248,30 @@
     "key": "usa--fire--kress-texas",
     "source": "GN: Wildfire",
     "ts": 1779150652
+  },
+  {
+    "key": "usa--tornado--missouri-iowa-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779151251
+  },
+  {
+    "key": "usa--hantavirus--cruise-ship",
+    "source": "Straits Times World",
+    "ts": 1779151251
+  },
+  {
+    "key": "china--quake--guangxi",
+    "source": "GN: Earthquake",
+    "ts": 1779151251
+  },
+  {
+    "key": "usa--shooting--location-unknown",
+    "source": "GN: Breaking News",
+    "ts": 1779151251
+  },
+  {
+    "key": "global--ebola--outbreak",
+    "source": "GN: Outbreak",
+    "ts": 1779151251
   }
 ]
