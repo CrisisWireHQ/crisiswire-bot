@@ -1,15 +1,5 @@
 [
   {
-    "key": "usa--shooting--san-diego",
-    "source": "GN: Mass Shooting",
-    "ts": 1779154249
-  },
-  {
-    "key": "usa--fire--southern-california",
-    "source": "GN: Wildfire",
-    "ts": 1779154249
-  },
-  {
     "key": "usa--tornado-warning--missouri",
     "source": "NOAA NWS Extreme",
     "ts": 1779154860
