@@ -198,5 +198,60 @@
     "key": "usa--tornado--iowa-pleasant-hill",
     "source": "NOAA NWS Extreme",
     "ts": 1779152545
+  },
+  {
+    "key": "usa--tornado--kansas-shawnee",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779153065
+  },
+  {
+    "key": "china--quake--south",
+    "source": "GN: Earthquake",
+    "ts": 1779153065
+  },
+  {
+    "key": "usa--tornado--kansas-harveyville",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779153065
+  },
+  {
+    "key": "usa--shooting--san-diego-mosque",
+    "source": "GN: Mass Shooting",
+    "ts": 1779153065
+  },
+  {
+    "key": "argentina--hantavirus--monitoring",
+    "source": "Straits Times World",
+    "ts": 1779153065
+  },
+  {
+    "key": "usa--shooting--san-diego",
+    "source": "GN: Mass Shooting",
+    "ts": 1779153065
+  },
+  {
+    "key": "usa--tornado--iowa-altoona",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779153065
+  },
+  {
+    "key": "global--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779153065
+  },
+  {
+    "key": "usa--explosion--maine-lumber-mill",
+    "source": "GN: Explosion",
+    "ts": 1779153067
+  },
+  {
+    "key": "usa--fire--southern-california",
+    "source": "GN: Wildfire",
+    "ts": 1779153067
+  },
+  {
+    "key": "china--quake--guangxi",
+    "source": "GN: Earthquake",
+    "ts": 1779153067
   }
 ]
