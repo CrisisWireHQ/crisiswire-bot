@@ -1,15 +1,5 @@
 [
   {
-    "key": "trusted-state-department-warns-against-travel",
-    "source": "GN: Outbreak",
-    "ts": 1779211249
-  },
-  {
-    "key": "trusted-houston-world-cup-officials-briefed",
-    "source": "GN: Outbreak",
-    "ts": 1779211252
-  },
-  {
     "key": "trusted-deadly-ebola-outbreak-triggers-new",
     "source": "GN: Outbreak",
     "ts": 1779211841
@@ -63,5 +53,10 @@
     "key": "trusted-new-research-suggests-the-ebola",
     "source": "TG: Faytuks Network",
     "ts": 1779214555
+  },
+  {
+    "key": "trusted-ebola-has-tortured-fear-grips",
+    "source": "BBC World",
+    "ts": 1779214850
   }
 ]
