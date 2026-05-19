@@ -263,5 +263,45 @@
     "key": "global--ebola--outbreak",
     "source": "GN: Outbreak",
     "ts": 1779151251
+  },
+  {
+    "key": "usa--tornado-watch--iowa-south-central",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779151842
+  },
+  {
+    "key": "usa--tornado-watch--iowa-central",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779151848
+  },
+  {
+    "key": "usa--tornado-warning--iowa-mount-ayr",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779151848
+  },
+  {
+    "key": "usa--tornado-warning--kansas-morris",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779151848
+  },
+  {
+    "key": "usa--tornado-watch--kansas-east-central",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779151848
+  },
+  {
+    "key": "usa--tornado-watch--iowa-southwest",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779151848
+  },
+  {
+    "key": "usa--fire--ventura-county-simi-valley",
+    "source": "GN: Wildfire",
+    "ts": 1779151848
+  },
+  {
+    "key": "usa--fire--southern-california",
+    "source": "GN: Wildfire",
+    "ts": 1779151848
   }
 ]
