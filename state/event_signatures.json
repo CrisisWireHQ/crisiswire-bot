@@ -1,16 +1,6 @@
 [
   {
     "key": "usa--shooting--san-diego-mosque",
-    "source": "GN: CNN",
-    "ts": 1779155455
-  },
-  {
-    "key": "palestine--airstrike--gaza",
-    "source": "GN: Strike Attack",
-    "ts": 1779155455
-  },
-  {
-    "key": "usa--shooting--san-diego-mosque",
     "source": "GN: Breaking News",
     "ts": 1779155459
   },
@@ -118,5 +108,45 @@
     "key": "usa--mass-shooting--san-diego",
     "source": "GN: Mass Shooting",
     "ts": 1779158444
+  },
+  {
+    "key": "usa--tornado--missouri",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779159050
+  },
+  {
+    "key": "vanuatu--quake--port-vila",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1779159054
+  },
+  {
+    "key": "usa--tornado--missouri",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779159057
+  },
+  {
+    "key": "usa--tornado--missouri",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779159057
+  },
+  {
+    "key": "usa--tornado--kansas-missouri",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779159057
+  },
+  {
+    "key": "usa--tornado--missouri",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779159057
+  },
+  {
+    "key": "usa--explosion--mchenry-county",
+    "source": "GN: Explosion",
+    "ts": 1779159057
+  },
+  {
+    "key": "usa--shooting--san-diego",
+    "source": "GN: Mass Shooting",
+    "ts": 1779159057
   }
 ]
