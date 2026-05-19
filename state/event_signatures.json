@@ -23,5 +23,20 @@
     "key": "trusted-critical-window-stop-hantavirus-opening",
     "source": "GN: CNN",
     "ts": 1779192645
+  },
+  {
+    "key": "trusted-cdc-han-00529-2026-hantavirus",
+    "source": "Avian Flu Diary",
+    "ts": 1779193244
+  },
+  {
+    "key": "trusted-congo-reports-more-ebola-cases",
+    "source": "GN: Outbreak",
+    "ts": 1779193249
+  },
+  {
+    "key": "trusted-american-doctor-tests-positive-for",
+    "source": "GN: Outbreak",
+    "ts": 1779193253
   }
 ]
