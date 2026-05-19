@@ -2,16 +2,6 @@
   {
     "key": "usa--tornado--missouri",
     "source": "NOAA NWS Extreme",
-    "ts": 1779159050
-  },
-  {
-    "key": "vanuatu--quake--port-vila",
-    "source": "USGS Quakes M4.5+",
-    "ts": 1779159054
-  },
-  {
-    "key": "usa--tornado--missouri",
-    "source": "NOAA NWS Extreme",
     "ts": 1779159057
   },
   {
@@ -153,5 +143,35 @@
     "key": "usa--attack--san-diego-mosque",
     "source": "GN: Breaking News",
     "ts": 1779162068
+  },
+  {
+    "key": "ukraine--airstrike--izmail",
+    "source": "Straits Times World",
+    "ts": 1779162645
+  },
+  {
+    "key": "bangladesh--outbreak--measles",
+    "source": "Times of India World",
+    "ts": 1779162645
+  },
+  {
+    "key": "usa--shooting--san-diego",
+    "source": "GN: Mass Shooting",
+    "ts": 1779162651
+  },
+  {
+    "key": "china--quake--magnitude-5.2",
+    "source": "GN: Earthquake",
+    "ts": 1779162655
+  },
+  {
+    "key": "drc--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779162655
+  },
+  {
+    "key": "vanuatu--quake--magnitude-6",
+    "source": "GN: Earthquake",
+    "ts": 1779162655
   }
 ]
