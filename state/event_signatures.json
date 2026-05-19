@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-drc-ebola-outbreak-hundreds-suspected",
-    "source": "GN: Outbreak",
-    "ts": 1779193853
-  },
-  {
     "key": "trusted-nato-confirms-romanian-f16s-from",
     "source": "TG: Faytuks Network",
     "ts": 1779194320
@@ -28,5 +23,20 @@
     "key": "trusted-funding-and-ebola-epidemic-loom",
     "source": "France 24 Intl",
     "ts": 1779196850
+  },
+  {
+    "key": "trusted-who-worried-about-scale-and",
+    "source": "France 24 Intl",
+    "ts": 1779197446
+  },
+  {
+    "key": "trusted-trump-concerned-about-ebola-outbreak",
+    "source": "GN: Outbreak",
+    "ts": 1779197448
+  },
+  {
+    "key": "trusted-congo-lunicef-intensifie-ses-efforts",
+    "source": "ReliefWeb Updates",
+    "ts": 1779197451
   }
 ]
