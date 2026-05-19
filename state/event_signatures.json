@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-this-ebola-outbreak-will-hard",
-    "source": "GN: Outbreak",
-    "ts": 1779210047
-  },
-  {
     "key": "trusted-state-department-warns-against-travel",
     "source": "GN: Outbreak",
     "ts": 1779211249
@@ -53,5 +48,10 @@
     "key": "trusted-and-israeli-forces-have-completed",
     "source": "X: @Osinttechnical",
     "ts": 1779213473
+  },
+  {
+    "key": "trusted-who-sounds-alarm-over-ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779213643
   }
 ]
