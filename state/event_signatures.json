@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-president-trump-suggested-during-talks",
-    "source": "TG: Faytuks Network",
-    "ts": 1779179858
-  },
-  {
     "key": "trusted-french-president-macron-specifically-calls",
     "source": "X: @Osinttechnical",
     "ts": 1779180467
@@ -58,5 +53,10 @@
     "key": "trusted-international-health-experts-meet-search",
     "source": "GN: Reuters",
     "ts": 1779183057
+  },
+  {
+    "key": "trusted-who-regarding-the-ebola-outbreak",
+    "source": "TG: Faytuks Network",
+    "ts": 1779183457
   }
 ]
