@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-germany-preparing-admit-and-treat",
-    "source": "Straits Times World",
-    "ts": 1779180641
-  },
-  {
     "key": "trusted-sweden-picked-frances-naval-group",
     "source": "TG: Faytuks Network",
     "ts": 1779180882
@@ -53,5 +48,10 @@
     "key": "trusted-who-awaits-six-tons-ebola",
     "source": "GN: Outbreak",
     "ts": 1779183655
+  },
+  {
+    "key": "trusted-outbreak-rare-ebola-strain-with",
+    "source": "GN: Breaking News",
+    "ts": 1779184238
   }
 ]
