@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--tornado--iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779153651
-  },
-  {
-    "key": "usa--tornado--kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779153651
-  },
-  {
-    "key": "usa--shooting--san-diego",
-    "source": "Al Jazeera",
-    "ts": 1779153651
-  },
-  {
-    "key": "china--quake--south",
-    "source": "GN: Earthquake",
-    "ts": 1779153651
-  },
-  {
     "key": "usa--shooting--san-diego",
     "source": "GN: Mass Shooting",
     "ts": 1779154249
@@ -138,5 +118,25 @@
     "key": "usa--crash--forney",
     "source": "GN: Plane Crash",
     "ts": 1779156653
+  },
+  {
+    "key": "usa--tornado--kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779157254
+  },
+  {
+    "key": "usa--tornado--kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779157254
+  },
+  {
+    "key": "china--quake--south",
+    "source": "GN: Earthquake",
+    "ts": 1779157254
+  },
+  {
+    "key": "ukraine--airstrike--kyiv",
+    "source": "GN: Strike Attack",
+    "ts": 1779157257
   }
 ]
