@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-critical-window-stop-hantavirus-opening",
-    "source": "GN: CNN",
-    "ts": 1779192645
-  },
-  {
     "key": "trusted-cdc-han-00529-2026-hantavirus",
     "source": "Avian Flu Diary",
     "ts": 1779193244
@@ -33,5 +28,15 @@
     "key": "trusted-who-concerned-about-scale-and",
     "source": "GN: Outbreak",
     "ts": 1779194443
+  },
+  {
+    "key": "trusted-codiagnostics-develops-ebola-assay-strategy",
+    "source": "GN: Outbreak",
+    "ts": 1779196249
+  },
+  {
+    "key": "trusted-why-the-lessons-the-drcs",
+    "source": "Guardian World",
+    "ts": 1779196257
   }
 ]
