@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-africa-cdc-declares-continental-emergency",
-    "source": "Straits Times World",
-    "ts": 1779178839
-  },
-  {
     "key": "trusted-estimated-congo-ebola-death-toll",
     "source": "France 24 Intl",
     "ts": 1779179463
@@ -63,5 +58,10 @@
     "key": "trusted-who-head-deeply-concerned-ebola",
     "source": "Guardian World",
     "ts": 1779181971
+  },
+  {
+    "key": "trusted-who-chief-deeply-concerned-speed",
+    "source": "GN: Outbreak",
+    "ts": 1779182455
   }
 ]
