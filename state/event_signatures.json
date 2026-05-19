@@ -28,5 +28,15 @@
     "key": "trusted-ebola-outbreak-declared-public-health",
     "source": "GN: Outbreak",
     "ts": 1779218443
+  },
+  {
+    "key": "trusted-unicef-responds-ebola-outbreak-drc",
+    "source": "GN: Outbreak",
+    "ts": 1779220241
+  },
+  {
+    "key": "trusted-health-experts-worry-about-ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779220245
   }
 ]
