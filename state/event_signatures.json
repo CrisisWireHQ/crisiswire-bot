@@ -103,5 +103,20 @@
     "key": "china--quake--south",
     "source": "GN: Earthquake",
     "ts": 1779160250
+  },
+  {
+    "key": "usa--tornado--missouri",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779160852
+  },
+  {
+    "key": "usa--tornado--missouri-hardin",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779160852
+  },
+  {
+    "key": "vanuatu--quake--islands",
+    "source": "GN: Earthquake",
+    "ts": 1779160852
   }
 ]
