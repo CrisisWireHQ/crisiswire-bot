@@ -248,5 +248,25 @@
     "key": "china--quake--guangxi",
     "source": "GN: Earthquake",
     "ts": 1779153067
+  },
+  {
+    "key": "usa--tornado--iowa",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779153651
+  },
+  {
+    "key": "usa--tornado--kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779153651
+  },
+  {
+    "key": "usa--shooting--san-diego",
+    "source": "Al Jazeera",
+    "ts": 1779153651
+  },
+  {
+    "key": "china--quake--south",
+    "source": "GN: Earthquake",
+    "ts": 1779153651
   }
 ]
