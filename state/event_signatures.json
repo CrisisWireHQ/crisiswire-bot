@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--tornado-warning--missouri",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779154860
-  },
-  {
-    "key": "china--quake--south",
-    "source": "GN: Earthquake",
-    "ts": 1779154860
-  },
-  {
-    "key": "usa--shooting--san-diego",
-    "source": "GN: Mass Shooting",
-    "ts": 1779154860
-  },
-  {
-    "key": "usa--fire--simi-valley",
-    "source": "GN: Wildfire",
-    "ts": 1779154860
-  },
-  {
     "key": "usa--shooting--san-diego-mosque",
     "source": "GN: CNN",
     "ts": 1779155455
