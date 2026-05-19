@@ -118,5 +118,25 @@
     "key": "usa--shooting--san-diego",
     "source": "GN: Mass Shooting",
     "ts": 1779159057
+  },
+  {
+    "key": "usa--tornado--missouri-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779159649
+  },
+  {
+    "key": "usa--tornado--missouri-kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779159649
+  },
+  {
+    "key": "usa--tornado--kansas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779159649
+  },
+  {
+    "key": "vanuatu--quake--vanuatu",
+    "source": "GDACS Disaster Alerts",
+    "ts": 1779159649
   }
 ]
