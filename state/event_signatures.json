@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-health-officials-order-quarantine-for",
-    "source": "GN: Outbreak",
-    "ts": 1779213040
-  },
-  {
     "key": "trusted-cdc-deploy-resources-for-ebola",
     "source": "GN: Outbreak",
     "ts": 1779213044
@@ -58,5 +53,10 @@
     "key": "trusted-bahrain-bars-visitors-from-democratic",
     "source": "Straits Times World",
     "ts": 1779216043
+  },
+  {
+    "key": "trusted-trump-says-hes-concerned-about",
+    "source": "GN: Outbreak",
+    "ts": 1779216639
   }
 ]
