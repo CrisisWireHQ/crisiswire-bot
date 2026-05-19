@@ -115,11 +115,6 @@
     "ts": 1779157254
   },
   {
-    "key": "usa--tornado--kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779157254
-  },
-  {
     "key": "china--quake--south",
     "source": "GN: Earthquake",
     "ts": 1779157254
@@ -133,5 +128,15 @@
     "key": "china--quake--south",
     "source": "GN: Earthquake",
     "ts": 1779157843
+  },
+  {
+    "key": "usa--crash--rhode-island",
+    "source": "GN: Plane Crash",
+    "ts": 1779158444
+  },
+  {
+    "key": "usa--mass-shooting--san-diego",
+    "source": "GN: Mass Shooting",
+    "ts": 1779158444
   }
 ]
