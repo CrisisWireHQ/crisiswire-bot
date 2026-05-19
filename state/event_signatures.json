@@ -1,15 +1,5 @@
 [
   {
-    "key": "trusted-ebola-outbreak-death-toll-rises",
-    "source": "GN: Outbreak",
-    "ts": 1779188438
-  },
-  {
-    "key": "trusted-congo-aid-cuts-left-drc",
-    "source": "ReliefWeb Updates",
-    "ts": 1779188441
-  },
-  {
     "key": "trusted-cdc-statement-the-use-public",
     "source": "Avian Flu Diary",
     "ts": 1779189046
@@ -38,5 +28,15 @@
     "key": "trusted-several-gulf-officials-from-some",
     "source": "TG: Faytuks Network",
     "ts": 1779191211
+  },
+  {
+    "key": "trusted-things-know-for-may-election",
+    "source": "GN: CNN",
+    "ts": 1779192042
+  },
+  {
+    "key": "trusted-drc-ebola-outbreak-way-bigger",
+    "source": "GN: Outbreak",
+    "ts": 1779192046
   }
 ]
