@@ -21,6 +21,12 @@ TRUSTED_SOURCE_NAMES = {s["name"] for s in SOURCES if s.get("trusted")}
 # anything older than this many hours. Generous so legit slightly-late
 # breaking still passes; tune via env.
 GN_STALE_MAX_HOURS = float(os.environ.get("GN_STALE_MAX_HOURS", "36"))
+# Ebola/Hantavirus are ongoing outbreaks covered by many outlets with
+# wildly different headlines, so per-headline event_keys never collide and
+# we get the same story many times. Throttle each disease topic to at most
+# one draft per this many hours (regular sources only; trusted firehose is
+# exempt). Tune via env; effectively capped at ~24h by drafted-key TTL.
+DISEASE_TOPIC_COOLDOWN_H = float(os.environ.get("DISEASE_TOPIC_COOLDOWN_H", "6"))
 
 
 def _trusted_event_key(title: str) -> str:
@@ -395,6 +401,19 @@ def poll_and_draft() -> int:
             print(f"[hantavirus] match in {item['source_name']}: {item['title'][:80]!r}")
         if is_ebola:
             print(f"[ebola] match in {item['source_name']}: {item['title'][:80]!r}")
+
+        # Per-disease topic throttle: collapse the many same-outbreak items
+        # from different outlets into one draft per cooldown window. Trusted
+        # firehose bypasses this (priority channel, must not be suppressed).
+        disease_topic = "ebola" if is_ebola else ("hantavirus" if is_hantavirus else "")
+        if disease_topic and not is_trusted:
+            tkey = f"disease-topic::{disease_topic}"
+            age = time.time() - drafted_keys.get(tkey, 0)
+            if age < DISEASE_TOPIC_COOLDOWN_H * 3600:
+                print(f"[disease-dedup] {disease_topic}: last drafted "
+                      f"{int(age/60)}m ago (< {DISEASE_TOPIC_COOLDOWN_H:.0f}h "
+                      f"cooldown) — skipping duplicate {item['title'][:60]!r}")
+                continue
             # Quote-tweeting CDC/WHO disabled: X requires the quoting account
             # to be mentioned or part of the conversation thread, which we are not.
             # The HANTAVIRUS ALERT badge in Telegram still signals priority.
@@ -516,6 +535,8 @@ def poll_and_draft() -> int:
             telegram_io.send_draft(text, item, cls)
             drafted += 1
             state.mark_drafted(drafted_keys, event_key)
+            if disease_topic and not is_trusted:
+                drafted_keys[f"disease-topic::{disease_topic}"] = int(time.time())
             state.mark_recent_draft(recent_drafts, text)
             tag = ""
             if is_trusted: tag += "🔥 TRUSTED "
