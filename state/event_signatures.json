@@ -1,20 +1,5 @@
 [
   {
-    "key": "usa--tornado--missouri",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779161444
-  },
-  {
-    "key": "argentina--hantavirus--cruise-ship",
-    "source": "GN: Strike Attack",
-    "ts": 1779161444
-  },
-  {
-    "key": "usa--shooting--san-diego-mosque",
-    "source": "GN: CNN",
-    "ts": 1779161444
-  },
-  {
     "key": "usa--tornado--chillicothe-missouri",
     "source": "NOAA NWS Extreme",
     "ts": 1779162060
@@ -78,5 +63,10 @@
     "key": "vanuatu--quake--magnitude-6",
     "source": "GN: Earthquake",
     "ts": 1779162655
+  },
+  {
+    "key": "trusted-trump-says-ebola-remains-confined",
+    "source": "GN: Reuters",
+    "ts": 1779165052
   }
 ]
