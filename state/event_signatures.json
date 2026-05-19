@@ -113,5 +113,30 @@
     "key": "vanuatu--quake--vanuatu",
     "source": "GDACS Disaster Alerts",
     "ts": 1779159649
+  },
+  {
+    "key": "solomon-islands--quake--kirakira",
+    "source": "USGS Quakes M4.5+",
+    "ts": 1779160246
+  },
+  {
+    "key": "usa--tornado--missouri-ray-county",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779160250
+  },
+  {
+    "key": "usa--tornado--missouri-rayville",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779160250
+  },
+  {
+    "key": "usa--tornado--missouri-pleasant-hill",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779160250
+  },
+  {
+    "key": "china--quake--south",
+    "source": "GN: Earthquake",
+    "ts": 1779160250
   }
 ]
