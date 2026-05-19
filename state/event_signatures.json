@@ -1,30 +1,5 @@
 [
   {
-    "key": "usa--tornado--missouri",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779160852
-  },
-  {
-    "key": "usa--tornado--missouri-hardin",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779160852
-  },
-  {
-    "key": "vanuatu--quake--islands",
-    "source": "GN: Earthquake",
-    "ts": 1779160852
-  },
-  {
-    "key": "trusted-httpstcoxsw7nlkf8k-httpstcob9eugvhkrz",
-    "source": "X: @Osinttechnical",
-    "ts": 1779160879
-  },
-  {
-    "key": "trusted-locals-report-that-russias-yaroslavl",
-    "source": "X: @Osinttechnical",
-    "ts": 1779160881
-  },
-  {
     "key": "trusted-httpstcoxsw7nlkf8k-httpstcob9eugvhkrz",
     "source": "X: @Osinttechnical",
     "ts": 1779160920
