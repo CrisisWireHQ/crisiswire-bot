@@ -1,40 +1,5 @@
 [
   {
-    "key": "usa--tornado--kansas-missouri",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779156653
-  },
-  {
-    "key": "usa--tornado--iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779156653
-  },
-  {
-    "key": "kenya--protest--fuel",
-    "source": "GN: Strike Attack",
-    "ts": 1779156653
-  },
-  {
-    "key": "china--quake--guangxi",
-    "source": "GN: Earthquake",
-    "ts": 1779156653
-  },
-  {
-    "key": "usa--fire--ashland",
-    "source": "GN: Wildfire",
-    "ts": 1779156653
-  },
-  {
-    "key": "usa--hostage--sumter",
-    "source": "GN: Hostage",
-    "ts": 1779156653
-  },
-  {
-    "key": "usa--crash--forney",
-    "source": "GN: Plane Crash",
-    "ts": 1779156653
-  },
-  {
     "key": "usa--tornado--kansas",
     "source": "NOAA NWS Extreme",
     "ts": 1779157254
