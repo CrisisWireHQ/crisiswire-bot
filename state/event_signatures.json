@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--tornado--missouri",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779159057
-  },
-  {
-    "key": "usa--tornado--kansas-missouri",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779159057
-  },
-  {
-    "key": "usa--explosion--mchenry-county",
-    "source": "GN: Explosion",
-    "ts": 1779159057
-  },
-  {
-    "key": "usa--shooting--san-diego",
-    "source": "GN: Mass Shooting",
-    "ts": 1779159057
-  },
-  {
     "key": "usa--tornado--missouri-kansas",
     "source": "NOAA NWS Extreme",
     "ts": 1779159649
