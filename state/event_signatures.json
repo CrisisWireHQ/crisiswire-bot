@@ -1,10 +1,5 @@
 [
   {
-    "key": "china--quake--south",
-    "source": "GN: Earthquake",
-    "ts": 1779157843
-  },
-  {
     "key": "usa--crash--rhode-island",
     "source": "GN: Plane Crash",
     "ts": 1779158444
@@ -118,5 +113,20 @@
     "key": "trusted-locals-report-that-russias-yaroslavl",
     "source": "X: @Osinttechnical",
     "ts": 1779160922
+  },
+  {
+    "key": "usa--tornado--missouri",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779161444
+  },
+  {
+    "key": "argentina--hantavirus--cruise-ship",
+    "source": "GN: Strike Attack",
+    "ts": 1779161444
+  },
+  {
+    "key": "usa--shooting--san-diego-mosque",
+    "source": "GN: CNN",
+    "ts": 1779161444
   }
 ]
