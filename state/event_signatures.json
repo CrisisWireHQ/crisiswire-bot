@@ -1,25 +1,5 @@
 [
   {
-    "key": "usa--tornado--missouri-kansas-iowa-nebraska",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779147052
-  },
-  {
-    "key": "ukraine--attack--dpr",
-    "source": "TASS English",
-    "ts": 1779147052
-  },
-  {
-    "key": "china--quake--magnitude-5.2",
-    "source": "GN: Earthquake",
-    "ts": 1779147052
-  },
-  {
-    "key": "usa--shooting--san-diego-islamic-center",
-    "source": "GN: Mass Shooting",
-    "ts": 1779147052
-  },
-  {
     "key": "usa--shooting--san-diego",
     "source": "GN: Mass Shooting",
     "ts": 1779147656
@@ -208,5 +188,65 @@
     "key": "democratic-republic-of-congo--outbreak--ebola",
     "source": "GN: Outbreak",
     "ts": 1779150045
+  },
+  {
+    "key": "usa--tornado--missouri-holt-county",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779150652
+  },
+  {
+    "key": "china--quake--southwest",
+    "source": "GN: Earthquake",
+    "ts": 1779150652
+  },
+  {
+    "key": "usa--tornado--kansas-south-central",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779150652
+  },
+  {
+    "key": "usa--tornado--iowa-mount-ayr",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779150652
+  },
+  {
+    "key": "usa--tornado--nebraska-richardson-county",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779150652
+  },
+  {
+    "key": "usa--tornado--kansas-jackson-county",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779150652
+  },
+  {
+    "key": "usa--tornado--missouri-worth-harrison",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779150652
+  },
+  {
+    "key": "congo--outbreak--ebola",
+    "source": "CBS News World",
+    "ts": 1779150652
+  },
+  {
+    "key": "usa--tornado--iowa",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779150652
+  },
+  {
+    "key": "usa--crash--sabine-pass-texas",
+    "source": "GN: Breaking News",
+    "ts": 1779150652
+  },
+  {
+    "key": "lebanon--attack--arnoun",
+    "source": "GN: Strike Attack",
+    "ts": 1779150652
+  },
+  {
+    "key": "usa--fire--kress-texas",
+    "source": "GN: Wildfire",
+    "ts": 1779150652
   }
 ]
