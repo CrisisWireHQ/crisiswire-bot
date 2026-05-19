@@ -218,5 +218,55 @@
     "key": "trusted-google-and-blackstone-plan-launch",
     "source": "TG: Faytuks Network",
     "ts": 1779149624
+  },
+  {
+    "key": "usa--tornado--kansas-missouri",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779150045
+  },
+  {
+    "key": "usa--tornado--iowa",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779150045
+  },
+  {
+    "key": "usa--tornado--nebraska",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779150045
+  },
+  {
+    "key": "usa--tornado--oklahoma-texas",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779150045
+  },
+  {
+    "key": "usa--tornado--iowa-mount-ayr",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779150045
+  },
+  {
+    "key": "usa--tornado--missouri-worth",
+    "source": "NOAA NWS Extreme",
+    "ts": 1779150045
+  },
+  {
+    "key": "usa--shooting--san-diego-islamic-center",
+    "source": "Times of Israel",
+    "ts": 1779150045
+  },
+  {
+    "key": "usa--shooting--san-diego-islamic-center",
+    "source": "GN: Mass Shooting",
+    "ts": 1779150045
+  },
+  {
+    "key": "usa--shooting--san-diego-islamic-center",
+    "source": "GN: Breaking News",
+    "ts": 1779150045
+  },
+  {
+    "key": "democratic-republic-of-congo--outbreak--ebola",
+    "source": "GN: Outbreak",
+    "ts": 1779150045
   }
 ]
