@@ -1,55 +1,5 @@
 [
   {
-    "key": "usa--tornado--benton-iowa",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779148856
-  },
-  {
-    "key": "usa--tornado--atchison-missouri",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779148856
-  },
-  {
-    "key": "usa--tornado--bern-kansas",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779148856
-  },
-  {
-    "key": "usa--tornado--kansas-watch-227",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779148856
-  },
-  {
-    "key": "usa--tornado--kansas-watch-222",
-    "source": "NOAA NWS Extreme",
-    "ts": 1779148856
-  },
-  {
-    "key": "congo--outbreak--ebola",
-    "source": "France 24 Intl",
-    "ts": 1779148856
-  },
-  {
-    "key": "ukraine--airstrike--druzhkivka",
-    "source": "GN: Strike Attack",
-    "ts": 1779148856
-  },
-  {
-    "key": "usa--outbreak--ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779148860
-  },
-  {
-    "key": "usa--fire--potter-county",
-    "source": "GN: Wildfire",
-    "ts": 1779148860
-  },
-  {
-    "key": "usa--mass-shooting--san-diego",
-    "source": "GN: Mass Shooting",
-    "ts": 1779148860
-  },
-  {
     "key": "usa--tornado--tarkio-missouri",
     "source": "NOAA NWS Extreme",
     "ts": 1779149452
