@@ -138,5 +138,10 @@
     "key": "ukraine--airstrike--kyiv",
     "source": "GN: Strike Attack",
     "ts": 1779157257
+  },
+  {
+    "key": "china--quake--south",
+    "source": "GN: Earthquake",
+    "ts": 1779157843
   }
 ]
