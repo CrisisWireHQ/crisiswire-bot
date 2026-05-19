@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-who-head-deeply-concerned-ebola",
-    "source": "GN: Outbreak",
-    "ts": 1779184841
-  },
-  {
     "key": "trusted-estonias-defense-minister-says-baltic",
     "source": "TG: Faytuks Network",
     "ts": 1779185385
@@ -73,5 +68,15 @@
     "key": "trusted-who-deeply-concerned-the-scale",
     "source": "GN: Outbreak",
     "ts": 1779187831
+  },
+  {
+    "key": "trusted-ebola-outbreak-death-toll-rises",
+    "source": "GN: Outbreak",
+    "ts": 1779188438
+  },
+  {
+    "key": "trusted-congo-aid-cuts-left-drc",
+    "source": "ReliefWeb Updates",
+    "ts": 1779188441
   }
 ]
