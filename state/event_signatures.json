@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-international-health-experts-meet-search",
-    "source": "Straits Times World",
-    "ts": 1779177038
-  },
-  {
     "key": "trusted-who-chief-concerned-speed-and",
     "source": "GN: Outbreak",
     "ts": 1779178243
@@ -53,5 +48,10 @@
     "key": "trusted-major-move-sweden-will-procure",
     "source": "X: @Osinttechnical",
     "ts": 1779180473
+  },
+  {
+    "key": "trusted-germany-preparing-admit-and-treat",
+    "source": "Straits Times World",
+    "ts": 1779180641
   }
 ]
