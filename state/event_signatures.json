@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-how-wet-weather-argentina-helped",
-    "source": "GN: Outbreak",
-    "ts": 1779301841
-  },
-  {
     "key": "trusted-trump-says-that-the-negotiating",
     "source": "TG: Faytuks Network",
     "ts": 1779302808
@@ -33,5 +28,10 @@
     "key": "trusted-httpsdeadlinecom202605michaelbayoperationepicfuryira",
     "source": "TG: Faytuks Network",
     "ts": 1779304538
+  },
+  {
+    "key": "trusted-americares-responds-ebola-outbreak-democratic",
+    "source": "GN: Outbreak",
+    "ts": 1779305440
   }
 ]
