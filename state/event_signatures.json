@@ -1,15 +1,5 @@
 [
   {
-    "key": "trusted-via-httpstcokeieqs927l-httpstcozglvipdskx",
-    "source": "X: @Osinttechnical",
-    "ts": 1779287340
-  },
-  {
-    "key": "trusted-snapshot-the-ukrainian-frontline-force",
-    "source": "X: @Osinttechnical",
-    "ts": 1779287342
-  },
-  {
     "key": "trusted-trump-says-the-the-final",
     "source": "TG: Faytuks Network",
     "ts": 1779290211
@@ -18,5 +8,10 @@
     "key": "trusted-posthantavirus-outbreak-infectious-disease-experts",
     "source": "GN: Outbreak",
     "ts": 1779290450
+  },
+  {
+    "key": "trusted-former-cuban-president-raul-castro",
+    "source": "TG: Faytuks Network",
+    "ts": 1779290949
   }
 ]
