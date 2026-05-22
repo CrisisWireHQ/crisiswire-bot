@@ -33,5 +33,10 @@
     "key": "trusted-details-the-notam",
     "source": "TG: Faytuks Network",
     "ts": 1779485558
+  },
+  {
+    "key": "trusted-and-airspace-closures-within-iran",
+    "source": "X: @Osinttechnical",
+    "ts": 1779486038
   }
 ]
