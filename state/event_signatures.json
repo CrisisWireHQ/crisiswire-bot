@@ -1,25 +1,5 @@
 [
   {
-    "key": "trusted-irans-fars-news-agency-says",
-    "source": "TG: Faytuks Network",
-    "ts": 1779571611
-  },
-  {
-    "key": "trusted-irans-fars-news-denies-trumps",
-    "source": "TG: Faytuks Network",
-    "ts": 1779571613
-  },
-  {
-    "key": "trusted-httpstco3ebfcwprz0",
-    "source": "X: @Osinttechnical",
-    "ts": 1779571616
-  },
-  {
-    "key": "trusted-vice-president-vance-and-steve",
-    "source": "X: @Osinttechnical",
-    "ts": 1779571617
-  },
-  {
     "key": "trusted-fars-says-that-although-iran",
     "source": "TG: Faytuks Network",
     "ts": 1779571715
@@ -138,5 +118,10 @@
     "key": "trusted-police-have-created-perimeter-around",
     "source": "TG: Faytuks Network",
     "ts": 1779575147
+  },
+  {
+    "key": "trusted-russian-oreshnik-intermediaterange-ballistic-missile",
+    "source": "TG: Faytuks Network",
+    "ts": 1779575253
   }
 ]
