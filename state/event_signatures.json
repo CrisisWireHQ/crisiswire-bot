@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-fars-says-that-although-iran",
-    "source": "TG: Faytuks Network",
-    "ts": 1779571715
-  },
-  {
     "key": "trusted-httpstcoyq9hn5oxuj",
     "source": "X: @Osinttechnical",
     "ts": 1779571961
@@ -123,5 +118,15 @@
     "key": "trusted-russian-oreshnik-intermediaterange-ballistic-missile",
     "source": "TG: Faytuks Network",
     "ts": 1779575253
+  },
+  {
+    "key": "trusted-russian-forces-appear-have-struck",
+    "source": "X: @Osinttechnical",
+    "ts": 1779575324
+  },
+  {
+    "key": "trusted-russian-oreshnik-intermediaterange-ballistic-missile",
+    "source": "TG: Faytuks Network",
+    "ts": 1779575327
   }
 ]
