@@ -1,20 +1,5 @@
 [
   {
-    "key": "trusted-trump-reiterated-netanyahu-will-not",
-    "source": "TG: Faytuks Network",
-    "ts": 1779616293
-  },
-  {
-    "key": "trusted-call-with-trump-netanyahu-stressed",
-    "source": "TG: Faytuks Network",
-    "ts": 1779616295
-  },
-  {
-    "key": "trusted-israel-says-the-keeping-updated",
-    "source": "TG: Faytuks Network",
-    "ts": 1779616297
-  },
-  {
     "key": "trusted-trump-made-clear-netanyahu-will",
     "source": "TG: Faytuks Network",
     "ts": 1779618882
@@ -53,5 +38,10 @@
     "key": "trusted-rush-for-new-ebola-vaccine",
     "source": "GN: Outbreak",
     "ts": 1779619835
+  },
+  {
+    "key": "trusted-irans-ministry-education-says-final",
+    "source": "TG: Faytuks Network",
+    "ts": 1779619902
   }
 ]
