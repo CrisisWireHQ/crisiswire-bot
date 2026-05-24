@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-netanyahu-has-requested-speak-with",
-    "source": "TG: Faytuks Network",
-    "ts": 1779616122
-  },
-  {
     "key": "trusted-trump-reiterated-netanyahu-will-not",
     "source": "TG: Faytuks Network",
     "ts": 1779616293
@@ -48,5 +43,10 @@
     "key": "trusted-senior-iranian-military-commander-ali",
     "source": "TG: Faytuks Network",
     "ts": 1779619717
+  },
+  {
+    "key": "trusted-israels-home-front-command-has",
+    "source": "TG: Faytuks Network",
+    "ts": 1779619773
   }
 ]
