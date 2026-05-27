@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-idf-spokesperson-the-idf-attacking",
-    "source": "TG: Faytuks Network",
-    "ts": 1779894940
-  },
-  {
     "key": "trusted-white-house-spokeswoman-olivia-wales",
     "source": "TG: Faytuks Network",
     "ts": 1779896927
@@ -23,5 +18,10 @@
     "key": "trusted-rosatom-chief-russia-has-decided",
     "source": "TG: Faytuks Network",
     "ts": 1779898192
+  },
+  {
+    "key": "trusted-norway-and-france-have-signed",
+    "source": "TG: Faytuks Network",
+    "ts": 1779898546
   }
 ]
