@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "key": "trusted-ask-mona-how-worried-should",
+    "source": "GN: Outbreak",
+    "ts": 1779914052
+  },
+  {
+    "key": "trusted-latest-numbers-news-ebola-outbreak",
+    "source": "GN: Outbreak",
+    "ts": 1779914057
+  },
+  {
+    "key": "trusted-hantavirus-outbreak-linked-cruise-ship",
+    "source": "GN: Outbreak",
+    "ts": 1779914062
+  }
+]
