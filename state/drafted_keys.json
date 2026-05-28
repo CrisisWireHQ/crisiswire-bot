@@ -1,6 +1,6 @@
 {
-  "disease-topic::ebola": 1779914062,
-  "disease-topic::hantavirus": 1779914066,
+  "disease-topic::ebola": 1779972849,
+  "disease-topic::hantavirus": 1779972841,
   "trusted-additional-reports-that-the-event": 1779957716,
   "trusted-air-attack-kuwait-reported-early": 1779936224,
   "trusted-breaking-the-united-states-has": 1779922554,
@@ -47,6 +47,7 @@
   "trusted-secretary-state-marco-rubio-weve": 1779899216,
   "trusted-secretary-state-rubio-cuba-lot": 1779899333,
   "trusted-secretary-state-rubio-venezuela-million": 1779899264,
+  "trusted-secures-emergency-deliveries-potential-treatment": 1779972841,
   "trusted-senior-official-says-iran-fired": 1779926201,
   "trusted-state-outlet-fars-says-air": 1779922068,
   "trusted-sweden-already-training-ukrainian-pilots": 1779971518,
@@ -61,5 +62,6 @@
   "trusted-trump-pbs-when-asked-iran": 1779896931,
   "trusted-uganda-has-closed-its-border": 1779889664,
   "trusted-walla-citing-israeli-security-official": 1779970358,
+  "trusted-who-chief-heading-ebolahit-congo": 1779972849,
   "trusted-zelensky-descending-into-sweden-right": 1779957712
 }
