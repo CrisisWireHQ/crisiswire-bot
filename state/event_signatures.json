@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-reuters-confirming-our-scoop-military",
-    "source": "TG: Faytuks Network",
-    "ts": 1779924274
-  },
-  {
     "key": "trusted-the-osint-community-being-2030",
     "source": "TG: Faytuks Network",
     "ts": 1779926096
@@ -18,5 +13,10 @@
     "key": "trusted-cbs-news-the-military-carried",
     "source": "TG: Faytuks Network",
     "ts": 1779926455
+  },
+  {
+    "key": "trusted-more-httpstco78bmoyxhj1",
+    "source": "X: @Osinttechnical",
+    "ts": 1779927872
   }
 ]
