@@ -25,28 +25,6 @@
       "truth"
     ]
   },
-  "0b4f5785321ca65c": {
-    "ts": 1779967381,
-    "words": [
-      "attack",
-      "ballistic",
-      "down",
-      "drones",
-      "forces",
-      "hormuz",
-      "hours",
-      "intercepted",
-      "iran",
-      "iranian",
-      "kuwait",
-      "kuwaiti",
-      "launched",
-      "missile",
-      "shot",
-      "strait",
-      "toward"
-    ]
-  },
   "0c147cd0ba1695cb": {
     "ts": 1779977862,
     "words": [
@@ -844,34 +822,6 @@
       "treatment"
     ]
   },
-  "ac49249caaecba65": {
-    "ts": 1779967423,
-    "words": [
-      "6th",
-      "abbas",
-      "ballistic",
-      "bandar",
-      "down",
-      "drones",
-      "earlier",
-      "forces",
-      "hormuz",
-      "hours",
-      "intercepted",
-      "iran",
-      "iranian",
-      "kuwait",
-      "kuwaiti",
-      "launch",
-      "launched",
-      "missile",
-      "prevented",
-      "shot",
-      "strait",
-      "successfully",
-      "toward"
-    ]
-  },
   "acd3f3e90735a0c4": {
     "ts": 1779975289,
     "words": [
@@ -1368,6 +1318,23 @@
       "trump",
       "unfreezing",
       "without"
+    ]
+  },
+  "fc1ce5496d30e149": {
+    "ts": 1780140225,
+    "words": [
+      "coordination",
+      "forces",
+      "hormuz",
+      "hormuzstrait",
+      "hours",
+      "iran",
+      "iranian",
+      "irgc",
+      "past",
+      "ships",
+      "strait",
+      "transited"
     ]
   },
   "fed8af0a2b3d3566": {
