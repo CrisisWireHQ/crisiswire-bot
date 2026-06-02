@@ -1,10 +1,5 @@
 [
   {
-    "key": "trusted-centcom-aircraft-fired-hellfire-missile",
-    "source": "TG: Faytuks Network",
-    "ts": 1780434161
-  },
-  {
     "key": "trusted-acting-attorney-general-todd-blanche",
     "source": "TG: Faytuks Network",
     "ts": 1780435195
@@ -48,5 +43,10 @@
     "key": "trusted-ballistic-missile-was-launched-from",
     "source": "TG: Faytuks Network",
     "ts": 1780437646
+  },
+  {
+    "key": "trusted-kuwaiti-air-defenses-are-currently",
+    "source": "TG: Faytuks Network",
+    "ts": 1780437817
   }
 ]
