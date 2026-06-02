@@ -1,15 +1,5 @@
 [
   {
-    "key": "trusted-the-white-house-issued-new",
-    "source": "TG: Faytuks Network",
-    "ts": 1780403442
-  },
-  {
-    "key": "trusted-httpswwwwhitehousegovpresidentialactions202606furthe",
-    "source": "TG: Faytuks Network",
-    "ts": 1780403503
-  },
-  {
     "key": "trusted-lawmakers-the-international-trade-committee",
     "source": "TG: Faytuks Network",
     "ts": 1780403856
@@ -38,5 +28,10 @@
     "key": "trusted-trump-says-bill-pulte-the",
     "source": "TG: Faytuks Network",
     "ts": 1780406081
+  },
+  {
+    "key": "trusted-the-trump-administration-has-pressed",
+    "source": "TG: Faytuks Network",
+    "ts": 1780407111
   }
 ]
