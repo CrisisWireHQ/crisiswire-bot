@@ -1,15 +1,5 @@
 [
   {
-    "key": "trusted-ebola-outbreak-trajectories-flowingdata",
-    "source": "GN: Outbreak",
-    "ts": 1780570428
-  },
-  {
-    "key": "trusted-opinion-ebola-spreading-ways-one",
-    "source": "GN: Outbreak",
-    "ts": 1780570430
-  },
-  {
     "key": "trusted-ebola-outbreak-the-core-response",
     "source": "GN: Outbreak",
     "ts": 1780570553
