@@ -1,4 +1,25 @@
 {
+  "062c493f502d531d": {
+    "ts": 1780778860,
+    "words": [
+      "488",
+      "cases",
+      "confirmed",
+      "death",
+      "deaths",
+      "drc",
+      "ebola",
+      "hours",
+      "ituri",
+      "new",
+      "now",
+      "past",
+      "province",
+      "rises",
+      "stand",
+      "toll"
+    ]
+  },
   "0caa28f521f08ce3": {
     "ts": 1780695218,
     "words": [
@@ -27,36 +48,6 @@
       "uae",
       "warnings",
       "yemen"
-    ]
-  },
-  "0cb9ae5a859ab289": {
-    "ts": 1780601623,
-    "words": [
-      "aboard",
-      "bend",
-      "birdwatching",
-      "cruise",
-      "daily",
-      "fatal",
-      "guard",
-      "hantavirus",
-      "home",
-      "killed",
-      "kornfeld",
-      "nurse",
-      "oncologist",
-      "oregon",
-      "outbreak",
-      "place",
-      "quarantine",
-      "remains",
-      "returned",
-      "security",
-      "stephen",
-      "survivor",
-      "twice",
-      "under",
-      "visits"
     ]
   },
   "10ce1bf12120f8aa": {
@@ -111,27 +102,6 @@
       "push",
       "says",
       "territory"
-    ]
-  },
-  "15bfee42d9232dcb": {
-    "ts": 1780601620,
-    "words": [
-      "africa",
-      "central",
-      "concern",
-      "congo",
-      "declared",
-      "democratic",
-      "ebola",
-      "emergency",
-      "health",
-      "international",
-      "ongoing",
-      "outbreak",
-      "public",
-      "republic",
-      "uganda",
-      "who"
     ]
   },
   "1d0bd730b3a1312f": {
@@ -212,26 +182,6 @@
       "what"
     ]
   },
-  "3771a13499df6503": {
-    "ts": 1780604079,
-    "words": [
-      "american",
-      "breakingnews",
-      "calling",
-      "good",
-      "hostilities",
-      "iran",
-      "kills",
-      "quickly",
-      "reason",
-      "restart",
-      "troops",
-      "trump",
-      "very",
-      "war",
-      "warns"
-    ]
-  },
   "3af208a3dbdc3e1d": {
     "ts": 1780742273,
     "words": [
@@ -308,26 +258,6 @@
       "sharif",
       "supreme",
       "tehran"
-    ]
-  },
-  "5ce8f8cd98501674": {
-    "ts": 1780604700,
-    "words": [
-      "canel",
-      "cuba",
-      "cuban",
-      "designated",
-      "financial",
-      "him",
-      "imposing",
-      "miguel",
-      "national",
-      "president",
-      "restrictions",
-      "sanctions",
-      "sdn",
-      "severe",
-      "specially"
     ]
   },
   "65e9d621f2aa8152": {
@@ -421,31 +351,6 @@
       "technical",
       "visas",
       "world"
-    ]
-  },
-  "7fb7930d4f07a131": {
-    "ts": 1780599589,
-    "words": [
-      "alert",
-      "all",
-      "american",
-      "breakingnews",
-      "citing",
-      "citizens",
-      "countries",
-      "dept",
-      "east",
-      "hostilities",
-      "issues",
-      "locate",
-      "middle",
-      "middleeast",
-      "nearest",
-      "potential",
-      "security",
-      "shelter",
-      "state",
-      "warning"
     ]
   },
   "87af4858af56900d": {
