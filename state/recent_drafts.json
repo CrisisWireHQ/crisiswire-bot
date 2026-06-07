@@ -50,68 +50,6 @@
       "yemen"
     ]
   },
-  "10ce1bf12120f8aa": {
-    "ts": 1780656956,
-    "words": [
-      "accept",
-      "berri",
-      "exchange",
-      "hezbollah",
-      "israelhamaswar",
-      "israeli",
-      "lebanon",
-      "nabih",
-      "parliament",
-      "says",
-      "simultaneous",
-      "southern",
-      "speaker",
-      "withdrawal"
-    ]
-  },
-  "14d61a9aa9d79f0e": {
-    "ts": 1780669023,
-    "words": [
-      "800",
-      "chief",
-      "content",
-      "creators",
-      "marketing",
-      "months",
-      "officer",
-      "over",
-      "paid",
-      "platform",
-      "polymarket",
-      "promote"
-    ]
-  },
-  "1d0bd730b3a1312f": {
-    "ts": 1780664283,
-    "words": [
-      "across",
-      "all",
-      "aoun",
-      "cnn",
-      "doesn",
-      "fed",
-      "hezbollah",
-      "israel",
-      "israelhamaswar",
-      "leader",
-      "lebanese",
-      "lebanon",
-      "naim",
-      "people",
-      "president",
-      "qassem",
-      "represent",
-      "saying",
-      "sects",
-      "tells",
-      "war"
-    ]
-  },
   "1f32d07477cc1f83": {
     "ts": 1780821622,
     "words": [
@@ -220,28 +158,18 @@
       "vehicle"
     ]
   },
-  "4be93bf21495581c": {
-    "ts": 1780660408,
+  "4f20ade8e13f2e08": {
+    "ts": 1780845125,
     "words": [
-      "all",
-      "bunia",
-      "center",
-      "congo",
-      "declared",
-      "discharged",
-      "drc",
+      "begun",
+      "cases",
       "ebola",
-      "furaha",
       "health",
-      "including",
-      "infected",
-      "nurse",
-      "officially",
-      "outbreak",
-      "rwampara",
-      "tikamanyire",
-      "treatment",
-      "workers"
+      "hospitals",
+      "israel",
+      "ministry",
+      "potential",
+      "preparing"
     ]
   },
   "5b133ae282e49274": {
@@ -268,6 +196,34 @@
       "sharif",
       "supreme",
       "tehran"
+    ]
+  },
+  "6261957d2c1cd927": {
+    "ts": 1780845129,
+    "words": [
+      "aboard",
+      "arizona",
+      "california",
+      "cases",
+      "confirmed",
+      "deaths",
+      "dutch",
+      "expeditions",
+      "flagged",
+      "georgia",
+      "hantavirus",
+      "health",
+      "hondius",
+      "monitoring",
+      "mvhondius",
+      "oceanwide",
+      "officials",
+      "outbreak",
+      "residents",
+      "suspected",
+      "texas",
+      "vessel",
+      "virginia"
     ]
   },
   "65e9d621f2aa8152": {
@@ -334,56 +290,6 @@
       "world"
     ]
   },
-  "87af4858af56900d": {
-    "ts": 1780664636,
-    "words": [
-      "accused",
-      "aoun",
-      "bargaining",
-      "ceasefire",
-      "chip",
-      "cnn",
-      "country",
-      "demand",
-      "interview",
-      "iran",
-      "irgc",
-      "israel",
-      "lebanon",
-      "not",
-      "our",
-      "part",
-      "president",
-      "rejecting",
-      "talks",
-      "tehran",
-      "tells",
-      "using",
-      "withdraw",
-      "your"
-    ]
-  },
-  "88dd6141cee66f9f": {
-    "ts": 1780656164,
-    "words": [
-      "allow",
-      "between",
-      "ceasefire",
-      "iaea",
-      "line",
-      "local",
-      "negotiated",
-      "nuclear",
-      "plant",
-      "power",
-      "repairs",
-      "russia",
-      "supply",
-      "temporary",
-      "ukraine",
-      "zaporizhzhia"
-    ]
-  },
   "8a4ea7704258b554": {
     "ts": 1780712318,
     "words": [
@@ -413,25 +319,6 @@
       "then"
     ]
   },
-  "8ea2b4b4b78b9e97": {
-    "ts": 1780653895,
-    "words": [
-      "casualties",
-      "city",
-      "constanta",
-      "detonated",
-      "drone",
-      "local",
-      "naval",
-      "port",
-      "romania",
-      "russia",
-      "self",
-      "time",
-      "ukraine",
-      "war"
-    ]
-  },
   "a40ae31a35b48488": {
     "ts": 1780748349,
     "words": [
@@ -444,42 +331,6 @@
       "ebola",
       "republic",
       "surpassed"
-    ]
-  },
-  "a62f3fcaf701ef2f": {
-    "ts": 1780670259,
-    "words": [
-      "alleged",
-      "attacks",
-      "ceased",
-      "citing",
-      "commercial",
-      "fars",
-      "iran",
-      "irannucleardeal",
-      "irgc",
-      "israeli",
-      "lebanon",
-      "linked",
-      "negotiations",
-      "news",
-      "operations",
-      "ships",
-      "southern"
-    ]
-  },
-  "a6651be82d93e0c5": {
-    "ts": 1780659593,
-    "words": [
-      "boarded",
-      "davina",
-      "forces",
-      "indian",
-      "ocean",
-      "overnight",
-      "sanctioned",
-      "stateless",
-      "vessel"
     ]
   },
   "af558dc3fd5ffb20": {
@@ -516,25 +367,6 @@
       "vaccine"
     ]
   },
-  "b187235d16f3da11": {
-    "ts": 1780663608,
-    "words": [
-      "2028",
-      "aid",
-      "cooperation",
-      "current",
-      "expiring",
-      "formal",
-      "framework",
-      "israel",
-      "mou",
-      "new",
-      "opened",
-      "replace",
-      "security",
-      "talks"
-    ]
-  },
   "b91cd47fa53e4e11": {
     "ts": 1780686526,
     "words": [
@@ -558,27 +390,6 @@
       "trump",
       "visited",
       "witkoff"
-    ]
-  },
-  "bd3f28f8149616dd": {
-    "ts": 1780657781,
-    "words": [
-      "barakah",
-      "chief",
-      "compromised",
-      "drone",
-      "grossi",
-      "iaea",
-      "last",
-      "month",
-      "nuclear",
-      "plant",
-      "power",
-      "safety",
-      "says",
-      "seriously",
-      "strike",
-      "uae"
     ]
   },
   "bef777ab0672b841": {
