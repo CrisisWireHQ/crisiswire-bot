@@ -1,25 +1,4 @@
 {
-  "062c493f502d531d": {
-    "ts": 1780778860,
-    "words": [
-      "488",
-      "cases",
-      "confirmed",
-      "death",
-      "deaths",
-      "drc",
-      "ebola",
-      "hours",
-      "ituri",
-      "new",
-      "now",
-      "past",
-      "province",
-      "rises",
-      "stand",
-      "toll"
-    ]
-  },
   "1f32d07477cc1f83": {
     "ts": 1780821622,
     "words": [
@@ -45,6 +24,30 @@
       "strain",
       "treating",
       "where",
+      "workers"
+    ]
+  },
+  "438b928f50119aa4": {
+    "ts": 1780954249,
+    "words": [
+      "515",
+      "544",
+      "550",
+      "bundibugyo",
+      "bunia",
+      "cases",
+      "dead",
+      "deaths",
+      "drc",
+      "ebola",
+      "epicenter",
+      "healthcare",
+      "infected",
+      "ituri",
+      "outbreak",
+      "province",
+      "surpasses",
+      "uganda",
       "workers"
     ]
   },
