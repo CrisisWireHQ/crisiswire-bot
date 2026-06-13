@@ -25,6 +25,36 @@
       "zones"
     ]
   },
+  "0a455e170881d313": {
+    "ts": 1781338493,
+    "words": [
+      "air",
+      "base",
+      "bed",
+      "blocked",
+      "burned",
+      "dead",
+      "ebola",
+      "facility",
+      "fired",
+      "gas",
+      "hundreds",
+      "kenya",
+      "laikipia",
+      "nanyuki",
+      "over",
+      "people",
+      "police",
+      "proposed",
+      "protesters",
+      "quarantine",
+      "reportedly",
+      "roads",
+      "shot",
+      "tear",
+      "tires"
+    ]
+  },
   "3b54116dfd2d2a4a": {
     "ts": 1781302594,
     "words": [
@@ -171,37 +201,6 @@
       "spent",
       "trump",
       "yacht"
-    ]
-  },
-  "f650f7e35c109177": {
-    "ts": 1781159525,
-    "words": [
-      "150",
-      "activating",
-      "address",
-      "africa",
-      "bundibugyo",
-      "bunia",
-      "cdc",
-      "connectivity",
-      "coverage",
-      "critical",
-      "delivered",
-      "disaster",
-      "disease",
-      "drc",
-      "ebola",
-      "gaps",
-      "itu",
-      "ituri",
-      "map",
-      "outbreak",
-      "part",
-      "region",
-      "response",
-      "satellite",
-      "terminals",
-      "virus"
     ]
   }
 }
