@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "key": "trusted-eastern-congo-reports-782-ebola",
+    "source": "GN: Outbreak",
+    "ts": 1781475846
+  },
+  {
+    "key": "trusted-ebola-cases-eastern-congo-climb",
+    "source": "GN: Breaking News",
+    "ts": 1781475851
+  }
+]
