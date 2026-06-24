@@ -1,7 +1,22 @@
 [
   {
-    "key": "trusted-international-public-health-response-helped",
+    "key": "trusted-france-confirms-first-ebola-case",
     "source": "GN: Outbreak",
-    "ts": 1782314042
+    "ts": 1782321804
+  },
+  {
+    "key": "trusted-clinical-trial-set-test-two",
+    "source": "GN: Outbreak",
+    "ts": 1782321804
+  },
+  {
+    "key": "trusted-france-reports-ebola-case-doctor",
+    "source": "France 24 Intl",
+    "ts": 1782321808
+  },
+  {
+    "key": "trusted-who-says-congos-ebola-outbreak",
+    "source": "GN: Outbreak",
+    "ts": 1782321810
   }
 ]
