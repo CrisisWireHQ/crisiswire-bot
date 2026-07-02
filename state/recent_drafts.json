@@ -79,21 +79,6 @@
       "virus"
     ]
   },
-  "60a3198cc14e9cf3": {
-    "ts": 1782818989,
-    "words": [
-      "307",
-      "377",
-      "bundibugyo",
-      "congo",
-      "ebola",
-      "infected",
-      "killed",
-      "people",
-      "since",
-      "strain"
-    ]
-  },
   "72357e3ce3d96255": {
     "ts": 1782886372,
     "words": [
@@ -150,6 +135,19 @@
       "treatment",
       "underway",
       "vaccine"
+    ]
+  },
+  "e60f3cf336811562": {
+    "ts": 1782998084,
+    "words": [
+      "case",
+      "congo",
+      "count",
+      "death",
+      "ebola",
+      "outbreak",
+      "rising",
+      "toll"
     ]
   }
 }
