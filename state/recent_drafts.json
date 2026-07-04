@@ -45,6 +45,26 @@
       "who"
     ]
   },
+  "499b5244ad5068ba": {
+    "ts": 1783150733,
+    "words": [
+      "473",
+      "500",
+      "502",
+      "cases",
+      "confirmed",
+      "congo",
+      "dead",
+      "ebola",
+      "fatality",
+      "ituri",
+      "july",
+      "outbreak",
+      "province",
+      "rate",
+      "surpassed"
+    ]
+  },
   "75d96f248481fbdc": {
     "ts": 1783074138,
     "words": [
@@ -125,35 +145,6 @@
       "who"
     ]
   },
-  "da7e6771b8bc3ad1": {
-    "ts": 1782970947,
-    "words": [
-      "add",
-      "approved",
-      "available",
-      "beds",
-      "bundibugyo",
-      "bunia",
-      "capacity",
-      "centre",
-      "congo",
-      "construction",
-      "drcongo",
-      "ebola",
-      "full",
-      "general",
-      "hospital",
-      "ituri",
-      "patients",
-      "province",
-      "spreads",
-      "strain",
-      "through",
-      "treatment",
-      "underway",
-      "vaccine"
-    ]
-  },
   "e60f3cf336811562": {
     "ts": 1782998084,
     "words": [
@@ -177,6 +168,24 @@
       "started",
       "treatment",
       "trial"
+    ]
+  },
+  "ff1543e6eb1e55a2": {
+    "ts": 1783150736,
+    "words": [
+      "aboard",
+      "cruise",
+      "deadly",
+      "declared",
+      "global",
+      "hantavirus",
+      "hondius",
+      "mvhondius",
+      "officially",
+      "outbreak",
+      "over",
+      "ship",
+      "who"
     ]
   }
 }
