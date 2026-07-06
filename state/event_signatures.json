@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "key": "trusted-ebola-deaths-top-500-congo",
+    "source": "GN: Outbreak",
+    "ts": 1783372541
+  },
+  {
+    "key": "trusted-ebola-outbreak-death-toll-drc",
+    "source": "GN: Outbreak",
+    "ts": 1783372546
+  }
+]
