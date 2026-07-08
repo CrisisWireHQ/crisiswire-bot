@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "key": "trusted-some-health-workers-congos-ebola",
+    "source": "GN: Outbreak",
+    "ts": 1783524742
+  },
+  {
+    "key": "trusted-congo-ebola-outbreak-ituri-province",
+    "source": "GN: Outbreak",
+    "ts": 1783524742
+  }
+]
