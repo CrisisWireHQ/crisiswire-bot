@@ -1,4 +1,30 @@
 {
+  "0b57baea40579809": {
+    "ts": 1784477333,
+    "words": [
+      "100",
+      "828",
+      "any",
+      "canada",
+      "cases",
+      "congo",
+      "days",
+      "deaths",
+      "defying",
+      "deny",
+      "ebola",
+      "edt",
+      "entry",
+      "foreigner",
+      "guidance",
+      "july",
+      "ottawa",
+      "past",
+      "starting",
+      "visited",
+      "who"
+    ]
+  },
   "37dbfcb3354b0b52": {
     "ts": 1784398371,
     "words": [
@@ -49,34 +75,6 @@
       "quarantine",
       "samaritan",
       "tested",
-      "workers"
-    ]
-  },
-  "98d36d67879822f5": {
-    "ts": 1784303391,
-    "words": [
-      "aid",
-      "backed",
-      "bio",
-      "day",
-      "drc",
-      "ebola",
-      "entered",
-      "facility",
-      "isolation",
-      "kenya",
-      "mandatory",
-      "nairobi",
-      "new",
-      "outbreak",
-      "purse",
-      "quarantine",
-      "responded",
-      "restrictions",
-      "samaritan",
-      "travel",
-      "under",
-      "who",
       "workers"
     ]
   }
