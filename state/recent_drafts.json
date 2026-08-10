@@ -52,6 +52,33 @@
       "vaccines"
     ]
   },
+  "b048a964d7484e78": {
+    "ts": 1786383315,
+    "words": [
+      "200",
+      "900",
+      "began",
+      "bundibugyo",
+      "cases",
+      "confirmed",
+      "confirms",
+      "deaths",
+      "declaration",
+      "drc",
+      "early",
+      "ebola",
+      "february",
+      "its",
+      "least",
+      "malaria",
+      "misattributed",
+      "months",
+      "outbreak",
+      "reached",
+      "typhoid",
+      "who"
+    ]
+  },
   "b633a5e378f20e05": {
     "ts": 1786287086,
     "words": [
@@ -114,31 +141,6 @@
       "vaccine",
       "warn",
       "who"
-    ]
-  },
-  "fc536e8d9f809f87": {
-    "ts": 1786209433,
-    "words": [
-      "000",
-      "all",
-      "arriving",
-      "authorities",
-      "boat",
-      "cases",
-      "congo",
-      "deaths",
-      "died",
-      "ebola",
-      "health",
-      "kinshasa",
-      "like",
-      "nearly",
-      "outbreak",
-      "passengers",
-      "screening",
-      "surpasses",
-      "symptoms",
-      "traveler"
     ]
   }
 }
