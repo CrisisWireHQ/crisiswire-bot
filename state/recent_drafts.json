@@ -47,31 +47,6 @@
       "zone"
     ]
   },
-  "7675486ef9c0d84d": {
-    "ts": 1789047694,
-    "words": [
-      "000",
-      "2014",
-      "africa",
-      "bundibugyo",
-      "cases",
-      "confirmed",
-      "declaration",
-      "drc",
-      "ebola",
-      "epidemic",
-      "months",
-      "official",
-      "outbreak",
-      "reached",
-      "roughly",
-      "since",
-      "speed",
-      "twice",
-      "under",
-      "west"
-    ]
-  },
   "e216a035b6711d86": {
     "ts": 1789134821,
     "words": [
@@ -104,6 +79,20 @@
       "western",
       "where",
       "world"
+    ]
+  },
+  "f5436a6d0dffbe10": {
+    "ts": 1789229909,
+    "words": [
+      "022",
+      "398",
+      "bundibugyo",
+      "cases",
+      "congo",
+      "deaths",
+      "ebola",
+      "outbreak",
+      "surpassed"
     ]
   }
 }
