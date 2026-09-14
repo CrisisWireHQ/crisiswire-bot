@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "key": "trusted-ebola-outbreak-drcs-worst-where",
+    "source": "GN: Outbreak",
+    "ts": 1789390960
+  },
+  {
+    "key": "trusted-eid-journal-characteristics-and-superspreading",
+    "source": "Avian Flu Diary",
+    "ts": 1789390968
+  }
+]
