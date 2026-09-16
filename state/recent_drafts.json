@@ -68,34 +68,6 @@
       "zones"
     ]
   },
-  "6f9bf127d383c36b": {
-    "ts": 1789390976,
-    "words": [
-      "aboard",
-      "above",
-      "analysis",
-      "andes",
-      "andesvirus",
-      "andv",
-      "argentina",
-      "case",
-      "cases",
-      "confirmed",
-      "cruise",
-      "eid",
-      "fatal",
-      "finds",
-      "hantavirus",
-      "journal",
-      "lab",
-      "outbreak",
-      "populations",
-      "potential",
-      "ship",
-      "superspreading",
-      "susceptible"
-    ]
-  },
   "a0f1183e7df18335": {
     "ts": 1789423450,
     "words": [
@@ -117,31 +89,34 @@
       "ubangi"
     ]
   },
-  "da2b6a4ec10ddc1d": {
-    "ts": 1789390968,
+  "aa9c8d2d545a9b8e": {
+    "ts": 1789570689,
     "words": [
-      "267",
-      "757",
+      "000",
+      "7th",
+      "against",
       "bundibugyo",
       "cases",
-      "cepi",
-      "committed",
       "confirmed",
-      "deaths",
-      "doses",
-      "drc",
+      "congo",
+      "drcongo",
       "ebola",
-      "end",
-      "expected",
-      "first",
-      "hilleman",
-      "laboratories",
+      "effectiveness",
+      "ervebo",
+      "far",
+      "ituri",
+      "now",
+      "outbreak",
+      "over",
+      "province",
+      "reached",
       "sept",
-      "specific",
-      "trial",
+      "spread",
+      "strain",
+      "unknown",
       "vaccine",
-      "who",
-      "year"
+      "warns",
+      "who"
     ]
   }
 }
