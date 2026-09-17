@@ -42,32 +42,6 @@
       "zones"
     ]
   },
-  "5b3e945a10dbb9a7": {
-    "ts": 1789449804,
-    "words": [
-      "120",
-      "bundibugyo",
-      "cases",
-      "cleared",
-      "congolese",
-      "daily",
-      "days",
-      "drc",
-      "ebola",
-      "falling",
-      "health",
-      "infections",
-      "kamba",
-      "minister",
-      "new",
-      "now",
-      "outbreak",
-      "peaked",
-      "samuel",
-      "says",
-      "zones"
-    ]
-  },
   "aa9c8d2d545a9b8e": {
     "ts": 1789570689,
     "words": [
@@ -96,6 +70,23 @@
       "vaccine",
       "warns",
       "who"
+    ]
+  },
+  "b4a384f4ac04b978": {
+    "ts": 1789638102,
+    "words": [
+      "across",
+      "affected",
+      "congo",
+      "declares",
+      "diverge",
+      "ebola",
+      "outbreak",
+      "transmission",
+      "trends",
+      "uncontrolled",
+      "who",
+      "zones"
     ]
   }
 }
