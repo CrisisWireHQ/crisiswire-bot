@@ -1,7 +1,12 @@
 [
   {
-    "key": "trusted-congo-ebola-outbreak-surpasses-8000",
+    "key": "trusted-congos-ebola-outbreak-tops-8000",
     "source": "GN: Outbreak",
-    "ts": 1790584627
+    "ts": 1790614880
+  },
+  {
+    "key": "trusted-ebola-cases-surpass-8000-drc",
+    "source": "Al Jazeera",
+    "ts": 1790614885
   }
 ]
