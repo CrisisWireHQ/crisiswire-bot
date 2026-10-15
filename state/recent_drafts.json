@@ -60,17 +60,6 @@
       "year"
     ]
   },
-  "5ab1c80bf1a3e8c9": {
-    "ts": 1791903764,
-    "words": [
-      "000",
-      "cases",
-      "congo",
-      "ebola",
-      "infections",
-      "surpassed"
-    ]
-  },
   "7a2d729c9ec56642": {
     "ts": 1792058764,
     "words": [
@@ -108,6 +97,21 @@
       "provinces",
       "reached",
       "zones"
+    ]
+  },
+  "d6326affa953d6d7": {
+    "ts": 1792091056,
+    "words": [
+      "african",
+      "bordering",
+      "central",
+      "congo",
+      "ebola",
+      "new",
+      "outbreak",
+      "province",
+      "republic",
+      "spread"
     ]
   }
 }
