@@ -1,31 +1,4 @@
 {
-  "3af78e8f8d273b1e": {
-    "ts": 1792004394,
-    "words": [
-      "already",
-      "businessman",
-      "case",
-      "close",
-      "confirmed",
-      "country",
-      "died",
-      "ebola",
-      "fell",
-      "ill",
-      "kenya",
-      "man",
-      "nairobi",
-      "oct",
-      "old",
-      "quarantine",
-      "relative",
-      "second",
-      "tuesday",
-      "when",
-      "who",
-      "year"
-    ]
-  },
   "7a2d729c9ec56642": {
     "ts": 1792058764,
     "words": [
@@ -44,6 +17,25 @@
       "public",
       "republic",
       "uganda",
+      "who"
+    ]
+  },
+  "8ef61ee3d38258c4": {
+    "ts": 1792185843,
+    "words": [
+      "case",
+      "confirmed",
+      "congo",
+      "died",
+      "earlier",
+      "ebola",
+      "identified",
+      "kenya",
+      "man",
+      "month",
+      "relative",
+      "third",
+      "travelling",
       "who"
     ]
   },
