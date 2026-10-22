@@ -1,12 +1,15 @@
 name: Crisis Wire Bot
 
 on:
-  schedule:
-    # GitHub Actions cron is best-effort; */5 gets skipped during peak load.
-    - cron: '*/10 * * * *'
+  # ─────────────────────────────────────────────────────────────────────
+  # RETIRED 2026-10-22 — operation shut down. All automatic triggers removed
+  # so the bot never runs on schedule or via repository_dispatch (the 10-min
+  # full poll, the 1-min trusted-only loop, and the Telegram approve button
+  # are all off). Left as workflow_dispatch-only so the YAML stays valid.
+  # To fully re-enable, restore the schedule + repository_dispatch blocks
+  # from git history. The workflow is also disabled in the Actions UI.
+  # ─────────────────────────────────────────────────────────────────────
   workflow_dispatch:
-  repository_dispatch:
-    types: [run-bot, approvals-only, webhook-approve, trusted-only, force-trusted]
 
 permissions:
   contents: write
